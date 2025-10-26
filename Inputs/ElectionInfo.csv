@@ -1,0 +1,58 @@
+ElectionType,ElectionName,GeographyType,GeographyName,CandidateD,CandidateR,IncumbencyFlag,Score
+Presidential,Presidential,National,National,Kamala Harris,Donald Trump,0,0
+Presidential,Presidential,State,Alabama,Kamala Harris,Donald Trump,0,7
+Presidential,Presidential,State,Alaska,Kamala Harris,Donald Trump,0,3
+Presidential,Presidential,State,Arizona,Kamala Harris,Donald Trump,0,11
+Presidential,Presidential,State,Arkansas,Kamala Harris,Donald Trump,0,6
+Presidential,Presidential,State,California,Kamala Harris,Donald Trump,0,54
+Presidential,Presidential,State,Colorado,Kamala Harris,Donald Trump,0,10
+Presidential,Presidential,State,Connecticut,Kamala Harris,Donald Trump,0,7
+Presidential,Presidential,State,Delaware,Kamala Harris,Donald Trump,0,3
+Presidential,Presidential,State,District of Columbia,Kamala Harris,Donald Trump,0,3
+Presidential,Presidential,State,Florida,Kamala Harris,Donald Trump,0,30
+Presidential,Presidential,State,Georgia,Kamala Harris,Donald Trump,0,16
+Presidential,Presidential,State,Hawaii,Kamala Harris,Donald Trump,0,4
+Presidential,Presidential,State,Idaho,Kamala Harris,Donald Trump,0,4
+Presidential,Presidential,State,Illinois,Kamala Harris,Donald Trump,0,19
+Presidential,Presidential,State,Indiana,Kamala Harris,Donald Trump,0,11
+Presidential,Presidential,State,Iowa,Kamala Harris,Donald Trump,0,6
+Presidential,Presidential,State,Kansas,Kamala Harris,Donald Trump,0,6
+Presidential,Presidential,State,Kentucky,Kamala Harris,Donald Trump,0,8
+Presidential,Presidential,State,Louisiana,Kamala Harris,Donald Trump,0,8
+Presidential,Presidential,State,Maine,Kamala Harris,Donald Trump,0,2
+Presidential,Presidential,Congressional District,Maine-01,Kamala Harris,Donald Trump,0,1
+Presidential,Presidential,Congressional District,Maine-02,Kamala Harris,Donald Trump,0,1
+Presidential,Presidential,State,Maryland,Kamala Harris,Donald Trump,0,10
+Presidential,Presidential,State,Massachusetts,Kamala Harris,Donald Trump,0,11
+Presidential,Presidential,State,Michigan,Kamala Harris,Donald Trump,0,15
+Presidential,Presidential,State,Minnesota,Kamala Harris,Donald Trump,0,10
+Presidential,Presidential,State,Mississippi,Kamala Harris,Donald Trump,0,6
+Presidential,Presidential,State,Missouri,Kamala Harris,Donald Trump,0,10
+Presidential,Presidential,State,Montana,Kamala Harris,Donald Trump,0,4
+Presidential,Presidential,State,Nebraska,Kamala Harris,Donald Trump,0,2
+Presidential,Presidential,Congressional District,Nebraska-01,Kamala Harris,Donald Trump,0,1
+Presidential,Presidential,Congressional District,Nebraska-02,Kamala Harris,Donald Trump,0,1
+Presidential,Presidential,Congressional District,Nebraska-03,Kamala Harris,Donald Trump,0,1
+Presidential,Presidential,State,Nevada,Kamala Harris,Donald Trump,0,6
+Presidential,Presidential,State,New Hampshire,Kamala Harris,Donald Trump,0,4
+Presidential,Presidential,State,New Jersey,Kamala Harris,Donald Trump,0,14
+Presidential,Presidential,State,New Mexico,Kamala Harris,Donald Trump,0,5
+Presidential,Presidential,State,New York,Kamala Harris,Donald Trump,0,28
+Presidential,Presidential,State,North Carolina,Kamala Harris,Donald Trump,0,16
+Presidential,Presidential,State,North Dakota,Kamala Harris,Donald Trump,0,3
+Presidential,Presidential,State,Ohio,Kamala Harris,Donald Trump,0,17
+Presidential,Presidential,State,Oklahoma,Kamala Harris,Donald Trump,0,7
+Presidential,Presidential,State,Oregon,Kamala Harris,Donald Trump,0,8
+Presidential,Presidential,State,Pennsylvania,Kamala Harris,Donald Trump,0,19
+Presidential,Presidential,State,Rhode Island,Kamala Harris,Donald Trump,0,4
+Presidential,Presidential,State,South Carolina,Kamala Harris,Donald Trump,0,9
+Presidential,Presidential,State,South Dakota,Kamala Harris,Donald Trump,0,3
+Presidential,Presidential,State,Tennessee,Kamala Harris,Donald Trump,0,11
+Presidential,Presidential,State,Texas,Kamala Harris,Donald Trump,0,40
+Presidential,Presidential,State,Utah,Kamala Harris,Donald Trump,0,6
+Presidential,Presidential,State,Vermont,Kamala Harris,Donald Trump,0,3
+Presidential,Presidential,State,Virginia,Kamala Harris,Donald Trump,0,13
+Presidential,Presidential,State,Washington,Kamala Harris,Donald Trump,0,12
+Presidential,Presidential,State,West Virginia,Kamala Harris,Donald Trump,0,4
+Presidential,Presidential,State,Wisconsin,Kamala Harris,Donald Trump,0,10
+Presidential,Presidential,State,Wyoming,Kamala Harris,Donald Trump,0,3
