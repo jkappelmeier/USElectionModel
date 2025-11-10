@@ -2,20 +2,20 @@ classdef VisualizeResults
     methods (Static)
         function printResults(model, xSims)
             arguments
-                model Core.Model
+                model matlab.Core.Model
                 xSims (:,:) double
             end
 
             % Get transformation from x to y
             idxNat = model.electionInfo.GeographyType == "National";
-            N = numel(model.xFund);
+            N = numel(model.xEst(:,end));
             hX2Y = zeros(N, N - 1);
             hX2Y(~idxNat, :) = eye(N-1);
             hX2Y(idxNat, :) = ones(1, N-1);
 
-            xEst = hX2Y' * model.xFund;
+            xEst = hX2Y' * model.xEst(:,end);
             xSims = hX2Y' * xSims;
-            covEst = hX2Y' * model.covFund * hX2Y;
+            covEst = hX2Y' * model.covEst(:,:,end) * hX2Y;
             score = model.electionInfo.Score(~idxNat);
             geographyType = model.electionInfo.GeographyType(~idxNat);
 
