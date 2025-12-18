@@ -10,7 +10,6 @@ classdef Model < handle
         xFund (:,1) double
         covFund (:,:) double
 
-        hDistrict2State (:,:) double
         filterFlag (:,1) logical
 
         QPoll (:,:) double
@@ -60,67 +59,26 @@ classdef Model < handle
             obj.xFund = zeros(N,1);
             obj.covFund = zeros(N,N);
             obj.filterFlag = ones(N,1);
-
-            % Presidential
+            
             t0 = days(obj.config.electionDate - obj.config.startDate);
             obj.time = t0:-1:0;
-            % Estimates
-            idxNat = obj.electionInfo.GeographyType == 'National';
-            incPres = obj.electionInfo.IncumbencyFlag(idxNat);
-            natEst = obj.config.nationalMean + obj.config.incumbency * incPres;
-
-            prevNat = obj.preElectionData.PreviousResult(idxNat);
-
-            obj.xFund(idxNat) = natEst;
-            obj.xFund(~idxNat) = obj.preElectionData.PreviousResult(~idxNat) - prevNat;
-
-            % Uncertainty
-
-            districtNames = obj.correlationData.corrInfo.District;
-            stateNames = extractBefore(districtNames, "-");
-            totalVote = obj.correlationData.corrInfo.TotalVote;
-            nDistricts = numel(districtNames);
-            obj.hDistrict2State = zeros(N, nDistricts);
-            
-            for i = 1:N
-                if obj.electionInfo.GeographyType(i) == "Congressional District"
-                    idx = districtNames == obj.electionInfo.GeographyName(i);
-                    obj.hDistrict2State(i, idx) = 1;
-                elseif obj.electionInfo.GeographyType(i) == "State"
-                    idx = strcmp(stateNames, obj.electionInfo.GeographyName(i));
-                    prop = totalVote(idx)/sum(totalVote(idx));
-                    obj.hDistrict2State(i, idx) = prop';
-                end
-            end
-
-            corr = obj.hDistrict2State * obj.correlationData.corrMatrix * obj.hDistrict2State';
-            obj.covFund(idxNat, idxNat) = obj.config.nationalSigma^2;
-            districtCov = corr * obj.config.districtSigma^2;
-            baseStates = regexprep(obj.electionInfo.GeographyName, "-.*", "");
-            stateCov = (baseStates == baseStates') * obj.config.stateSigma^2;
-            stateCov(idxNat, idxNat) = 0;
-
-            obj.covFund = obj.covFund + stateCov + districtCov;
-            
-            % Ensure symmetric
-            obj.covFund = (obj.covFund + obj.covFund') / 2;
+            obj.availFlagPoll = zeros(N,length(obj.time));
 
             % Polling Error Initialization
             obj.QPoll = zeros(N,N);
             obj.QBiasPoll = zeros(N,N);
 
-            obj.QPoll(idxNat, idxNat) = obj.config.nationalQPoll;
-            obj.QBiasPoll(idxNat, idxNat) = obj.config.nationalSigmaPoll^2;
-            districtCovQPoll = corr * obj.config.districtQPoll;
-            districtCovQBiasPoll = corr * obj.config.districtSigmaPoll^2;
-            stateCovQPoll = (baseStates == baseStates') * obj.config.stateQPoll;
-            stateCovQBiasPoll = (baseStates == baseStates') * obj.config.stateSigmaPoll^2;
-            stateCovQPoll(idxNat, idxNat) = 0;
-            stateCovQBiasPoll(idxNat, idxNat) = 0;
+            % Presidential
+            obj.loadPresidentialPrior();
 
-            obj.QPoll = obj.QPoll + stateCovQPoll + districtCovQPoll;
-            obj.QBiasPoll = obj.QBiasPoll + stateCovQBiasPoll + districtCovQBiasPoll;
+            % Generic Ballot
+            obj.loadGenericBallotPrior();
 
+            % Cross-Race Correlations
+            obj.loadCrossRaceCorrelations();
+
+            % Ensure symmetric
+            obj.covFund = (obj.covFund + obj.covFund') / 2;
             obj.QPoll = (obj.QPoll + obj.QPoll') / 2;
             obj.QBiasPoll = (obj.QBiasPoll + obj.QBiasPoll') / 2;
         end
@@ -208,7 +166,6 @@ classdef Model < handle
             n = length(x0);
             obj.xPoll = zeros(n,N);
             obj.covPoll = zeros(n,n,N);
-            obj.availFlagPoll = zeros(n,N);
 
             % Loop through times
             for i = 1:N
@@ -289,6 +246,112 @@ classdef Model < handle
                     obj.covEst(:,:,i) = P;
                 end
             end
+        end
+    end
+
+    methods (Access = private)
+
+        % Create the prior for the Presidential Model
+        %
+        % Input:
+        %   obj - Instance of this object
+        % Output:
+        %   obj - Instance of this object
+        function obj = loadPresidentialPrior(obj)
+            arguments
+                obj matlab.Core.Model
+            end
+            
+            idxPres = obj.electionInfo.ElectionType == "Presidential";
+            electionInfoPres = obj.electionInfo(idxPres,:);
+            idxNat = obj.electionInfo.GeographyType == "National" & obj.electionInfo.ElectionType == "Presidential";
+            incPres = obj.electionInfo.IncumbencyFlag(idxNat);
+            natEst = obj.config.presidential.nationalMean + obj.config.presidential.incumbency * incPres;
+
+            prevNat = obj.preElectionData.PreviousResult(idxNat);
+
+            obj.xFund(idxNat) = natEst;
+            obj.xFund(~idxNat & idxPres) = obj.preElectionData.PreviousResult(~idxNat & idxPres) - prevNat;
+
+            % Uncertainty
+            N = height(electionInfoPres);
+
+            districtNames = obj.correlationData.corrInfo.District;
+            stateNames = extractBefore(districtNames, "-");
+            totalVote = obj.correlationData.corrInfo.TotalVote;
+            nDistricts = numel(districtNames);
+            hDistrict2State = zeros(N, nDistricts);
+            
+            for i = 1:N
+                if electionInfoPres.GeographyType(i) == "Congressional District"
+                    idx = districtNames == electionInfoPres.GeographyName(i);
+                    hDistrict2State(i, idx) = 1;
+                elseif electionInfoPres.GeographyType(i) == "State"
+                    idx = strcmp(stateNames, electionInfoPres.GeographyName(i));
+                    prop = totalVote(idx)/sum(totalVote(idx));
+                    hDistrict2State(i, idx) = prop';
+                end
+            end
+
+            corr = hDistrict2State * obj.correlationData.corrMatrix * hDistrict2State';
+            obj.covFund(idxNat, idxNat) = obj.config.presidential.nationalSigma^2;
+            districtCov = corr * obj.config.presidential.districtSigma^2;
+            baseStates = regexprep(electionInfoPres.GeographyName, "-.*", "");
+            stateCov = (baseStates == baseStates') * obj.config.presidential.stateSigma^2;
+            stateCov(idxNat, idxNat) = 0;
+
+            obj.covFund(idxPres, idxPres) = obj.covFund(idxPres,idxPres) + stateCov + districtCov;
+
+            obj.QPoll(idxNat, idxNat) = obj.config.presidential.nationalQPoll;
+            obj.QBiasPoll(idxNat, idxNat) = obj.config.presidential.nationalSigmaPoll^2;
+            districtCovQPoll = corr * obj.config.presidential.districtQPoll;
+            districtCovQBiasPoll = corr * obj.config.presidential.districtSigmaPoll^2;
+            stateCovQPoll = (baseStates == baseStates') * obj.config.presidential.stateQPoll;
+            stateCovQBiasPoll = (baseStates == baseStates') * obj.config.presidential.stateSigmaPoll^2;
+            stateCovQPoll(idxNat, idxNat) = 0;
+            stateCovQBiasPoll(idxNat, idxNat) = 0;
+
+            obj.QPoll(idxPres, idxPres) = obj.QPoll(idxPres, idxPres) + stateCovQPoll + districtCovQPoll;
+            obj.QBiasPoll(idxPres, idxPres) = obj.QBiasPoll(idxPres, idxPres) + stateCovQBiasPoll + districtCovQBiasPoll;
+
+        end
+
+        function obj = loadGenericBallotPrior(obj)
+            arguments
+                obj matlab.Core.Model
+            end
+            
+            % Load Generic Ballot Fundamentals
+            idxGB = obj.electionInfo.ElectionType == "Generic Ballot";
+            inc = obj.electionInfo.IncumbencyFlag(idxGB);
+
+            xGBEst = obj.config.genericBallot.nationalMean + obj.config.genericBallot.nationalIncumbency * inc;
+            covGBEst = obj.config.genericBallot.nationalSigma^2;
+
+            obj.xFund(idxGB) = xGBEst;
+            obj.covFund(idxGB,idxGB) = covGBEst;
+
+            % Load Generic Ballot Polling
+            obj.QBiasPoll(idxGB,idxGB) = obj.config.genericBallot.nationalSigmaPoll^2;
+            obj.QPoll(idxGB, idxGB) = obj.config.genericBallot.nationalQPoll;
+
+        end
+
+        function obj = loadCrossRaceCorrelations(obj)
+            arguments
+                obj matlab.Core.Model
+            end
+
+            idxPres = obj.electionInfo.ElectionType == "Presidential" & obj.electionInfo.GeographyType == "National";
+            idxGB = obj.electionInfo.ElectionType == "Generic Ballot";
+            idx = idxPres | idxGB;
+
+            sigmaNatPoll = [obj.config.presidential.nationalSigmaPoll; obj.config.genericBallot.nationalSigmaPoll];
+            qNatPoll = [obj.config.presidential.nationalQPoll^0.5; obj.config.genericBallot.nationalQPoll^0.5];
+            rhoNationalPoll = obj.config.rho.nationalPoll;
+            obj.QBiasPoll(idx,idx) = sigmaNatPoll * sigmaNatPoll' .* rhoNationalPoll;
+            % obj.QPoll(idx,idx) = qNatPoll * qNatPoll' .* rhoNationalPoll;
+            
         end
     end
 end

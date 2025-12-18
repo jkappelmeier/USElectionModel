@@ -6,21 +6,39 @@ startDate = datetime(2023,11,5); % Campaign Start Date
 
 %% Presidential Data
 %%% Fundamentals Model
-nationalMean = 0.4926;
-incumbency = 0.0238;
+presidential.nationalMean = 0.4926;
+presidential.incumbency = 0.0238;
 
 %%% Uncertainty
-nationalSigma = 0.0449;
-stateSigma = 0.0259;
-districtSigma = 0.0409;
+presidential.nationalSigma = 0.0449;
+presidential.stateSigma = 0.0;
+presidential.districtSigma = 0.0396;
 
-%%% Polling Uncertainty
-nationalSigmaPoll = 0.0171;
-nationalQPoll = 1.367e-5;
+%% Generic Ballot Data
+%%% Fundamentals Model
+genericBallot.nationalMean = 0.5167;
+genericBallot.nationalIncumbency = -0.0203;
 
-stateSigmaPoll = 0.0145;
-stateQPoll = 9.7683e-6;
-districtSigmaPoll = 0.0229;
-districtQPoll = 2.4361e-5;
+%%% Uncertainty
+genericBallot.nationalSigma = 0.0241;
+
+%% Polling Uncertainty
+%%% Presidential
+presidential.nationalSigmaPoll = 0.0171;
+presidential.nationalQPoll = 1.367e-5;
+
+presidential.stateSigmaPoll = 0.0;
+presidential.stateQPoll = 0;
+presidential.districtSigmaPoll = 0.0304;
+presidential.districtQPoll = 4.3084e-5;
+
+%%% Generic Ballot
+genericBallot.nationalSigmaPoll = 0.0167;
+genericBallot.nationalQPoll = 1.4459e-5;
+
+%% Cross-Race Correlatio
+% Presidential, Generic Ballot
+rho.nationalPoll = [1, 0.8876;
+    0.8876, 1];
 
 save("Config.mat")

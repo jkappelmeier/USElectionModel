@@ -6,22 +6,40 @@ classdef VisualizeResults
                 xSims (:,:) double
             end
 
+            matlab.Visualization.VisualizeResults.printPresidentialResults(model, xSims);
+        end
+
+        function printPresidentialResults(model, xSims)
+            arguments
+                model matlab.Core.Model
+                xSims (:,:) double
+            end
+
+            % Use only presidential Results
+            presIdx = model.electionInfo.ElectionType == "Presidential";
+            electionInfo = model.electionInfo(presIdx,:);
+            xEstPres = model.xEst(presIdx,:);
+            covEstPres = model.covEst(presIdx,presIdx,:);
+            preElectionDataPres = model.preElectionData(presIdx,:);
+            xSimsPres = xSims(presIdx,:);
+
+
             % Get transformation from x to y
-            idxNat = model.electionInfo.GeographyType == "National";
-            N = numel(model.xEst(:,end));
+            idxNat = electionInfo.GeographyType == "National";
+            N = numel(xEstPres(:,end));
             hX2Y = zeros(N, N - 1);
             hX2Y(~idxNat, :) = eye(N-1);
             hX2Y(idxNat, :) = ones(1, N-1);
 
-            xEst = hX2Y' * model.xEst(:,end);
-            xSims = hX2Y' * xSims;
-            covEst = hX2Y' * model.covEst(:,:,end) * hX2Y;
-            score = model.electionInfo.Score(~idxNat);
-            geographyType = model.electionInfo.GeographyType(~idxNat);
+            xEst = hX2Y' * xEstPres(:,end);
+            xSimsPres = hX2Y' * xSimsPres;
+            covEst = hX2Y' * covEstPres(:,:,end) * hX2Y;
+            score = electionInfo.Score(~idxNat);
+            geographyType = electionInfo.GeographyType(~idxNat);
 
             % Get electoral votes per run
-            nSims = size(xSims, 2);
-            ecVotes = score' * (xSims > 0.5);
+            nSims = size(xSimsPres, 2);
+            ecVotes = score' * (xSimsPres > 0.5);
             ecMean = mean(ecVotes);
             presECWin = sum(ecVotes >= 270) / nSims;
             presECLose = sum(ecVotes < 268) / nSims;
@@ -30,7 +48,7 @@ classdef VisualizeResults
             % Get popular vote
             hState2Popular = 0 * xEst;
             idxState = geographyType == "State";
-            prevVoteTot = model.preElectionData.PreviousVote(~idxNat);
+            prevVoteTot = preElectionDataPres.PreviousVote(~idxNat);
             hState2Popular(idxState) = prevVoteTot(idxState);
             hState2Popular = hState2Popular / sum(hState2Popular);
             meanPopVote = xEst' * hState2Popular;
@@ -39,12 +57,12 @@ classdef VisualizeResults
                 hState2Popular);
 
             % Display the results
-            dCand = model.electionInfo.CandidateD(idxNat);
-            rCand = model.electionInfo.CandidateR(idxNat);
-            if model.electionInfo.IncumbencyFlag(idxNat) == 1
+            dCand = electionInfo.CandidateD(idxNat);
+            rCand = electionInfo.CandidateR(idxNat);
+            if electionInfo.IncumbencyFlag(idxNat) == 1
                 dCand = dCand + "* (D)";
                 rCand = rCand + " (R)";
-            elseif model.electionInfo.IncumbencyFlag(idxNat) == -1
+            elseif electionInfo.IncumbencyFlag(idxNat) == -1
                 dCand = dCand + " (D)";
                 rCand = rCand + "* (R)";
             else
@@ -63,7 +81,7 @@ classdef VisualizeResults
             disp("  " + dCand + ": " + num2str(meanPopVote*100,"%.2f") + "% | Chance of Winning: " + num2str(popVoteChance * 100,"%.2f") + "%");
             disp("  " + rCand + ": " + num2str(100-meanPopVote*100,"%.2f") + "% | Chance of Winning: " + num2str(100-popVoteChance * 100,"%.2f") + "%");
 
-            geographyNames = model.electionInfo.GeographyName(~idxNat);
+            geographyNames = electionInfo.GeographyName(~idxNat);
             for i = 1:N-1
                 xEstCur = xEst(i);
                 sigmaEst = sqrt(covEst(i,i));

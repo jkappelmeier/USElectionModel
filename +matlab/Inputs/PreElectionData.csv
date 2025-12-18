@@ -1,58 +1,59 @@
-ElectionType,ElectionName,GeographyType,GeographyName,IncumbencyFlag,PreviousVote,PreviousResult
-Presidential,Presidential,National,National,-1,155513480,0.5226
-Presidential,Presidential,State,Alabama,-1,2290756,0.3709
-Presidential,Presidential,State,Alaska,-1,343711,0.4474
-Presidential,Presidential,State,Arizona,-1,3333806,0.5015
-Presidential,Presidential,State,Arkansas,-1,1184691,0.3579
-Presidential,Presidential,State,California,-1,17116350,0.6491
-Presidential,Presidential,State,Colorado,-1,3169042,0.5694
-Presidential,Presidential,State,Connecticut,-1,1795587,0.6019
-Presidential,Presidential,State,Delaware,-1,496831,0.5963
-Presidential,Presidential,State,District of Columbia,-1,335919,0.9446
-Presidential,Presidential,State,Florida,-1,10965635,0.483
-Presidential,Presidential,State,Georgia,-1,4935461,0.5012
-Presidential,Presidential,State,Hawaii,-1,562980,0.6503
-Presidential,Presidential,State,Idaho,-1,841115,0.3412
-Presidential,Presidential,State,Illinois,-1,5918499,0.5866
-Presidential,Presidential,State,Indiana,-1,2972242,0.418
-Presidential,Presidential,State,Iowa,-1,1656715,0.4582
-Presidential,Presidential,State,Kansas,-1,1341697,0.4251
-Presidential,Presidential,State,Kentucky,-1,2099161,0.368
-Presidential,Presidential,State,Louisiana,-1,2111760,0.4054
-Presidential,Presidential,State,Maine,-1,806928,0.5436
-Presidential,Presidential,Congressional District,Maine-01,-1,421135,0.6189
-Presidential,Presidential,Congressional District,Maine-02,-1,385793,0.4614
-Presidential,Presidential,State,Maryland,-1,2961408,0.6703
-Presidential,Presidential,State,Massachusetts,-1,3549332,0.6712
-Presidential,Presidential,State,Michigan,-1,5453997,0.5141
-Presidential,Presidential,State,Minnesota,-1,3201141,0.5364
-Presidential,Presidential,State,Mississippi,-1,1296155,0.4162
-Presidential,Presidential,State,Missouri,-1,2971797,0.4216
-Presidential,Presidential,State,Montana,-1,588401,0.416
-Presidential,Presidential,State,Nebraska,-1,926943,0.3958
-Presidential,Presidential,Congressional District,Nebraska-01,-1,310728,0.4232
-Presidential,Presidential,Congressional District,Nebraska-02,-1,310325,0.5332
-Presidential,Presidential,Congressional District,Nebraska-03,-1,305890,0.2286
-Presidential,Presidential,State,Nevada,-1,1373474,0.5122
-Presidential,Presidential,State,New Hampshire,-1,790645,0.5375
-Presidential,Presidential,State,New Jersey,-1,4491679,0.5807
-Presidential,Presidential,State,New Mexico,-1,903545,0.5552
-Presidential,Presidential,State,New York,-1,8497087,0.6173
-Presidential,Presidential,State,North Carolina,-1,5443037,0.4932
-Presidential,Presidential,State,North Dakota,-1,350801,0.328
-Presidential,Presidential,State,Ohio,-1,5833961,0.4592
-Presidential,Presidential,State,Oklahoma,-1,1524179,0.3306
-Presidential,Presidential,State,Oregon,-1,2298818,0.583
-Presidential,Presidential,State,Pennsylvania,-1,6835696,0.5059
-Presidential,Presidential,State,Rhode Island,-1,507402,0.606
-Presidential,Presidential,State,South Carolina,-1,2476634,0.4407
-Presidential,Presidential,State,South Dakota,-1,411537,0.3657
-Presidential,Presidential,State,Tennessee,-1,2996133,0.3817
-Presidential,Presidential,State,Texas,-1,11149856,0.4717
-Presidential,Presidential,State,Utah,-1,1425483,0.3931
-Presidential,Presidential,State,Vermont,-1,355523,0.683
-Presidential,Presidential,State,Virginia,-1,4376220,0.5515
-Presidential,Presidential,State,Washington,-1,3954374,0.5992
-Presidential,Presidential,State,West Virginia,-1,781300,0.302
-Presidential,Presidential,State,Wisconsin,-1,3240985,0.5032
-Presidential,Presidential,State,Wyoming,-1,267051,0.2752
+ElectionType,ElectionName,GeographyType,GeographyName,ElectionYear,IncumbencyFlag,PreviousVote,PreviousResult
+Presidential,Presidential,National,National,2020,-1,155513480,0.5226
+Presidential,Presidential,State,Alabama,2020,-1,2290756,0.3709
+Presidential,Presidential,State,Alaska,2020,-1,343711,0.4474
+Presidential,Presidential,State,Arizona,2020,-1,3333806,0.5015
+Presidential,Presidential,State,Arkansas,2020,-1,1184691,0.3579
+Presidential,Presidential,State,California,2020,-1,17116350,0.6491
+Presidential,Presidential,State,Colorado,2020,-1,3169042,0.5694
+Presidential,Presidential,State,Connecticut,2020,-1,1795587,0.6019
+Presidential,Presidential,State,Delaware,2020,-1,496831,0.5963
+Presidential,Presidential,State,District of Columbia,2020,-1,335919,0.9446
+Presidential,Presidential,State,Florida,2020,-1,10965635,0.483
+Presidential,Presidential,State,Georgia,2020,-1,4935461,0.5012
+Presidential,Presidential,State,Hawaii,2020,-1,562980,0.6503
+Presidential,Presidential,State,Idaho,2020,-1,841115,0.3412
+Presidential,Presidential,State,Illinois,2020,-1,5918499,0.5866
+Presidential,Presidential,State,Indiana,2020,-1,2972242,0.418
+Presidential,Presidential,State,Iowa,2020,-1,1656715,0.4582
+Presidential,Presidential,State,Kansas,2020,-1,1341697,0.4251
+Presidential,Presidential,State,Kentucky,2020,-1,2099161,0.368
+Presidential,Presidential,State,Louisiana,2020,-1,2111760,0.4054
+Presidential,Presidential,State,Maine,2020,-1,806928,0.5436
+Presidential,Presidential,Congressional District,Maine-01,2020,-1,421135,0.6189
+Presidential,Presidential,Congressional District,Maine-02,2020,-1,385793,0.4614
+Presidential,Presidential,State,Maryland,2020,-1,2961408,0.6703
+Presidential,Presidential,State,Massachusetts,2020,-1,3549332,0.6712
+Presidential,Presidential,State,Michigan,2020,-1,5453997,0.5141
+Presidential,Presidential,State,Minnesota,2020,-1,3201141,0.5364
+Presidential,Presidential,State,Mississippi,2020,-1,1296155,0.4162
+Presidential,Presidential,State,Missouri,2020,-1,2971797,0.4216
+Presidential,Presidential,State,Montana,2020,-1,588401,0.416
+Presidential,Presidential,State,Nebraska,2020,-1,926943,0.3958
+Presidential,Presidential,Congressional District,Nebraska-01,2020,-1,310728,0.4232
+Presidential,Presidential,Congressional District,Nebraska-02,2020,-1,310325,0.5332
+Presidential,Presidential,Congressional District,Nebraska-03,2020,-1,305890,0.2286
+Presidential,Presidential,State,Nevada,2020,-1,1373474,0.5122
+Presidential,Presidential,State,New Hampshire,2020,-1,790645,0.5375
+Presidential,Presidential,State,New Jersey,2020,-1,4491679,0.5807
+Presidential,Presidential,State,New Mexico,2020,-1,903545,0.5552
+Presidential,Presidential,State,New York,2020,-1,8497087,0.6173
+Presidential,Presidential,State,North Carolina,2020,-1,5443037,0.4932
+Presidential,Presidential,State,North Dakota,2020,-1,350801,0.328
+Presidential,Presidential,State,Ohio,2020,-1,5833961,0.4592
+Presidential,Presidential,State,Oklahoma,2020,-1,1524179,0.3306
+Presidential,Presidential,State,Oregon,2020,-1,2298818,0.583
+Presidential,Presidential,State,Pennsylvania,2020,-1,6835696,0.5059
+Presidential,Presidential,State,Rhode Island,2020,-1,507402,0.606
+Presidential,Presidential,State,South Carolina,2020,-1,2476634,0.4407
+Presidential,Presidential,State,South Dakota,2020,-1,411537,0.3657
+Presidential,Presidential,State,Tennessee,2020,-1,2996133,0.3817
+Presidential,Presidential,State,Texas,2020,-1,11149856,0.4717
+Presidential,Presidential,State,Utah,2020,-1,1425483,0.3931
+Presidential,Presidential,State,Vermont,2020,-1,355523,0.683
+Presidential,Presidential,State,Virginia,2020,-1,4376220,0.5515
+Presidential,Presidential,State,Washington,2020,-1,3954374,0.5992
+Presidential,Presidential,State,West Virginia,2020,-1,781300,0.302
+Presidential,Presidential,State,Wisconsin,2020,-1,3240985,0.5032
+Presidential,Presidential,State,Wyoming,2020,-1,267051,0.2752
+Generic Ballot,Generic Ballot,National,National,2022,1,105508455,0.486
