@@ -5,13 +5,13 @@ close all
 % Files
 electionInfo = "ElectionInfo.csv";
 preElectionData = "PreElectionData.csv";
-correlationData = "CorrelationData.mat";
+districtData = "DistrictData.mat";
 config = "Config.mat";
 pollsFile = "Polls.csv";
 
 % Setup Fundamentals
 model = matlab.Core.Model("2024", electionInfo, preElectionData, ...
-    correlationData, config);
+    districtData, config);
 
 % Add Polls
 model.addPolls(pollsFile);

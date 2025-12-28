@@ -14,16 +14,7 @@ presidential.nationalSigma = 0.0449;
 presidential.stateSigma = 0.0;
 presidential.districtSigma = 0.0396;
 
-%% Generic Ballot Data
-%%% Fundamentals Model
-genericBallot.nationalMean = 0.5167;
-genericBallot.nationalIncumbency = -0.0203;
-
-%%% Uncertainty
-genericBallot.nationalSigma = 0.0241;
-
-%% Polling Uncertainty
-%%% Presidential
+%%% Polling
 presidential.nationalSigmaPoll = 0.0171;
 presidential.nationalQPoll = 1.367e-5;
 
@@ -32,13 +23,33 @@ presidential.stateQPoll = 0;
 presidential.districtSigmaPoll = 0.0304;
 presidential.districtQPoll = 4.3084e-5;
 
-%%% Generic Ballot
+%% Generic Ballot Data
+%%% Fundamentals Model
+genericBallot.nationalMean = 0.5167;
+genericBallot.nationalIncumbency = -0.0203;
+
+%%% Uncertainty
+genericBallot.nationalSigma = 0.0241;
+
+%%% Polling
 genericBallot.nationalSigmaPoll = 0.0167;
 genericBallot.nationalQPoll = 1.4459e-5;
 
-%% Cross-Race Correlatio
+%% House Data
+%%% Fundamentals Model
+house.incumbency = 0.0102;
+house.incumbencySigma = 0.0148;
+house.presModelSigma = 0.029;
+house.prevModelSigma = 0.032;
+
+%% Shared Covariance Data
 % Presidential, Generic Ballot
-rho.nationalPoll = [1, 0.8876;
+shared.nationalPoll = [1, 0.8876;
     0.8876, 1];
+
+% Shared Covariance
+shared.districtSigma = 0.0223;
+shared.districtSigmaPoll = 0.0304;
+shared.districtQPoll = 1.3663e-5;
 
 save("Config.mat")
