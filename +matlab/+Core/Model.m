@@ -143,8 +143,8 @@ classdef Model < handle
                 R(i) = 0.25/(pollData.SampleSize(i)*(dem+rep));
             end
 
-            obj.pollTable = table(pollData.Election, pollData.Geography, pollData.GeographyType, ...
-                t, z, R, 'VariableNames', {'Election', 'Geography', 'GeographyType', ...
+            obj.pollTable = table(pollData.ElectionType, pollData.Election, pollData.Geography, pollData.GeographyType, ...
+                t, z, R, 'VariableNames', {'ElectionType', 'Election', 'Geography', 'GeographyType', ...
                 'tTillElection', 'zVec', 'R'});
 
             obj.pollTable = sortrows(obj.pollTable, ...
@@ -178,7 +178,6 @@ classdef Model < handle
             % Some Preallocation for time saving
             electionInfoRedux = obj.electionInfo(obj.filterFlag, :);
             availFlagRedux = obj.availFlagPoll(obj.filterFlag, :);
-            idxShared = electionInfoRedux.ElectionType == "Shared";
 
             % Loop through times
             for i = 1:N
@@ -189,6 +188,7 @@ classdef Model < handle
                 if sum(idx) > 0
                     zVec = obj.pollTable.zVec(idx);
                     R = diag(obj.pollTable.R(idx));
+                    electionType = obj.pollTable.ElectionType(idx);
                     election = obj.pollTable.Election(idx);
                     geography = obj.pollTable.Geography(idx);
 
@@ -199,6 +199,10 @@ classdef Model < handle
                     idxPres = election == "Presidential";
                     idxPresBias = electionInfoRedux.ElectionName == "Presidential" & electionInfoRedux.GeographyName == "National";
                     H(idxPres, idxPresBias) = 1;
+
+                    idxHouse = electionType == "House";
+                    idxGB = electionInfoRedux.ElectionName == "Generic Ballot";
+                    H(idxHouse, idxGB) = 1;
 
                     availFlagRedux(:,i) = any(H > 0, 1)';
 
@@ -341,21 +345,16 @@ classdef Model < handle
             % Load House Fundamentals
             idxHouse = obj.electionInfo.ElectionType == "House";
             electionInfoHouse = obj.electionInfo(idxHouse, :);
-            idxInc = electionInfoHouse.ElectionName == "Incumbency";
-            idxCand = ~idxInc;
 
-            noDemFlag = electionInfoHouse(idxCand, :).CandidateD == "NaN";
-            noRepFlag = electionInfoHouse(idxCand, :).CandidateR == "NaN";
+            noDemFlag = electionInfoHouse.CandidateD == "NaN";
+            noRepFlag = electionInfoHouse.CandidateR == "NaN";
             idxFlag = ~noDemFlag & ~noRepFlag;
-            idxFlagFull = true(sum(idxHouse),1);
-            idxFlagFull(idxCand) = idxFlag;
-            obj.filterFlag(idxHouse) = idxFlagFull;
+            obj.filterFlag(idxHouse) = idxFlag;
 
-            N = sum(idxCand);
+            N = sum(idxHouse);
             xHouse = zeros(N,1);
-            xHouse(noRepFlag(idxCand)) = 1;
 
-            H = obj.createMapping(electionInfoHouse(idxCand, :).GeographyType, electionInfoHouse(idxCand, :).GeographyName);
+            H = obj.createMapping(electionInfoHouse.GeographyType, electionInfoHouse.GeographyName);
             presDistrict = H * obj.districtData.districtInfo.PresResult;
             totPresDistrict = H * obj.districtData.districtInfo.TotalVote;
             presHouseAdj = presDistrict - dot(presDistrict, totPresDistrict) / sum(totPresDistrict);
@@ -367,15 +366,15 @@ classdef Model < handle
             covHouse(idxFlag, idxFlag) = eye(sum(idxFlag)) * houseVar;
 
             % Combine with incumbency
-            xHouseEst = zeros(sum(idxHouse),1);
-            xHouseEst(idxCand) = xHouse;
-            xHouseEst(idxInc) = obj.config.house.incumbency;
-            covHouseEst = zeros(sum(idxHouse));
-            covHouseEst(idxCand, idxCand) = covHouse;
-            covHouseEst(idxInc, idxInc) = obj.config.house.incumbencySigma^2;
+            xHouse(idxFlag) = xHouse(idxFlag) + electionInfoHouse.IncumbencyFlag(idxFlag) * obj.config.house.incumbency;
 
-            obj.xFund(idxHouse) = xHouseEst;
-            obj.covFund(idxHouse, idxHouse) = covHouseEst;
+            obj.xFund(idxHouse) = xHouse;
+            obj.covFund(idxHouse, idxHouse) = covHouse;
+
+
+            % Polling
+            obj.QBiasPoll(idxHouse, idxHouse) = eye(sum(idxHouse)) * (obj.config.house.districtSigmaPoll^2 - obj.config.shared.districtSigmaPoll^2);
+            obj.QPoll(idxHouse, idxHouse) = eye(sum(idxHouse)) * (obj.config.house.districtQPoll - obj.config.shared.districtQPoll);
 
         end
 
@@ -402,15 +401,25 @@ classdef Model < handle
             QPollTemp = rho * obj.config.shared.districtQPoll;
 
             % Combine shared covariances
-            idxNonIncNat = obj.electionInfo.GeographyType ~= "National" & obj.electionInfo.ElectionName ~= "Incumbency";
+            idxNonIncNat = obj.electionInfo.GeographyType ~= "National" & obj.electionInfo.ElectionName ~= "Incumbency" & obj.filterFlag;
             geographyName = obj.electionInfo.GeographyName(idxNonIncNat);
             geographyType = obj.electionInfo.GeographyType(idxNonIncNat);
             H = obj.createMapping(geographyType, geographyName);
 
-
             obj.covFund(idxNonIncNat, idxNonIncNat) = obj.covFund(idxNonIncNat, idxNonIncNat) + H * covFundTemp * H';
             obj.QBiasPoll(idxNonIncNat, idxNonIncNat) = obj.QBiasPoll(idxNonIncNat, idxNonIncNat) + H * QBiasPollTemp * H';
             obj.QPoll(idxNonIncNat, idxNonIncNat) = obj.QPoll(idxNonIncNat, idxNonIncNat) + H * QPollTemp * H';
+
+            % Combined shared covariances due to incumbency effects
+            idxInc = obj.electionInfo.ElectionType == "House" & obj.filterFlag;
+            houseInc = obj.electionInfo.IncumbencyFlag(idxInc);
+            houseIncSigma = obj.config.house.incumbencySigma;
+            houseIncSigmaVec = houseIncSigma * houseInc;
+            houseIncSigmaVecQ = obj.config.house.districtIncQPoll^0.5 * houseInc;
+
+            obj.covFund(idxInc, idxInc) = obj.covFund(idxInc, idxInc) + houseIncSigmaVec * houseIncSigmaVec';
+            obj.QPoll(idxInc, idxInc) = obj.QPoll(idxInc, idxInc) + houseIncSigmaVecQ * houseIncSigmaVecQ';
+            
             
         end
 

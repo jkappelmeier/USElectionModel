@@ -7,6 +7,7 @@ classdef VisualizeResults
             end
 
             matlab.Visualization.VisualizeResults.printPresidentialResults(model, xSims);
+            matlab.Visualization.VisualizeResults.printHouseResults(model, xSims);
         end
 
         function printPresidentialResults(model, xSims)
@@ -26,14 +27,14 @@ classdef VisualizeResults
 
             % Get transformation from x to y
             idxNat = electionInfo.GeographyType == "National";
-            N = numel(xEstPres(:,end));
+            N = numel(xEstPres);
             hX2Y = zeros(N, N - 1);
             hX2Y(~idxNat, :) = eye(N-1);
             hX2Y(idxNat, :) = ones(1, N-1);
 
-            xEst = hX2Y' * xEstPres(:,end);
+            xEst = hX2Y' * xEstPres;
             xSimsPres = hX2Y' * xSimsPres;
-            covEst = hX2Y' * covEstPres(:,:,end) * hX2Y;
+            covEst = hX2Y' * covEstPres * hX2Y;
             score = electionInfo.Score(~idxNat);
             geographyType = electionInfo.GeographyType(~idxNat);
 
@@ -59,27 +60,19 @@ classdef VisualizeResults
             % Display the results
             dCand = electionInfo.CandidateD(idxNat);
             rCand = electionInfo.CandidateR(idxNat);
-            if electionInfo.IncumbencyFlag(idxNat) == 1
-                dCand = dCand + "* (D)";
-                rCand = rCand + " (R)";
-            elseif electionInfo.IncumbencyFlag(idxNat) == -1
-                dCand = dCand + " (D)";
-                rCand = rCand + "* (R)";
-            else
-                dCand = dCand + " (D)";
-                rCand = rCand + " (R)";
-            end
 
+            disp("--------------------------------------------------------")
             disp("Presidential Election:")
             disp("  " + dCand + ": " + num2str(ecMean,"%.2f") + " Electoral Votes | Chance of Winning: " + num2str(presECWin*100, "%.2f") + "%");
             disp("  " + rCand + ": " + num2str(538-ecMean,"%.2f") + " Electoral Votes | Chance of Winning: " + num2str(presECLose*100, "%.2f") + "%");
             disp("  Chance of Tie: " + num2str(presECTie*100,"%.2f") + "%");
-            disp("")
+            disp(" ")
 
             disp("Popular Vote:")
             popVoteChance = normcdf(meanPopVote, 0.5, sigmaPopVote);
             disp("  " + dCand + ": " + num2str(meanPopVote*100,"%.2f") + "% | Chance of Winning: " + num2str(popVoteChance * 100,"%.2f") + "%");
             disp("  " + rCand + ": " + num2str(100-meanPopVote*100,"%.2f") + "% | Chance of Winning: " + num2str(100-popVoteChance * 100,"%.2f") + "%");
+            disp("--------------------------------------------------------")
 
             geographyNames = electionInfo.GeographyName(~idxNat);
             for i = 1:N-1
@@ -104,10 +97,107 @@ classdef VisualizeResults
 
                     geoName = state + " " + numStr;
                 end
-                disp("")
                 disp(geoName + " (" + num2str(score(i),"%.0f") + " Electoral Votes):")
                 disp("  " + dCand + ": " + num2str(xEstCur*100,"%.2f") + "% | Chance of Winning: " + num2str(chance*100,"%.2f") + "%")
                 disp("  " + rCand + ": " + num2str((1-xEstCur)*100,"%.2f") + "% | Chance of Winning: " + num2str((1-chance)*100,"%.2f") + "%")
+                disp(" ")
+            end
+        end
+
+        function printHouseResults(model, xSims)
+            arguments
+                model matlab.Core.Model
+                xSims (:,:) double
+            end
+
+            % Model House Results
+            houseIdx = model.electionInfo.ElectionType == "House" |  model.electionInfo.ElectionType == "Generic Ballot";
+            electionInfo = model.electionInfo(houseIdx,:);
+            xEstHouse = model.xEst(houseIdx,:);
+            covEstHouse = model.covEst(houseIdx,houseIdx);
+            houseElectionDataPres = model.preElectionData(houseIdx,:);
+            xSimsHouse = xSims(houseIdx,:);
+
+
+            % Get transformation from x to y
+            idxNat = electionInfo.ElectionType == "Generic Ballot";
+            N = numel(xEstHouse);
+            hX2Y = zeros(N, N - 1);
+            hX2Y(~idxNat, :) = eye(N-1);
+            hX2Y(idxNat, :) = ones(1, N-1);
+
+            xEst = hX2Y' * xEstHouse;
+            xSimsHouse = hX2Y' * xSimsHouse;
+            covEst = hX2Y' * covEstHouse * hX2Y;
+            score = electionInfo.Score(~idxNat);
+            geographyType = electionInfo.GeographyType(~idxNat);
+
+            % Deal with uncontested races
+            noDemFlag = electionInfo(~idxNat, :).CandidateD == "NaN";
+            noRepFlag = electionInfo(~idxNat, :).CandidateR == "NaN";
+            xEst(noDemFlag) = 0;
+            xEst(noRepFlag) = 1;
+            xSimsHouse(noDemFlag, :) = 0;
+            xSimsHouse(noRepFlag, :) = 1;
+
+            % Get seats per run
+            nSims = size(xSimsHouse, 2);
+            houseSeats = score' * (xSimsHouse > 0.5);
+            houseMean = mean(houseSeats);
+            houseWin = sum(houseSeats >= 218) / nSims;
+            houseLose = sum(houseSeats < 218) / nSims;
+
+            % Get popular vote
+            hDistrict2Popular = 0 * xEst;
+            idxDistrict = geographyType == "Congressional District";
+            prevVoteTot = houseElectionDataPres.PreviousVote(~idxNat);
+            hDistrict2Popular(idxDistrict) = prevVoteTot(idxDistrict);
+            hDistrict2Popular = hDistrict2Popular / sum(hDistrict2Popular);
+            meanPopVote = xEst' * hDistrict2Popular;
+            
+            sigmaPopVote = sqrt(hDistrict2Popular' * covEst * ...
+                hDistrict2Popular);
+
+            % Display the results
+
+            disp("--------------------------------------------------------")
+            disp("House Election:")
+            disp("  Democrats: " + num2str(houseMean,"%.2f") + " Seats | Chance of Winning: " + num2str(houseWin*100, "%.2f") + "%");
+            disp("  Republicans: " + num2str(435-houseMean,"%.2f") + " Seats | Chance of Winning: " + num2str(houseLose*100, "%.2f") + "%");
+            disp("")
+
+            disp("House Popular Vote:")
+            popVoteChance = normcdf(meanPopVote, 0.5, sigmaPopVote);
+            disp("  Democrats: " + num2str(meanPopVote*100,"%.2f") + "% | Chance of Winning: " + num2str(popVoteChance * 100,"%.2f") + "%");
+            disp("  Republicans: " + num2str(100-meanPopVote*100,"%.2f") + "% | Chance of Winning: " + num2str(100-popVoteChance * 100,"%.2f") + "%");
+            disp("--------------------------------------------------------")
+
+            electionNames = electionInfo.ElectionName(~idxNat);
+            filterFlag = model.filterFlag(houseIdx);
+            filterFlag = filterFlag(~idxNat);
+            for i = 1:N-1
+                xEstCur = xEst(i);
+                dCand = electionInfo(~idxNat, :).CandidateD(i);
+                rCand = electionInfo(~idxNat, :).CandidateR(i);
+                electionName = electionNames(i);
+                if filterFlag(i)
+                    sigmaEst = sqrt(covEst(i,i));
+                    chance = normcdf(xEstCur, 0.5, sigmaEst);
+                    disp(electionName + ":")
+                    disp("  " + dCand + ": " + num2str(xEstCur*100,"%.2f") + "% | Chance of Winning: " + num2str(chance*100,"%.2f") + "%")
+                    disp("  " + rCand + ": " + num2str((1-xEstCur)*100,"%.2f") + "% | Chance of Winning: " + num2str((1-chance)*100,"%.2f") + "%")
+                    disp(" ")
+                else
+                    if xEstCur == 0
+                        disp(electionName + ":")
+                        disp("  " + rCand + ": " + num2str(100,"%.2f") + "% | Chance of Winning: " + num2str(100,"%.2f") + "%")
+                        disp(" ")
+                    else
+                        disp(electionName + ":")
+                        disp("  " + dCand + ": " + num2str(100,"%.2f") + "% | Chance of Winning: " + num2str(100,"%.2f") + "%")
+                        disp(" ")
+                    end
+                end
             end
         end
     end

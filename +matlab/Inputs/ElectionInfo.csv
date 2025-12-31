@@ -1,495 +1,494 @@
 ElectionType,ElectionName,GeographyType,GeographyName,CandidateD,CandidateR,IncumbencyFlag,Score
-Presidential,Presidential,National,National,Kamala Harris,Donald Trump,0,0
-Presidential,Presidential,State,Alabama,Kamala Harris,Donald Trump,0,7
-Presidential,Presidential,State,Alaska,Kamala Harris,Donald Trump,0,3
-Presidential,Presidential,State,Arizona,Kamala Harris,Donald Trump,0,11
-Presidential,Presidential,State,Arkansas,Kamala Harris,Donald Trump,0,6
-Presidential,Presidential,State,California,Kamala Harris,Donald Trump,0,54
-Presidential,Presidential,State,Colorado,Kamala Harris,Donald Trump,0,10
-Presidential,Presidential,State,Connecticut,Kamala Harris,Donald Trump,0,7
-Presidential,Presidential,State,Delaware,Kamala Harris,Donald Trump,0,3
-Presidential,Presidential,State,District of Columbia,Kamala Harris,Donald Trump,0,3
-Presidential,Presidential,State,Florida,Kamala Harris,Donald Trump,0,30
-Presidential,Presidential,State,Georgia,Kamala Harris,Donald Trump,0,16
-Presidential,Presidential,State,Hawaii,Kamala Harris,Donald Trump,0,4
-Presidential,Presidential,State,Idaho,Kamala Harris,Donald Trump,0,4
-Presidential,Presidential,State,Illinois,Kamala Harris,Donald Trump,0,19
-Presidential,Presidential,State,Indiana,Kamala Harris,Donald Trump,0,11
-Presidential,Presidential,State,Iowa,Kamala Harris,Donald Trump,0,6
-Presidential,Presidential,State,Kansas,Kamala Harris,Donald Trump,0,6
-Presidential,Presidential,State,Kentucky,Kamala Harris,Donald Trump,0,8
-Presidential,Presidential,State,Louisiana,Kamala Harris,Donald Trump,0,8
-Presidential,Presidential,State,Maine,Kamala Harris,Donald Trump,0,2
-Presidential,Presidential,Congressional District,Maine-01,Kamala Harris,Donald Trump,0,1
-Presidential,Presidential,Congressional District,Maine-02,Kamala Harris,Donald Trump,0,1
-Presidential,Presidential,State,Maryland,Kamala Harris,Donald Trump,0,10
-Presidential,Presidential,State,Massachusetts,Kamala Harris,Donald Trump,0,11
-Presidential,Presidential,State,Michigan,Kamala Harris,Donald Trump,0,15
-Presidential,Presidential,State,Minnesota,Kamala Harris,Donald Trump,0,10
-Presidential,Presidential,State,Mississippi,Kamala Harris,Donald Trump,0,6
-Presidential,Presidential,State,Missouri,Kamala Harris,Donald Trump,0,10
-Presidential,Presidential,State,Montana,Kamala Harris,Donald Trump,0,4
-Presidential,Presidential,State,Nebraska,Kamala Harris,Donald Trump,0,2
-Presidential,Presidential,Congressional District,Nebraska-01,Kamala Harris,Donald Trump,0,1
-Presidential,Presidential,Congressional District,Nebraska-02,Kamala Harris,Donald Trump,0,1
-Presidential,Presidential,Congressional District,Nebraska-03,Kamala Harris,Donald Trump,0,1
-Presidential,Presidential,State,Nevada,Kamala Harris,Donald Trump,0,6
-Presidential,Presidential,State,New Hampshire,Kamala Harris,Donald Trump,0,4
-Presidential,Presidential,State,New Jersey,Kamala Harris,Donald Trump,0,14
-Presidential,Presidential,State,New Mexico,Kamala Harris,Donald Trump,0,5
-Presidential,Presidential,State,New York,Kamala Harris,Donald Trump,0,28
-Presidential,Presidential,State,North Carolina,Kamala Harris,Donald Trump,0,16
-Presidential,Presidential,State,North Dakota,Kamala Harris,Donald Trump,0,3
-Presidential,Presidential,State,Ohio,Kamala Harris,Donald Trump,0,17
-Presidential,Presidential,State,Oklahoma,Kamala Harris,Donald Trump,0,7
-Presidential,Presidential,State,Oregon,Kamala Harris,Donald Trump,0,8
-Presidential,Presidential,State,Pennsylvania,Kamala Harris,Donald Trump,0,19
-Presidential,Presidential,State,Rhode Island,Kamala Harris,Donald Trump,0,4
-Presidential,Presidential,State,South Carolina,Kamala Harris,Donald Trump,0,9
-Presidential,Presidential,State,South Dakota,Kamala Harris,Donald Trump,0,3
-Presidential,Presidential,State,Tennessee,Kamala Harris,Donald Trump,0,11
-Presidential,Presidential,State,Texas,Kamala Harris,Donald Trump,0,40
-Presidential,Presidential,State,Utah,Kamala Harris,Donald Trump,0,6
-Presidential,Presidential,State,Vermont,Kamala Harris,Donald Trump,0,3
-Presidential,Presidential,State,Virginia,Kamala Harris,Donald Trump,0,13
-Presidential,Presidential,State,Washington,Kamala Harris,Donald Trump,0,12
-Presidential,Presidential,State,West Virginia,Kamala Harris,Donald Trump,0,4
-Presidential,Presidential,State,Wisconsin,Kamala Harris,Donald Trump,0,10
-Presidential,Presidential,State,Wyoming,Kamala Harris,Donald Trump,0,3
+Presidential,Presidential,National,National,Kamala Harris (D),Donald Trump (R),0,0
+Presidential,Presidential,State,Alabama,Kamala Harris (D),Donald Trump (R),0,7
+Presidential,Presidential,State,Alaska,Kamala Harris (D),Donald Trump (R),0,3
+Presidential,Presidential,State,Arizona,Kamala Harris (D),Donald Trump (R),0,11
+Presidential,Presidential,State,Arkansas,Kamala Harris (D),Donald Trump (R),0,6
+Presidential,Presidential,State,California,Kamala Harris (D),Donald Trump (R),0,54
+Presidential,Presidential,State,Colorado,Kamala Harris (D),Donald Trump (R),0,10
+Presidential,Presidential,State,Connecticut,Kamala Harris (D),Donald Trump (R),0,7
+Presidential,Presidential,State,Delaware,Kamala Harris (D),Donald Trump (R),0,3
+Presidential,Presidential,State,District of Columbia,Kamala Harris (D),Donald Trump (R),0,3
+Presidential,Presidential,State,Florida,Kamala Harris (D),Donald Trump (R),0,30
+Presidential,Presidential,State,Georgia,Kamala Harris (D),Donald Trump (R),0,16
+Presidential,Presidential,State,Hawaii,Kamala Harris (D),Donald Trump (R),0,4
+Presidential,Presidential,State,Idaho,Kamala Harris (D),Donald Trump (R),0,4
+Presidential,Presidential,State,Illinois,Kamala Harris (D),Donald Trump (R),0,19
+Presidential,Presidential,State,Indiana,Kamala Harris (D),Donald Trump (R),0,11
+Presidential,Presidential,State,Iowa,Kamala Harris (D),Donald Trump (R),0,6
+Presidential,Presidential,State,Kansas,Kamala Harris (D),Donald Trump (R),0,6
+Presidential,Presidential,State,Kentucky,Kamala Harris (D),Donald Trump (R),0,8
+Presidential,Presidential,State,Louisiana,Kamala Harris (D),Donald Trump (R),0,8
+Presidential,Presidential,State,Maine,Kamala Harris (D),Donald Trump (R),0,2
+Presidential,Presidential,Congressional District,Maine-01,Kamala Harris (D),Donald Trump (R),0,1
+Presidential,Presidential,Congressional District,Maine-02,Kamala Harris (D),Donald Trump (R),0,1
+Presidential,Presidential,State,Maryland,Kamala Harris (D),Donald Trump (R),0,10
+Presidential,Presidential,State,Massachusetts,Kamala Harris (D),Donald Trump (R),0,11
+Presidential,Presidential,State,Michigan,Kamala Harris (D),Donald Trump (R),0,15
+Presidential,Presidential,State,Minnesota,Kamala Harris (D),Donald Trump (R),0,10
+Presidential,Presidential,State,Mississippi,Kamala Harris (D),Donald Trump (R),0,6
+Presidential,Presidential,State,Missouri,Kamala Harris (D),Donald Trump (R),0,10
+Presidential,Presidential,State,Montana,Kamala Harris (D),Donald Trump (R),0,4
+Presidential,Presidential,State,Nebraska,Kamala Harris (D),Donald Trump (R),0,2
+Presidential,Presidential,Congressional District,Nebraska-01,Kamala Harris (D),Donald Trump (R),0,1
+Presidential,Presidential,Congressional District,Nebraska-02,Kamala Harris (D),Donald Trump (R),0,1
+Presidential,Presidential,Congressional District,Nebraska-03,Kamala Harris (D),Donald Trump (R),0,1
+Presidential,Presidential,State,Nevada,Kamala Harris (D),Donald Trump (R),0,6
+Presidential,Presidential,State,New Hampshire,Kamala Harris (D),Donald Trump (R),0,4
+Presidential,Presidential,State,New Jersey,Kamala Harris (D),Donald Trump (R),0,14
+Presidential,Presidential,State,New Mexico,Kamala Harris (D),Donald Trump (R),0,5
+Presidential,Presidential,State,New York,Kamala Harris (D),Donald Trump (R),0,28
+Presidential,Presidential,State,North Carolina,Kamala Harris (D),Donald Trump (R),0,16
+Presidential,Presidential,State,North Dakota,Kamala Harris (D),Donald Trump (R),0,3
+Presidential,Presidential,State,Ohio,Kamala Harris (D),Donald Trump (R),0,17
+Presidential,Presidential,State,Oklahoma,Kamala Harris (D),Donald Trump (R),0,7
+Presidential,Presidential,State,Oregon,Kamala Harris (D),Donald Trump (R),0,8
+Presidential,Presidential,State,Pennsylvania,Kamala Harris (D),Donald Trump (R),0,19
+Presidential,Presidential,State,Rhode Island,Kamala Harris (D),Donald Trump (R),0,4
+Presidential,Presidential,State,South Carolina,Kamala Harris (D),Donald Trump (R),0,9
+Presidential,Presidential,State,South Dakota,Kamala Harris (D),Donald Trump (R),0,3
+Presidential,Presidential,State,Tennessee,Kamala Harris (D),Donald Trump (R),0,11
+Presidential,Presidential,State,Texas,Kamala Harris (D),Donald Trump (R),0,40
+Presidential,Presidential,State,Utah,Kamala Harris (D),Donald Trump (R),0,6
+Presidential,Presidential,State,Vermont,Kamala Harris (D),Donald Trump (R),0,3
+Presidential,Presidential,State,Virginia,Kamala Harris (D),Donald Trump (R),0,13
+Presidential,Presidential,State,Washington,Kamala Harris (D),Donald Trump (R),0,12
+Presidential,Presidential,State,West Virginia,Kamala Harris (D),Donald Trump (R),0,4
+Presidential,Presidential,State,Wisconsin,Kamala Harris (D),Donald Trump (R),0,10
+Presidential,Presidential,State,Wyoming,Kamala Harris (D),Donald Trump (R),0,3
 Generic Ballot,Generic Ballot,National,National,Democrats,Republicans,1,0
-House,Alabama 1st,Congressional District,Alabama-01,Tom Holmes,Barry Moore,-1,1
-House,Alabama 2nd,Congressional District,Alabama-02,Shomari Figures,Caroleene Dobson,0,1
-House,Alabama 3rd,Congressional District,Alabama-03,NaN,Mike Rogers,-1,1
-House,Alabama 4th,Congressional District,Alabama-04,NaN,Robert Aderholt,-1,1
-House,Alabama 5th,Congressional District,Alabama-05,NaN,Dale Strong,-1,1
-House,Alabama 6th,Congressional District,Alabama-06,Elizabeth Anderson,Gary Palmer,-1,1
-House,Alabama 7th,Congressional District,Alabama-07,Terri Sewell,Robin Litaker,1,1
-House,Alaska at-large,Congressional District,Alaska-00,Mary Peltola,Nick Begich III,-1,1
-House,Arizona 1st,Congressional District,Arizona-01,Amish Shah,David Schweikert,-1,1
-House,Arizona 2nd,Congressional District,Arizona-02,Jonathan Nez,Eli Crane,-1,1
-House,Arizona 3rd,Congressional District,Arizona-03,Yassamin Ansari,Jeff Zenk,0,1
-House,Arizona 4th,Congressional District,Arizona-04,Greg Stanton,Kelly Cooper,1,1
-House,Arizona 5th,Congressional District,Arizona-05,Katrina Schaffner,Andy Biggs,-1,1
-House,Arizona 6th,Congressional District,Arizona-06,Kirsten Engel,Juan Ciscomani,-1,1
-House,Arizona 7th,Congressional District,Arizona-07,Raúl Grijalva,Daniel Butierez,1,1
-House,Arizona 8th,Congressional District,Arizona-08,Greg Whitten,Abraham Hamadeh,0,1
-House,Arizona 9th,Congressional District,Arizona-09,Quacy Smith,Paul Goser,-1,1
-House,Arkansas 1st,Congressional District,Arkansas-01,Rodney Govens,Rick Crawford,-1,1
-House,Arkansas 2nd,Congressional District,Arkansas-02,Marcus Jones,French Hill,-1,1
-House,Arkansas 3rd,Congressional District,Arkansas-03,Caitlin Draper,Steve Womack,-1,1
-House,Arkansas 4th,Congressional District,Arkansas-04,Risie Howard,Bruce Westerman,-1,1
-House,California 1st,Congressional District,California-01,Rose Penelope Yee,Doug LaMalfa,-1,1
-House,California 2nd,Congressional District,California-02,Jared Huffman,Chris Coulombe,1,1
-House,California 3rd,Congressional District,California-03,Jessica Morse,Kevin Kiley,-1,1
-House,California 4th,Congressional District,California-04,Mike Thompson,John Munn,1,1
-House,California 5th,Congressional District,California-05,Michael Barkley,Tom McClintock,-1,1
-House,California 6th,Congressional District,California-06,Ami Bera,Christine Bish,1,1
-House,California 7th,Congressional District,California-07,Doris Matsui,Tom Silva,1,1
-House,California 8th,Congressional District,California-08,John Garamendi,Rudy Recile,1,1
-House,California 9th,Congressional District,California-09,Josh Harder,Kevin Lincoln,1,1
-House,California 10th,Congressional District,California-10,Mark DeSaulnier,Katherine Piccinini,1,1
-House,California 11th,Congressional District,California-11,Nancy Pelosi,Bruce Lou,1,1
-House,California 12th,Congressional District,California-12,Democrats,NaN,0,1
-House,California 13th,Congressional District,California-13,Adam Gray,John Duarte,-1,1
-House,California 14th,Congressional District,California-14,Eric Swalwell,Vin Kruttiventi,1,1
-House,California 15th,Congressional District,California-15,Kevin Mullin,Anna Cheng Kramer,1,1
-House,California 16th,Congressional District,California-16,Democrats,NaN,0,1
-House,California 17th,Congressional District,California-17,Ro Khanna,Anita Chen,1,1
-House,California 18th,Congressional District,California-18,Zoe Lofgren,Peter Hernandez,1,1
-House,California 19th,Congressional District,California-19,Jimmy Panetta,Jason Anderson,1,1
-House,California 20th,Congressional District,California-20,NaN,Republicans,-1,1
-House,California 21st,Congressional District,California-21,Jim Costa,Michael Maher,1,1
-House,California 22nd,Congressional District,California-22,Rudy Salas,David Valadao,-1,1
-House,California 23rd,Congressional District,California-23,Derek Marshall,Jay Obernolte,-1,1
-House,California 24th,Congressional District,California-24,Salud Carbajal,Thomas Cole,1,1
-House,California 25th,Congressional District,California-25,Raul Ruiz,Ian Weeks,1,1
-House,California 26th,Congressional District,California-26,Julia Brownley,Michael Koslow,1,1
-House,California 27th,Congressional District,California-27,George Whitesides,Mike Garcia,-1,1
-House,California 28th,Congressional District,California-28,Judy Chu,April Verlato,1,1
-House,California 29th,Congressional District,California-29,Luz Rivas,Benito Bernal,0,1
-House,California 30th,Congressional District,California-30,Laura Friedman,Alex Balekian,0,1
-House,California 31st,Congressional District,California-31,Gil Cisneros,Daniel Martinez,0,1
-House,California 32nd,Congressional District,California-32,Brad Sherman,Larry Thompson,1,1
-House,California 33rd,Congressional District,California-33,Pete Aguilar,Tom Herman,1,1
-House,California 34th,Congressional District,California-34,Democrats,NaN,1,1
-House,California 35th,Congressional District,California-35,Norma Torres,Mike Cargile,1,1
-House,California 36th,Congressional District,California-36,Ted Lieu,Melissa Toomim,1,1
-House,California 37th,Congressional District,California-37,Sydney Kamlager-Dove,NaN,1,1
-House,California 38th,Congressional District,California-38,Linda Sánchez,Eric Ching,1,1
-House,California 39th,Congressional District,California-39,Mark Takano,David Serpa,1,1
-House,California 40th,Congressional District,California-40,Joe Kerr,Young Kim,-1,1
-House,California 41st,Congressional District,California-41,Will Rollins,Ken Calvert,-1,1
-House,California 42nd,Congressional District,California-42,Robert Garcia,John Briscoe,1,1
-House,California 43rd,Congressional District,California-43,Maxine Waters,Steve Williams,1,1
-House,California 44th,Congressional District,California-44,Nanette Barragán,Roger Groh,1,1
-House,California 45th,Congressional District,California-45,Derek Tran,Michelle Steel,-1,1
-House,California 46th,Congressional District,California-46,Lou Correa,David Pan,1,1
-House,California 47th,Congressional District,California-47,Dave Min,Scott Baugh,0,1
-House,California 48th,Congressional District,California-48,Stephen Houlahan,Darrell Issa,-1,1
-House,California 49th,Congressional District,California-49,Mike Levin,Matt Gunderson,1,1
-House,California 50th,Congressional District,California-50,Scott Peters,Peter Bono,1,1
-House,California 51st,Congressional District,California-51,Sara Jacobs,Bill Wells,1,1
-House,California 52nd,Congressional District,California-52,Juan Vargas,Justin Lee,1,1
-House,Colorado 1st,Congressional District,Colorado-01,Diana DeGette,Valdamar Archuleta,1,1
-House,Colorado 2nd,Congressional District,Colorado-02,Joe Neguse,Marshall Dawson,1,1
-House,Colorado 3rd,Congressional District,Colorado-03,Adam Frisch,Jeff Hurd,0,1
-House,Colorado 4th,Congressional District,Colorado-04,Trisha Calvarese,Lauren Boebert,0,1
-House,Colorado 5th,Congressional District,Colorado-05,River Gassen,Jeff Crank,0,1
-House,Colorado 6th,Congressional District,Colorado-06,Jason Crow,John Fabricatore,1,1
-House,Colorado 7th,Congressional District,Colorado-07,Brittany Pettersen,Sergei Matveyuk,1,1
-House,Colorado 8th,Congressional District,Colorado-08,Yadira Caraveo,Gabe Evans,1,1
-House,Connecticut 1st,Congressional District,Connecticut-01,John B. Larson,Jim Griffin,1,1
-House,Connecticut 2nd,Congressional District,Connecticut-02,Joe Courtney,Mike France,1,1
-House,Connecticut 3rd,Congressional District,Connecticut-03,Rosa DeLauro,Michael Massey,1,1
-House,Connecticut 4th,Congressional District,Connecticut-04,Jim Himes,Michael Goldstein,1,1
-House,Connecticut 5th,Congressional District,Connecticut-05,Jahana Hayes,George Logan,1,1
-House,Delaware at-large,Congressional District,Delaware-00,Sarah McBride,John Whalen,0,1
-House,Florida 1st,Congressional District,Florida-01,Gay Valimont,Matt Gaetz,-1,1
-House,Florida 2nd,Congressional District,Florida-02,Yen Bailey,Neal Dunn,-1,1
-House,Florida 3rd,Congressional District,Florida-03,Tom Wells,Kat Cammack,-1,1
-House,Florida 4th,Congressional District,Florida-04,LaShonda Holloway,Aaron Bean,-1,1
-House,Florida 5th,Congressional District,Florida-05,Jay McGovern,John Rutherford,-1,1
-House,Florida 6th,Congressional District,Florida-06,James Stockton III,Michael Waltz,-1,1
-House,Florida 7th,Congressional District,Florida-07,Jennifer Adams,Cory Mills,-1,1
-House,Florida 8th,Congressional District,Florida-08,Sandy Kennedy,Mike Haridopolos,0,1
-House,Florida 9th,Congressional District,Florida-09,Darren Soto,Thomas Chalifoux,1,1
-House,Florida 10th,Congressional District,Florida-10,Maxwell Frost,Willie Montague,1,1
-House,Florida 11th,Congressional District,Florida-11,Barbie Hall,Daniel Webster,-1,1
-House,Florida 12th,Congressional District,Florida-12,Rock Aboujaoude Jr.,Gus Bilirakis,-1,1
-House,Florida 13th,Congressional District,Florida-13,Whitney Fox,Anna Paulina Luna,-1,1
-House,Florida 14th,Congressional District,Florida-14,Kathy Castor,Rocky Rochford,-1,1
-House,Florida 15th,Congressional District,Florida-15,Pat Kemp,Laurel Lee,-1,1
-House,Florida 16th,Congressional District,Florida-16,Jan Schneider,Vern Buchanan,-1,1
-House,Florida 17th,Congressional District,Florida-17,Manny Lopez,Greg Steube,-1,1
-House,Florida 18th,Congressional District,Florida-18,Andrea Doria Kale,Scott Franklin,-1,1
-House,Florida 19th,Congressional District,Florida-19,Kari Lerner,Byron Donalds,-1,1
-House,Florida 20th,Congressional District,Florida-20,Sheila Cherfilus-McCormick,NaN,1,1
-House,Florida 21st,Congressional District,Florida-21,Thomas Witkop,Brian Mast,-1,1
-House,Florida 22nd,Congressional District,Florida-22,Lois Frankel,Dan Franzese,1,1
-House,Florida 23rd,Congressional District,Florida-23,Jared Moskowitz,Joe Kaufman,1,1
-House,Florida 24th,Congressional District,Florida-24,Frederica Wilson,Jesus Navarro,1,1
-House,Florida 25th,Congressional District,Florida-25,Debbie Wasserman Schultz,Chris Eddy,1,1
-House,Florida 26th,Congressional District,Florida-26,Joey Atkins,Mario Díaz-Balart,-1,1
-House,Florida 27th,Congressional District,Florida-27,Lucia Baez-Geller,María Elvira Salazar,-1,1
-House,Florida 28th,Congressional District,Florida-28,Phil Ehr,Carlos A. Giménez,-1,1
-House,Georgia 1st,Congressional District,Georgia-01,Patti Hewitt,Buddy Carter,-1,1
-House,Georgia 2nd,Congressional District,Georgia-02,Sanford Bishop,Wayne Johnson,1,1
-House,Georgia 3rd,Congressional District,Georgia-03,Maura Keller,Brian Jack,0,1
-House,Georgia 4th,Congressional District,Georgia-04,Hank Johnson,Eugene Yu,1,1
-House,Georgia 5th,Congressional District,Georgia-05,Nikema Williams,John Salvesen,1,1
-House,Georgia 6th,Congressional District,Georgia-06,Lucy McBath,Jeff Criswell,1,1
-House,Georgia 7th,Congressional District,Georgia-07,Bob Christian,Rich McCormick,-1,1
-House,Georgia 8th,Congressional District,Georgia-08,Darrius Butler,Austin Scott,-1,1
-House,Georgia 9th,Congressional District,Georgia-09,Tambrei Cash,Andrew Clyde,-1,1
-House,Georgia 10th,Congressional District,Georgia-10,Lexy Doherty,Mike Collins,-1,1
-House,Georgia 11th,Congressional District,Georgia-11,Kate Stamper,Barry Loudermilk,-1,1
-House,Georgia 12th,Congressional District,Georgia-12,Liz Johnson,Rick Allen,-1,1
-House,Georgia 13th,Congressional District,Georgia-13,David Scott,Jonathan Chavez,1,1
-House,Georgia 14th,Congressional District,Georgia-14,Shawn Harris,Marjorie Taylor Greene,-1,1
-House,Hawaii 1st,Congressional District,Hawaii-01,Ed Case,Patrick Largey,1,1
-House,Hawaii 2nd,Congressional District,Hawaii-02,Jill Tokuda,Steve Bond,1,1
-House,Idaho 1st,Congressional District,Idaho-01,Kaylee Peterson,Russ Fulcher,-1,1
-House,Idaho 2nd,Congressional District,Idaho-02,David Roth,Mike Simpson,-1,1
-House,Illinois 1st,Congressional District,Illinois-01,Jonathan Jackson,Marcus Lewis,1,1
-House,Illinois 2nd,Congressional District,Illinois-02,Robin Kelly,Ashely Ramos,1,1
-House,Illinois 3rd,Congressional District,Illinois-03,Delia Ramirez,John Booras,1,1
-House,Illinois 4th,Congressional District,Illinois-04,Chuy García,Lupe Castillo,1,1
-House,Illinois 5th,Congressional District,Illinois-05,Mike Quigley,Tommy Hanson,1,1
-House,Illinois 6th,Congressional District,Illinois-06,Sean Casten,Niki Conforti,1,1
-House,Illinois 7th,Congressional District,Illinois-07,Danny Davis,Chad Koppie,1,1
-House,Illinois 8th,Congressional District,Illinois-08,Raja Krishnamoorthi,Mark Rice,1,1
-House,Illinois 9th,Congressional District,Illinois-09,Jan Schakowsky,Seth Cohen,1,1
-House,Illinois 10th,Congressional District,Illinois-10,Brad Schneider,Jim Carris,1,1
-House,Illinois 11th,Congressional District,Illinois-11,Bill Foster,Jerry Evans,1,1
-House,Illinois 12th,Congressional District,Illinois-12,Brian Roberts,Mike Bost,-1,1
-House,Illinois 13th,Congressional District,Illinois-13,Nikki Budzinski,Joshua Loyd,1,1
-House,Illinois 14th,Congressional District,Illinois-14,Lauren Underwood,Jim Marter,1,1
-House,Illinois 15th,Congressional District,Illinois-15,NaN,Mary Miller,-1,1
-House,Illinois 16th,Congressional District,Illinois-16,NaN,Darin LaHood,-1,1
-House,Illinois 17th,Congressional District,Illinois-17,Eric Sorensen,Joe McGraw,1,1
-House,Indiana 1st,Congressional District,Indiana-01,Frank J. Mrvan,Randy Niemeyer,1,1
-House,Indiana 2nd,Congressional District,Indiana-02,Lori Camp,Rudy Yakym,-1,1
-House,Indiana 3rd,Congressional District,Indiana-03,Kiley Adolph,Marlin Stutzman,0,1
-House,Indiana 4th,Congressional District,Indiana-04,Derrick Holder,Jim Baird,-1,1
-House,Indiana 5th,Congressional District,Indiana-05,Deborah Pickett,Victoria Spartz,-1,1
-House,Indiana 6th,Congressional District,Indiana-06,Cinde Wirth,Jefferson Shreve,0,1
-House,Indiana 7th,Congressional District,Indiana-07,André Carson,John Schmitz,1,1
-House,Indiana 8th,Congressional District,Indiana-08,Erik Hurt,Mark Messmer,0,1
-House,Indiana 9th,Congressional District,Indiana-09,Tim Peck,Erin Houchin,-1,1
-House,Iowa 1st,Congressional District,Iowa-01,Christina Bohannan,Mariannette Miller-Meeks,-1,1
-House,Iowa 2nd,Congressional District,Iowa-02,Sarah Corkery,Ashely Hinson,-1,1
-House,Iowa 3rd,Congressional District,Iowa-03,Lanon Baccam,Zach Nunn,-1,1
-House,Iowa 4th,Congressional District,Iowa-04,Ryan Melton,Randy Feenstra,-1,1
-House,Kansas 1st,Congressional District,Kansas-01,Paul Buskirk,Tracey Mann,-1,1
-House,Kansas 2nd,Congressional District,Kansas-02,Nancy Boyda,Derek Schmidt,0,1
-House,Kansas 3rd,Congressional District,Kansas-03,Sharice Davids,Prasanth Reddy,-1,1
-House,Kansas 4th,Congressional District,Kansas-04,Esau Freeman,Ron Estes,-1,1
-House,Kentucky 1st,Congressional District,Kentucky-01,Erin Marshall,James Comer,-1,1
-House,Kentucky 2nd,Congressional District,Kentucky-02,Hank Linderman,Brett Guthrie,-1,1
-House,Kentucky 3rd,Congressional District,Kentucky-03,Morgan McGarvey,Mike Craven,-1,1
-House,Kentucky 4th,Congressional District,Kentucky-04,NaN,Thomas Massie,-1,1
-House,Kentucky 5th,Congressional District,Kentucky-05,NaN,Hal Rogers,-1,1
-House,Kentucky 6th,Congressional District,Kentucky-06,Randy Cravens,Andy Barr,-1,1
-House,Louisiana 1st,Congressional District,Louisiana-01,Mel Manuel,Republicans,-1,1
-House,Louisiana 2nd,Congressional District,Louisiana-02,Democrats,Republicans,1,1
-House,Louisiana 3rd,Congressional District,Louisiana-03,Democrats,Republicans,-1,1
-House,Louisiana 4th,Congressional District,Louisiana-04,NaN,Republicans,-1,1
-House,Louisiana 5th,Congressional District,Louisiana-05,Michael Vallien Jr.,Republicans,-1,1
-House,Louisiana 6th,Congressional District,Louisiana-06,Democrats,Elbert Guillory,0,1
-House,Maine 1st,Congressional District,Maine-01,Chellie Pingree,Ronald Russell,1,1
-House,Maine 2nd,Congressional District,Maine-02,Jared Golden,Austin Theriault,1,1
-House,Maryland 1st,Congressional District,Maryland-01,Blane Miller,Andy Harris,-1,1
-House,Maryland 2nd,Congressional District,Maryland-02,Johnny Olszewski,Kimerly Klacik,0,1
-House,Maryland 3rd,Congressional District,Maryland-03,Sarah Elfreth,Robert Steinberger,0,1
-House,Maryland 4th,Congressional District,Maryland-04,Glenn Ivey,George McDermott,1,1
-House,Maryland 5th,Congressional District,Maryland-05,Steny Hoyer,Michelle Takington,1,1
-House,Maryland 6th,Congressional District,Maryland-06,April McClain Delaney,Neil Parrott,0,1
-House,Maryland 7th,Congressional District,Maryland-07,Kweisi Mfume,Scott Collier,1,1
-House,Maryland 8th,Congressional District,Maryland-08,Jamie Raskin,Cheryl Riley,1,1
-House,Massachusetts 1st,Congressional District,Massachusetts-01,Richard Neal,NaN,1,1
-House,Massachusetts 2nd,Congressional District,Massachusetts-02,Jim McGovern,NaN,1,1
-House,Massachusetts 3rd,Congressional District,Massachusetts-03,Lori Trahan,NaN,1,1
-House,Massachusetts 4th,Congressional District,Massachusetts-04,Jake Auchincloss,NaN,1,1
-House,Massachusetts 5th,Congressional District,Massachusetts-05,Katherine Clark,NaN,1,1
-House,Massachusetts 6th,Congressional District,Massachusetts-06,Seth Moulton,NaN,1,1
-House,Massachusetts 7th,Congressional District,Massachusetts-07,Ayanna Pressley,NaN,1,1
-House,Massachusetts 8th,Congressional District,Massachusetts-08,Stephen Lynch,Robert Burke,1,1
-House,Massachusetts 9th,Congressional District,Massachusetts-09,Bill Keating,Dan Sullivan,1,1
-House,Michigan 1st,Congressional District,Michigan-01,Callie Barr,Jack Bergman,-1,1
-House,Michigan 2nd,Congressional District,Michigan-02,Michael Lynch,John Moolenaar,-1,1
-House,Michigan 3rd,Congressional District,Michigan-03,Hillary Scholten,Paul Hudson,1,1
-House,Michigan 4th,Congressional District,Michigan-04,Jessica Swartz,Bill Huizenga,-1,1
-House,Michigan 5th,Congressional District,Michigan-05,Libbi Urban,Tim Walberg,-1,1
-House,Michigan 6th,Congressional District,Michigan-06,Debbie Dingell,Heather Smiley,1,1
-House,Michigan 7th,Congressional District,Michigan-07,Curtis Hertel Jr.,Tom Barrett,0,1
-House,Michigan 8th,Congressional District,Michigan-08,Kristen McDonald Rivet,Paul Junge,0,1
-House,Michigan 9th,Congressional District,Michigan-09,Clinton St. Mosley,Lisa McClain,-1,1
-House,Michigan 10th,Congressional District,Michigan-10,Carl Marlinga,John James,-1,1
-House,Michigan 11th,Congressional District,Michigan-11,Haley Stevens,Nick Somberg,1,1
-House,Michigan 12th,Congressional District,Michigan-12,Rashida Tlaib,James Hooper,1,1
-House,Michigan 13th,Congressional District,Michigan-13,Shri Thanedar,Martell Bivings,1,1
-House,Minnesota 1st,Congressional District,Minnesota-01,Rachel Bohman,Brad Finstad,-1,1
-House,Minnesota 2nd,Congressional District,Minnesota-02,Angie Craig,Joe Teirab,1,1
-House,Minnesota 3rd,Congressional District,Minnesota-03,Kelly Morrison,Tad Jude,0,1
-House,Minnesota 4th,Congressional District,Minnesota-04,Betty McCollum,May Lor Xiong,1,1
-House,Minnesota 5th,Congressional District,Minnesota-05,Ilhan Omar,Dalia al-Aqidi,1,1
-House,Minnesota 6th,Congressional District,Minnesota-06,Jeanne Hendricks,Tom Emmer,-1,1
-House,Minnesota 7th,Congressional District,Minnesota-07,A. J. Peters,Michelle Fischbach,-1,1
-House,Minnesota 8th,Congressional District,Minnesota-08,Jennifer Schultz,Pete Stauber,-1,1
-House,Mississippi 1st,Congressional District,Mississippi-01,Dianne Black,Trent Kelly,-1,1
-House,Mississippi 2nd,Congressional District,Mississippi-02,Bennie Thompson,Ron Eller,1,1
-House,Mississippi 3rd,Congressional District,Mississippi-03,NaN,Michael Guest,-1,1
-House,Mississippi 4th,Congressional District,Mississippi-04,Craig Raybon,Mike Ezell,-1,1
-House,Missouri 1st,Congressional District,Missouri-01,Wesley Bell,Andrew Jones,0,1
-House,Missouri 2nd,Congressional District,Missouri-02,Ray Hartmann,Ann Wagner,-1,1
-House,Missouri 3rd,Congressional District,Missouri-03,Bethany Mann,Bob Onder,0,1
-House,Missouri 4th,Congressional District,Missouri-04,Jeanette Cass,Mark Alford,-1,1
-House,Missouri 5th,Congressional District,Missouri-05,Emanuel Cleaver,Sean Smith,1,1
-House,Missouri 6th,Congressional District,Missouri-06,Pam May,Sam Graves,-1,1
-House,Missouri 7th,Congressional District,Missouri-07,Missi Hesketh,Eric Burlison,-1,1
-House,Missouri 8th,Congressional District,Missouri-08,Randi McCallian,Jason Smith,-1,1
-House,Montana 1st,Congressional District,Montana-01,Monica Tranel,Ryan Zinke,-1,1
-House,Montana 2nd,Congressional District,Montana-02,John Driscoll,Troy Downing,0,1
-House,Nebraska 1st,Congressional District,Nebraska-01,Carol Blood,Mike Flood,-1,1
-House,Nebraska 2nd,Congressional District,Nebraska-02,Tony Vargas,Don Macon,-1,1
-House,Nebraska 3rd,Congressional District,Nebraska-03,Daniel Ebers,Adrian Smith,-1,1
-House,Nevada 1st,Congressional District,Nevada-01,Dina Titus,Mark Robertson,1,1
-House,Nevada 2nd,Congressional District,Nevada-02,NaN,Mark Amodei,-1,1
-House,Nevada 3rd,Congressional District,Nevada-03,Susie Lee,Drew Johnson,1,1
-House,Nevada 4th,Congressional District,Nevada-04,Steven Horsford,John Lee,1,1
-House,New Hampshire 1st,Congressional District,New Hampshire-01,Chris Pappas,Russell Prescott,1,1
-House,New Hampshire 2nd,Congressional District,New Hampshire-02,Maggie Goodlander,Lily Tang Williams,0,1
-House,New Jersey 1st,Congressional District,New Jersey-01,Donald Norcross,Teddy Liddell,1,1
-House,New Jersey 2nd,Congressional District,New Jersey-02,Joe Salerno,Jeff Van Drew,-1,1
-House,New Jersey 3rd,Congressional District,New Jersey-03,Herb Conaway,Rajesh Mohan,0,1
-House,New Jersey 4th,Congressional District,New Jersey-04,Matthew Jenkins,Chris Smith,-1,1
-House,New Jersey 5th,Congressional District,New Jersey-05,Josh Gottheimer,Mary Jo Guinchard,1,1
-House,New Jersey 6th,Congressional District,New Jersey-06,Frank Pallone,Scott Fegler,1,1
-House,New Jersey 7th,Congressional District,New Jersey-07,Sue Altman,Tom Kean Jr.,-1,1
-House,New Jersey 8th,Congressional District,New Jersey-08,Rob Menendez,Anthony Valdes,1,1
-House,New Jersey 9th,Congressional District,New Jersey-09,Nellie Pou,Billy Prempeh,0,1
-House,New Jersey 10th,Congressional District,New Jersey-10,LaMonica McIver,Carmen Bucco,1,1
-House,New Jersey 11th,Congressional District,New Jersey-11,Mikie Sherrill,Joseph Belnome,1,1
-House,New Jersey 12th,Congressional District,New Jersey-12,Bonnie Watson Coleman,Darius Mayfield,1,1
-House,New Mexico 1st,Congressional District,New Mexico-01,Melanie Stansbury,Steve Jones,1,1
-House,New Mexico 2nd,Congressional District,New Mexico-02,Gabe Vasquez,Yvette Herrell,1,1
-House,New Mexico 3rd,Congressional District,New Mexico-03,Teresa Leger Fernandez,Sharon Clahchischilliage,1,1
-House,New York 1st,Congressional District,New York-01,John Avlon,Nick LaLota,-1,1
-House,New York 2nd,Congressional District,New York-02,Rob Lubin,Andrew Garbarino,-1,1
-House,New York 3rd,Congressional District,New York-03,Tom Suozzi,Michael LiPetri,1,1
-House,New York 4th,Congressional District,New York-04,Laura Gillen,Anthony D'Esposito,-1,1
-House,New York 5th,Congressional District,New York-05,Gregory Meeks,Paul King,1,1
-House,New York 6th,Congressional District,New York-06,Grace Meng,Thomas Zmich,1,1
-House,New York 7th,Congressional District,New York-07,Nydia Velázquez,William Kregler,1,1
-House,New York 8th,Congressional District,New York-08,Hakeem Jeffries,John Delaney,1,1
-House,New York 9th,Congressional District,New York-09,Yvette Clarke,Menachem Raitport,1,1
-House,New York 10th,Congressional District,New York-10,Dan Goldman,Alex Dodenhoff,1,1
-House,New York 11th,Congressional District,New York-11,Andrea Morse,Nicole Malliotakis,-1,1
-House,New York 12th,Congressional District,New York-12,Jerry Nadler,Michael Zumbluskas,1,1
-House,New York 13th,Congressional District,New York-13,Adriano Espaillat,Ruben Vargas,1,1
-House,New York 14th,Congressional District,New York-14,Alexandria Ocasio-Cortez,Tina Forte,1,1
-House,New York 15th,Congressional District,New York-15,Ritchie Torres,Gonzalo Duran,1,1
-House,New York 16th,Congressional District,New York-16,George Latimer,Miriam Levitt Flisser,0,1
-House,New York 17th,Congressional District,New York-17,Mondaire Jones,Mike Lawler,-1,1
-House,New York 18th,Congressional District,New York-18,Pat Ryan,Alison Esposito,1,1
-House,New York 19th,Congressional District,New York-19,Josh Riley,Marc Molinaro,-1,1
-House,New York 20th,Congressional District,New York-20,Paul Tonko,Kevin Waltz,1,1
-House,New York 21st,Congressional District,New York-21,Paula Collins,Elise Stefanik,-1,1
-House,New York 22nd,Congressional District,New York-22,John Mannion,Brandon Williams,-1,1
-House,New York 23rd,Congressional District,New York-23,Thomas Cale,Nick Langworthy,-1,1
-House,New York 24th,Congressional District,New York-24,David Wagenhauser,Claudia Tenney,-1,1
-House,New York 25th,Congressional District,New York-25,Joseph Morrelle,Gregg Sadwick,1,1
-House,New York 26th,Congressional District,New York-26,Tim Kennedy,Anthony Marecki,1,1
-House,North Carolina 1st,Congressional District,North Carolina-01,Don Davis,Laurie Buckhout,1,1
-House,North Carolina 2nd,Congressional District,North Carolina-02,Deborah Ross,Alan Swain,1,1
-House,North Carolina 3rd,Congressional District,North Carolina-03,NaN,Greg Murphy,-1,1
-House,North Carolina 4th,Congressional District,North Carolina-04,Valerie Foushee,Eric Blankenburg,1,1
-House,North Carolina 5th,Congressional District,North Carolina-05,Chuck Hubbard,Virginia Foxx,-1,1
-House,North Carolina 6th,Congressional District,North Carolina-06,NaN,Addison McDowell,0,1
-House,North Carolina 7th,Congressional District,North Carolina-07,Marlando Pridgen,David Rouzer,-1,1
-House,North Carolina 8th,Congressional District,North Carolina-08,Justin Dues,Mark Harris,0,1
-House,North Carolina 9th,Congressional District,North Carolina-09,Nigel Bristow,Richard Hudson,-1,1
-House,North Carolina 10th,Congressional District,North Carolina-10,Ralpha Scott Jr.,Pat Harrigan,0,1
-House,North Carolina 11th,Congressional District,North Carolina-11,Caleb Rudow,Chuck Edwards,-1,1
-House,North Carolina 12th,Congressional District,North Carolina-12,Alma Adams,Addul Ali,1,1
-House,North Carolina 13th,Congressional District,North Carolina-13,Frank Pierce,Brad Knott,0,1
-House,North Carolina 14th,Congressional District,North Carolina-14,Pam Genant,Tim Moore,0,1
-House,North Dakota at-large,Congressional District,North Dakota-00,Trygve Hammer,Julie Fedorchak,0,1
-House,Ohio 1st,Congressional District,Ohio-01,Greg Landsman,Orlando Sonza,1,1
-House,Ohio 2nd,Congressional District,Ohio-02,Samantha Meadows,David Taylor,0,1
-House,Ohio 3rd,Congressional District,Ohio-03,Joyce Beatty,Michael Young,1,1
-House,Ohio 4th,Congressional District,Ohio-04,Tamie Wilson,Jim Jordan,-1,1
-House,Ohio 5th,Congressional District,Ohio-05,Keith Mundy,Bob Latta,-1,1
-House,Ohio 6th,Congressional District,Ohio-06,Michael Kripchak,Michael Rulli,-1,1
-House,Ohio 7th,Congressional District,Ohio-07,Matt Diemer,Max Miller,-1,1
-House,Ohio 8th,Congressional District,Ohio-08,Vanessa Enoch,Warren Davidson,-1,1
-House,Ohio 9th,Congressional District,Ohio-09,Marcy Kaptur,Derek Merrin,1,1
-House,Ohio 10th,Congressional District,Ohio-10,Amy Cox,Mike Turner,-1,1
-House,Ohio 11th,Congressional District,Ohio-11,Shontel Brown,Alan Rapoport,1,1
-House,Ohio 12th,Congressional District,Ohio-12,Jerrad Christian,Troy Balderson,-1,1
-House,Ohio 13th,Congressional District,Ohio-13,Emilia Sykes,Kevin Coughlin,-1,1
-House,Ohio 14th,Congressional District,Ohio-14,Brian Kenderes,David Joyce,-1,1
-House,Ohio 15th,Congressional District,Ohio-15,Adam Miller,Mike Carey,-1,1
-House,Oklahoma 1st,Congressional District,Oklahoma-01,Dennis Baker,Kevin Hern,-1,1
-House,Oklahoma 2nd,Congressional District,Oklahoma-02,Brandon Wade,Josh Brecheen,-1,1
-House,Oklahoma 3rd,Congressional District,Oklahoma-03,NaN,Frank Lucas,-1,1
-House,Oklahoma 4th,Congressional District,Oklahoma-04,Mary Brannon,Tom Cole,-1,1
-House,Oklahoma 5th,Congressional District,Oklahoma-05,Madison Horn,Stephanie Bice,-1,1
-House,Oregon 1st,Congressional District,Oregon-01,Suzanne. Bonamici,Bob Todd,1,1
-House,Oregon 2nd,Congressional District,Oregon-02,Dan Ruby,Cliff Bentz,-1,1
-House,Oregon 3rd,Congressional District,Oregon-03,Maxine Dexter,Joanna Harbour,0,1
-House,Oregon 4th,Congressional District,Oregon-04,Val Hoyle,Monique DeSpain,1,1
-House,Oregon 5th,Congressional District,Oregon-05,Janelle Bynum,Lori Chavez-DeRemer,-1,1
-House,Oregon 6th,Congressional District,Oregon-06,Andrea Salinas,Mike Erickson,1,1
-House,Pennsylvania 1st,Congressional District,Pennsylvania-01,Ashley Ehasz,Brian Fitzpatrick,-1,1
-House,Pennsylvania 2nd,Congressional District,Pennsylvania-02,Brendan Boyle,Haroon Bashir,1,1
-House,Pennsylvania 3rd,Congressional District,Pennsylvania-03,Dwight Evans,NaN,1,1
-House,Pennsylvania 4th,Congressional District,Pennsylvania-04,Madeleine Dean,David Winkler,1,1
-House,Pennsylvania 5th,Congressional District,Pennsylvania-05,Mary Gay Scanlon,Alfeia DeVaughn-Goodwin,1,1
-House,Pennsylvania 6th,Congressional District,Pennsylvania-06,Chrissy Houlahan,Neil Young Jr.,1,1
-House,Pennsylvania 7th,Congressional District,Pennsylvania-07,Susan Wild,Ryan Mackenzie,1,1
-House,Pennsylvania 8th,Congressional District,Pennsylvania-08,Matt Cartwright,Rob Bresnahan,1,1
-House,Pennsylvania 9th,Congressional District,Pennsylvania-09,Amanda Waldman,Dan Meuser,-1,1
-House,Pennsylvania 10th,Congressional District,Pennsylvania-10,Janelle Stelson,Scott Perry,-1,1
-House,Pennsylvania 11th,Congressional District,Pennsylvania-11,Jim Atkinson,Lloyd Smucker,-1,1
-House,Pennsylvania 12th,Congressional District,Pennsylvania-12,Summer Lee,James Hayes,1,1
-House,Pennsylvania 13th,Congressional District,Pennsylvania-13,Beth Farnham,John Joyce,-1,1
-House,Pennsylvania 14th,Congressional District,Pennsylvania-14,Christopher Dziados,Guy Reschenthaler,-1,1
-House,Pennsylvania 15th,Congressional District,Pennsylvania-15,Zacheray Womer,Glenn Thompson,-1,1
-House,Pennsylvania 16th,Congressional District,Pennsylvania-16,Preston Nouri,Mike Kelly,-1,1
-House,Pennsylvania 17th,Congressional District,Pennsylvania-17,Chris Deluzio,Rob Mercuri,1,1
-House,Rhode Island 1st,Congressional District,Rhode Island-01,Gabe Amo,Allen Waters,1,1
-House,Rhode Island 2nd,Congressional District,Rhode Island-02,Seth Magaziner,Steve Corvi,1,1
-House,South Carolina 1st,Congressional District,South Carolina-01,Michael Moore,Nancy Mace,-1,1
-House,South Carolina 2nd,Congressional District,South Carolina-02,David Robinson II,Joe Wilson,-1,1
-House,South Carolina 3rd,Congressional District,South Carolina-03,Bryon Best,Sheri Biggs,0,1
-House,South Carolina 4th,Congressional District,South Carolina-04,Kathryn Harvey,William Timmons,-1,1
-House,South Carolina 5th,Congressional District,South Carolina-05,Evangeline Hundley,Ralph Norman,-1,1
-House,South Carolina 6th,Congressional District,South Carolina-06,Jim Clyburn,Duke Buckner,1,1
-House,South Carolina 7th,Congressional District,South Carolina-07,Mal Hyman,Russell Fry,-1,1
-House,South Dakota at-large,Congressional District,South Dakota-00,Sheryl Johnson,Dusty Johnson,-1,1
-House,Tennessee 1st,Congressional District,Tennessee-01,Kevin Jenkins,Diana Harshbarger,-1,1
-House,Tennessee 2nd,Congressional District,Tennessee-02,Jane George,Tim Burchett,-1,1
-House,Tennessee 3rd,Congressional District,Tennessee-03,Jack Allen,Chuck Fleischmann,-1,1
-House,Tennessee 4th,Congressional District,Tennessee-04,Victoria Broderick,Scott DesJarlais,-1,1
-House,Tennessee 5th,Congressional District,Tennessee-05,Maryam Abolfazli,Andy Ogles,-1,1
-House,Tennessee 6th,Congressional District,Tennessee-06,Lore Bergman,John Rose,-1,1
-House,Tennessee 7th,Congressional District,Tennessee-07,Megan Barry,Mark Green,-1,1
-House,Tennessee 8th,Congressional District,Tennessee-08,Sarah Freeman,David Kustoff,-1,1
-House,Tennessee 9th,Congressional District,Tennessee-09,Steve Cohen,Charlotte Bergmann,1,1
-House,Texas 1st,Congressional District,Texas-01,NaN,Nathaniel Moran,-1,1
-House,Texas 2nd,Congressional District,Texas-02,Peter Filler,Dan Crenshaw,-1,1
-House,Texas 3rd,Congressional District,Texas-03,Sandeep Srivastava,Keith Self,-1,1
-House,Texas 4th,Congressional District,Texas-04,Simon Cardell,Pat Fallon,-1,1
-House,Texas 5th,Congressional District,Texas-05,Ruth Torres,Lance Gooden,-1,1
-House,Texas 6th,Congressional District,Texas-06,John Love III,Jake Ellzey,-1,1
-House,Texas 7th,Congressional District,Texas-07,Lizzie Fletcher,Caroline Kane,1,1
-House,Texas 8th,Congressional District,Texas-08,Laura Jones,Morgan Luttrell,-1,1
-House,Texas 9th,Congressional District,Texas-09,Al Green,NaN,1,1
-House,Texas 10th,Congressional District,Texas-10,Theresa Boisseau,Michael McCaul,-1,1
-House,Texas 11th,Congressional District,Texas-11,NaN,August Pfluger,-1,1
-House,Texas 12th,Congressional District,Texas-12,Trey Hunt,Craig Goldman,0,1
-House,Texas 13th,Congressional District,Texas-13,NaN,Ronny Jackson,-1,1
-House,Texas 14th,Congressional District,Texas-14,Rhonda Hart,Randy Weber,-1,1
-House,Texas 15th,Congressional District,Texas-15,Michelle Vallejo,Monica De La Cruz,-1,1
-House,Texas 16th,Congressional District,Texas-16,Veronica Escobar,Irene Armendariz-Jackson,1,1
-House,Texas 17th,Congressional District,Texas-17,Mark Lorenzen,Pete Sessions,-1,1
-House,Texas 18th,Congressional District,Texas-18,Sylvester Turner,Lana Centonze,0,1
-House,Texas 19th,Congressional District,Texas-19,NaN,Jodey Arrington,-1,1
-House,Texas 20th,Congressional District,Texas-20,Joaquin Castro,NaN,1,1
-House,Texas 21st,Congressional District,Texas-21,Kristin Hook,Chip Roy,-1,1
-House,Texas 22nd,Congressional District,Texas-22,Marquette Greene-Scott,Troy Nehls,-1,1
-House,Texas 23rd,Congressional District,Texas-23,Santos Limon,Troy Gonzales,-1,1
-House,Texas 24th,Congressional District,Texas-24,Sam Eppler,Beth Van Duyne,-1,1
-House,Texas 25th,Congressional District,Texas-25,NaN,Roger Williams,-1,1
-House,Texas 26th,Congressional District,Texas-26,Ernest Lineberger III,Brandon Gill,0,1
-House,Texas 27th,Congressional District,Texas-27,Tanya Lloyd,Michael Cloud,-1,1
-House,Texas 28th,Congressional District,Texas-28,Henry Cuellar,Jay Furman,1,1
-House,Texas 29th,Congressional District,Texas-29,Sylvia Garcia,Alan Garza,1,1
-House,Texas 30th,Congressional District,Texas-30,Jasmine Crockett,NaN,1,1
-House,Texas 31st,Congressional District,Texas-31,Stuart Whitlow,John Carter,-1,1
-House,Texas 32nd,Congressional District,Texas-32,Julie Johnson,Darrell Day,0,1
-House,Texas 33rd,Congressional District,Texas-33,Marc Veasey,Patrick Gillespie,1,1
-House,Texas 34th,Congressional District,Texas-34,Vicente Gonzalez,Mayra Flores,1,1
-House,Texas 35th,Congressional District,Texas-35,Greg Casar,Steven Wright,1,1
-House,Texas 36th,Congressional District,Texas-36,Dayna Steele,Brian Babin,-1,1
-House,Texas 37th,Congressional District,Texas-37,Lloyd Doggett,Jenny Garcia Sharon,1,1
-House,Texas 38th,Congressional District,Texas-38,Melissa McDonough,Wesley Hunt,-1,1
-House,Utah 1st,Congressional District,Utah-01,Bill Campbell,Blake Moore,-1,1
-House,Utah 2nd,Congressional District,Utah-02,Nathaniel Woodward,Celeste Maloy,-1,1
-House,Utah 3rd,Congressional District,Utah-03,Glenn Wright,Mike Kennedy,0,1
-House,Utah 4th,Congressional District,Utah-04,Katrina Fallick-Wang,Burgess Owens,-1,1
-House,Vermont at-large,Congressional District,Vermont-00,Becca Balint,Mark Coester,1,1
-House,Virginia 1st,Congressional District,Virginia-01,Leslie Mehta,Rob Wittman,-1,1
-House,Virginia 2nd,Congressional District,Virginia-02,Missy Cotter Smasal,Jen Kiggans,-1,1
-House,Virginia 3rd,Congressional District,Virginia-03,Bobby Scott,John Sitka,1,1
-House,Virginia 4th,Congressional District,Virginia-04,Jennifer McClellan,Bill Moher,1,1
-House,Virginia 5th,Congressional District,Virginia-05,Gloria Witt,John McGuire,0,1
-House,Virginia 6th,Congressional District,Virginia-06,Ken Mitchell,Ben Cline,-1,1
-House,Virginia 7th,Congressional District,Virginia-07,Eugene Vindman,Derrick Anderson,0,1
-House,Virginia 8th,Congressional District,Virginia-08,Don Beyer,Jerry Torres,1,1
-House,Virginia 9th,Congressional District,Virginia-09,Karen Baker,Morgan Griffith,-1,1
-House,Virginia 10th,Congressional District,Virginia-10,Suhas Subramanyam,Mike Clancy,0,1
-House,Virginia 11th,Congressional District,Virginia-11,Gerry Connolly,Mike Van Meter,1,1
-House,Washington 1st,Congressional District,Washington-01,Suzan DelBene,Jeb Brewer,1,1
-House,Washington 2nd,Congressional District,Washington-02,Rick Larsen,Cody Hart,1,1
-House,Washington 3rd,Congressional District,Washington-03,Marie Gluesenkamp Perez,Joe Kent,1,1
-House,Washington 4th,Congressional District,Washington-04,NaN,Republicans,-1,1
-House,Washington 5th,Congressional District,Washington-05,Carmela Conroy,Michael Baumgartner,0,1
-House,Washington 6th,Congressional District,Washington-06,Emily Randall,Drew MacEwen,0,1
-House,Washington 7th,Congressional District,Washington-07,Pramila Jayapal,Dan Alexander,1,1
-House,Washington 8th,Congressional District,Washington-08,Kim Schrier,Carmen Goers,1,1
-House,Washington 9th,Congressional District,Washington-09,Democrats,NaN,1,1
-House,Washington 10th,Congressional District,Washington-10,Marilyn Strickland,Don Hewett,1,1
-House,West Virginia 1st,Congressional District,West Virginia-01,Chris Reed,Carol Miller,-1,1
-House,West Virginia 2nd,Congressional District,West Virginia-02,Steven Wendelin,Riley Moore,0,1
-House,Wisconsin 1st,Congressional District,Wisconsin-01,Peter Barca,Bryan Steil,-1,1
-House,Wisconsin 2nd,Congressional District,Wisconsin-02,Mark Pocan,Erik Olsen,1,1
-House,Wisconsin 3rd,Congressional District,Wisconsin-03,Rebecca Cooke,Derrick Van Orden,-1,1
-House,Wisconsin 4th,Congressional District,Wisconsin-04,Gwen Moore,Tim Rogers,1,1
-House,Wisconsin 5th,Congressional District,Wisconsin-05,Ben Steinhoff,Scott Fitzgerald,-1,1
-House,Wisconsin 6th,Congressional District,Wisconsin-06,John Zarbano,Glenn Grothman,-1,1
-House,Wisconsin 7th,Congressional District,Wisconsin-07,Kyle Kilbourn,Tom Tiffany,-1,1
-House,Wisconsin 8th,Congressional District,Wisconsin-08,Kristin Lyerly,Tony Wied,0,1
-House,Wyoming at-large,Congressional District,Wyoming-00,Kyle Cameron,Harriet Hageman,-1,1
-House,Incumbency,NaN,NaN,NaN,NaN,NaN,NaN
+House,Alabama-01,Congressional District,Alabama-01,Tom Holmes (D),Barry Moore* (R),-1,1
+House,Alabama-02,Congressional District,Alabama-02,Shomari Figures (D),Caroleene Dobson (R),0,1
+House,Alabama-03,Congressional District,Alabama-03,NaN,Mike Rogers* (R),-1,1
+House,Alabama-04,Congressional District,Alabama-04,NaN,Robert Aderholt* (R),-1,1
+House,Alabama-05,Congressional District,Alabama-05,NaN,Dale Strong* (R),-1,1
+House,Alabama-06,Congressional District,Alabama-06,Elizabeth Anderson (D),Gary Palmer* (R),-1,1
+House,Alabama-07,Congressional District,Alabama-07,Terri Sewell* (D),Robin Litaker (R),1,1
+House,Alaska-00,Congressional District,Alaska-00,Mary Peltola* (D),Nick Begich III (R),1,1
+House,Arizona-01,Congressional District,Arizona-01,Amish Shah (D),David Schweikert* (R),-1,1
+House,Arizona-02,Congressional District,Arizona-02,Jonathan Nez (D),Eli Crane* (R),-1,1
+House,Arizona-03,Congressional District,Arizona-03,Yassamin Ansari (D),Jeff Zenk (R),0,1
+House,Arizona-04,Congressional District,Arizona-04,Greg Stanton* (D),Kelly Cooper (R),1,1
+House,Arizona-05,Congressional District,Arizona-05,Katrina Schaffner (D),Andy Biggs* (R),-1,1
+House,Arizona-06,Congressional District,Arizona-06,Kirsten Engel (D),Juan Ciscomani* (R),-1,1
+House,Arizona-07,Congressional District,Arizona-07,Raúl Grijalva* (D),Daniel Butierez (R),1,1
+House,Arizona-08,Congressional District,Arizona-08,Greg Whitten (D),Abraham Hamadeh (R),0,1
+House,Arizona-09,Congressional District,Arizona-09,Quacy Smith (D),Paul Goser* (R),-1,1
+House,Arkansas-01,Congressional District,Arkansas-01,Rodney Govens (D),Rick Crawford* (R),-1,1
+House,Arkansas-02,Congressional District,Arkansas-02,Marcus Jones (D),French Hill* (R),-1,1
+House,Arkansas-03,Congressional District,Arkansas-03,Caitlin Draper (D),Steve Womack* (R),-1,1
+House,Arkansas-04,Congressional District,Arkansas-04,Risie Howard (D),Bruce Westerman* (R),-1,1
+House,California-01,Congressional District,California-01,Rose Penelope Yee (D),Doug LaMalfa* (R),-1,1
+House,California-02,Congressional District,California-02,Jared Huffman* (D),Chris Coulombe (R),1,1
+House,California-03,Congressional District,California-03,Jessica Morse (D),Kevin Kiley* (R),-1,1
+House,California-04,Congressional District,California-04,Mike Thompson* (D),John Munn (R),1,1
+House,California-05,Congressional District,California-05,Michael Barkley (D),Tom McClintock* (R),-1,1
+House,California-06,Congressional District,California-06,Ami Bera* (D),Christine Bish (R),1,1
+House,California-07,Congressional District,California-07,Doris Matsui* (D),Tom Silva (R),1,1
+House,California-08,Congressional District,California-08,John Garamendi* (D),Rudy Recile (R),1,1
+House,California-09,Congressional District,California-09,Josh Harder* (D),Kevin Lincoln (R),1,1
+House,California-10,Congressional District,California-10,Mark DeSaulnier* (D),Katherine Piccinini (R),1,1
+House,California-11,Congressional District,California-11,Nancy Pelosi* (D),Bruce Lou (R),1,1
+House,California-12,Congressional District,California-12,Democrats (D),NaN,0,1
+House,California-13,Congressional District,California-13,Adam Gray (D),John Duarte* (R),-1,1
+House,California-14,Congressional District,California-14,Eric Swalwell* (D),Vin Kruttiventi (R),1,1
+House,California-15,Congressional District,California-15,Kevin Mullin* (D),Anna Cheng Kramer (R),1,1
+House,California-16,Congressional District,California-16,Democrats (D),NaN,0,1
+House,California-17,Congressional District,California-17,Ro Khanna* (D),Anita Chen (R),1,1
+House,California-18,Congressional District,California-18,Zoe Lofgren* (D),Peter Hernandez (R),1,1
+House,California-19,Congressional District,California-19,Jimmy Panetta* (D),Jason Anderson (R),1,1
+House,California-20,Congressional District,California-20,NaN,Republicans* (R),-1,1
+House,California-21,Congressional District,California-21,Jim Costa* (D),Michael Maher (R),1,1
+House,California-22,Congressional District,California-22,Rudy Salas (D),David Valadao* (R),-1,1
+House,California-23,Congressional District,California-23,Derek Marshall (D),Jay Obernolte* (R),-1,1
+House,California-24,Congressional District,California-24,Salud Carbajal* (D),Thomas Cole (R),1,1
+House,California-25,Congressional District,California-25,Raul Ruiz* (D),Ian Weeks (R),1,1
+House,California-26,Congressional District,California-26,Julia Brownley* (D),Michael Koslow (R),1,1
+House,California-27,Congressional District,California-27,George Whitesides (D),Mike Garcia* (R),-1,1
+House,California-28,Congressional District,California-28,Judy Chu* (D),April Verlato (R),1,1
+House,California-29,Congressional District,California-29,Luz Rivas (D),Benito Bernal (R),0,1
+House,California-30,Congressional District,California-30,Laura Friedman (D),Alex Balekian (R),0,1
+House,California-31,Congressional District,California-31,Gil Cisneros (D),Daniel Martinez (R),0,1
+House,California-32,Congressional District,California-32,Brad Sherman* (D),Larry Thompson (R),1,1
+House,California-33,Congressional District,California-33,Pete Aguilar* (D),Tom Herman (R),1,1
+House,California-34,Congressional District,California-34,Democrats* (D),NaN,1,1
+House,California-35,Congressional District,California-35,Norma Torres* (D),Mike Cargile (R),1,1
+House,California-36,Congressional District,California-36,Ted Lieu* (D),Melissa Toomim (R),1,1
+House,California-37,Congressional District,California-37,Sydney Kamlager-Dove* (D),NaN,1,1
+House,California-38,Congressional District,California-38,Linda Sánchez* (D),Eric Ching (R),1,1
+House,California-39,Congressional District,California-39,Mark Takano* (D),David Serpa (R),1,1
+House,California-40,Congressional District,California-40,Joe Kerr (D),Young Kim* (R),-1,1
+House,California-41,Congressional District,California-41,Will Rollins (D),Ken Calvert* (R),-1,1
+House,California-42,Congressional District,California-42,Robert Garcia* (D),John Briscoe (R),1,1
+House,California-43,Congressional District,California-43,Maxine Waters* (D),Steve Williams (R),1,1
+House,California-44,Congressional District,California-44,Nanette Barragán* (D),Roger Groh (R),1,1
+House,California-45,Congressional District,California-45,Derek Tran (D),Michelle Steel* (R),-1,1
+House,California-46,Congressional District,California-46,Lou Correa* (D),David Pan (R),1,1
+House,California-47,Congressional District,California-47,Dave Min (D),Scott Baugh (R),0,1
+House,California-48,Congressional District,California-48,Stephen Houlahan (D),Darrell Issa* (R),-1,1
+House,California-49,Congressional District,California-49,Mike Levin* (D),Matt Gunderson (R),1,1
+House,California-50,Congressional District,California-50,Scott Peters* (D),Peter Bono (R),1,1
+House,California-51,Congressional District,California-51,Sara Jacobs* (D),Bill Wells (R),1,1
+House,California-52,Congressional District,California-52,Juan Vargas* (D),Justin Lee (R),1,1
+House,Colorado-01,Congressional District,Colorado-01,Diana DeGette* (D),Valdamar Archuleta (R),1,1
+House,Colorado-02,Congressional District,Colorado-02,Joe Neguse* (D),Marshall Dawson (R),1,1
+House,Colorado-03,Congressional District,Colorado-03,Adam Frisch (D),Jeff Hurd (R),0,1
+House,Colorado-04,Congressional District,Colorado-04,Trisha Calvarese (D),Lauren Boebert (R),0,1
+House,Colorado-05,Congressional District,Colorado-05,River Gassen (D),Jeff Crank (R),0,1
+House,Colorado-06,Congressional District,Colorado-06,Jason Crow* (D),John Fabricatore (R),1,1
+House,Colorado-07,Congressional District,Colorado-07,Brittany Pettersen* (D),Sergei Matveyuk (R),1,1
+House,Colorado-08,Congressional District,Colorado-08,Yadira Caraveo* (D),Gabe Evans (R),1,1
+House,Connecticut-01,Congressional District,Connecticut-01,John B. Larson* (D),Jim Griffin (R),1,1
+House,Connecticut-02,Congressional District,Connecticut-02,Joe Courtney* (D),Mike France (R),1,1
+House,Connecticut-03,Congressional District,Connecticut-03,Rosa DeLauro* (D),Michael Massey (R),1,1
+House,Connecticut-04,Congressional District,Connecticut-04,Jim Himes* (D),Michael Goldstein (R),1,1
+House,Connecticut-05,Congressional District,Connecticut-05,Jahana Hayes* (D),George Logan (R),1,1
+House,Delaware-00,Congressional District,Delaware-00,Sarah McBride (D),John Whalen (R),0,1
+House,Florida-01,Congressional District,Florida-01,Gay Valimont (D),Matt Gaetz* (R),-1,1
+House,Florida-02,Congressional District,Florida-02,Yen Bailey (D),Neal Dunn* (R),-1,1
+House,Florida-03,Congressional District,Florida-03,Tom Wells (D),Kat Cammack* (R),-1,1
+House,Florida-04,Congressional District,Florida-04,LaShonda Holloway (D),Aaron Bean* (R),-1,1
+House,Florida-05,Congressional District,Florida-05,Jay McGovern (D),John Rutherford* (R),-1,1
+House,Florida-06,Congressional District,Florida-06,James Stockton III (D),Michael Waltz* (R),-1,1
+House,Florida-07,Congressional District,Florida-07,Jennifer Adams (D),Cory Mills* (R),-1,1
+House,Florida-08,Congressional District,Florida-08,Sandy Kennedy (D),Mike Haridopolos (R),0,1
+House,Florida-09,Congressional District,Florida-09,Darren Soto* (D),Thomas Chalifoux (R),1,1
+House,Florida-10,Congressional District,Florida-10,Maxwell Frost* (D),Willie Montague (R),1,1
+House,Florida-11,Congressional District,Florida-11,Barbie Hall (D),Daniel Webster* (R),-1,1
+House,Florida-12,Congressional District,Florida-12,Rock Aboujaoude Jr. (D),Gus Bilirakis* (R),-1,1
+House,Florida-13,Congressional District,Florida-13,Whitney Fox (D),Anna Paulina Luna* (R),-1,1
+House,Florida-14,Congressional District,Florida-14,Kathy Castor* (D),Rocky Rochford (R),1,1
+House,Florida-15,Congressional District,Florida-15,Pat Kemp (D),Laurel Lee* (R),-1,1
+House,Florida-16,Congressional District,Florida-16,Jan Schneider (D),Vern Buchanan* (R),-1,1
+House,Florida-17,Congressional District,Florida-17,Manny Lopez (D),Greg Steube* (R),-1,1
+House,Florida-18,Congressional District,Florida-18,Andrea Doria Kale (D),Scott Franklin* (R),-1,1
+House,Florida-19,Congressional District,Florida-19,Kari Lerner (D),Byron Donalds* (R),-1,1
+House,Florida-20,Congressional District,Florida-20,Sheila Cherfilus-McCormick* (D),NaN,1,1
+House,Florida-21,Congressional District,Florida-21,Thomas Witkop (D),Brian Mast* (R),-1,1
+House,Florida-22,Congressional District,Florida-22,Lois Frankel* (D),Dan Franzese (R),1,1
+House,Florida-23,Congressional District,Florida-23,Jared Moskowitz* (D),Joe Kaufman (R),1,1
+House,Florida-24,Congressional District,Florida-24,Frederica Wilson* (D),Jesus Navarro (R),1,1
+House,Florida-25,Congressional District,Florida-25,Debbie Wasserman Schultz* (D),Chris Eddy (R),1,1
+House,Florida-26,Congressional District,Florida-26,Joey Atkins (D),Mario Díaz-Balart* (R),-1,1
+House,Florida-27,Congressional District,Florida-27,Lucia Baez-Geller (D),María Elvira Salazar* (R),-1,1
+House,Florida-28,Congressional District,Florida-28,Phil Ehr (D),Carlos A. Giménez* (R),-1,1
+House,Georgia-01,Congressional District,Georgia-01,Patti Hewitt (D),Buddy Carter* (R),-1,1
+House,Georgia-02,Congressional District,Georgia-02,Sanford Bishop* (D),Wayne Johnson (R),1,1
+House,Georgia-03,Congressional District,Georgia-03,Maura Keller (D),Brian Jack (R),0,1
+House,Georgia-04,Congressional District,Georgia-04,Hank Johnson* (D),Eugene Yu (R),1,1
+House,Georgia-05,Congressional District,Georgia-05,Nikema Williams* (D),John Salvesen (R),1,1
+House,Georgia-06,Congressional District,Georgia-06,Lucy McBath* (D),Jeff Criswell (R),1,1
+House,Georgia-07,Congressional District,Georgia-07,Bob Christian (D),Rich McCormick* (R),-1,1
+House,Georgia-08,Congressional District,Georgia-08,Darrius Butler (D),Austin Scott* (R),-1,1
+House,Georgia-09,Congressional District,Georgia-09,Tambrei Cash (D),Andrew Clyde* (R),-1,1
+House,Georgia-10,Congressional District,Georgia-10,Lexy Doherty (D),Mike Collins* (R),-1,1
+House,Georgia-11,Congressional District,Georgia-11,Kate Stamper (D),Barry Loudermilk* (R),-1,1
+House,Georgia-12,Congressional District,Georgia-12,Liz Johnson (D),Rick Allen* (R),-1,1
+House,Georgia-13,Congressional District,Georgia-13,David Scott* (D),Jonathan Chavez (R),1,1
+House,Georgia-14,Congressional District,Georgia-14,Shawn Harris (D),Marjorie Taylor Greene* (R),-1,1
+House,Hawaii-01,Congressional District,Hawaii-01,Ed Case* (D),Patrick Largey (R),1,1
+House,Hawaii-02,Congressional District,Hawaii-02,Jill Tokuda* (D),Steve Bond (R),1,1
+House,Idaho-01,Congressional District,Idaho-01,Kaylee Peterson (D),Russ Fulcher* (R),-1,1
+House,Idaho-02,Congressional District,Idaho-02,David Roth (D),Mike Simpson* (R),-1,1
+House,Illinois-01,Congressional District,Illinois-01,Jonathan Jackson* (D),Marcus Lewis (R),1,1
+House,Illinois-02,Congressional District,Illinois-02,Robin Kelly* (D),Ashely Ramos (R),1,1
+House,Illinois-03,Congressional District,Illinois-03,Delia Ramirez* (D),John Booras (R),1,1
+House,Illinois-04,Congressional District,Illinois-04,Chuy García* (D),Lupe Castillo (R),1,1
+House,Illinois-05,Congressional District,Illinois-05,Mike Quigley* (D),Tommy Hanson (R),1,1
+House,Illinois-06,Congressional District,Illinois-06,Sean Casten* (D),Niki Conforti (R),1,1
+House,Illinois-07,Congressional District,Illinois-07,Danny Davis* (D),Chad Koppie (R),1,1
+House,Illinois-08,Congressional District,Illinois-08,Raja Krishnamoorthi* (D),Mark Rice (R),1,1
+House,Illinois-09,Congressional District,Illinois-09,Jan Schakowsky* (D),Seth Cohen (R),1,1
+House,Illinois-10,Congressional District,Illinois-10,Brad Schneider* (D),Jim Carris (R),1,1
+House,Illinois-11,Congressional District,Illinois-11,Bill Foster* (D),Jerry Evans (R),1,1
+House,Illinois-12,Congressional District,Illinois-12,Brian Roberts (D),Mike Bost* (R),-1,1
+House,Illinois-13,Congressional District,Illinois-13,Nikki Budzinski* (D),Joshua Loyd (R),1,1
+House,Illinois-14,Congressional District,Illinois-14,Lauren Underwood* (D),Jim Marter (R),1,1
+House,Illinois-15,Congressional District,Illinois-15,NaN,Mary Miller* (R),-1,1
+House,Illinois-16,Congressional District,Illinois-16,NaN,Darin LaHood* (R),-1,1
+House,Illinois-17,Congressional District,Illinois-17,Eric Sorensen* (D),Joe McGraw (R),1,1
+House,Indiana-01,Congressional District,Indiana-01,Frank J. Mrvan* (D),Randy Niemeyer (R),1,1
+House,Indiana-02,Congressional District,Indiana-02,Lori Camp (D),Rudy Yakym* (R),-1,1
+House,Indiana-03,Congressional District,Indiana-03,Kiley Adolph (D),Marlin Stutzman (R),0,1
+House,Indiana-04,Congressional District,Indiana-04,Derrick Holder (D),Jim Baird* (R),-1,1
+House,Indiana-05,Congressional District,Indiana-05,Deborah Pickett (D),Victoria Spartz* (R),-1,1
+House,Indiana-06,Congressional District,Indiana-06,Cinde Wirth (D),Jefferson Shreve (R),0,1
+House,Indiana-07,Congressional District,Indiana-07,André Carson* (D),John Schmitz (R),1,1
+House,Indiana-08,Congressional District,Indiana-08,Erik Hurt (D),Mark Messmer (R),0,1
+House,Indiana-09,Congressional District,Indiana-09,Tim Peck (D),Erin Houchin* (R),-1,1
+House,Iowa-01,Congressional District,Iowa-01,Christina Bohannan (D),Mariannette Miller-Meeks* (R),-1,1
+House,Iowa-02,Congressional District,Iowa-02,Sarah Corkery (D),Ashely Hinson* (R),-1,1
+House,Iowa-03,Congressional District,Iowa-03,Lanon Baccam (D),Zach Nunn* (R),-1,1
+House,Iowa-04,Congressional District,Iowa-04,Ryan Melton (D),Randy Feenstra* (R),-1,1
+House,Kansas-01,Congressional District,Kansas-01,Paul Buskirk (D),Tracey Mann* (R),-1,1
+House,Kansas-02,Congressional District,Kansas-02,Nancy Boyda (D),Derek Schmidt (R),0,1
+House,Kansas-03,Congressional District,Kansas-03,Sharice Davids* (D),Prasanth Reddy (R),1,1
+House,Kansas-04,Congressional District,Kansas-04,Esau Freeman (D),Ron Estes* (R),-1,1
+House,Kentucky-01,Congressional District,Kentucky-01,Erin Marshall (D),James Comer* (R),-1,1
+House,Kentucky-02,Congressional District,Kentucky-02,Hank Linderman (D),Brett Guthrie* (R),-1,1
+House,Kentucky-03,Congressional District,Kentucky-03,Morgan McGarvey (D),Mike Craven* (R),-1,1
+House,Kentucky-04,Congressional District,Kentucky-04,NaN,Thomas Massie* (R),-1,1
+House,Kentucky-05,Congressional District,Kentucky-05,NaN,Hal Rogers* (R),-1,1
+House,Kentucky-06,Congressional District,Kentucky-06,Randy Cravens (D),Andy Barr* (R),-1,1
+House,Louisiana-01,Congressional District,Louisiana-01,Mel Manuel (D),Republicans* (R),-1,1
+House,Louisiana-02,Congressional District,Louisiana-02,Democrats* (D),Republicans (R),1,1
+House,Louisiana-03,Congressional District,Louisiana-03,Democrats (D),Republicans* (R),-1,1
+House,Louisiana-04,Congressional District,Louisiana-04,NaN,Republicans* (R),-1,1
+House,Louisiana-05,Congressional District,Louisiana-05,Michael Vallien Jr. (D),Republicans* (R),-1,1
+House,Louisiana-06,Congressional District,Louisiana-06,Democrats (D),Elbert Guillory (R),0,1
+House,Maine-01,Congressional District,Maine-01,Chellie Pingree* (D),Ronald Russell (R),1,1
+House,Maine-02,Congressional District,Maine-02,Jared Golden* (D),Austin Theriault (R),1,1
+House,Maryland-01,Congressional District,Maryland-01,Blane Miller (D),Andy Harris* (R),-1,1
+House,Maryland-02,Congressional District,Maryland-02,Johnny Olszewski (D),Kimerly Klacik (R),0,1
+House,Maryland-03,Congressional District,Maryland-03,Sarah Elfreth (D),Robert Steinberger (R),0,1
+House,Maryland-04,Congressional District,Maryland-04,Glenn Ivey* (D),George McDermott (R),1,1
+House,Maryland-05,Congressional District,Maryland-05,Steny Hoyer* (D),Michelle Takington (R),1,1
+House,Maryland-06,Congressional District,Maryland-06,April McClain Delaney (D),Neil Parrott (R),0,1
+House,Maryland-07,Congressional District,Maryland-07,Kweisi Mfume* (D),Scott Collier (R),1,1
+House,Maryland-08,Congressional District,Maryland-08,Jamie Raskin* (D),Cheryl Riley (R),1,1
+House,Massachusetts-01,Congressional District,Massachusetts-01,Richard Neal* (D),NaN,1,1
+House,Massachusetts-02,Congressional District,Massachusetts-02,Jim McGovern* (D),NaN,1,1
+House,Massachusetts-03,Congressional District,Massachusetts-03,Lori Trahan* (D),NaN,1,1
+House,Massachusetts-04,Congressional District,Massachusetts-04,Jake Auchincloss* (D),NaN,1,1
+House,Massachusetts-05,Congressional District,Massachusetts-05,Katherine Clark* (D),NaN,1,1
+House,Massachusetts-06,Congressional District,Massachusetts-06,Seth Moulton* (D),NaN,1,1
+House,Massachusetts-07,Congressional District,Massachusetts-07,Ayanna Pressley* (D),NaN,1,1
+House,Massachusetts-08,Congressional District,Massachusetts-08,Stephen Lynch* (D),Robert Burke (R),1,1
+House,Massachusetts-09,Congressional District,Massachusetts-09,Bill Keating* (D),Dan Sullivan (R),1,1
+House,Michigan-01,Congressional District,Michigan-01,Callie Barr (D),Jack Bergman* (R),-1,1
+House,Michigan-02,Congressional District,Michigan-02,Michael Lynch (D),John Moolenaar* (R),-1,1
+House,Michigan-03,Congressional District,Michigan-03,Hillary Scholten* (D),Paul Hudson (R),1,1
+House,Michigan-04,Congressional District,Michigan-04,Jessica Swartz (D),Bill Huizenga* (R),-1,1
+House,Michigan-05,Congressional District,Michigan-05,Libbi Urban (D),Tim Walberg* (R),-1,1
+House,Michigan-06,Congressional District,Michigan-06,Debbie Dingell* (D),Heather Smiley (R),1,1
+House,Michigan-07,Congressional District,Michigan-07,Curtis Hertel Jr. (D),Tom Barrett (R),0,1
+House,Michigan-08,Congressional District,Michigan-08,Kristen McDonald Rivet (D),Paul Junge (R),0,1
+House,Michigan-09,Congressional District,Michigan-09,Clinton St. Mosley (D),Lisa McClain* (R),-1,1
+House,Michigan-10,Congressional District,Michigan-10,Carl Marlinga (D),John James* (R),-1,1
+House,Michigan-11,Congressional District,Michigan-11,Haley Stevens* (D),Nick Somberg (R),1,1
+House,Michigan-12,Congressional District,Michigan-12,Rashida Tlaib* (D),James Hooper (R),1,1
+House,Michigan-13,Congressional District,Michigan-13,Shri Thanedar* (D),Martell Bivings (R),1,1
+House,Minnesota-01,Congressional District,Minnesota-01,Rachel Bohman (D),Brad Finstad* (R),-1,1
+House,Minnesota-02,Congressional District,Minnesota-02,Angie Craig* (D),Joe Teirab (R),1,1
+House,Minnesota-03,Congressional District,Minnesota-03,Kelly Morrison (D),Tad Jude (R),0,1
+House,Minnesota-04,Congressional District,Minnesota-04,Betty McCollum* (D),May Lor Xiong (R),1,1
+House,Minnesota-05,Congressional District,Minnesota-05,Ilhan Omar* (D),Dalia al-Aqidi (R),1,1
+House,Minnesota-06,Congressional District,Minnesota-06,Jeanne Hendricks (D),Tom Emmer* (R),-1,1
+House,Minnesota-07,Congressional District,Minnesota-07,A. J. Peters (D),Michelle Fischbach* (R),-1,1
+House,Minnesota-08,Congressional District,Minnesota-08,Jennifer Schultz (D),Pete Stauber* (R),-1,1
+House,Mississippi-01,Congressional District,Mississippi-01,Dianne Black (D),Trent Kelly* (R),-1,1
+House,Mississippi-02,Congressional District,Mississippi-02,Bennie Thompson* (D),Ron Eller (R),1,1
+House,Mississippi-03,Congressional District,Mississippi-03,NaN,Michael Guest* (R),-1,1
+House,Mississippi-04,Congressional District,Mississippi-04,Craig Raybon (D),Mike Ezell* (R),-1,1
+House,Missouri-01,Congressional District,Missouri-01,Wesley Bell (D),Andrew Jones (R),0,1
+House,Missouri-02,Congressional District,Missouri-02,Ray Hartmann (D),Ann Wagner* (R),-1,1
+House,Missouri-03,Congressional District,Missouri-03,Bethany Mann (D),Bob Onder (R),0,1
+House,Missouri-04,Congressional District,Missouri-04,Jeanette Cass (D),Mark Alford* (R),-1,1
+House,Missouri-05,Congressional District,Missouri-05,Emanuel Cleaver* (D),Sean Smith (R),1,1
+House,Missouri-06,Congressional District,Missouri-06,Pam May (D),Sam Graves* (R),-1,1
+House,Missouri-07,Congressional District,Missouri-07,Missi Hesketh (D),Eric Burlison* (R),-1,1
+House,Missouri-08,Congressional District,Missouri-08,Randi McCallian (D),Jason Smith* (R),-1,1
+House,Montana-01,Congressional District,Montana-01,Monica Tranel (D),Ryan Zinke* (R),-1,1
+House,Montana-02,Congressional District,Montana-02,John Driscoll (D),Troy Downing (R),0,1
+House,Nebraska-01,Congressional District,Nebraska-01,Carol Blood (D),Mike Flood* (R),-1,1
+House,Nebraska-02,Congressional District,Nebraska-02,Tony Vargas (D),Don Macon* (R),-1,1
+House,Nebraska-03,Congressional District,Nebraska-03,Daniel Ebers (D),Adrian Smith* (R),-1,1
+House,Nevada-01,Congressional District,Nevada-01,Dina Titus* (D),Mark Robertson (R),1,1
+House,Nevada-02,Congressional District,Nevada-02,NaN,Mark Amodei* (R),-1,1
+House,Nevada-03,Congressional District,Nevada-03,Susie Lee* (D),Drew Johnson (R),1,1
+House,Nevada-04,Congressional District,Nevada-04,Steven Horsford* (D),John Lee (R),1,1
+House,New Hampshire-01,Congressional District,New Hampshire-01,Chris Pappas* (D),Russell Prescott (R),1,1
+House,New Hampshire-02,Congressional District,New Hampshire-02,Maggie Goodlander (D),Lily Tang Williams (R),0,1
+House,New Jersey-01,Congressional District,New Jersey-01,Donald Norcross* (D),Teddy Liddell (R),1,1
+House,New Jersey-02,Congressional District,New Jersey-02,Joe Salerno (D),Jeff Van Drew* (R),-1,1
+House,New Jersey-03,Congressional District,New Jersey-03,Herb Conaway (D),Rajesh Mohan (R),0,1
+House,New Jersey-04,Congressional District,New Jersey-04,Matthew Jenkins (D),Chris Smith* (R),-1,1
+House,New Jersey-05,Congressional District,New Jersey-05,Josh Gottheimer* (D),Mary Jo Guinchard (R),1,1
+House,New Jersey-06,Congressional District,New Jersey-06,Frank Pallone* (D),Scott Fegler (R),1,1
+House,New Jersey-07,Congressional District,New Jersey-07,Sue Altman (D),Tom Kean Jr.* (R),-1,1
+House,New Jersey-08,Congressional District,New Jersey-08,Rob Menendez* (D),Anthony Valdes (R),1,1
+House,New Jersey-09,Congressional District,New Jersey-09,Nellie Pou (D),Billy Prempeh (R),0,1
+House,New Jersey-10,Congressional District,New Jersey-10,LaMonica McIver* (D),Carmen Bucco (R),1,1
+House,New Jersey-11,Congressional District,New Jersey-11,Mikie Sherrill* (D),Joseph Belnome (R),1,1
+House,New Jersey-12,Congressional District,New Jersey-12,Bonnie Watson Coleman* (D),Darius Mayfield (R),1,1
+House,New Mexico-01,Congressional District,New Mexico-01,Melanie Stansbury* (D),Steve Jones (R),1,1
+House,New Mexico-02,Congressional District,New Mexico-02,Gabe Vasquez* (D),Yvette Herrell (R),1,1
+House,New Mexico-03,Congressional District,New Mexico-03,Teresa Leger Fernandez* (D),Sharon Clahchischilliage (R),1,1
+House,New York-01,Congressional District,New York-01,John Avlon (D),Nick LaLota* (R),-1,1
+House,New York-02,Congressional District,New York-02,Rob Lubin (D),Andrew Garbarino* (R),-1,1
+House,New York-03,Congressional District,New York-03,Tom Suozzi* (D),Michael LiPetri (R),1,1
+House,New York-04,Congressional District,New York-04,Laura Gillen (D),Anthony D'Esposito* (R),-1,1
+House,New York-05,Congressional District,New York-05,Gregory Meeks* (D),Paul King (R),1,1
+House,New York-06,Congressional District,New York-06,Grace Meng* (D),Thomas Zmich (R),1,1
+House,New York-07,Congressional District,New York-07,Nydia Velázquez* (D),William Kregler (R),1,1
+House,New York-08,Congressional District,New York-08,Hakeem Jeffries* (D),John Delaney (R),1,1
+House,New York-09,Congressional District,New York-09,Yvette Clarke* (D),Menachem Raitport (R),1,1
+House,New York-10,Congressional District,New York-10,Dan Goldman* (D),Alex Dodenhoff (R),1,1
+House,New York-11,Congressional District,New York-11,Andrea Morse (D),Nicole Malliotakis* (R),-1,1
+House,New York-12,Congressional District,New York-12,Jerry Nadler* (D),Michael Zumbluskas (R),1,1
+House,New York-13,Congressional District,New York-13,Adriano Espaillat* (D),Ruben Vargas (R),1,1
+House,New York-14,Congressional District,New York-14,Alexandria Ocasio-Cortez* (D),Tina Forte (R),1,1
+House,New York-15,Congressional District,New York-15,Ritchie Torres* (D),Gonzalo Duran (R),1,1
+House,New York-16,Congressional District,New York-16,George Latimer (D),Miriam Levitt Flisser (R),0,1
+House,New York-17,Congressional District,New York-17,Mondaire Jones (D),Mike Lawler* (R),-1,1
+House,New York-18,Congressional District,New York-18,Pat Ryan* (D),Alison Esposito (R),1,1
+House,New York-19,Congressional District,New York-19,Josh Riley (D),Marc Molinaro* (R),-1,1
+House,New York-20,Congressional District,New York-20,Paul Tonko* (D),Kevin Waltz (R),1,1
+House,New York-21,Congressional District,New York-21,Paula Collins (D),Elise Stefanik* (R),-1,1
+House,New York-22,Congressional District,New York-22,John Mannion (D),Brandon Williams* (R),-1,1
+House,New York-23,Congressional District,New York-23,Thomas Cale (D),Nick Langworthy* (R),-1,1
+House,New York-24,Congressional District,New York-24,David Wagenhauser (D),Claudia Tenney* (R),-1,1
+House,New York-25,Congressional District,New York-25,Joseph Morrelle* (D),Gregg Sadwick (R),1,1
+House,New York-26,Congressional District,New York-26,Tim Kennedy* (D),Anthony Marecki (R),1,1
+House,North Carolina-01,Congressional District,North Carolina-01,Don Davis* (D),Laurie Buckhout (R),1,1
+House,North Carolina-02,Congressional District,North Carolina-02,Deborah Ross* (D),Alan Swain (R),1,1
+House,North Carolina-03,Congressional District,North Carolina-03,NaN,Greg Murphy* (R),-1,1
+House,North Carolina-04,Congressional District,North Carolina-04,Valerie Foushee* (D),Eric Blankenburg (R),1,1
+House,North Carolina-05,Congressional District,North Carolina-05,Chuck Hubbard (D),Virginia Foxx* (R),-1,1
+House,North Carolina-06,Congressional District,North Carolina-06,NaN,Addison McDowell (R),0,1
+House,North Carolina-07,Congressional District,North Carolina-07,Marlando Pridgen (D),David Rouzer* (R),-1,1
+House,North Carolina-08,Congressional District,North Carolina-08,Justin Dues (D),Mark Harris (R),0,1
+House,North Carolina-09,Congressional District,North Carolina-09,Nigel Bristow (D),Richard Hudson* (R),-1,1
+House,North Carolina-10,Congressional District,North Carolina-10,Ralpha Scott Jr. (D),Pat Harrigan (R),0,1
+House,North Carolina-11,Congressional District,North Carolina-11,Caleb Rudow (D),Chuck Edwards* (R),-1,1
+House,North Carolina-12,Congressional District,North Carolina-12,Alma Adams* (D),Addul Ali (R),1,1
+House,North Carolina-13,Congressional District,North Carolina-13,Frank Pierce (D),Brad Knott (R),0,1
+House,North Carolina-14,Congressional District,North Carolina-14,Pam Genant (D),Tim Moore (R),0,1
+House,North Dakota-00,Congressional District,North Dakota-00,Trygve Hammer (D),Julie Fedorchak (R),0,1
+House,Ohio-01,Congressional District,Ohio-01,Greg Landsman* (D),Orlando Sonza (R),1,1
+House,Ohio-02,Congressional District,Ohio-02,Samantha Meadows (D),David Taylor (R),0,1
+House,Ohio-03,Congressional District,Ohio-03,Joyce Beatty* (D),Michael Young (R),1,1
+House,Ohio-04,Congressional District,Ohio-04,Tamie Wilson (D),Jim Jordan* (R),-1,1
+House,Ohio-05,Congressional District,Ohio-05,Keith Mundy (D),Bob Latta* (R),-1,1
+House,Ohio-06,Congressional District,Ohio-06,Michael Kripchak (D),Michael Rulli* (R),-1,1
+House,Ohio-07,Congressional District,Ohio-07,Matt Diemer (D),Max Miller* (R),-1,1
+House,Ohio-08,Congressional District,Ohio-08,Vanessa Enoch (D),Warren Davidson* (R),-1,1
+House,Ohio-09,Congressional District,Ohio-09,Marcy Kaptur* (D),Derek Merrin (R),1,1
+House,Ohio-10,Congressional District,Ohio-10,Amy Cox (D),Mike Turner* (R),-1,1
+House,Ohio-11,Congressional District,Ohio-11,Shontel Brown* (D),Alan Rapoport (R),1,1
+House,Ohio-12,Congressional District,Ohio-12,Jerrad Christian (D),Troy Balderson* (R),-1,1
+House,Ohio-13,Congressional District,Ohio-13,Emilia Sykes* (D),Kevin Coughlin (R),1,1
+House,Ohio-14,Congressional District,Ohio-14,Brian Kenderes (D),David Joyce* (R),-1,1
+House,Ohio-15,Congressional District,Ohio-15,Adam Miller (D),Mike Carey* (R),-1,1
+House,Oklahoma-01,Congressional District,Oklahoma-01,Dennis Baker (D),Kevin Hern* (R),-1,1
+House,Oklahoma-02,Congressional District,Oklahoma-02,Brandon Wade (D),Josh Brecheen* (R),-1,1
+House,Oklahoma-03,Congressional District,Oklahoma-03,NaN,Frank Lucas* (R),-1,1
+House,Oklahoma-04,Congressional District,Oklahoma-04,Mary Brannon (D),Tom Cole* (R),-1,1
+House,Oklahoma-05,Congressional District,Oklahoma-05,Madison Horn (D),Stephanie Bice* (R),-1,1
+House,Oregon-01,Congressional District,Oregon-01,Suzanne. Bonamici* (D),Bob Todd (R),1,1
+House,Oregon-02,Congressional District,Oregon-02,Dan Ruby (D),Cliff Bentz* (R),-1,1
+House,Oregon-03,Congressional District,Oregon-03,Maxine Dexter (D),Joanna Harbour (R),0,1
+House,Oregon-04,Congressional District,Oregon-04,Val Hoyle* (D),Monique DeSpain (R),1,1
+House,Oregon-05,Congressional District,Oregon-05,Janelle Bynum (D),Lori Chavez-DeRemer* (R),-1,1
+House,Oregon-06,Congressional District,Oregon-06,Andrea Salinas* (D),Mike Erickson (R),1,1
+House,Pennsylvania-01,Congressional District,Pennsylvania-01,Ashley Ehasz (D),Brian Fitzpatrick* (R),-1,1
+House,Pennsylvania-02,Congressional District,Pennsylvania-02,Brendan Boyle* (D),Haroon Bashir (R),1,1
+House,Pennsylvania-03,Congressional District,Pennsylvania-03,Dwight Evans* (D),NaN,1,1
+House,Pennsylvania-04,Congressional District,Pennsylvania-04,Madeleine Dean* (D),David Winkler (R),1,1
+House,Pennsylvania-05,Congressional District,Pennsylvania-05,Mary Gay Scanlon* (D),Alfeia DeVaughn-Goodwin (R),1,1
+House,Pennsylvania-06,Congressional District,Pennsylvania-06,Chrissy Houlahan* (D),Neil Young Jr. (R),1,1
+House,Pennsylvania-07,Congressional District,Pennsylvania-07,Susan Wild* (D),Ryan Mackenzie (R),1,1
+House,Pennsylvania-08,Congressional District,Pennsylvania-08,Matt Cartwright* (D),Rob Bresnahan (R),1,1
+House,Pennsylvania-09,Congressional District,Pennsylvania-09,Amanda Waldman (D),Dan Meuser* (R),-1,1
+House,Pennsylvania-10,Congressional District,Pennsylvania-10,Janelle Stelson (D),Scott Perry* (R),-1,1
+House,Pennsylvania-11,Congressional District,Pennsylvania-11,Jim Atkinson (D),Lloyd Smucker* (R),-1,1
+House,Pennsylvania-12,Congressional District,Pennsylvania-12,Summer Lee* (D),James Hayes (R),1,1
+House,Pennsylvania-13,Congressional District,Pennsylvania-13,Beth Farnham (D),John Joyce* (R),-1,1
+House,Pennsylvania-14,Congressional District,Pennsylvania-14,Christopher Dziados (D),Guy Reschenthaler* (R),-1,1
+House,Pennsylvania-15,Congressional District,Pennsylvania-15,Zacheray Womer (D),Glenn Thompson* (R),-1,1
+House,Pennsylvania-16,Congressional District,Pennsylvania-16,Preston Nouri (D),Mike Kelly* (R),-1,1
+House,Pennsylvania-17,Congressional District,Pennsylvania-17,Chris Deluzio* (D),Rob Mercuri (R),1,1
+House,Rhode Island-01,Congressional District,Rhode Island-01,Gabe Amo* (D),Allen Waters (R),1,1
+House,Rhode Island-02,Congressional District,Rhode Island-02,Seth Magaziner* (D),Steve Corvi (R),1,1
+House,South Carolina-01,Congressional District,South Carolina-01,Michael Moore (D),Nancy Mace* (R),-1,1
+House,South Carolina-02,Congressional District,South Carolina-02,David Robinson II (D),Joe Wilson* (R),-1,1
+House,South Carolina-03,Congressional District,South Carolina-03,Bryon Best (D),Sheri Biggs (R),0,1
+House,South Carolina-04,Congressional District,South Carolina-04,Kathryn Harvey (D),William Timmons* (R),-1,1
+House,South Carolina-05,Congressional District,South Carolina-05,Evangeline Hundley (D),Ralph Norman* (R),-1,1
+House,South Carolina-06,Congressional District,South Carolina-06,Jim Clyburn* (D),Duke Buckner (R),1,1
+House,South Carolina-07,Congressional District,South Carolina-07,Mal Hyman (D),Russell Fry* (R),-1,1
+House,South Dakota-00,Congressional District,South Dakota-00,Sheryl Johnson (D),Dusty Johnson* (R),-1,1
+House,Tennessee-01,Congressional District,Tennessee-01,Kevin Jenkins (D),Diana Harshbarger* (R),-1,1
+House,Tennessee-02,Congressional District,Tennessee-02,Jane George (D),Tim Burchett* (R),-1,1
+House,Tennessee-03,Congressional District,Tennessee-03,Jack Allen (D),Chuck Fleischmann* (R),-1,1
+House,Tennessee-04,Congressional District,Tennessee-04,Victoria Broderick (D),Scott DesJarlais* (R),-1,1
+House,Tennessee-05,Congressional District,Tennessee-05,Maryam Abolfazli (D),Andy Ogles* (R),-1,1
+House,Tennessee-06,Congressional District,Tennessee-06,Lore Bergman (D),John Rose* (R),-1,1
+House,Tennessee-07,Congressional District,Tennessee-07,Megan Barry (D),Mark Green* (R),-1,1
+House,Tennessee-08,Congressional District,Tennessee-08,Sarah Freeman (D),David Kustoff* (R),-1,1
+House,Tennessee-09,Congressional District,Tennessee-09,Steve Cohen* (D),Charlotte Bergmann (R),1,1
+House,Texas-01,Congressional District,Texas-01,NaN,Nathaniel Moran* (R),-1,1
+House,Texas-02,Congressional District,Texas-02,Peter Filler (D),Dan Crenshaw* (R),-1,1
+House,Texas-03,Congressional District,Texas-03,Sandeep Srivastava (D),Keith Self* (R),-1,1
+House,Texas-04,Congressional District,Texas-04,Simon Cardell (D),Pat Fallon* (R),-1,1
+House,Texas-05,Congressional District,Texas-05,Ruth Torres (D),Lance Gooden* (R),-1,1
+House,Texas-06,Congressional District,Texas-06,John Love III (D),Jake Ellzey* (R),-1,1
+House,Texas-07,Congressional District,Texas-07,Lizzie Fletcher* (D),Caroline Kane (R),1,1
+House,Texas-08,Congressional District,Texas-08,Laura Jones (D),Morgan Luttrell* (R),-1,1
+House,Texas-09,Congressional District,Texas-09,Al Green* (D),NaN,1,1
+House,Texas-10,Congressional District,Texas-10,Theresa Boisseau (D),Michael McCaul* (R),-1,1
+House,Texas-11,Congressional District,Texas-11,NaN,August Pfluger* (R),-1,1
+House,Texas-12,Congressional District,Texas-12,Trey Hunt (D),Craig Goldman (R),0,1
+House,Texas-13,Congressional District,Texas-13,NaN,Ronny Jackson* (R),-1,1
+House,Texas-14,Congressional District,Texas-14,Rhonda Hart (D),Randy Weber* (R),-1,1
+House,Texas-15,Congressional District,Texas-15,Michelle Vallejo (D),Monica De La Cruz* (R),-1,1
+House,Texas-16,Congressional District,Texas-16,Veronica Escobar* (D),Irene Armendariz-Jackson (R),1,1
+House,Texas-17,Congressional District,Texas-17,Mark Lorenzen (D),Pete Sessions* (R),-1,1
+House,Texas-18,Congressional District,Texas-18,Sylvester Turner (D),Lana Centonze (R),0,1
+House,Texas-19,Congressional District,Texas-19,NaN,Jodey Arrington* (R),-1,1
+House,Texas-20,Congressional District,Texas-20,Joaquin Castro* (D),NaN,1,1
+House,Texas-21,Congressional District,Texas-21,Kristin Hook (D),Chip Roy* (R),-1,1
+House,Texas-22,Congressional District,Texas-22,Marquette Greene-Scott (D),Troy Nehls* (R),-1,1
+House,Texas-23,Congressional District,Texas-23,Santos Limon (D),Troy Gonzales* (R),-1,1
+House,Texas-24,Congressional District,Texas-24,Sam Eppler (D),Beth Van Duyne* (R),-1,1
+House,Texas-25,Congressional District,Texas-25,NaN,Roger Williams* (R),-1,1
+House,Texas-26,Congressional District,Texas-26,Ernest Lineberger III (D),Brandon Gill (R),0,1
+House,Texas-27,Congressional District,Texas-27,Tanya Lloyd (D),Michael Cloud* (R),-1,1
+House,Texas-28,Congressional District,Texas-28,Henry Cuellar* (D),Jay Furman (R),1,1
+House,Texas-29,Congressional District,Texas-29,Sylvia Garcia* (D),Alan Garza (R),1,1
+House,Texas-30,Congressional District,Texas-30,Jasmine Crockett* (D),NaN,1,1
+House,Texas-31,Congressional District,Texas-31,Stuart Whitlow (D),John Carter* (R),-1,1
+House,Texas-32,Congressional District,Texas-32,Julie Johnson (D),Darrell Day (R),0,1
+House,Texas-33,Congressional District,Texas-33,Marc Veasey* (D),Patrick Gillespie (R),1,1
+House,Texas-34,Congressional District,Texas-34,Vicente Gonzalez* (D),Mayra Flores (R),1,1
+House,Texas-35,Congressional District,Texas-35,Greg Casar* (D),Steven Wright (R),1,1
+House,Texas-36,Congressional District,Texas-36,Dayna Steele (D),Brian Babin* (R),-1,1
+House,Texas-37,Congressional District,Texas-37,Lloyd Doggett* (D),Jenny Garcia Sharon (R),1,1
+House,Texas-38,Congressional District,Texas-38,Melissa McDonough (D),Wesley Hunt* (R),-1,1
+House,Utah-01,Congressional District,Utah-01,Bill Campbell (D),Blake Moore* (R),-1,1
+House,Utah-02,Congressional District,Utah-02,Nathaniel Woodward (D),Celeste Maloy* (R),-1,1
+House,Utah-03,Congressional District,Utah-03,Glenn Wright (D),Mike Kennedy (R),0,1
+House,Utah-04,Congressional District,Utah-04,Katrina Fallick-Wang (D),Burgess Owens* (R),-1,1
+House,Vermont-00,Congressional District,Vermont-00,Becca Balint* (D),Mark Coester (R),1,1
+House,Virginia-01,Congressional District,Virginia-01,Leslie Mehta (D),Rob Wittman* (R),-1,1
+House,Virginia-02,Congressional District,Virginia-02,Missy Cotter Smasal (D),Jen Kiggans* (R),-1,1
+House,Virginia-03,Congressional District,Virginia-03,Bobby Scott* (D),John Sitka (R),1,1
+House,Virginia-04,Congressional District,Virginia-04,Jennifer McClellan* (D),Bill Moher (R),1,1
+House,Virginia-05,Congressional District,Virginia-05,Gloria Witt (D),John McGuire (R),0,1
+House,Virginia-06,Congressional District,Virginia-06,Ken Mitchell (D),Ben Cline* (R),-1,1
+House,Virginia-07,Congressional District,Virginia-07,Eugene Vindman (D),Derrick Anderson (R),0,1
+House,Virginia-08,Congressional District,Virginia-08,Don Beyer* (D),Jerry Torres (R),1,1
+House,Virginia-09,Congressional District,Virginia-09,Karen Baker (D),Morgan Griffith* (R),-1,1
+House,Virginia-10,Congressional District,Virginia-10,Suhas Subramanyam (D),Mike Clancy (R),0,1
+House,Virginia-11,Congressional District,Virginia-11,Gerry Connolly* (D),Mike Van Meter (R),1,1
+House,Washington-01,Congressional District,Washington-01,Suzan DelBene* (D),Jeb Brewer (R),1,1
+House,Washington-02,Congressional District,Washington-02,Rick Larsen* (D),Cody Hart (R),1,1
+House,Washington-03,Congressional District,Washington-03,Marie Gluesenkamp Perez* (D),Joe Kent (R),1,1
+House,Washington-04,Congressional District,Washington-04,NaN,Republicans* (R),-1,1
+House,Washington-05,Congressional District,Washington-05,Carmela Conroy (D),Michael Baumgartner (R),0,1
+House,Washington-06,Congressional District,Washington-06,Emily Randall (D),Drew MacEwen (R),0,1
+House,Washington-07,Congressional District,Washington-07,Pramila Jayapal* (D),Dan Alexander (R),1,1
+House,Washington-08,Congressional District,Washington-08,Kim Schrier* (D),Carmen Goers (R),1,1
+House,Washington-09,Congressional District,Washington-09,Democrats* (D),NaN,1,1
+House,Washington-10,Congressional District,Washington-10,Marilyn Strickland* (D),Don Hewett (R),1,1
+House,West Virginia-01,Congressional District,West Virginia-01,Chris Reed (D),Carol Miller* (R),-1,1
+House,West Virginia-02,Congressional District,West Virginia-02,Steven Wendelin (D),Riley Moore (R),0,1
+House,Wisconsin-01,Congressional District,Wisconsin-01,Peter Barca (D),Bryan Steil* (R),-1,1
+House,Wisconsin-02,Congressional District,Wisconsin-02,Mark Pocan* (D),Erik Olsen (R),1,1
+House,Wisconsin-03,Congressional District,Wisconsin-03,Rebecca Cooke (D),Derrick Van Orden* (R),-1,1
+House,Wisconsin-04,Congressional District,Wisconsin-04,Gwen Moore* (D),Tim Rogers (R),1,1
+House,Wisconsin-05,Congressional District,Wisconsin-05,Ben Steinhoff (D),Scott Fitzgerald* (R),-1,1
+House,Wisconsin-06,Congressional District,Wisconsin-06,John Zarbano (D),Glenn Grothman* (R),-1,1
+House,Wisconsin-07,Congressional District,Wisconsin-07,Kyle Kilbourn (D),Tom Tiffany* (R),-1,1
+House,Wisconsin-08,Congressional District,Wisconsin-08,Kristin Lyerly (D),Tony Wied (R),0,1
+House,Wyoming-00,Congressional District,Wyoming-00,Kyle Cameron (D),Harriet Hageman* (R),-1,1

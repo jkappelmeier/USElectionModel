@@ -1,7 +1,7 @@
 clear
 
 corrMatrix = readmatrix("CorrelationMatrix.csv");
-corrInfo = readtable("CorrelationInfoData.csv", "TextType", "string");
+districtInfo = readtable("CorrelationInfoData.csv", "TextType", "string");
 
-save("CorrelationData.mat");
+save("DistrictData.mat");
 

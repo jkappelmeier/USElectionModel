@@ -20,8 +20,8 @@ Presidential,Presidential,State,Kansas,2020,-1,1341697,0.4251
 Presidential,Presidential,State,Kentucky,2020,-1,2099161,0.368
 Presidential,Presidential,State,Louisiana,2020,-1,2111760,0.4054
 Presidential,Presidential,State,Maine,2020,-1,806928,0.5436
-Presidential,Presidential,Congressional District,Maine-01,2020,-1,421135,0.6189
-Presidential,Presidential,Congressional District,Maine-02,2020,-1,385793,0.4614
+Presidential,Presidential,Congressional District,Maine 1st,2020,-1,421135,0.6189
+Presidential,Presidential,Congressional District,Maine 2nd,2020,-1,385793,0.4614
 Presidential,Presidential,State,Maryland,2020,-1,2961408,0.6703
 Presidential,Presidential,State,Massachusetts,2020,-1,3549332,0.6712
 Presidential,Presidential,State,Michigan,2020,-1,5453997,0.5141
@@ -57,438 +57,438 @@ Presidential,Presidential,State,West Virginia,2020,-1,781300,0.302
 Presidential,Presidential,State,Wisconsin,2020,-1,3240985,0.5032
 Presidential,Presidential,State,Wyoming,2020,-1,267051,0.2752
 Generic Ballot,Generic Ballot,National,National,2022,1,105508455,0.486
-House,Alabama 1st,Congressional District,Alabama-01,2022,-1,140592,0
-House,Alabama 2nd,Congressional District,Alabama-02,2022,-1,195474,0.2968
-House,Alabama 3rd,Congressional District,Alabama-03,2022,-1,183461,0.2609
-House,Alabama 4th,Congressional District,Alabama-04,2022,-1,191349,0.1395
-House,Alabama 5th,Congressional District,Alabama-05,2022,0,205175,0.3058
-House,Alabama 6th,Congressional District,Alabama-06,2022,-1,154233,0
-House,Alabama 7th,Congressional District,Alabama-07,2022,1,190649,0.6464
-House,Alaska at-large,Congressional District,Alaska-00,2022,1,249734,0.5496
-House,Arizona 1st,Congressional District,Arizona-01,2022,-1,361477,0.4956
-House,Arizona 2nd,Congressional District,Arizona-02,2022,1,323320,0.4613
-House,Arizona 3rd,Congressional District,Arizona-03,2022,1,141074,0.7698
-House,Arizona 4th,Congressional District,Arizona-04,2022,1,265462,0.5611
-House,Arizona 5th,Congressional District,Arizona-05,2022,-1,302707,0.3972
-House,Arizona 6th,Congressional District,Arizona-06,2022,0,349170,0.4925
-House,Arizona 7th,Congressional District,Arizona-07,2022,1,195862,0.6454
-House,Arizona 8th,Congressional District,Arizona-08,2022,-1,197555,0
-House,Arizona 9th,Congressional District,Arizona-09,2022,-1,192796,0
-House,Arkansas 1st,Congressional District,Arkansas-01,2022,-1,208372,0.262
-House,Arkansas 2nd,Congressional District,Arkansas-02,2022,-1,234862,0.3699
-House,Arkansas 3rd,Congressional District,Arkansas-03,2022,-1,215942,0.3406
-House,Arkansas 4th,Congressional District,Arkansas-04,2022,-1,210595,0.2695
-House,California 1st,Congressional District,California-01,2022,-1,246225,0.3793
-House,California 2nd,Congressional District,California-02,2022,1,308749,0.744
-House,California 3rd,Congressional District,California-03,2022,0,338199,0.4635
-House,California 4th,Congressional District,California-04,2022,1,260907,0.678
-House,California 5th,Congressional District,California-05,2022,-1,283030,0.3869
-House,California 6th,Congressional District,California-06,2022,1,216383,0.5595
-House,California 7th,Congressional District,California-07,2022,1,220651,0.6826
-House,California 8th,Congressional District,California-08,2022,1,192135,0.7573
-House,California 9th,Congressional District,California-09,2022,1,174400,0.5482
-House,California 10th,Congressional District,California-10,2022,1,198415,1
-House,California 11th,Congressional District,California-11,2022,1,263065,0.8395
-House,California 12th,Congressional District,California-12,2022,1,239969,0.9047
-House,California 13th,Congressional District,California-13,2022,0,133556,0.4979
-House,California 14th,Congressional District,California-14,2022,1,198464,0.6934
-House,California 15th,Congressional District,California-15,2022,0,194874,1
-House,California 16th,Congressional District,California-16,2022,1,241007,1
-House,California 17th,Congressional District,California-17,2022,1,180253,0.7093
-House,California 18th,Congressional District,California-18,2022,1,151513,0.6585
-House,California 19th,Congressional District,California-19,2022,1,283310,0.6865
-House,California 20th,Congressional District,California-20,2022,-1,228781,0.3275
-House,California 21st,Congressional District,California-21,2022,1,125647,0.5418
-House,California 22nd,Congressional District,California-22,2022,-1,102856,0.4848
-House,California 23rd,Congressional District,California-23,2022,-1,169105,0.3897
-House,California 24th,Congressional District,California-24,2022,1,262552,0.6057
-House,California 25th,Congressional District,California-25,2022,1,152742,0.5738
-House,California 26th,Congressional District,California-26,2022,1,246789,0.5453
-House,California 27th,Congressional District,California-27,2022,-1,196516,0.4676
-House,California 28th,Congressional District,California-28,2022,1,226557,0.6624
-House,California 29th,Congressional District,California-29,2022,1,119435,1
-House,California 30th,Congressional District,California-30,2022,1,211068,1
-House,California 31st,Congressional District,California-31,2022,1,153625,0.5954
-House,California 32nd,Congressional District,California-32,2022,1,242029,0.6917
-House,California 33rd,Congressional District,California-33,2022,1,132707,0.5771
-House,California 34th,Congressional District,California-34,2022,1,121467,1
-House,California 35th,Congressional District,California-35,2022,1,130953,0.5736
-House,California 36th,Congressional District,California-36,2022,1,278563,0.6975
-House,California 37th,Congressional District,California-37,2022,0,131880,1
-House,California 38th,Congressional District,California-38,2022,1,174311,0.5809
-House,California 39th,Congressional District,California-39,2022,1,131597,0.5767
-House,California 40th,Congressional District,California-40,2022,-1,284311,0.4316
-House,California 41st,Congressional District,California-41,2022,-1,236638,0.4765
-House,California 42nd,Congressional District,California-42,2022,0,145120,0.6837
-House,California 43rd,Congressional District,California-43,2022,1,123447,0.7733
-House,California 44th,Congressional District,California-44,2022,1,138714,0.7221
-House,California 45th,Congressional District,California-45,2022,-1,217426,0.4759
-House,California 46th,Congressional District,California-46,2022,1,126298,0.6179
-House,California 47th,Congressional District,California-47,2022,1,265635,0.5172
-House,California 48th,Congressional District,California-48,2022,-1,257071,0.3964
-House,California 49th,Congressional District,California-49,2022,1,291735,0.5263
-House,California 50th,Congressional District,California-50,2022,1,268635,0.6284
-House,California 51st,Congressional District,California-51,2022,1,233072,0.6186
-House,California 52nd,Congressional District,California-52,2022,1,151016,0.6667
-House,Colorado 1st,Congressional District,Colorado-01,2022,1,276459,0.8208
-House,Colorado 2nd,Congressional District,Colorado-02,2022,1,341807,0.7142
-House,Colorado 3rd,Congressional District,Colorado-03,2022,-1,327132,0.4992
-House,Colorado 4th,Congressional District,Colorado-04,2022,-1,345643,0.375
-House,Colorado 5th,Congressional District,Colorado-05,2022,-1,267506,0.4186
-House,Colorado 6th,Congressional District,Colorado-06,2022,1,275224,0.6182
-House,Colorado 7th,Congressional District,Colorado-07,2022,0,355494,0.5766
-House,Colorado 8th,Congressional District,Colorado-08,2022,0,227122,0.5036
-House,Connecticut 1st,Congressional District,Connecticut-01,2022,0,241062,0.6204
-House,Connecticut 2nd,Congressional District,Connecticut-02,2022,1,280452,0.5917
-House,Connecticut 3rd,Congressional District,Connecticut-03,2022,1,236628,0.5829
-House,Connecticut 4th,Congressional District,Connecticut-04,2022,1,236084,0.5941
-House,Connecticut 5th,Congressional District,Connecticut-05,2022,1,253672,0.5039
-House,Delaware at-large,Congressional District,Delaware-00,2022,1,316617,0.5635
-House,Florida 1st,Congressional District,Florida-01,2022,-1,290816,0.3214
-House,Florida 2nd,Congressional District,Florida-02,2022,0,301389,0.402
-House,Florida 3rd,Congressional District,Florida-03,2022,-1,281483,0.3673
-House,Florida 4th,Congressional District,Florida-04,2022,0,274098,0.3955
-House,Florida 5th,Congressional District,Florida-05,2022,-1,0,0
-House,Florida 6th,Congressional District,Florida-06,2022,-1,226548,0
-House,Florida 7th,Congressional District,Florida-07,2022,0,304045,0.4147
-House,Florida 8th,Congressional District,Florida-08,2022,-1,342208,0.3509
-House,Florida 9th,Congressional District,Florida-09,2022,1,202368,0.5364
-House,Florida 10th,Congressional District,Florida-10,2022,0,196799,0.5994
-House,Florida 11th,Congressional District,Florida-11,2022,-1,321642,0.3596
-House,Florida 12th,Congressional District,Florida-12,2022,-1,321991,0.2963
-House,Florida 13th,Congressional District,Florida-13,2022,0,335363,0.4588
-House,Florida 14th,Congressional District,Florida-14,2022,1,263164,0.569
-House,Florida 15th,Congressional District,Florida-15,2022,0,248054,0.4146
-House,Florida 16th,Congressional District,Florida-16,2022,-1,305337,0.3785
-House,Florida 17th,Congressional District,Florida-17,2022,-1,346281,0.3575
-House,Florida 18th,Congressional District,Florida-18,2022,-1,167429,0
-House,Florida 19th,Congressional District,Florida-19,2022,-1,313261,0.3199
-House,Florida 20th,Congressional District,Florida-20,2022,1,188366,0.7231
-House,Florida 21st,Congressional District,Florida-21,2022,-1,328505,0.365
-House,Florida 22nd,Congressional District,Florida-22,2022,1,272204,0.5511
-House,Florida 23rd,Congressional District,Florida-23,2022,0,274632,0.5242
-House,Florida 24th,Congressional District,Florida-24,2022,1,185891,0.7179
-House,Florida 25th,Congressional District,Florida-25,2022,1,234352,0.5509
-House,Florida 26th,Congressional District,Florida-26,2022,-1,202108,0.2913
-House,Florida 27th,Congressional District,Florida-27,2022,-1,237442,0.4271
-House,Florida 28th,Congressional District,Florida-28,2022,-1,211122,0.3631
-House,Georgia 1st,Congressional District,Georgia-01,2022,-1,263965,0.4085
-House,Georgia 2nd,Congressional District,Georgia-02,2022,1,241340,0.5497
-House,Georgia 3rd,Congressional District,Georgia-03,2022,-1,310581,0.3125
-House,Georgia 4th,Congressional District,Georgia-04,2022,1,275634,0.7849
-House,Georgia 5th,Congressional District,Georgia-05,2022,1,295456,0.8248
-House,Georgia 6th,Congressional District,Georgia-06,2022,0,332498,0.3778
-House,Georgia 7th,Congressional District,Georgia-07,2022,1,234325,0.6105
-House,Georgia 8th,Congressional District,Georgia-08,2022,-1,260586,0.3142
-House,Georgia 9th,Congressional District,Georgia-09,2022,-1,294138,0.2765
-House,Georgia 10th,Congressional District,Georgia-10,2022,0,307630,0.3547
-House,Georgia 11th,Congressional District,Georgia-11,2022,-1,303657,0.374
-House,Georgia 12th,Congressional District,Georgia-12,2022,-1,265195,0.404
-House,Georgia 13th,Congressional District,Georgia-13,2022,1,264616,0.8177
-House,Georgia 14th,Congressional District,Georgia-14,2022,-1,258351,0.3414
-House,Hawaii 1st,Congressional District,Hawaii-01,2022,1,194763,0.737
-House,Hawaii 2nd,Congressional District,Hawaii-02,2022,0,201281,0.6379
-House,Idaho 1st,Congressional District,Idaho-01,2022,-1,305162,0.2696
-House,Idaho 2nd,Congressional District,Idaho-02,2022,-1,271186,0.3641
-House,Illinois 1st,Congressional District,Illinois-01,2022,0,237400,0.6704
-House,Illinois 2nd,Congressional District,Illinois-02,2022,1,209175,0.6713
-House,Illinois 3rd,Congressional District,Illinois-03,2022,0,177759,0.685
-House,Illinois 4th,Congressional District,Illinois-04,2022,1,128388,0.7091
-House,Illinois 5th,Congressional District,Illinois-05,2022,1,270111,0.7071
-House,Illinois 6th,Congressional District,Illinois-06,2022,1,276847,0.5436
-House,Illinois 7th,Congressional District,Illinois-07,2022,1,167650,1
-House,Illinois 8th,Congressional District,Illinois-08,2022,1,207215,0.5689
-House,Illinois 9th,Congressional District,Illinois-09,2022,1,250530,0.7169
-House,Illinois 10th,Congressional District,Illinois-10,2022,1,242165,0.63
-House,Illinois 11th,Congressional District,Illinois-11,2022,1,264241,0.5645
-House,Illinois 12th,Congressional District,Illinois-12,2022,-1,291170,0.25
-House,Illinois 13th,Congressional District,Illinois-13,2022,0,250434,0.5662
-House,Illinois 14th,Congressional District,Illinois-14,2022,1,236592,0.5416
-House,Illinois 15th,Congressional District,Illinois-15,2022,-1,299403,0.2886
-House,Illinois 16th,Congressional District,Illinois-16,2022,-1,297946,0.3367
-House,Illinois 17th,Congressional District,Illinois-17,2022,0,233117,0.5199
-House,Indiana 1st,Congressional District,Indiana-01,2022,1,213198,0.5284
-House,Indiana 2nd,Congressional District,Indiana-02,2022,0,188204,0.3342
-House,Indiana 3rd,Congressional District,Indiana-03,2022,-1,192156,0.3152
-House,Indiana 4th,Congressional District,Indiana-04,2022,-1,197698,0.3178
-House,Indiana 5th,Congressional District,Indiana-05,2022,-1,240009,0.3893
-House,Indiana 6th,Congressional District,Indiana-06,2022,-1,193524,0.3247
-House,Indiana 7th,Congressional District,Indiana-07,2022,1,170940,0.6863
-House,Indiana 8th,Congressional District,Indiana-08,2022,-1,210104,0.3242
-House,Indiana 9th,Congressional District,Indiana-09,2022,0,218866,0.3459
-House,Iowa 1st,Congressional District,Iowa-01,2022,-1,318121,0.4588
-House,Iowa 2nd,Congressional District,Iowa-02,2022,-1,318121,0.4588
-House,Iowa 3rd,Congressional District,Iowa-03,2022,1,310379,0.4965
-House,Iowa 4th,Congressional District,Iowa-04,2022,-1,270697,0.3112
-House,Kansas 1st,Congressional District,Kansas-01,2022,-1,238425,0.3233
-House,Kansas 2nd,Congressional District,Kansas-02,2022,-1,233358,0.4236
-House,Kansas 3rd,Congressional District,Kansas-03,2022,1,294366,0.5623
-House,Kansas 4th,Congressional District,Kansas-04,2022,-1,228740,0.3666
-House,Kentucky 1st,Congressional District,Kentucky-01,2022,-1,245858,0.251
-House,Kentucky 2nd,Congressional District,Kentucky-02,2022,-1,237256,0.2814
-House,Kentucky 3rd,Congressional District,Kentucky-03,2022,0,259557,0.62
-House,Kentucky 4th,Congressional District,Kentucky-04,2022,-1,247518,0.3231
-House,Kentucky 5th,Congressional District,Kentucky-05,2022,-1,216261,0.1783
-House,Kentucky 6th,Congressional District,Kentucky-06,2022,-1,237767,0.3491
-House,Louisiana 1st,Congressional District,Louisiana-01,2022,-1,239137,0.257
-House,Louisiana 2nd,Congressional District,Louisiana-02,2022,1,205047,0.7711
-House,Louisiana 3rd,Congressional District,Louisiana-03,2022,-1,219677,0.204
-House,Louisiana 4th,Congressional District,Louisiana-04,2022,-1,0,0
-House,Louisiana 5th,Congressional District,Louisiana-05,2022,-1,223553,0.2439
-House,Louisiana 6th,Congressional District,Louisiana-06,2022,-1,205219,0
-House,Maine 1st,Congressional District,Maine-01,2022,1,349016,0.6296
-House,Maine 2nd,Congressional District,Maine-02,2022,1,311278,0.5305
-House,Maryland 1st,Congressional District,Maryland-01,2022,-1,286184,0.4421
-House,Maryland 2nd,Congressional District,Maryland-02,2022,1,268073,0.5931
-House,Maryland 3rd,Congressional District,Maryland-03,2022,1,291315,0.6025
-House,Maryland 4th,Congressional District,Maryland-04,2022,0,159609,0.9033
-House,Maryland 5th,Congressional District,Maryland-05,2022,1,276478,0.66
-House,Maryland 6th,Congressional District,Maryland-06,2022,1,256066,0.5479
-House,Maryland 7th,Congressional District,Maryland-07,2022,1,184377,0.8224
-House,Maryland 8th,Congressional District,Maryland-08,2022,1,259807,0.8154
-House,Massachusetts 1st,Congressional District,Massachusetts-01,2022,1,256021,0.6157
-House,Massachusetts 2nd,Congressional District,Massachusetts-02,2022,1,272595,0.6627
-House,Massachusetts 3rd,Congressional District,Massachusetts-03,2022,1,243081,0.6356
-House,Massachusetts 4th,Congressional District,Massachusetts-04,2022,1,201882,1
-House,Massachusetts 5th,Congressional District,Massachusetts-05,2022,1,275485,0.7405
-House,Massachusetts 6th,Congressional District,Massachusetts-06,2022,1,308889,0.6414
-House,Massachusetts 7th,Congressional District,Massachusetts-07,2022,1,178954,0.8484
-House,Massachusetts 8th,Congressional District,Massachusetts-08,2022,1,272113,0.6982
-House,Massachusetts 9th,Congressional District,Massachusetts-09,2022,1,334170,0.592
-House,Michigan 1st,Congressional District,Michigan-01,2022,-1,378497,0.3842
-House,Michigan 2nd,Congressional District,Michigan-02,2022,-1,332674,0.35
-House,Michigan 3rd,Congressional District,Michigan-03,2022,0,328218,0.5667
-House,Michigan 4th,Congressional District,Michigan-04,2022,-1,327626,0.4386
-House,Michigan 5th,Congressional District,Michigan-05,2022,-1,308966,0.3591
-House,Michigan 6th,Congressional District,Michigan-06,2022,1,366926,0.6589
-House,Michigan 7th,Congressional District,Michigan-07,2022,1,365433,0.5276
-House,Michigan 8th,Congressional District,Michigan-08,2022,1,322172,0.5535
-House,Michigan 9th,Congressional District,Michigan-09,2022,-1,362002,0.3417
-House,Michigan 10th,Congressional District,Michigan-10,2022,0,316804,0.4975
-House,Michigan 11th,Congressional District,Michigan-11,2022,1,366179,0.6132
-House,Michigan 12th,Congressional District,Michigan-12,2022,1,269531,0.7296
-House,Michigan 13th,Congressional District,Michigan-13,2022,0,222837,0.7479
-House,Minnesota 1st,Congressional District,Minnesota-01,2022,-1,285078,0.4401
-House,Minnesota 2nd,Congressional District,Minnesota-02,2022,1,314159,0.5271
-House,Minnesota 3rd,Congressional District,Minnesota-03,2022,1,333680,0.596
-House,Minnesota 4th,Congressional District,Minnesota-04,2022,1,295548,0.6769
-House,Minnesota 5th,Congressional District,Minnesota-05,2022,1,284926,0.7519
-House,Minnesota 6th,Congressional District,Minnesota-06,2022,-1,318997,0.3788
-House,Minnesota 7th,Congressional District,Minnesota-07,2022,-1,289221,0.292
-House,Minnesota 8th,Congressional District,Minnesota-08,2022,-1,329764,0.4276
-House,Mississippi 1st,Congressional District,Mississippi-01,2022,-1,167389,0.2703
-House,Mississippi 2nd,Congressional District,Mississippi-02,2022,1,180169,0.601
-House,Mississippi 3rd,Congressional District,Mississippi-03,2022,-1,187284,0.2926
-House,Mississippi 4th,Congressional District,Mississippi-04,2022,0,170689,0.2512
-House,Missouri 1st,Congressional District,Missouri-01,2022,1,214675,0.75
-House,Missouri 2nd,Congressional District,Missouri-02,2022,-1,309172,0.4395
-House,Missouri 3rd,Congressional District,Missouri-03,2022,-1,277597,0.3489
-House,Missouri 4th,Congressional District,Missouri-04,2022,0,248959,0.2694
-House,Missouri 5th,Congressional District,Missouri-05,2022,1,224696,0.6261
-House,Missouri 6th,Congressional District,Missouri-06,2022,-1,257118,0.281
-House,Missouri 7th,Congressional District,Missouri-07,2022,0,246077,0.2742
-House,Missouri 8th,Congressional District,Missouri-08,2022,-1,240210,0.2237
-House,Montana 1st,Congressional District,Montana-01,2022,0,238367,0.4836
-House,Montana 2nd,Congressional District,Montana-02,2022,-1,165459,0.2628
-House,Nebraska 1st,Congressional District,Nebraska-01,2022,-1,223165,0.4209
-House,Nebraska 2nd,Congressional District,Nebraska-02,2022,-1,219470,0.4867
-House,Nebraska 3rd,Congressional District,Nebraska-03,2022,-1,207536,0.1679
-House,Nevada 1st,Congressional District,Nevada-01,2022,1,218815,0.5288
-House,Nevada 2nd,Congressional District,Nevada-02,2022,-1,302838,0.3876
-House,Nevada 3rd,Congressional District,Nevada-03,2022,1,252169,0.5198
-House,Nevada 4th,Congressional District,Nevada-04,2022,1,222487,0.5242
-House,New Hampshire 1st,Congressional District,New Hampshire-01,2022,1,309620,0.5406
-House,New Hampshire 2nd,Congressional District,New Hampshire-02,2022,1,307215,0.5587
-House,New Jersey 1st,Congressional District,New Jersey-01,2022,1,218353,0.6391
-House,New Jersey 2nd,Congressional District,New Jersey-02,2022,-1,233739,0.4044
-House,New Jersey 3rd,Congressional District,New Jersey-03,2022,1,268913,0.5597
-House,New Jersey 4th,Congressional District,New Jersey-04,2022,-1,254521,0.3192
-House,New Jersey 5th,Congressional District,New Jersey-05,2022,1,263432,0.5525
-House,New Jersey 6th,Congressional District,New Jersey-06,2022,1,182077,0.5835
-House,New Jersey 7th,Congressional District,New Jersey-07,2022,1,310093,0.486
-House,New Jersey 8th,Congressional District,New Jersey-08,2022,0,103339,0.7585
-House,New Jersey 9th,Congressional District,New Jersey-09,2022,1,147822,0.5578
-House,New Jersey 10th,Congressional District,New Jersey-10,2022,1,126703,0.7949
-House,New Jersey 11th,Congressional District,New Jersey-11,2022,1,271388,0.5949
-House,New Jersey 12th,Congressional District,New Jersey-12,2022,1,196302,0.6374
-House,New Mexico 1st,Congressional District,New Mexico-01,2022,1,280613,0.5576
-House,New Mexico 2nd,Congressional District,New Mexico-02,2022,-1,192622,0.5035
-House,New Mexico 3rd,Congressional District,New Mexico-03,2022,1,230782,0.5816
-House,New York 1st,Congressional District,New York-01,2022,0,318947,0.4449
-House,New York 2nd,Congressional District,New York-02,2022,-1,248952,0.3927
-House,New York 3rd,Congressional District,New York-03,2022,0,271228,0.4624
-House,New York 4th,Congressional District,New York-04,2022,0,271493,0.482
-House,New York 5th,Congressional District,New York-05,2022,1,138803,0.7521
-House,New York 6th,Congressional District,New York-06,2022,1,132984,0.6395
-House,New York 7th,Congressional District,New York-07,2022,1,148070,0.8069
-House,New York 8th,Congressional District,New York-08,2022,1,138139,0.7172
-House,New York 9th,Congressional District,New York-09,2022,1,116970,1
-House,New York 10th,Congressional District,New York-10,2022,0,189640,0.8468
-House,New York 11th,Congressional District,New York-11,2022,-1,187793,0.3823
-House,New York 12th,Congressional District,New York-12,2022,1,245063,0.8197
-House,New York 13th,Congressional District,New York-13,2022,1,116589,1
-House,New York 14th,Congressional District,New York-14,2022,1,114388,0.7208
-House,New York 15th,Congressional District,New York-15,2022,1,92288,0.8279
-House,New York 16th,Congressional District,New York-16,2022,1,207723,0.643
-House,New York 17th,Congressional District,New York-17,2022,1,285280,0.4968
-House,New York 18th,Congressional District,New York-18,2022,1,266898,0.5067
-House,New York 19th,Congressional District,New York-19,2022,0,287513,0.4922
-House,New York 20th,Congressional District,New York-20,2022,1,291289,0.5507
-House,New York 21st,Congressional District,New York-21,2022,-1,285000,0.4085
-House,New York 22nd,Congressional District,New York-22,2022,0,268457,0.4951
-House,New York 23rd,Congressional District,New York-23,2022,0,296808,0.3508
-House,New York 24th,Congressional District,New York-24,2022,-1,277082,0.343
-House,New York 25th,Congressional District,New York-25,2022,1,282212,0.5387
-House,New York 26th,Congressional District,New York-26,2022,1,245222,0.6398
-House,North Carolina 1st,Congressional District,North Carolina-01,2022,0,257776,0.5237
-House,North Carolina 2nd,Congressional District,North Carolina-02,2022,1,294869,0.6468
-House,North Carolina 3rd,Congressional District,North Carolina-03,2022,-1,248898,0.331
-House,North Carolina 4th,Congressional District,North Carolina-04,2022,0,291425,0.6691
-House,North Carolina 5th,Congressional District,North Carolina-05,2022,-1,277548,0.3685
-House,North Carolina 6th,Congressional District,North Carolina-06,2022,1,256188,0.5447
-House,North Carolina 7th,Congressional District,North Carolina-07,2022,-1,284269,0.4229
-House,North Carolina 8th,Congressional District,North Carolina-08,2022,-1,263190,0.3009
-House,North Carolina 9th,Congressional District,North Carolina-09,2022,-1,232655,0.435
-House,North Carolina 10th,Congressional District,North Carolina-10,2022,-1,267855,0.2732
-House,North Carolina 11th,Congressional District,North Carolina-11,2022,0,318397,0.4528
-House,North Carolina 12th,Congressional District,North Carolina-12,2022,1,223908,0.6275
-House,North Carolina 13th,Congressional District,North Carolina-13,2022,0,277346,0.5159
-House,North Carolina 14th,Congressional District,North Carolina-14,2022,0,257752,0.5771
-House,North Dakota at-large,Congressional District,North Dakota-00,2022,-1,238043,0.3766
-House,Ohio 1st,Congressional District,Ohio-01,2022,-1,296474,0.5276
-House,Ohio 2nd,Congressional District,Ohio-02,2022,-1,257862,0.255
-House,Ohio 3rd,Congressional District,Ohio-03,2022,1,258779,0.7046
-House,Ohio 4th,Congressional District,Ohio-04,2022,-1,290156,0.3081
-House,Ohio 5th,Congressional District,Ohio-05,2022,-1,279937,0.3309
-House,Ohio 6th,Congressional District,Ohio-06,2022,-1,280383,0.3228
-House,Ohio 7th,Congressional District,Ohio-07,2022,0,303487,0.4464
-House,Ohio 8th,Congressional District,Ohio-08,2022,-1,278916,0.3536
-House,Ohio 9th,Congressional District,Ohio-09,2022,1,266017,0.5663
-House,Ohio 10th,Congressional District,Ohio-10,2022,-1,272961,0.3833
-House,Ohio 11th,Congressional District,Ohio-11,2022,1,215710,0.7775
-House,Ohio 12th,Congressional District,Ohio-12,2022,-1,276237,0.3073
-House,Ohio 13th,Congressional District,Ohio-13,2022,0,284409,0.5268
-House,Ohio 14th,Congressional District,Ohio-14,2022,-1,297028,0.3826
-House,Ohio 15th,Congressional District,Ohio-15,2022,-1,251251,0.4304
-House,Oklahoma 1st,Congressional District,Oklahoma-01,2022,-1,223774,0.3619
-House,Oklahoma 2nd,Congressional District,Oklahoma-02,2022,0,222037,0.2441
-House,Oklahoma 3rd,Congressional District,Oklahoma-03,2022,-1,197772,0.2546
-House,Oklahoma 4th,Congressional District,Oklahoma-04,2022,-1,224546,0.3325
-House,Oklahoma 5th,Congressional District,Oklahoma-05,2022,-1,249498,0.388
-House,Oregon 1st,Congressional District,Oregon-01,2022,1,309724,0.6802
-House,Oregon 2nd,Congressional District,Oregon-02,2022,-1,308251,0.324
-House,Oregon 3rd,Congressional District,Oregon-03,2022,1,291885,0.7267
-House,Oregon 4th,Congressional District,Oregon-04,2022,0,317427,0.5399
-House,Oregon 5th,Congressional District,Oregon-05,2022,0,350327,0.4896
-House,Oregon 6th,Congressional District,Oregon-06,2022,0,287102,0.5126
-House,Pennsylvania 1st,Congressional District,Pennsylvania-01,2022,-1,367380,0.4513
-House,Pennsylvania 2nd,Congressional District,Pennsylvania-02,2022,1,186683,0.7565
-House,Pennsylvania 3rd,Congressional District,Pennsylvania-03,2022,1,251115,1
-House,Pennsylvania 4th,Congressional District,Pennsylvania-04,2022,1,366785,0.6129
-House,Pennsylvania 5th,Congressional District,Pennsylvania-05,2022,1,315186,0.6508
-House,Pennsylvania 6th,Congressional District,Pennsylvania-06,2022,1,326483,0.5831
-House,Pennsylvania 7th,Congressional District,Pennsylvania-07,2022,1,296891,0.5098
-House,Pennsylvania 8th,Congressional District,Pennsylvania-08,2022,1,286886,0.5122
-House,Pennsylvania 9th,Congressional District,Pennsylvania-09,2022,-1,301807,0.3069
-House,Pennsylvania 10th,Congressional District,Pennsylvania-10,2022,-1,314546,0.4617
-House,Pennsylvania 11th,Congressional District,Pennsylvania-11,2022,-1,316826,0.3845
-House,Pennsylvania 12th,Congressional District,Pennsylvania-12,2022,0,328620,0.562
-House,Pennsylvania 13th,Congressional District,Pennsylvania-13,2022,-1,260345,0
-House,Pennsylvania 14th,Congressional District,Pennsylvania-14,2022,-1,81243,0
-House,Pennsylvania 15th,Congressional District,Pennsylvania-15,2022,-1,305146,0.3006
-House,Pennsylvania 16th,Congressional District,Pennsylvania-16,2022,-1,320989,0.4064
-House,Pennsylvania 17th,Congressional District,Pennsylvania-17,2022,0,362628,0.5339
-House,Rhode Island 1st,Congressional District,Rhode Island-01,2022,1,156373,0.6415
-House,Rhode Island 2nd,Congressional District,Rhode Island-02,2022,0,195401,0.5191
-House,South Carolina 1st,Congressional District,South Carolina-01,2022,-1,269553,0.4296
-House,South Carolina 2nd,Congressional District,South Carolina-02,2022,-1,245780,0.3991
-House,South Carolina 3rd,Congressional District,South Carolina-03,2022,-1,189971,0
-House,South Carolina 4th,Congressional District,South Carolina-04,2022,-1,165607,0
-House,South Carolina 5th,Congressional District,South Carolina-05,2022,-1,238024,0.35
-House,South Carolina 6th,Congressional District,South Carolina-06,2022,1,210802,0.6211
-House,South Carolina 7th,Congressional District,South Carolina-07,2022,0,253470,0.3512
-House,South Dakota at-large,Congressional District,South Dakota-00,2022,-1,253821,0
-House,Tennessee 1st,Congressional District,Tennessee-01,2022,-1,184290,0.201
-House,Tennessee 2nd,Congressional District,Tennessee-02,2022,-1,207762,0.3209
-House,Tennessee 3rd,Congressional District,Tennessee-03,2022,-1,196973,0.3063
-House,Tennessee 4th,Congressional District,Tennessee-04,2022,-1,167049,0.2673
-House,Tennessee 5th,Congressional District,Tennessee-05,2022,0,217206,0.4311
-House,Tennessee 6th,Congressional District,Tennessee-06,2022,-1,195063,0.3367
-House,Tennessee 7th,Congressional District,Tennessee-07,2022,-1,177394,0.3888
-House,Tennessee 8th,Congressional District,Tennessee-08,2022,-1,206704,0.2472
-House,Tennessee 9th,Congressional District,Tennessee-09,2022,1,128923,0.7276
-House,Texas 1st,Congressional District,Texas-01,2022,0,234662,0.2192
-House,Texas 2nd,Congressional District,Texas-02,2022,-1,230287,0.3409
-House,Texas 3rd,Congressional District,Texas-03,2022,0,264361,0.3787
-House,Texas 4th,Congressional District,Texas-04,2022,-1,249960,0.3168
-House,Texas 5th,Congressional District,Texas-05,2022,-1,207525,0.3466
-House,Texas 6th,Congressional District,Texas-06,2022,-1,149321,0
-House,Texas 7th,Congressional District,Texas-07,2022,1,181829,0.6379
-House,Texas 8th,Congressional District,Texas-08,2022,0,221842,0.3097
-House,Texas 9th,Congressional District,Texas-09,2022,1,163607,0.7668
-House,Texas 10th,Congressional District,Texas-10,2022,-1,245873,0.3514
-House,Texas 11th,Congressional District,Texas-11,2022,-1,151066,0
-House,Texas 12th,Congressional District,Texas-12,2022,-1,237979,0.3573
-House,Texas 13th,Congressional District,Texas-13,2022,-1,214677,0.2465
-House,Texas 14th,Congressional District,Texas-14,2022,-1,218149,0.3145
-House,Texas 15th,Congressional District,Texas-15,2022,0,149075,0.4568
-House,Texas 16th,Congressional District,Texas-16,2022,1,150496,0.6346
-House,Texas 17th,Congressional District,Texas-17,2022,-1,217209,0.3352
-House,Texas 18th,Congressional District,Texas-18,2022,1,151452,0.7297
-House,Texas 19th,Congressional District,Texas-19,2022,-1,152321,0
-House,Texas 20th,Congressional District,Texas-20,2022,1,168578,0.6843
-House,Texas 21st,Congressional District,Texas-21,2022,-1,330081,0.3716
-House,Texas 22nd,Congressional District,Texas-22,2022,-1,235667,0.3634
-House,Texas 23rd,Congressional District,Texas-23,2022,-1,197596,0.4097
-House,Texas 24th,Congressional District,Texas-24,2022,-1,297825,0.4025
-House,Texas 25th,Congressional District,Texas-25,2022,-1,185270,0
-House,Texas 26th,Congressional District,Texas-26,2022,-1,265023,0
-House,Texas 27th,Congressional District,Texas-27,2022,-1,207027,0.3556
-House,Texas 28th,Congressional District,Texas-28,2022,1,165581,0.5665
-House,Texas 29th,Congressional District,Texas-29,2022,1,100602,0.7141
-House,Texas 30th,Congressional District,Texas-30,2022,0,174085,0.7748
-House,Texas 31st,Congressional District,Texas-31,2022,-1,183185,0
-House,Texas 32nd,Congressional District,Texas-32,2022,1,177499,0.6536
-House,Texas 33rd,Congressional District,Texas-33,2022,1,111284,0.7376
-House,Texas 34th,Congressional District,Texas-34,2022,1,130360,0.5438
-House,Texas 35th,Congressional District,Texas-35,2022,0,178568,0.7258
-House,Texas 36th,Congressional District,Texas-36,2022,-1,209615,0.3054
-House,Texas 37th,Congressional District,Texas-37,2022,1,279281,0.7854
-House,Texas 38th,Congressional District,Texas-38,2022,0,255899,0.3607
-House,Utah 1st,Congressional District,Utah-01,2022,-1,266420,0.3303
-House,Utah 2nd,Congressional District,Utah-02,2022,-1,243107,0.3629
-House,Utah 3rd,Congressional District,Utah-03,2022,-1,266184,0.3144
-House,Utah 4th,Congressional District,Utah-04,2022,-1,237291,0.3463
-House,Vermont at-large,Congressional District,Vermont-00,2022,0,254791,0.6927
-House,Virginia 1st,Congressional District,Virginia-01,2022,-1,339057,0.4342
-House,Virginia 2nd,Congressional District,Virginia-02,2022,1,296547,0.483
-House,Virginia 3rd,Congressional District,Virginia-03,2022,1,207327,0.6736
-House,Virginia 4th,Congressional District,Virginia-04,2022,1,244547,0.6504
-House,Virginia 5th,Congressional District,Virginia-05,2022,-1,307187,0.4232
-House,Virginia 6th,Congressional District,Virginia-06,2022,-1,268762,0.355
-House,Virginia 7th,Congressional District,Virginia-07,2022,1,273943,0.5233
-House,Virginia 8th,Congressional District,Virginia-08,2022,1,264349,0.7481
-House,Virginia 9th,Congressional District,Virginia-09,2022,-1,248234,0.266
-House,Virginia 10th,Congressional District,Virginia-10,2022,1,295568,0.5326
-House,Virginia 11th,Congressional District,Virginia-11,2022,1,288824,0.6689
-House,Washington 1st,Congressional District,Washington-01,2022,1,286321,0.6356
-House,Washington 2nd,Congressional District,Washington-02,2022,1,337315,0.6018
-House,Washington 3rd,Congressional District,Washington-03,2022,0,318013,0.5041
-House,Washington 4th,Congressional District,Washington-04,2022,-1,221329,0.3195
-House,Washington 5th,Congressional District,Washington-05,2022,-1,316233,0.4035
-House,Washington 6th,Congressional District,Washington-06,2022,1,347464,0.6007
-House,Washington 7th,Congressional District,Washington-07,2022,1,345205,0.8575
-House,Washington 8th,Congressional District,Washington-08,2022,1,334979,0.5344
-House,Washington 9th,Congressional District,Washington-09,2022,1,239377,0.7175
-House,Washington 10th,Congressional District,Washington-10,2022,1,267321,0.5706
-House,West Virginia 1st,Congressional District,West Virginia-01,2022,-1,216939,0.3016
-House,West Virginia 2nd,Congressional District,West Virginia-02,2022,-1,244771,0.3443
-House,Wisconsin 1st,Congressional District,Wisconsin-01,2022,-1,298435,0.4551
-House,Wisconsin 2nd,Congressional District,Wisconsin-02,2022,1,370630,0.7251
-House,Wisconsin 3rd,Congressional District,Wisconsin-03,2022,0,317720,0.4815
-House,Wisconsin 4th,Congressional District,Wisconsin-04,2022,1,249615,0.769
-House,Wisconsin 5th,Congressional District,Wisconsin-05,2022,-1,378322,0.3557
-House,Wisconsin 6th,Congressional District,Wisconsin-06,2022,-1,239231,0
-House,Wisconsin 7th,Congressional District,Wisconsin-07,2022,-1,338101,0.3812
-House,Wisconsin 8th,Congressional District,Wisconsin-08,2022,-1,223981,0
-House,Wyoming at-large,Congressional District,Wyoming-00,2022,0,179456,0.2633
+House,Alabama-01,Congressional District,Alabama-01,2022,-1,140592,0
+House,Alabama-02,Congressional District,Alabama-02,2022,-1,195474,0.2968
+House,Alabama-03,Congressional District,Alabama-03,2022,-1,183461,0.2609
+House,Alabama-04,Congressional District,Alabama-04,2022,-1,191349,0.1395
+House,Alabama-05,Congressional District,Alabama-05,2022,0,205175,0.3058
+House,Alabama-06,Congressional District,Alabama-06,2022,-1,154233,0
+House,Alabama-07,Congressional District,Alabama-07,2022,1,190649,0.6464
+House,Alaska-00,Congressional District,Alaska-00,2022,1,249734,0.5496
+House,Arizona-01,Congressional District,Arizona-01,2022,-1,361477,0.4956
+House,Arizona-02,Congressional District,Arizona-02,2022,1,323320,0.4613
+House,Arizona-03,Congressional District,Arizona-03,2022,1,141074,0.7698
+House,Arizona-04,Congressional District,Arizona-04,2022,1,265462,0.5611
+House,Arizona-05,Congressional District,Arizona-05,2022,-1,302707,0.3972
+House,Arizona-06,Congressional District,Arizona-06,2022,0,349170,0.4925
+House,Arizona-07,Congressional District,Arizona-07,2022,1,195862,0.6454
+House,Arizona-08,Congressional District,Arizona-08,2022,-1,197555,0
+House,Arizona-09,Congressional District,Arizona-09,2022,-1,192796,0
+House,Arkansas-01,Congressional District,Arkansas-01,2022,-1,208372,0.262
+House,Arkansas-02,Congressional District,Arkansas-02,2022,-1,234862,0.3699
+House,Arkansas-03,Congressional District,Arkansas-03,2022,-1,215942,0.3406
+House,Arkansas-04,Congressional District,Arkansas-04,2022,-1,210595,0.2695
+House,California-01,Congressional District,California-01,2022,-1,246225,0.3793
+House,California-02,Congressional District,California-02,2022,1,308749,0.744
+House,California-03,Congressional District,California-03,2022,0,338199,0.4635
+House,California-04,Congressional District,California-04,2022,1,260907,0.678
+House,California-05,Congressional District,California-05,2022,-1,283030,0.3869
+House,California-06,Congressional District,California-06,2022,1,216383,0.5595
+House,California-07,Congressional District,California-07,2022,1,220651,0.6826
+House,California-08,Congressional District,California-08,2022,1,192135,0.7573
+House,California-09,Congressional District,California-09,2022,1,174400,0.5482
+House,California-10,Congressional District,California-10,2022,1,198415,1
+House,California-11,Congressional District,California-11,2022,1,263065,0.8395
+House,California-12,Congressional District,California-12,2022,1,239969,0.9047
+House,California-13,Congressional District,California-13,2022,0,133556,0.4979
+House,California-14,Congressional District,California-14,2022,1,198464,0.6934
+House,California-15,Congressional District,California-15,2022,0,194874,1
+House,California-16,Congressional District,California-16,2022,1,241007,1
+House,California-17,Congressional District,California-17,2022,1,180253,0.7093
+House,California-18,Congressional District,California-18,2022,1,151513,0.6585
+House,California-19,Congressional District,California-19,2022,1,283310,0.6865
+House,California-20,Congressional District,California-20,2022,-1,228781,0.3275
+House,California-21,Congressional District,California-21,2022,1,125647,0.5418
+House,California-22,Congressional District,California-22,2022,-1,102856,0.4848
+House,California-23,Congressional District,California-23,2022,-1,169105,0.3897
+House,California-24,Congressional District,California-24,2022,1,262552,0.6057
+House,California-25,Congressional District,California-25,2022,1,152742,0.5738
+House,California-26,Congressional District,California-26,2022,1,246789,0.5453
+House,California-27,Congressional District,California-27,2022,-1,196516,0.4676
+House,California-28,Congressional District,California-28,2022,1,226557,0.6624
+House,California-29,Congressional District,California-29,2022,1,119435,1
+House,California-30,Congressional District,California-30,2022,1,211068,1
+House,California-31,Congressional District,California-31,2022,1,153625,0.5954
+House,California-32,Congressional District,California-32,2022,1,242029,0.6917
+House,California-33,Congressional District,California-33,2022,1,132707,0.5771
+House,California-34,Congressional District,California-34,2022,1,121467,1
+House,California-35,Congressional District,California-35,2022,1,130953,0.5736
+House,California-36,Congressional District,California-36,2022,1,278563,0.6975
+House,California-37,Congressional District,California-37,2022,0,131880,1
+House,California-38,Congressional District,California-38,2022,1,174311,0.5809
+House,California-39,Congressional District,California-39,2022,1,131597,0.5767
+House,California-40,Congressional District,California-40,2022,-1,284311,0.4316
+House,California-41,Congressional District,California-41,2022,-1,236638,0.4765
+House,California-42,Congressional District,California-42,2022,0,145120,0.6837
+House,California-43,Congressional District,California-43,2022,1,123447,0.7733
+House,California-44,Congressional District,California-44,2022,1,138714,0.7221
+House,California-45,Congressional District,California-45,2022,-1,217426,0.4759
+House,California-46,Congressional District,California-46,2022,1,126298,0.6179
+House,California-47,Congressional District,California-47,2022,1,265635,0.5172
+House,California-48,Congressional District,California-48,2022,-1,257071,0.3964
+House,California-49,Congressional District,California-49,2022,1,291735,0.5263
+House,California-50,Congressional District,California-50,2022,1,268635,0.6284
+House,California-51,Congressional District,California-51,2022,1,233072,0.6186
+House,California-52,Congressional District,California-52,2022,1,151016,0.6667
+House,Colorado-01,Congressional District,Colorado-01,2022,1,276459,0.8208
+House,Colorado-02,Congressional District,Colorado-02,2022,1,341807,0.7142
+House,Colorado-03,Congressional District,Colorado-03,2022,-1,327132,0.4992
+House,Colorado-04,Congressional District,Colorado-04,2022,-1,345643,0.375
+House,Colorado-05,Congressional District,Colorado-05,2022,-1,267506,0.4186
+House,Colorado-06,Congressional District,Colorado-06,2022,1,275224,0.6182
+House,Colorado-07,Congressional District,Colorado-07,2022,0,355494,0.5766
+House,Colorado-08,Congressional District,Colorado-08,2022,0,227122,0.5036
+House,Connecticut-01,Congressional District,Connecticut-01,2022,0,241062,0.6204
+House,Connecticut-02,Congressional District,Connecticut-02,2022,1,280452,0.5917
+House,Connecticut-03,Congressional District,Connecticut-03,2022,1,236628,0.5829
+House,Connecticut-04,Congressional District,Connecticut-04,2022,1,236084,0.5941
+House,Connecticut-05,Congressional District,Connecticut-05,2022,1,253672,0.5039
+House,Delaware-00,Congressional District,Delaware-00,2022,1,316617,0.5635
+House,Florida-01,Congressional District,Florida-01,2022,-1,290816,0.3214
+House,Florida-02,Congressional District,Florida-02,2022,0,301389,0.402
+House,Florida-03,Congressional District,Florida-03,2022,-1,281483,0.3673
+House,Florida-04,Congressional District,Florida-04,2022,0,274098,0.3955
+House,Florida-05,Congressional District,Florida-05,2022,-1,0,0
+House,Florida-06,Congressional District,Florida-06,2022,-1,226548,0
+House,Florida-07,Congressional District,Florida-07,2022,0,304045,0.4147
+House,Florida-08,Congressional District,Florida-08,2022,-1,342208,0.3509
+House,Florida-09,Congressional District,Florida-09,2022,1,202368,0.5364
+House,Florida-10,Congressional District,Florida-10,2022,0,196799,0.5994
+House,Florida-11,Congressional District,Florida-11,2022,-1,321642,0.3596
+House,Florida-12,Congressional District,Florida-12,2022,-1,321991,0.2963
+House,Florida-13,Congressional District,Florida-13,2022,0,335363,0.4588
+House,Florida-14,Congressional District,Florida-14,2022,1,263164,0.569
+House,Florida-15,Congressional District,Florida-15,2022,0,248054,0.4146
+House,Florida-16,Congressional District,Florida-16,2022,-1,305337,0.3785
+House,Florida-17,Congressional District,Florida-17,2022,-1,346281,0.3575
+House,Florida-18,Congressional District,Florida-18,2022,-1,167429,0
+House,Florida-19,Congressional District,Florida-19,2022,-1,313261,0.3199
+House,Florida-20,Congressional District,Florida-20,2022,1,188366,0.7231
+House,Florida-21,Congressional District,Florida-21,2022,-1,328505,0.365
+House,Florida-22,Congressional District,Florida-22,2022,1,272204,0.5511
+House,Florida-23,Congressional District,Florida-23,2022,0,274632,0.5242
+House,Florida-24,Congressional District,Florida-24,2022,1,185891,0.7179
+House,Florida-25,Congressional District,Florida-25,2022,1,234352,0.5509
+House,Florida-26,Congressional District,Florida-26,2022,-1,202108,0.2913
+House,Florida-27,Congressional District,Florida-27,2022,-1,237442,0.4271
+House,Florida-28,Congressional District,Florida-28,2022,-1,211122,0.3631
+House,Georgia-01,Congressional District,Georgia-01,2022,-1,263965,0.4085
+House,Georgia-02,Congressional District,Georgia-02,2022,1,241340,0.5497
+House,Georgia-03,Congressional District,Georgia-03,2022,-1,310581,0.3125
+House,Georgia-04,Congressional District,Georgia-04,2022,1,275634,0.7849
+House,Georgia-05,Congressional District,Georgia-05,2022,1,295456,0.8248
+House,Georgia-06,Congressional District,Georgia-06,2022,0,332498,0.3778
+House,Georgia-07,Congressional District,Georgia-07,2022,1,234325,0.6105
+House,Georgia-08,Congressional District,Georgia-08,2022,-1,260586,0.3142
+House,Georgia-09,Congressional District,Georgia-09,2022,-1,294138,0.2765
+House,Georgia-10,Congressional District,Georgia-10,2022,0,307630,0.3547
+House,Georgia-11,Congressional District,Georgia-11,2022,-1,303657,0.374
+House,Georgia-12,Congressional District,Georgia-12,2022,-1,265195,0.404
+House,Georgia-13,Congressional District,Georgia-13,2022,1,264616,0.8177
+House,Georgia-14,Congressional District,Georgia-14,2022,-1,258351,0.3414
+House,Hawaii-01,Congressional District,Hawaii-01,2022,1,194763,0.737
+House,Hawaii-02,Congressional District,Hawaii-02,2022,0,201281,0.6379
+House,Idaho-01,Congressional District,Idaho-01,2022,-1,305162,0.2696
+House,Idaho-02,Congressional District,Idaho-02,2022,-1,271186,0.3641
+House,Illinois-01,Congressional District,Illinois-01,2022,0,237400,0.6704
+House,Illinois-02,Congressional District,Illinois-02,2022,1,209175,0.6713
+House,Illinois-03,Congressional District,Illinois-03,2022,0,177759,0.685
+House,Illinois-04,Congressional District,Illinois-04,2022,1,128388,0.7091
+House,Illinois-05,Congressional District,Illinois-05,2022,1,270111,0.7071
+House,Illinois-06,Congressional District,Illinois-06,2022,1,276847,0.5436
+House,Illinois-07,Congressional District,Illinois-07,2022,1,167650,1
+House,Illinois-08,Congressional District,Illinois-08,2022,1,207215,0.5689
+House,Illinois-09,Congressional District,Illinois-09,2022,1,250530,0.7169
+House,Illinois-10,Congressional District,Illinois-10,2022,1,242165,0.63
+House,Illinois-11,Congressional District,Illinois-11,2022,1,264241,0.5645
+House,Illinois-12,Congressional District,Illinois-12,2022,-1,291170,0.25
+House,Illinois-13,Congressional District,Illinois-13,2022,0,250434,0.5662
+House,Illinois-14,Congressional District,Illinois-14,2022,1,236592,0.5416
+House,Illinois-15,Congressional District,Illinois-15,2022,-1,299403,0.2886
+House,Illinois-16,Congressional District,Illinois-16,2022,-1,297946,0.3367
+House,Illinois-17,Congressional District,Illinois-17,2022,0,233117,0.5199
+House,Indiana-01,Congressional District,Indiana-01,2022,1,213198,0.5284
+House,Indiana-02,Congressional District,Indiana-02,2022,0,188204,0.3342
+House,Indiana-03,Congressional District,Indiana-03,2022,-1,192156,0.3152
+House,Indiana-04,Congressional District,Indiana-04,2022,-1,197698,0.3178
+House,Indiana-05,Congressional District,Indiana-05,2022,-1,240009,0.3893
+House,Indiana-06,Congressional District,Indiana-06,2022,-1,193524,0.3247
+House,Indiana-07,Congressional District,Indiana-07,2022,1,170940,0.6863
+House,Indiana-08,Congressional District,Indiana-08,2022,-1,210104,0.3242
+House,Indiana-09,Congressional District,Indiana-09,2022,0,218866,0.3459
+House,Iowa-01,Congressional District,Iowa-01,2022,-1,318121,0.4588
+House,Iowa-02,Congressional District,Iowa-02,2022,-1,318121,0.4588
+House,Iowa-03,Congressional District,Iowa-03,2022,1,310379,0.4965
+House,Iowa-04,Congressional District,Iowa-04,2022,-1,270697,0.3112
+House,Kansas-01,Congressional District,Kansas-01,2022,-1,238425,0.3233
+House,Kansas-02,Congressional District,Kansas-02,2022,-1,233358,0.4236
+House,Kansas-03,Congressional District,Kansas-03,2022,1,294366,0.5623
+House,Kansas-04,Congressional District,Kansas-04,2022,-1,228740,0.3666
+House,Kentucky-01,Congressional District,Kentucky-01,2022,-1,245858,0.251
+House,Kentucky-02,Congressional District,Kentucky-02,2022,-1,237256,0.2814
+House,Kentucky-03,Congressional District,Kentucky-03,2022,0,259557,0.62
+House,Kentucky-04,Congressional District,Kentucky-04,2022,-1,247518,0.3231
+House,Kentucky-05,Congressional District,Kentucky-05,2022,-1,216261,0.1783
+House,Kentucky-06,Congressional District,Kentucky-06,2022,-1,237767,0.3491
+House,Louisiana-01,Congressional District,Louisiana-01,2022,-1,239137,0.257
+House,Louisiana-02,Congressional District,Louisiana-02,2022,1,205047,0.7711
+House,Louisiana-03,Congressional District,Louisiana-03,2022,-1,219677,0.204
+House,Louisiana-04,Congressional District,Louisiana-04,2022,-1,0,0
+House,Louisiana-05,Congressional District,Louisiana-05,2022,-1,223553,0.2439
+House,Louisiana-06,Congressional District,Louisiana-06,2022,-1,205219,0
+House,Maine-01,Congressional District,Maine-01,2022,1,349016,0.6296
+House,Maine-02,Congressional District,Maine-02,2022,1,311278,0.5305
+House,Maryland-01,Congressional District,Maryland-01,2022,-1,286184,0.4421
+House,Maryland-02,Congressional District,Maryland-02,2022,1,268073,0.5931
+House,Maryland-03,Congressional District,Maryland-03,2022,1,291315,0.6025
+House,Maryland-04,Congressional District,Maryland-04,2022,0,159609,0.9033
+House,Maryland-05,Congressional District,Maryland-05,2022,1,276478,0.66
+House,Maryland-06,Congressional District,Maryland-06,2022,1,256066,0.5479
+House,Maryland-07,Congressional District,Maryland-07,2022,1,184377,0.8224
+House,Maryland-08,Congressional District,Maryland-08,2022,1,259807,0.8154
+House,Massachusetts-01,Congressional District,Massachusetts-01,2022,1,256021,0.6157
+House,Massachusetts-02,Congressional District,Massachusetts-02,2022,1,272595,0.6627
+House,Massachusetts-03,Congressional District,Massachusetts-03,2022,1,243081,0.6356
+House,Massachusetts-04,Congressional District,Massachusetts-04,2022,1,201882,1
+House,Massachusetts-05,Congressional District,Massachusetts-05,2022,1,275485,0.7405
+House,Massachusetts-06,Congressional District,Massachusetts-06,2022,1,308889,0.6414
+House,Massachusetts-07,Congressional District,Massachusetts-07,2022,1,178954,0.8484
+House,Massachusetts-08,Congressional District,Massachusetts-08,2022,1,272113,0.6982
+House,Massachusetts-09,Congressional District,Massachusetts-09,2022,1,334170,0.592
+House,Michigan-01,Congressional District,Michigan-01,2022,-1,378497,0.3842
+House,Michigan-02,Congressional District,Michigan-02,2022,-1,332674,0.35
+House,Michigan-03,Congressional District,Michigan-03,2022,0,328218,0.5667
+House,Michigan-04,Congressional District,Michigan-04,2022,-1,327626,0.4386
+House,Michigan-05,Congressional District,Michigan-05,2022,-1,308966,0.3591
+House,Michigan-06,Congressional District,Michigan-06,2022,1,366926,0.6589
+House,Michigan-07,Congressional District,Michigan-07,2022,1,365433,0.5276
+House,Michigan-08,Congressional District,Michigan-08,2022,1,322172,0.5535
+House,Michigan-09,Congressional District,Michigan-09,2022,-1,362002,0.3417
+House,Michigan-10,Congressional District,Michigan-10,2022,0,316804,0.4975
+House,Michigan-11,Congressional District,Michigan-11,2022,1,366179,0.6132
+House,Michigan-12,Congressional District,Michigan-12,2022,1,269531,0.7296
+House,Michigan-13,Congressional District,Michigan-13,2022,0,222837,0.7479
+House,Minnesota-01,Congressional District,Minnesota-01,2022,-1,285078,0.4401
+House,Minnesota-02,Congressional District,Minnesota-02,2022,1,314159,0.5271
+House,Minnesota-03,Congressional District,Minnesota-03,2022,1,333680,0.596
+House,Minnesota-04,Congressional District,Minnesota-04,2022,1,295548,0.6769
+House,Minnesota-05,Congressional District,Minnesota-05,2022,1,284926,0.7519
+House,Minnesota-06,Congressional District,Minnesota-06,2022,-1,318997,0.3788
+House,Minnesota-07,Congressional District,Minnesota-07,2022,-1,289221,0.292
+House,Minnesota-08,Congressional District,Minnesota-08,2022,-1,329764,0.4276
+House,Mississippi-01,Congressional District,Mississippi-01,2022,-1,167389,0.2703
+House,Mississippi-02,Congressional District,Mississippi-02,2022,1,180169,0.601
+House,Mississippi-03,Congressional District,Mississippi-03,2022,-1,187284,0.2926
+House,Mississippi-04,Congressional District,Mississippi-04,2022,0,170689,0.2512
+House,Missouri-01,Congressional District,Missouri-01,2022,1,214675,0.75
+House,Missouri-02,Congressional District,Missouri-02,2022,-1,309172,0.4395
+House,Missouri-03,Congressional District,Missouri-03,2022,-1,277597,0.3489
+House,Missouri-04,Congressional District,Missouri-04,2022,0,248959,0.2694
+House,Missouri-05,Congressional District,Missouri-05,2022,1,224696,0.6261
+House,Missouri-06,Congressional District,Missouri-06,2022,-1,257118,0.281
+House,Missouri-07,Congressional District,Missouri-07,2022,0,246077,0.2742
+House,Missouri-08,Congressional District,Missouri-08,2022,-1,240210,0.2237
+House,Montana-01,Congressional District,Montana-01,2022,0,238367,0.4836
+House,Montana-02,Congressional District,Montana-02,2022,-1,165459,0.2628
+House,Nebraska-01,Congressional District,Nebraska-01,2022,-1,223165,0.4209
+House,Nebraska-02,Congressional District,Nebraska-02,2022,-1,219470,0.4867
+House,Nebraska-03,Congressional District,Nebraska-03,2022,-1,207536,0.1679
+House,Nevada-01,Congressional District,Nevada-01,2022,1,218815,0.5288
+House,Nevada-02,Congressional District,Nevada-02,2022,-1,302838,0.3876
+House,Nevada-03,Congressional District,Nevada-03,2022,1,252169,0.5198
+House,Nevada-04,Congressional District,Nevada-04,2022,1,222487,0.5242
+House,New Hampshire-01,Congressional District,New Hampshire-01,2022,1,309620,0.5406
+House,New Hampshire-02,Congressional District,New Hampshire-02,2022,1,307215,0.5587
+House,New Jersey-01,Congressional District,New Jersey-01,2022,1,218353,0.6391
+House,New Jersey-02,Congressional District,New Jersey-02,2022,-1,233739,0.4044
+House,New Jersey-03,Congressional District,New Jersey-03,2022,1,268913,0.5597
+House,New Jersey-04,Congressional District,New Jersey-04,2022,-1,254521,0.3192
+House,New Jersey-05,Congressional District,New Jersey-05,2022,1,263432,0.5525
+House,New Jersey-06,Congressional District,New Jersey-06,2022,1,182077,0.5835
+House,New Jersey-07,Congressional District,New Jersey-07,2022,1,310093,0.486
+House,New Jersey-08,Congressional District,New Jersey-08,2022,0,103339,0.7585
+House,New Jersey-09,Congressional District,New Jersey-09,2022,1,147822,0.5578
+House,New Jersey-10,Congressional District,New Jersey-10,2022,1,126703,0.7949
+House,New Jersey-11,Congressional District,New Jersey-11,2022,1,271388,0.5949
+House,New Jersey-12,Congressional District,New Jersey-12,2022,1,196302,0.6374
+House,New Mexico-01,Congressional District,New Mexico-01,2022,1,280613,0.5576
+House,New Mexico-02,Congressional District,New Mexico-02,2022,-1,192622,0.5035
+House,New Mexico-03,Congressional District,New Mexico-03,2022,1,230782,0.5816
+House,New York-01,Congressional District,New York-01,2022,0,318947,0.4449
+House,New York-02,Congressional District,New York-02,2022,-1,248952,0.3927
+House,New York-03,Congressional District,New York-03,2022,0,271228,0.4624
+House,New York-04,Congressional District,New York-04,2022,0,271493,0.482
+House,New York-05,Congressional District,New York-05,2022,1,138803,0.7521
+House,New York-06,Congressional District,New York-06,2022,1,132984,0.6395
+House,New York-07,Congressional District,New York-07,2022,1,148070,0.8069
+House,New York-08,Congressional District,New York-08,2022,1,138139,0.7172
+House,New York-09,Congressional District,New York-09,2022,1,116970,1
+House,New York-10,Congressional District,New York-10,2022,0,189640,0.8468
+House,New York-11,Congressional District,New York-11,2022,-1,187793,0.3823
+House,New York-12,Congressional District,New York-12,2022,1,245063,0.8197
+House,New York-13,Congressional District,New York-13,2022,1,116589,1
+House,New York-14,Congressional District,New York-14,2022,1,114388,0.7208
+House,New York-15,Congressional District,New York-15,2022,1,92288,0.8279
+House,New York-16,Congressional District,New York-16,2022,1,207723,0.643
+House,New York-17,Congressional District,New York-17,2022,1,285280,0.4968
+House,New York-18,Congressional District,New York-18,2022,1,266898,0.5067
+House,New York-19,Congressional District,New York-19,2022,0,287513,0.4922
+House,New York-20,Congressional District,New York-20,2022,1,291289,0.5507
+House,New York-21,Congressional District,New York-21,2022,-1,285000,0.4085
+House,New York-22,Congressional District,New York-22,2022,0,268457,0.4951
+House,New York-23,Congressional District,New York-23,2022,0,296808,0.3508
+House,New York-24,Congressional District,New York-24,2022,-1,277082,0.343
+House,New York-25,Congressional District,New York-25,2022,1,282212,0.5387
+House,New York-26,Congressional District,New York-26,2022,1,245222,0.6398
+House,North Carolina-01,Congressional District,North Carolina-01,2022,0,257776,0.5237
+House,North Carolina-02,Congressional District,North Carolina-02,2022,1,294869,0.6468
+House,North Carolina-03,Congressional District,North Carolina-03,2022,-1,248898,0.331
+House,North Carolina-04,Congressional District,North Carolina-04,2022,0,291425,0.6691
+House,North Carolina-05,Congressional District,North Carolina-05,2022,-1,277548,0.3685
+House,North Carolina-06,Congressional District,North Carolina-06,2022,1,256188,0.5447
+House,North Carolina-07,Congressional District,North Carolina-07,2022,-1,284269,0.4229
+House,North Carolina-08,Congressional District,North Carolina-08,2022,-1,263190,0.3009
+House,North Carolina-09,Congressional District,North Carolina-09,2022,-1,232655,0.435
+House,North Carolina-10,Congressional District,North Carolina-10,2022,-1,267855,0.2732
+House,North Carolina-11,Congressional District,North Carolina-11,2022,0,318397,0.4528
+House,North Carolina-12,Congressional District,North Carolina-12,2022,1,223908,0.6275
+House,North Carolina-13,Congressional District,North Carolina-13,2022,0,277346,0.5159
+House,North Carolina-14,Congressional District,North Carolina-14,2022,0,257752,0.5771
+House,North Dakota-00,Congressional District,North Dakota-00,2022,-1,238043,0.3766
+House,Ohio-01,Congressional District,Ohio-01,2022,-1,296474,0.5276
+House,Ohio-02,Congressional District,Ohio-02,2022,-1,257862,0.255
+House,Ohio-03,Congressional District,Ohio-03,2022,1,258779,0.7046
+House,Ohio-04,Congressional District,Ohio-04,2022,-1,290156,0.3081
+House,Ohio-05,Congressional District,Ohio-05,2022,-1,279937,0.3309
+House,Ohio-06,Congressional District,Ohio-06,2022,-1,280383,0.3228
+House,Ohio-07,Congressional District,Ohio-07,2022,0,303487,0.4464
+House,Ohio-08,Congressional District,Ohio-08,2022,-1,278916,0.3536
+House,Ohio-09,Congressional District,Ohio-09,2022,1,266017,0.5663
+House,Ohio-10,Congressional District,Ohio-10,2022,-1,272961,0.3833
+House,Ohio-11,Congressional District,Ohio-11,2022,1,215710,0.7775
+House,Ohio-12,Congressional District,Ohio-12,2022,-1,276237,0.3073
+House,Ohio-13,Congressional District,Ohio-13,2022,0,284409,0.5268
+House,Ohio-14,Congressional District,Ohio-14,2022,-1,297028,0.3826
+House,Ohio-15,Congressional District,Ohio-15,2022,-1,251251,0.4304
+House,Oklahoma-01,Congressional District,Oklahoma-01,2022,-1,223774,0.3619
+House,Oklahoma-02,Congressional District,Oklahoma-02,2022,0,222037,0.2441
+House,Oklahoma-03,Congressional District,Oklahoma-03,2022,-1,197772,0.2546
+House,Oklahoma-04,Congressional District,Oklahoma-04,2022,-1,224546,0.3325
+House,Oklahoma-05,Congressional District,Oklahoma-05,2022,-1,249498,0.388
+House,Oregon-01,Congressional District,Oregon-01,2022,1,309724,0.6802
+House,Oregon-02,Congressional District,Oregon-02,2022,-1,308251,0.324
+House,Oregon-03,Congressional District,Oregon-03,2022,1,291885,0.7267
+House,Oregon-04,Congressional District,Oregon-04,2022,0,317427,0.5399
+House,Oregon-05,Congressional District,Oregon-05,2022,0,350327,0.4896
+House,Oregon-06,Congressional District,Oregon-06,2022,0,287102,0.5126
+House,Pennsylvania-01,Congressional District,Pennsylvania-01,2022,-1,367380,0.4513
+House,Pennsylvania-02,Congressional District,Pennsylvania-02,2022,1,186683,0.7565
+House,Pennsylvania-03,Congressional District,Pennsylvania-03,2022,1,251115,1
+House,Pennsylvania-04,Congressional District,Pennsylvania-04,2022,1,366785,0.6129
+House,Pennsylvania-05,Congressional District,Pennsylvania-05,2022,1,315186,0.6508
+House,Pennsylvania-06,Congressional District,Pennsylvania-06,2022,1,326483,0.5831
+House,Pennsylvania-07,Congressional District,Pennsylvania-07,2022,1,296891,0.5098
+House,Pennsylvania-08,Congressional District,Pennsylvania-08,2022,1,286886,0.5122
+House,Pennsylvania-09,Congressional District,Pennsylvania-09,2022,-1,301807,0.3069
+House,Pennsylvania-10,Congressional District,Pennsylvania-10,2022,-1,314546,0.4617
+House,Pennsylvania-11,Congressional District,Pennsylvania-11,2022,-1,316826,0.3845
+House,Pennsylvania-12,Congressional District,Pennsylvania-12,2022,0,328620,0.562
+House,Pennsylvania-13,Congressional District,Pennsylvania-13,2022,-1,260345,0
+House,Pennsylvania-14,Congressional District,Pennsylvania-14,2022,-1,81243,0
+House,Pennsylvania-15,Congressional District,Pennsylvania-15,2022,-1,305146,0.3006
+House,Pennsylvania-16,Congressional District,Pennsylvania-16,2022,-1,320989,0.4064
+House,Pennsylvania-17,Congressional District,Pennsylvania-17,2022,0,362628,0.5339
+House,Rhode Island-01,Congressional District,Rhode Island-01,2022,1,156373,0.6415
+House,Rhode Island-02,Congressional District,Rhode Island-02,2022,0,195401,0.5191
+House,South Carolina-01,Congressional District,South Carolina-01,2022,-1,269553,0.4296
+House,South Carolina-02,Congressional District,South Carolina-02,2022,-1,245780,0.3991
+House,South Carolina-03,Congressional District,South Carolina-03,2022,-1,189971,0
+House,South Carolina-04,Congressional District,South Carolina-04,2022,-1,165607,0
+House,South Carolina-05,Congressional District,South Carolina-05,2022,-1,238024,0.35
+House,South Carolina-06,Congressional District,South Carolina-06,2022,1,210802,0.6211
+House,South Carolina-07,Congressional District,South Carolina-07,2022,0,253470,0.3512
+House,South Dakota-00,Congressional District,South Dakota-00,2022,-1,253821,0
+House,Tennessee-01,Congressional District,Tennessee-01,2022,-1,184290,0.201
+House,Tennessee-02,Congressional District,Tennessee-02,2022,-1,207762,0.3209
+House,Tennessee-03,Congressional District,Tennessee-03,2022,-1,196973,0.3063
+House,Tennessee-04,Congressional District,Tennessee-04,2022,-1,167049,0.2673
+House,Tennessee-05,Congressional District,Tennessee-05,2022,0,217206,0.4311
+House,Tennessee-06,Congressional District,Tennessee-06,2022,-1,195063,0.3367
+House,Tennessee-07,Congressional District,Tennessee-07,2022,-1,177394,0.3888
+House,Tennessee-08,Congressional District,Tennessee-08,2022,-1,206704,0.2472
+House,Tennessee-09,Congressional District,Tennessee-09,2022,1,128923,0.7276
+House,Texas-01,Congressional District,Texas-01,2022,0,234662,0.2192
+House,Texas-02,Congressional District,Texas-02,2022,-1,230287,0.3409
+House,Texas-03,Congressional District,Texas-03,2022,0,264361,0.3787
+House,Texas-04,Congressional District,Texas-04,2022,-1,249960,0.3168
+House,Texas-05,Congressional District,Texas-05,2022,-1,207525,0.3466
+House,Texas-06,Congressional District,Texas-06,2022,-1,149321,0
+House,Texas-07,Congressional District,Texas-07,2022,1,181829,0.6379
+House,Texas-08,Congressional District,Texas-08,2022,0,221842,0.3097
+House,Texas-09,Congressional District,Texas-09,2022,1,163607,0.7668
+House,Texas-10,Congressional District,Texas-10,2022,-1,245873,0.3514
+House,Texas-11,Congressional District,Texas-11,2022,-1,151066,0
+House,Texas-12,Congressional District,Texas-12,2022,-1,237979,0.3573
+House,Texas-13,Congressional District,Texas-13,2022,-1,214677,0.2465
+House,Texas-14,Congressional District,Texas-14,2022,-1,218149,0.3145
+House,Texas-15,Congressional District,Texas-15,2022,0,149075,0.4568
+House,Texas-16,Congressional District,Texas-16,2022,1,150496,0.6346
+House,Texas-17,Congressional District,Texas-17,2022,-1,217209,0.3352
+House,Texas-18,Congressional District,Texas-18,2022,1,151452,0.7297
+House,Texas-19,Congressional District,Texas-19,2022,-1,152321,0
+House,Texas-20,Congressional District,Texas-20,2022,1,168578,0.6843
+House,Texas-21,Congressional District,Texas-21,2022,-1,330081,0.3716
+House,Texas-22,Congressional District,Texas-22,2022,-1,235667,0.3634
+House,Texas-23,Congressional District,Texas-23,2022,-1,197596,0.4097
+House,Texas-24,Congressional District,Texas-24,2022,-1,297825,0.4025
+House,Texas-25,Congressional District,Texas-25,2022,-1,185270,0
+House,Texas-26,Congressional District,Texas-26,2022,-1,265023,0
+House,Texas-27,Congressional District,Texas-27,2022,-1,207027,0.3556
+House,Texas-28,Congressional District,Texas-28,2022,1,165581,0.5665
+House,Texas-29,Congressional District,Texas-29,2022,1,100602,0.7141
+House,Texas-30,Congressional District,Texas-30,2022,0,174085,0.7748
+House,Texas-31,Congressional District,Texas-31,2022,-1,183185,0
+House,Texas-32,Congressional District,Texas-32,2022,1,177499,0.6536
+House,Texas-33,Congressional District,Texas-33,2022,1,111284,0.7376
+House,Texas-34,Congressional District,Texas-34,2022,1,130360,0.5438
+House,Texas-35,Congressional District,Texas-35,2022,0,178568,0.7258
+House,Texas-36,Congressional District,Texas-36,2022,-1,209615,0.3054
+House,Texas-37,Congressional District,Texas-37,2022,1,279281,0.7854
+House,Texas-38,Congressional District,Texas-38,2022,0,255899,0.3607
+House,Utah-01,Congressional District,Utah-01,2022,-1,266420,0.3303
+House,Utah-02,Congressional District,Utah-02,2022,-1,243107,0.3629
+House,Utah-03,Congressional District,Utah-03,2022,-1,266184,0.3144
+House,Utah-04,Congressional District,Utah-04,2022,-1,237291,0.3463
+House,Vermont-00,Congressional District,Vermont-00,2022,0,254791,0.6927
+House,Virginia-01,Congressional District,Virginia-01,2022,-1,339057,0.4342
+House,Virginia-02,Congressional District,Virginia-02,2022,1,296547,0.483
+House,Virginia-03,Congressional District,Virginia-03,2022,1,207327,0.6736
+House,Virginia-04,Congressional District,Virginia-04,2022,1,244547,0.6504
+House,Virginia-05,Congressional District,Virginia-05,2022,-1,307187,0.4232
+House,Virginia-06,Congressional District,Virginia-06,2022,-1,268762,0.355
+House,Virginia-07,Congressional District,Virginia-07,2022,1,273943,0.5233
+House,Virginia-08,Congressional District,Virginia-08,2022,1,264349,0.7481
+House,Virginia-09,Congressional District,Virginia-09,2022,-1,248234,0.266
+House,Virginia-10,Congressional District,Virginia-10,2022,1,295568,0.5326
+House,Virginia-11,Congressional District,Virginia-11,2022,1,288824,0.6689
+House,Washington-01,Congressional District,Washington-01,2022,1,286321,0.6356
+House,Washington-02,Congressional District,Washington-02,2022,1,337315,0.6018
+House,Washington-03,Congressional District,Washington-03,2022,0,318013,0.5041
+House,Washington-04,Congressional District,Washington-04,2022,-1,221329,0.3195
+House,Washington-05,Congressional District,Washington-05,2022,-1,316233,0.4035
+House,Washington-06,Congressional District,Washington-06,2022,1,347464,0.6007
+House,Washington-07,Congressional District,Washington-07,2022,1,345205,0.8575
+House,Washington-08,Congressional District,Washington-08,2022,1,334979,0.5344
+House,Washington-09,Congressional District,Washington-09,2022,1,239377,0.7175
+House,Washington-10,Congressional District,Washington-10,2022,1,267321,0.5706
+House,West Virginia-01,Congressional District,West Virginia-01,2022,-1,216939,0.3016
+House,West Virginia-02,Congressional District,West Virginia-02,2022,-1,244771,0.3443
+House,Wisconsin-01,Congressional District,Wisconsin-01,2022,-1,298435,0.4551
+House,Wisconsin-02,Congressional District,Wisconsin-02,2022,1,370630,0.7251
+House,Wisconsin-03,Congressional District,Wisconsin-03,2022,0,317720,0.4815
+House,Wisconsin-04,Congressional District,Wisconsin-04,2022,1,249615,0.769
+House,Wisconsin-05,Congressional District,Wisconsin-05,2022,-1,378322,0.3557
+House,Wisconsin-06,Congressional District,Wisconsin-06,2022,-1,239231,0
+House,Wisconsin-07,Congressional District,Wisconsin-07,2022,-1,338101,0.3812
+House,Wisconsin-08,Congressional District,Wisconsin-08,2022,-1,223981,0
+House,Wyoming-00,Congressional District,Wyoming-00,2022,0,179456,0.2633
