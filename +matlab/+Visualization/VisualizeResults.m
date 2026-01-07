@@ -6,11 +6,13 @@ classdef VisualizeResults
                 xSims (:,:) double
             end
 
-            matlab.Visualization.VisualizeResults.printPresidentialResults(model, xSims);
+            ecVotes = matlab.Visualization.VisualizeResults.printPresidentialResults(model, xSims);
             matlab.Visualization.VisualizeResults.printHouseResults(model, xSims);
+            matlab.Visualization.VisualizeResults.printSenateResults(model, xSims, ecVotes);
+            matlab.Visualization.VisualizeResults.printGubernatorialResults(model);
         end
 
-        function printPresidentialResults(model, xSims)
+        function ecVotes = printPresidentialResults(model, xSims)
             arguments
                 model matlab.Core.Model
                 xSims (:,:) double
@@ -164,7 +166,7 @@ classdef VisualizeResults
             disp("House Election:")
             disp("  Democrats: " + num2str(houseMean,"%.2f") + " Seats | Chance of Winning: " + num2str(houseWin*100, "%.2f") + "%");
             disp("  Republicans: " + num2str(435-houseMean,"%.2f") + " Seats | Chance of Winning: " + num2str(houseLose*100, "%.2f") + "%");
-            disp("")
+            disp("--------------------------------------------------------")
 
             disp("House Popular Vote:")
             popVoteChance = normcdf(meanPopVote, 0.5, sigmaPopVote);
@@ -182,6 +184,127 @@ classdef VisualizeResults
                 electionName = electionNames(i);
                 if filterFlag(i)
                     sigmaEst = sqrt(covEst(i,i));
+                    chance = normcdf(xEstCur, 0.5, sigmaEst);
+                    disp(electionName + ":")
+                    disp("  " + dCand + ": " + num2str(xEstCur*100,"%.2f") + "% | Chance of Winning: " + num2str(chance*100,"%.2f") + "%")
+                    disp("  " + rCand + ": " + num2str((1-xEstCur)*100,"%.2f") + "% | Chance of Winning: " + num2str((1-chance)*100,"%.2f") + "%")
+                    disp(" ")
+                else
+                    if xEstCur == 0
+                        disp(electionName + ":")
+                        disp("  " + rCand + ": " + num2str(100,"%.2f") + "% | Chance of Winning: " + num2str(100,"%.2f") + "%")
+                        disp(" ")
+                    else
+                        disp(electionName + ":")
+                        disp("  " + dCand + ": " + num2str(100,"%.2f") + "% | Chance of Winning: " + num2str(100,"%.2f") + "%")
+                        disp(" ")
+                    end
+                end
+            end
+        end
+
+        function printSenateResults(model, xSims, ecVotes)
+            arguments
+                model matlab.Core.Model
+                xSims (:,:) double
+                ecVotes (1,:) double
+            end
+
+            % Model Senate Results
+            senateIdx = model.electionInfo.ElectionType == "Senate";
+            electionInfo = model.electionInfo(senateIdx,:);
+            xEstSenate = model.xEst(senateIdx,:);
+            covEstSenate = model.covEst(senateIdx,senateIdx);
+            xSimsSenate = xSims(senateIdx,:);
+
+            N = numel(xEstSenate);
+            score = electionInfo.Score;
+
+            % Deal with uncontested races
+            noDemFlag = electionInfo.CandidateD == "NaN";
+            noRepFlag = electionInfo.CandidateR == "NaN";
+            xEstSenate(noDemFlag) = 0;
+            xEstSenate(noRepFlag) = 1;
+            xSimsSenate(noDemFlag, :) = 0;
+            xSimsSenate(noRepFlag, :) = 1;
+
+            % Get seats per run
+            nSims = size(xSimsSenate, 2);
+            senateSeats = score' * (xSimsSenate > 0.5) + model.config.senate.seats.dem;
+            senateMean = mean(senateSeats);
+            senateWin = (sum(senateSeats > 50) + sum(senateSeats == 50 & ecVotes >= 270)) / nSims;
+            senateLose = (sum(senateSeats < 50) + sum(senateSeats == 50 & ecVotes < 270)) / nSims;
+
+            % Display the results
+
+            disp("--------------------------------------------------------")
+            disp("Senate:")
+            disp("  Democrats: " + num2str(senateMean,"%.2f") + " Seats | Chance of Winning: " + num2str(senateWin*100, "%.2f") + "%");
+            disp("  Republicans: " + num2str(100-senateMean,"%.2f") + " Seats | Chance of Winning: " + num2str(senateLose*100, "%.2f") + "%");
+            disp("--------------------------------------------------------")
+
+            electionNames = electionInfo.ElectionName;
+            filterFlag = model.filterFlag(senateIdx);
+            for i = 1:N-1
+                xEstCur = xEstSenate(i);
+                dCand = electionInfo.CandidateD(i);
+                rCand = electionInfo.CandidateR(i);
+                electionName = electionNames(i);
+                if filterFlag(i)
+                    sigmaEst = sqrt(covEstSenate(i,i));
+                    chance = normcdf(xEstCur, 0.5, sigmaEst);
+                    disp(electionName + ":")
+                    disp("  " + dCand + ": " + num2str(xEstCur*100,"%.2f") + "% | Chance of Winning: " + num2str(chance*100,"%.2f") + "%")
+                    disp("  " + rCand + ": " + num2str((1-xEstCur)*100,"%.2f") + "% | Chance of Winning: " + num2str((1-chance)*100,"%.2f") + "%")
+                    disp(" ")
+                else
+                    if xEstCur == 0
+                        disp(electionName + ":")
+                        disp("  " + rCand + ": " + num2str(100,"%.2f") + "% | Chance of Winning: " + num2str(100,"%.2f") + "%")
+                        disp(" ")
+                    else
+                        disp(electionName + ":")
+                        disp("  " + dCand + ": " + num2str(100,"%.2f") + "% | Chance of Winning: " + num2str(100,"%.2f") + "%")
+                        disp(" ")
+                    end
+                end
+            end
+        end
+
+        function printGubernatorialResults(model)
+            arguments
+                model matlab.Core.Model
+            end
+
+            % Model Gubernatorial Results
+            govIdx = model.electionInfo.ElectionType == "Gubernatorial";
+            electionInfo = model.electionInfo(govIdx,:);
+            xEstGov = model.xEst(govIdx,:);
+            covEstGov = model.covEst(govIdx,govIdx);
+
+            N = numel(xEstGov);
+
+            % Deal with uncontested races
+            noDemFlag = electionInfo.CandidateD == "NaN";
+            noRepFlag = electionInfo.CandidateR == "NaN";
+            xEstGov(noDemFlag) = 0;
+            xEstGov(noRepFlag) = 1;
+
+            % Display the results
+
+            disp("--------------------------------------------------------")
+            disp("Gubernatorial Estimates:")
+            disp("--------------------------------------------------------")
+
+            electionNames = electionInfo.ElectionName;
+            filterFlag = model.filterFlag(govIdx);
+            for i = 1:N-1
+                xEstCur = xEstGov(i);
+                dCand = electionInfo.CandidateD(i);
+                rCand = electionInfo.CandidateR(i);
+                electionName = electionNames(i);
+                if filterFlag(i)
+                    sigmaEst = sqrt(covEstGov(i,i));
                     chance = normcdf(xEstCur, 0.5, sigmaEst);
                     disp(electionName + ":")
                     disp("  " + dCand + ": " + num2str(xEstCur*100,"%.2f") + "% | Chance of Winning: " + num2str(chance*100,"%.2f") + "%")

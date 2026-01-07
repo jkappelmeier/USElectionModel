@@ -492,3 +492,48 @@ House,Wisconsin-06,Congressional District,Wisconsin-06,John Zarbano (D),Glenn Gr
 House,Wisconsin-07,Congressional District,Wisconsin-07,Kyle Kilbourn (D),Tom Tiffany* (R),-1,1
 House,Wisconsin-08,Congressional District,Wisconsin-08,Kristin Lyerly (D),Tony Wied (R),0,1
 House,Wyoming-00,Congressional District,Wyoming-00,Kyle Cameron (D),Harriet Hageman* (R),-1,1
+Senate,Arizona,State,Arizona,Ruben Gallego (D),Kari Lake (R),0,1
+Senate,California,State,California,Adam Schiff (D),Steve Garvey (R),0,1
+Senate,Connecticut,State,Connecticut,Chris Murphy* (D),Matthew Corey (R),1,1
+Senate,Delaware,State,Delaware,Lisa Blunt Rochester (D),Eric Hansen (R),0,1
+Senate,Florida,State,Florida,Debbie Mucarsel-Powell (D),Rick Scott* (R),-1,1
+Senate,Hawaii,State,Hawaii,Mazie Hirono* (D),Bob McDermott (R),1,1
+Senate,Indiana,State,Indiana,Valerie McCray (D),Jim Banks (R),0,1
+Senate,Maine,State,Maine,Angus King* (I),Demitroula Kouzounas (R),1,1
+Senate,Maryland,State,Maryland,Angela Alsobrooks (D),Larry Hogan (R),0,1
+Senate,Massachusetts,State,Massachusetts,Elizabeth Warren* (D),John Deaton,1,1
+Senate,Michigan,State,Michigan,Elissa Slotkin (D),Mike Rogers (R),0,1
+Senate,Minnesota,State,Minnesota,Amy Klobuchar* (D),Royce White (R),1,1
+Senate,Mississippi,State,Mississippi,Ty Pinkins (D),Roger Wicker* (R),-1,1
+Senate,Missouri,State,Missouri,Lucas Kunce (D),Josh Hawley* (R),-1,1
+Senate,Montana,State,Montana,Jon Tester* (D),Tim Sheehy (R),1,1
+Senate,Nebraska,State,Nebraska,Dan Osborn (I),Deb Fischer* (R),-1,1
+Senate,Nevada,State,Nevada,Jacky Rosen* (D),Sam Brown,1,1
+Senate,New Jersey,State,New Jersey,Andy Kim (D),Curtis Bashaw (R),0,1
+Senate,New Mexico,State,New Mexico,Martin Heinrich* (D),Nella Domenici (R),1,1
+Senate,New York,State,New York,Kirsten Gillibrand* (D),Mike Sapraicone (R),1,1
+Senate,North Dakota,State,North Dakota,Katrina Christiansen (D),Kevin Cramer* (R),-1,1
+Senate,Ohio,State,Ohio,Sherrod Brown* (D),Bernie Moreno (R),1,1
+Senate,Pennsylvania,State,Pennsylvania,Bob Casey Jr.* (D),Dave McCormick (R),1,1
+Senate,Rhode Island,State,Rhode Island,Sheldon Whitehouse* (D),Patricia Morgan (R),1,1
+Senate,Tennessee,State,Tennessee,Gloria Johnson (D),Marsha Blackburn* (R),-1,1
+Senate,Texas,State,Texas,Colin Allred (D),Ted Cruz* (R),-1,1
+Senate,Utah,State,Utah,Caroline Gleich (D),John Curtis (R),0,1
+Senate,Vermont,State,Vermont,Bernie Sanders* (I),Gerald Malloy (R),1,1
+Senate,Virginia,State,Virginia,Tim Kaine* (D),Hung Cao (R),1,1
+Senate,Washington,State,Washington,Maria Cantwell* (D),Raul Garcia (R),1,1
+Senate,West Virginia,State,West Virginia,Glenn Elliott (D),Jim Justice* (R),-1,1
+Senate,Wisconsin,State,Wisconsin,Tammy Baldwin* (D),Eric Hovde (R),1,1
+Senate,Wyoming,State,Wyoming,Scott Morrow (D),John Barrasso* (R),-1,1
+Senate,Nebraska Special,State,Nebraska,Preston Love Jr. (D),Pete Rickets* (R),0,1
+Gubernatorial,Delaware,State,Delaware,Matt Meyer (D),Michael Ramone (R),0,0
+Gubernatorial,Indiana,State,Indiana,Jennifer McCormick (D),Mike Braun (R),0,0
+Gubernatorial,Missouri,State,Missouri,Crystal Quade (D),Mike Kehoe (R),0,0
+Gubernatorial,Montana,State,Montana,Ryan Busse (D),Greg Gianforte* (R),-1,0
+Gubernatorial,New Hampshire,State,New Hampshire,Joyce Craig (D),Kelly Ayotte (R),0,0
+Gubernatorial,North Carolina,State,North Carolina,Josh Stein (D),Mark Robinson (R),0,0
+Gubernatorial,North Dakota,State,North Dakota,Merrill Piepkorn (D),Kelly Armstrong (R),0,0
+Gubernatorial,Utah,State,Utah,Brian King (D),Spencer Cox* (R),-1,0
+Gubernatorial,Vermont,State,Vermont,Esther Charlestin (D),Phil Scott* (R),-1,0
+Gubernatorial,Washington,State,Washington,Bob Ferguson (D),Dave Reichert (R),0,0
+Gubernatorial,West Virginia,State,West Virginia,Steve Williams (D),Patrick Morrisey (R),0,0

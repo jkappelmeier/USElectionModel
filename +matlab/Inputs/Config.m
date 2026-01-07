@@ -4,6 +4,27 @@ clear
 electionDate = datetime(2024,11,5); % Election Date
 startDate = datetime(2023,11,5); % Campaign Start Date
 
+%% Shared Covariance Data
+% Presidential, Generic Ballot, Senate, Gubernatorial
+shared.nationalFund = [1, 0, 0.5324, 0;
+    0, 1, 0.6388, 0.8365;
+    0.5324, 0.6388, 1, 0.2894;
+    0, 0.8365, 0.2894, 1];
+shared.nationalPoll = [1, 0.8876, 0.9909, 0.9104;
+    0.8876, 1, 0.8459, 0.7934;
+    0.9909, 0.8459, 1, 0.8979;
+    0.9104, 0.7934, 0.8979, 1];
+
+% House, Senate, Governor
+shared.incCorr = [1, 0.2281, 0.1799;
+    0.2281, 1, 0.3960;
+    0.1799, 0.3960, 1];
+
+% Shared Covariance
+shared.districtSigma = 0.0223;
+shared.districtSigmaPoll = 0.025;
+shared.districtQPoll = 3.372e-6;
+
 %% Presidential Data
 %%% Fundamentals Model
 presidential.nationalMean = 0.4926;
@@ -12,7 +33,7 @@ presidential.incumbency = 0.0238;
 %%% Uncertainty
 presidential.nationalSigma = 0.0449;
 presidential.stateSigma = 0.0;
-presidential.districtSigma = 0.0396;
+presidential.districtSigma = sqrt(0.0396^2 - shared.districtSigma^2);
 
 %%% Polling
 presidential.nationalSigmaPoll = 0.0171;
@@ -20,8 +41,8 @@ presidential.nationalQPoll = 1.367e-5;
 
 presidential.stateSigmaPoll = 0.0;
 presidential.stateQPoll = 0;
-presidential.districtSigmaPoll = 0.0304;
-presidential.districtQPoll = 1.0635e-5;
+presidential.districtSigmaPoll = sqrt(0.0259^2 - shared.districtSigmaPoll^2);
+presidential.districtQPoll = presidential.districtSigma^2/presidential.nationalSigma^2*presidential.nationalQPoll - shared.districtQPoll;
 
 %% Generic Ballot Data
 %%% Fundamentals Model
@@ -34,28 +55,59 @@ genericBallot.nationalSigma = 0.0241;
 %%% Polling
 genericBallot.nationalSigmaPoll = 0.0167;
 % genericBallot.nationalQPoll = 1.4459e-5;
-genericBallot.nationalQPoll = 3.9383-6;
+genericBallot.nationalQPoll = genericBallot.nationalSigma^2/presidential.nationalSigma^2*presidential.nationalQPoll;
 
 %% House Data
 %%% Fundamentals Model
 house.incumbency = 0.0102;
 house.incumbencySigma = 0.0148;
-house.presModelSigma = 0.029;
-house.prevModelSigma = 0.032;
+house.presModelSigma = sqrt(0.029^2 - shared.districtSigma^2);
+house.prevModelSigma = sqrt(0.032^2 - shared.districtSigma^2);
 
 %%% Polling
-house.districtSigmaPoll = 0.0323;
-house.districtQPoll = 5.7026e-6;
-house.districtIncQPoll = 1.4852e-6;
+house.districtSigmaPoll = sqrt(0.0307^2 - shared.districtSigmaPoll^2);
+house.districtQPoll = house.presModelSigma^2/presidential.nationalSigma^2*presidential.nationalQPoll - shared.districtQPoll;
+house.districtIncQPoll = house.incumbencySigma^2/presidential.nationalSigma^2*presidential.nationalQPoll;
 
-%% Shared Covariance Data
-% Presidential, Generic Ballot
-shared.nationalPoll = [1, 0.8876;
-    0.8876, 1];
+%% Senate Data
+%%% Initial Information
+senate.seats.dem = 28;
+senate.seats.rep = 38;
 
-% Shared Covariance
-shared.districtSigma = 0.0223;
-shared.districtSigmaPoll = 0.0304;
-shared.districtQPoll = 3.372e-6;
+%%% Fundamentals Model
+senate.nationalBiasIncumbency = -0.0188;
+senate.nationalBiasMean = 0.0222;
+senate.nationalBiasSigma = 0.0207;
 
+senate.incumbency = 0.0302;
+senate.presModelSigma = sqrt(0.0535^2 - 0.6043 * shared.districtSigma^2);
+senate.incumbencySigma = 0.014;
+
+%%% Polling
+senate.nationalSigmaPoll = 0.016;
+senate.nationalQPoll = senate.nationalBiasSigma^2/presidential.nationalSigma^2*presidential.nationalQPoll;
+
+senate.stateSigmaPoll = sqrt(0.0262^2 - 0.6043 * shared.districtSigmaPoll^2);
+senate.stateQPoll = senate.presModelSigma^2 / presidential.nationalSigma^2 * presidential.nationalQPoll;
+senate.stateIncQPoll = senate.incumbencySigma^2 / presidential.nationalSigma^2 * presidential.nationalQPoll;
+
+%% Gubernatorial Data
+%%% Fundamentals Model
+gubernatorial.nationalBiasIncumbency = -0.0226;
+gubernatorial.nationalBiasMean = 0.0174;
+gubernatorial.nationalBiasSigma = 0.0194;
+
+gubernatorial.incumbency = 0.0603;
+gubernatorial.presModelSigma = sqrt(0.0992^2 - 0.6043 * shared.districtSigma^2);
+gubernatorial.incumbencySigma = 0.0388;
+
+%%% Polling
+gubernatorial.nationalSigmaPoll = 0.0171;
+gubernatorial.nationalQPoll = presidential.nationalQPoll * gubernatorial.nationalBiasSigma^2 / presidential.nationalSigma^2;
+
+gubernatorial.stateSigmaPoll = sqrt(0.0276^2 - 0.6043 * shared.districtSigmaPoll^2);
+gubernatorial.stateQPoll = gubernatorial.presModelSigma^2 / presidential.nationalSigma^2 * presidential.nationalQPoll;
+gubernatorial.stateIncQPoll = gubernatorial.incumbencySigma^2 / presidential.nationalSigma^2 * presidential.nationalQPoll;
+
+%% Save Data
 save("Config.mat")

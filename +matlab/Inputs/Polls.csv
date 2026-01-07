@@ -1997,7 +1997,7 @@ House,Colorado-08,Congressional District,Colorado-08,OnMessage Inc. (R),4/1/2024
 House,Connecticut-01,Congressional District,Connecticut-01,Emerson College,10/24/2024,10/26/2024,620,LV,49%,45%
 House,Connecticut-01,Congressional District,Connecticut-01,Emerson College,10/9/2024,10/11/2024,725,LV,49%,46%
 House,Connecticut-01,Congressional District,Connecticut-01,Public Opinion Strategies,11/11/2023,11/13/2023,400,LV,43%,41%
-House,Delaware-00,Congressional District,Delaware-00,University of Delaware,11/11/2024,11/19/2024,400,RV,52%,31%
+House,Delaware-00,Congressional District,Delaware-00,University of Delaware,9/11/2024,9/19/2024,400,RV,52%,31%
 House,Florida-04,Congressional District,Florida-04,University of North Florida,10/18/2024,10/19/2024,337,LV,44%,51%
 House,Florida-07,Congressional District,Florida-07,Public Policy Polling (D),6/13/2024,6/14/2024,594,RV,43%,48%
 House,Florida-13,Congressional District,Florida-13,St. Pete Polls,10/20/2024,10/20/2024,905,LV,46%,46%
@@ -2012,7 +2012,7 @@ House,Illinois-11,Congressional District,Illinois-11,Cygnal (R),7/2/2024,7/3/202
 House,Illinois-17,Congressional District,Illinois-17,M3 Strategies,9/1/2024,9/3/2024,753,LV,52%,47%
 House,Iowa-01,Congressional District,Iowa-01,DCCC (D),9/30/2024,10/1/2024,625,LV,50%,46%
 House,Iowa-01,Congressional District,Iowa-01,"Normington, Pettis & Associates (D)",8/27/2024,8/29/2024,400,LV,47%,47%
-House,Iowa-01,Congressional District,Iowa-01,RMG Research,9/28/2023,12/2/2023,448,LV,35%,38%
+House,Iowa-01,Congressional District,Iowa-01,RMG Research,11/28/2023,12/2/2023,448,LV,35%,38%
 House,Iowa-03,Congressional District,Iowa-03,GQR (D),9/19/2024,9/22/2024,400,LV,50%,46%
 House,Iowa-03,Congressional District,Iowa-03,RMG Research,9/5/2024,9/12/2024,483,LV,42%,39%
 House,Iowa-03,Congressional District,Iowa-03,GQR (D),7/1/2024,7/1/2024,550,LV,43%,43%
@@ -2180,3 +2180,974 @@ House,Wisconsin-03,Congressional District,Wisconsin-03,Public Opinion Strategies
 House,Wisconsin-03,Congressional District,Wisconsin-03,GBAO (D),9/8/2024,9/10/2024,400,LV,49%,47%
 House,Wisconsin-03,Congressional District,Wisconsin-03,GQR Research (D),6/10/2024,6/16/2024,400,LV,46%,50%
 House,Wisconsin-03,Congressional District,Wisconsin-03,Blueprint Polling (D),2/2/2024,2/4/2024,326,LV,45%,50%
+Senate,Arizona,State,Arizona,AtlasIntel,11/3/2024,11/4/2024,875,LV,48%,48%
+Senate,Arizona,State,Arizona,Victory Insights (R),11/2/2024,11/3/2024,750,LV,50%,47%
+Senate,Arizona,State,Arizona,The Trafalgar Group (R),11/1/2024,11/3/2024,1090,LV,49%,49%
+Senate,Arizona,State,Arizona,Patriot Polling (R),11/1/2024,11/3/2024,801,RV,51%,48%
+Senate,Arizona,State,Arizona,InsiderAdvantage (R),11/1/2024,11/2/2024,800,LV,49%,47%
+Senate,Arizona,State,Arizona,AtlasIntel,11/1/2024,11/2/2024,967,LV,47%,49%
+Senate,Arizona,State,Arizona,Emerson College,10/30/2024,11/2/2024,900,LV,50%,45%
+Senate,Arizona,State,Arizona,New York Times/Siena College,10/25/2024,11/2/2024,1025,LV,50%,45%
+Senate,Arizona,State,Arizona,Morning Consult,10/23/2024,11/1/2024,666,LV,50%,42%
+Senate,Arizona,State,Arizona,AtlasIntel,10/30/2024,10/31/2024,1005,LV,48%,49%
+Senate,Arizona,State,Arizona,OnMessage (R),10/29/2024,10/31/2024,800,LV,48%,48%
+Senate,Arizona,State,Arizona,YouGov,10/25/2024,10/31/2024,856,LV,49%,45%
+Senate,Arizona,State,Arizona,ActiVote,10/5/2024,10/31/2024,400,LV,54%,46%
+Senate,Arizona,State,Arizona,Noble Predictive Insights,10/28/2024,10/30/2024,775,LV,48%,44%
+Senate,Arizona,State,Arizona,Data for Progress (D),10/25/2024,10/30/2024,1079,LV,50%,45%
+Senate,Arizona,State,Arizona,Rasmussen Reports (R),10/25/2024,10/29/2024,803,LV,48%,44%
+Senate,Arizona,State,Arizona,AtlasIntel,10/25/2024,10/29/2024,1458,LV,48%,48%
+Senate,Arizona,State,Arizona,Mitchell Research & Communications,10/28/2024,10/28/2024,610,LV,50%,46%
+Senate,Arizona,State,Arizona,Data Orbital (R),10/26/2024,10/28/2024,550,LV,45%,45%
+Senate,Arizona,State,Arizona,RABA Research,10/25/2024,10/27/2024,589,RV,49%,34%
+Senate,Arizona,State,Arizona,The Trafalgar Group (R),10/24/2024,10/26/2024,1094,LV,50%,46%
+Senate,Arizona,State,Arizona,CNN/SSRS,10/21/2024,10/26/2024,781,LV,51%,43%
+Senate,Arizona,State,Arizona,Marist College,10/17/2024,10/22/2024,1193,LV,53%,45%
+Senate,Arizona,State,Arizona,HighGround Public Affairs,10/19/2024,10/20/2024,400,LV,52%,42%
+Senate,Arizona,State,Arizona,InsiderAdvantage (R),10/19/2024,10/20/2024,800,LV,50%,46%
+Senate,Arizona,State,Arizona,University of Arizona/Truedot,10/12/2024,10/20/2024,846,RV,51%,36%
+Senate,Arizona,State,Arizona,Redfield & Wilton Strategies,10/16/2024,10/18/2024,691,LV,48%,41%
+Senate,Arizona,State,Arizona,AtlasIntel,10/12/2024,10/17/2024,1440,LV,50%,46%
+Senate,Arizona,State,Arizona,CBS News/YouGov,10/11/2024,10/16/2024,1403,LV,54%,45%
+Senate,Arizona,State,Arizona,Morning Consult,10/6/2024,10/15/2024,653,LV,52%,40%
+Senate,Arizona,State,Arizona,Redfield & Wilton Strategies,10/12/2024,10/14/2024,1141,LV,47%,42%
+Senate,Arizona,State,Arizona,The Trafalgar Group (R),10/10/2024,10/13/2024,1090,LV,48%,44%
+Senate,Arizona,State,Arizona,New York Times/Siena College,10/7/2024,10/10/2024,808,LV,48%,41%
+Senate,Arizona,State,Arizona,ActiVote,9/8/2024,10/10/2024,400,LV,53%,47%
+Senate,Arizona,State,Arizona,Emerson College,10/5/2024,10/8/2024,1000,LV,50%,43%
+Senate,Arizona,State,Arizona,SoCal Strategies (R),10/5/2024,10/7/2024,735,LV,51%,39%
+Senate,Arizona,State,Arizona,RMG Research,9/30/2024,10/2/2024,783,LV,50%,41%
+Senate,Arizona,State,Arizona,Redfield & Wilton Strategies,9/27/2024,10/2/2024,555,LV,48%,42%
+Senate,Arizona,State,Arizona,Fabrizio Ward (R)/Impact Research (D),9/24/2024,10/1/2024,600,LV,51%,44%
+Senate,Arizona,State,Arizona,InsiderAdvantage (R),9/29/2024,9/30/2024,800,LV,50%,43%
+Senate,Arizona,State,Arizona,HighGround Public Affairs,9/26/2024,9/29/2024,500,LV,51%,41%
+Senate,Arizona,State,Arizona,National Research Inc.,9/25/2024,9/29/2024,600,LV,48%,42%
+Senate,Arizona,State,Arizona,Emerson College,9/27/2024,9/28/2024,920,LV,52%,41%
+Senate,Arizona,State,Arizona,AtlasIntel,9/20/2024,9/25/2024,946,LV,50%,46%
+Senate,Arizona,State,Arizona,BSG (R)/GS Strategy Group (D),9/19/2024,9/25/2024,409,LV,51%,39%
+Senate,Arizona,State,Arizona,Fox News,9/20/2024,9/24/2024,764,LV,55%,42%
+Senate,Arizona,State,Arizona,Suffolk University,9/19/2024,9/24/2024,500,LV,47%,41%
+Senate,Arizona,State,Arizona,Marist College,9/19/2024,9/24/2024,1264,LV,54%,44%
+Senate,Arizona,State,Arizona,Rasmussen Reports (R),9/19/2024,9/22/2024,1030,LV,47%,45%
+Senate,Arizona,State,Arizona,New York Times/Siena College,9/17/2024,9/21/2024,713,LV,49%,43%
+Senate,Arizona,State,Arizona,Redfield & Wilton Strategies,9/16/2024,9/19/2024,789,LV,46%,41%
+Senate,Arizona,State,Arizona,Emerson College,9/15/2024,9/18/2024,868,LV,48%,42%
+Senate,Arizona,State,Arizona,Morning Consult,9/9/2024,9/18/2024,862,LV,53%,39%
+Senate,Arizona,State,Arizona,The Trafalgar Group (R),9/11/2024,9/12/2024,1088,LV,47%,43%
+Senate,Arizona,State,Arizona,Redfield & Wilton Strategies,9/6/2024,9/9/2024,765,LV,48%,42%
+Senate,Arizona,State,Arizona,Morning Consult,8/30/2024,9/8/2024,901,LV,49%,41%
+Senate,Arizona,State,Arizona,YouGov,8/23/2024,9/3/2024,900,RV,50%,42%
+Senate,Arizona,State,Arizona,InsiderAdvantage (R),8/29/2024,8/31/2024,800,LV,49%,45%
+Senate,Arizona,State,Arizona,University of Arizona/Truedot,8/28/2024,8/31/2024,1155,RV,47%,36%
+Senate,Arizona,State,Arizona,CNN/SSRS,8/23/2024,8/29/2024,682,LV,47%,44%
+Senate,Arizona,State,Arizona,Redfield & Wilton Strategies,8/25/2024,8/28/2024,530,LV,42%,37%
+Senate,Arizona,State,Arizona,Emerson College,8/25/2024,8/28/2024,720,LV,49%,42%
+Senate,Arizona,State,Arizona,Fox News,8/23/2024,8/26/2024,1014,RV,56%,41%
+Senate,Arizona,State,Arizona,Noble Predictive Insights,8/12/2024,8/16/2024,1003,RV,47%,40%
+Senate,Arizona,State,Arizona,Redfield & Wilton Strategies,8/12/2024,8/15/2024,592,LV,44%,39%
+Senate,Arizona,State,Arizona,New York Times/Siena College,8/8/2024,8/15/2024,677,LV,51%,42%
+Senate,Arizona,State,Arizona,WPA Intelligence (R),8/11/2024,8/13/2024,600,LV,48%,46%
+Senate,Arizona,State,Arizona,Peak Insights (R),7/31/2024,8/5/2024,800,LV,46%,46%
+Senate,Arizona,State,Arizona,HighGround Public Affairs,7/30/2024,8/5/2024,500,LV,50%,39%
+Senate,Arizona,State,Arizona,Redfield & Wilton Strategies,7/31/2024,8/3/2024,567,LV,42%,36%
+Senate,Arizona,State,Arizona,BSG (R)/GS Strategy Group (D),7/26/2024,8/2/2024,435,LV,51%,42%
+Senate,Arizona,State,Arizona,Emerson College,7/22/2024,7/23/2024,800,RV,46%,42%
+Senate,Arizona,State,Arizona,Public Policy Polling (D),7/19/2024,7/20/2024,736,RV,49%,42%
+Senate,Arizona,State,Arizona,Rasmussen Reports (R),7/5/2024,7/12/2024,1101,LV,44%,41%
+Senate,Arizona,State,Arizona,Public Policy Polling (D),7/10/2024,7/11/2024,596,RV,50%,47%
+Senate,Arizona,State,Arizona,J.L. Partners (R),7/10/2024,7/11/2024,513,LV,43%,44%
+Senate,Arizona,State,Arizona,YouGov,7/4/2024,7/12/2024,793,LV,49%,42%
+Senate,Arizona,State,Arizona,Expedition Strategies,6/24/2024,7/8/2024,268,LV,49%,45%
+Senate,Arizona,State,Arizona,Remington Research Group (R),6/29/2024,7/1/2024,638,LV,47%,47%
+Senate,Arizona,State,Arizona,North Star Opinion Research (R),6/17/2024,6/20/2024,600,LV,39%,38%
+Senate,Arizona,State,Arizona,Emerson College,6/13/2024,6/18/2024,1000,RV,45%,41%
+Senate,Arizona,State,Arizona,Rasmussen Reports (R),6/11/2024,6/13/2024,750,RV,44%,41%
+Senate,Arizona,State,Arizona,Fabrizio Ward (R)/Impact Research (D),5/28/2024,6/4/2024,600,LV,48%,45%
+Senate,Arizona,State,Arizona,Mainstreet Research/FAU,5/19/2024,5/21/2024,501,LV,48%,39%
+Senate,Arizona,State,Arizona,CBS News/YouGov,5/10/2024,5/16/2024,1214,RV,49%,36%
+Senate,Arizona,State,Arizona,Noble Predictive Insights,5/7/2024,5/14/2024,1003,RV,46%,36%
+Senate,Arizona,State,Arizona,BSG (R)/GS Strategy Group (D),5/6/2024,5/13/2024,527,LV,46%,41%
+Senate,Arizona,State,Arizona,New York Times/Siena College,4/28/2024,5/9/2024,626,LV,46%,43%
+Senate,Arizona,State,Arizona,Data Orbital (R),4/27/2024,4/29/2024,550,LV,48%,44%
+Senate,Arizona,State,Arizona,Emerson College,4/25/2024,4/29/2024,1000,RV,45%,43%
+Senate,Arizona,State,Arizona,RABA Research,3/28/2024,3/31/2024,503,RV,36%,28%
+Senate,Arizona,State,Arizona,Emerson College,3/12/2024,3/15/2024,1000,RV,44%,40%
+Senate,Arizona,State,Arizona,Rasmussen Reports (R),2/21/2024,2/26/2024,1000,LV,42%,44%
+Senate,Arizona,State,Arizona,Emerson College,2/16/2024,2/19/2024,1000,RV,46%,39%
+Senate,Arizona,State,Arizona,Noble Predictive Insights,2/6/2024,2/13/2024,1002,RV,47%,37%
+Senate,Arizona,State,Arizona,J.L. Partners (R),1/29/2024,2/1/2024,500,RV,44%,46%
+Senate,Arizona,State,Arizona,Public Policy Polling (D),1/5/2024,1/6/2024,590,V,45%,46%
+Senate,California,State,California,Research Co.,11/2/2024,11/3/2024,450,LV,60%,37%
+Senate,California,State,California,Competitive Edge Research,10/28/2024,10/30/2024,517,RV,52%,42%
+Senate,California,State,California,Cygnal (R),10/27/2024,10/30/2024,611,LV,60%,36%
+Senate,California,State,California,UC Berkely,10/22/2024,10/28/2024,4341,LV,55%,34%
+Senate,California,State,California,ActiVote,10/6/2024,10/27/2024,400,LV,61%,39%
+Senate,California,State,California,ActiVote,10/1/2024,10/18/2024,400,LV,63%,34%
+Senate,California,State,California,YouGov,10/7/2024,10/17/2024,1139,RV,56%,35%
+Senate,California,State,California,Public Policy Institute of California,10/7/2024,10/15/2024,1137,LV,63%,37%
+Senate,California,State,California,Emerson College,10/12/2024,10/14/2024,1000,LV,56%,33%
+Senate,California,State,California,UC Berkely,9/25/2024,10/1/2024,3045,LV,53%,36%
+Senate,California,State,California,USC/CSULB/Cal Poly Ponoma,9/12/2024,9/25/2024,1685,LV,56%,37%
+Senate,California,State,California,ActiVote,8/13/2024,9/21/2024,400,LV,63%,37%
+Senate,California,State,California,Public Policy Institute of California,8/29/2024,9/9/2024,1071,LV,63%,35%
+Senate,California,State,California,Emerson College,9/3/2024,9/5/2024,815,LV,55%,33%
+Senate,California,State,California,ActiVote,7/16/2024,8/12/2024,400,LV,66%,34%
+Senate,California,State,California,UC Berkely,7/31/2024,8/11/2024,3765,LV,53%,33%
+Senate,California,State,California,Public Policy Institute of California,6/24/2024,7/2/2024,1261,LV,64%,33%
+Senate,California,State,California,Public Policy Institute of California,5/23/2024,6/2/2024,1098,LV,62%,37%
+Senate,California,State,California,Public Policy Institute of California,3/19/2024,3/25/2024,1089,LV,61%,37%
+Senate,California,State,California,UC Berkely,2/22/2024,2/26/2024,3304,LV,53%,38%
+Senate,Connecticut,State,Connecticut,MassINC Polling Group,9/12/2024,9/18/2024,800,LV,51%,35%
+Senate,Delaware,State,Delaware,University of Delaware,9/11/2024,9/19/2024,400,RV,52%,32%
+Senate,Florida,State,Florida,Research Co.,11/2/2024,11/3/2024,450,LV,43%,40%
+Senate,Florida,State,Florida,Victory Insights (R),11/1/2024,11/2/2024,400,LV,47%,51%
+Senate,Florida,State,Florida,Stetson University,10/25/2024,11/1/2024,452,LV,45%,53%
+Senate,Florida,State,Florida,Morning Consult,10/23/2024,11/1/2024,2022,LV,45%,48%
+Senate,Florida,State,Florida,Cygnal (R),10/26/2024,10/28/2024,600,LV,45%,49%
+Senate,Florida,State,Florida,Mainstreet Research/FAU,10/19/2024,10/27/2024,897,LV,46%,50%
+Senate,Florida,State,Florida,ActiVote,10/17/2024,10/27/2024,400,LV,45%,55%
+Senate,Florida,State,Florida,St. Pete Polls,10/23/2024,10/25/2024,1227,LV,46%,49%
+Senate,Florida,State,Florida,Emerson College,10/18/2024,10/20/2024,860,LV,47%,53%
+Senate,Florida,State,Florida,Cherry Communications (R),10/10/2024,10/20/2024,614,LV,45%,51%
+Senate,Florida,State,Florida,ActiVote,9/23/2024,10/20/2024,400,LV,48%,52%
+Senate,Florida,State,Florida,Redfield & Wilton Strategies,10/16/2024,10/18/2024,1275,LV,42%,45%
+Senate,Florida,State,Florida,University of North Florida,10/7/2024,10/18/2024,977,LV,46%,49%
+Senate,Florida,State,Florida,RMG Research,10/14/2024,10/17/2024,788,LV,44%,52%
+Senate,Florida,State,Florida,YouGov,10/7/2024,10/17/2024,1094,RV,45%,49%
+Senate,Florida,State,Florida,Redfield & Wilton Strategies,10/12/2024,10/14/2024,1009,LV,42%,45%
+Senate,Florida,State,Florida,Marist College,10/3/2024,10/7/2024,1257,LV,48%,50%
+Senate,Florida,State,Florida,New York Times/Siena College,9/29/2024,10/6/2024,622,LV,40%,49%
+Senate,Florida,State,Florida,Mason-Dixon Polling & Strategy,10/1/2024,10/4/2024,625,RV,41%,48%
+Senate,Florida,State,Florida,Redfield & Wilton Strategies,9/27/2024,10/2/2024,2946,LV,41%,44%
+Senate,Florida,State,Florida,RMG Research,9/25/2024,9/27/2024,774,LV,44%,50%
+Senate,Florida,State,Florida,Public Policy Polling (D),9/25/2024,9/26/2024,808,RV,44%,47%
+Senate,Florida,State,Florida,McLaughlin & Associates (R),9/23/2024,9/25/2024,1200,LV,44%,51%
+Senate,Florida,State,Florida,Victory Insights (R),9/22/2024,9/25/2024,600,LV,44%,45%
+Senate,Florida,State,Florida,The Bullfinch Group,9/20/2024,9/23/2024,600,RV,44%,46%
+Senate,Florida,State,Florida,ActiVote,8/21/2024,9/22/2024,400,LV,46%,54%
+Senate,Florida,State,Florida,Redfield & Wilton Strategies,9/16/2024,9/19/2024,1602,LV,41%,45%
+Senate,Florida,State,Florida,Morning Consult,9/9/2024,9/18/2024,2948,LV,42%,46%
+Senate,Florida,State,Florida,Morning Consult,8/30/2024,9/8/2024,3182,LV,42%,47%
+Senate,Florida,State,Florida,Emerson College,9/3/2024,9/5/2024,815,LV,45%,46%
+Senate,Florida,State,Florida,Redfield & Wilton Strategies,8/25/2024,8/28/2024,850,LV,40%,43%
+Senate,Florida,State,Florida,Cherry Communications (R),8/15/2024,8/26/2024,600,LV,44%,51%
+Senate,Florida,State,Florida,Public Policy Polling (D),8/21/2024,8/22/2024,837,RV,45%,48%
+Senate,Florida,State,Florida,Mainstreet Research/FAU,8/10/2024,8/11/2024,1040,LV,43%,47%
+Senate,Florida,State,Florida,McLaughlin & Associates (R),8/6/2024,8/8/2024,800,LV,42%,52%
+Senate,Florida,State,Florida,University of North Florida,7/24/2024,7/27/2024,774,LV,43%,47%
+Senate,Florida,State,Florida,Targoz Market Research,7/19/2024,7/24/2024,988,LV,43%,49%
+Senate,Florida,State,Florida,Mainstreet Research/FAU,6/8/2024,6/9/2024,771,LV,43%,45%
+Senate,Florida,State,Florida,The Tyson Group (R),6/6/2024,6/9/2024,1050,LV,33%,46%
+Senate,Florida,State,Florida,CBS News/YouGov,5/10/2024,5/16/2024,1209,RV,37%,45%
+Senate,Florida,State,Florida,Cherry Communications (R),4/28/2024,5/7/2024,609,RV,39%,54%
+Senate,Florida,State,Florida,Mainstreet Research/FAU,4/15/2024,4/17/2024,815,LV,36%,53%
+Senate,Florida,State,Florida,USA Today/Ipsos,4/5/2024,4/7/2024,1014,A,26%,36%
+Senate,Florida,State,Florida,Emerson College,4/3/2024,4/7/2024,608,LV,38%,45%
+Senate,Florida,State,Florida,Public Policy Polling (D),2/29/2024,3/1/2024,790,V,41%,44%
+Senate,Indiana,State,Indiana,ActiVote,10/5/2024,10/28/2024,400,LV,43%,57%
+Senate,Indiana,State,Indiana,ActiVote,9/3/2024,10/5/2024,400,LV,44%,56%
+Senate,Indiana,State,Indiana,ARW Strategies,9/23/2024,9/25/2024,600,LV,35%,49%
+Senate,Indiana,State,Indiana,Emerson College,9/12/2024,9/13/2024,1000,LV,33%,47%
+Senate,Maine,State,Maine,University of New Hampshire,10/29/2024,11/2/2024,1485,LV,57%,35%
+Senate,Maine,State,Maine,SurveyUSA,10/24/2024,10/29/2024,1079,LV,62%,28%
+Senate,Maine,State,Maine,Pan Atlantic Research,9/5/2024,9/15/2024,812,LV,61%,23%
+Senate,Maine,State,Maine,University of New Hampshire,8/15/2024,8/19/2024,951,LV,52%,33%
+Senate,Maine,State,Maine,Digital Research,4/8/2024,4/30/2024,609,RV,69%,28%
+Senate,Maryland,State,Maryland,Concord Public Opinion Partners,11/1/2024,11/3/2024,419,LV,52%,38%
+Senate,Maryland,State,Maryland,Morning Consult,10/21/2024,10/30/2024,468,LV,49%,42%
+Senate,Maryland,State,Maryland,Chism Strategies,10/28/2024,10/30/2024,510,LV,48%,40%
+Senate,Maryland,State,Maryland,ActiVote,10/7/2024,10/30/2024,400,LV,57%,43%
+Senate,Maryland,State,Maryland,YouGov,10/23/2024,10/27/2024,500,LV,57%,34%
+Senate,Maryland,State,Maryland,Braun Research,10/17/2024,10/22/2024,1000,LV,52%,40%
+Senate,Maryland,State,Maryland,Emerson College,10/19/2024,10/21/2024,865,LV,57%,43%
+Senate,Maryland,State,Maryland,Morning Consult,10/6/2024,10/15/2024,490,LV,51%,38%
+Senate,Maryland,State,Maryland,"University of Maryland, Baltimore County",9/23/2024,9/28/2024,863,LV,48%,39%
+Senate,Maryland,State,Maryland,Braun Research,9/19/2024,9/23/2024,1012,LV,51%,40%
+Senate,Maryland,State,Maryland,Morning Consult,9/9/2024,9/18/2024,474,LV,50%,39%
+Senate,Maryland,State,Maryland,Public Policy Polling (D),9/16/2024,9/17/2024,543,RV,52%,37%
+Senate,Maryland,State,Maryland,Emerson College,9/12/2024,9/13/2024,890,LV,49%,42%
+Senate,Maryland,State,Maryland,Morning Consult,8/30/2024,9/8/2024,516,LV,48%,43%
+Senate,Maryland,State,Maryland,Gonzales Research,8/24/2024,8/30/2024,820,RV,46%,41%
+Senate,Maryland,State,Maryland,Fabrizio Ward (R)/Impact Research (D),8/14/2024,8/20/2024,700,LV,46%,46%
+Senate,Maryland,State,Maryland,Public Policy Polling (D),6/19/2024,6/20/2024,635,RV,48%,40%
+Senate,Maryland,State,Maryland,Emerson College,5/6/2024,5/8/2024,1115,RV,48%,38%
+Senate,Maryland,State,Maryland,Public Policy Polling (D),5/6/2024,5/7/2024,719,RV,46%,37%
+Senate,Maryland,State,Maryland,OpinionWorks,4/7/2024,4/10/2024,1292,LV,36%,54%
+Senate,Maryland,State,Maryland,Goucher College,3/19/2024,3/24/2024,800,RV,40%,44%
+Senate,Maryland,State,Maryland,Braun Research,3/5/2024,3/12/2024,1004,RV,36%,50%
+Senate,Maryland,State,Maryland,Emerson College,2/12/2024,2/13/2024,1000,RV,37%,44%
+Senate,Maryland,State,Maryland,Ragnar Research Partners (R),1/30/2024,2/1/2024,600,LV,29%,52%
+Senate,Maryland,State,Maryland,Victoria Research,11/9/2023,11/13/2023,813,LV,36%,42%
+Senate,Massachusetts,State,Massachusetts,University of New Hampshire,10/29/2024,11/2/2024,744,LV,60%,37%
+Senate,Massachusetts,State,Massachusetts,MassINC Polling Group,10/29/2024,11/1/2024,582,LV,55%,33%
+Senate,Massachusetts,State,Massachusetts,ActiVote,10/2/2024,10/30/2024,400,LV,63%,37%
+Senate,Massachusetts,State,Massachusetts,Emerson College,10/24/2024,10/26/2024,1000,LV,56%,36%
+Senate,Massachusetts,State,Massachusetts,Umass Amherst/YouGov/WCVB,10/3/2024,10/10/2024,700,A,56%,34%
+Senate,Massachusetts,State,Massachusetts,Suffolk University,10/2/2024,10/6/2024,500,LV,59%,35%
+Senate,Massachusetts,State,Massachusetts,Opinion Diagnostics (R),9/19/2024,9/21/2024,638,LV,53%,32%
+Senate,Massachusetts,State,Massachusetts,MassINC Polling Group,9/12/2024,9/18/2024,800,LV,56%,35%
+Senate,Massachusetts,State,Massachusetts,University of New Hampshire,9/12/2024,9/16/2024,564,LV,58%,32%
+Senate,Michigan,State,Michigan,AtlasIntel,11/3/2024,11/4/2024,1113,LV,49%,48%
+Senate,Michigan,State,Michigan,Research Co.,11/2/2024,11/3/2024,450,LV,50%,44%
+Senate,Michigan,State,Michigan,Patriot Polling (R),11/1/2024,11/3/2024,858,RV,50%,49%
+Senate,Michigan,State,Michigan,The Trafalgar Group (R),11/1/2024,11/3/2024,1079,LV,47%,47%
+Senate,Michigan,State,Michigan,InsiderAdvantage (R),11/1/2024,11/2/2024,800,LV,48%,48%
+Senate,Michigan,State,Michigan,AtlasIntel,11/1/2024,11/2/2024,1198,LV,49%,47%
+Senate,Michigan,State,Michigan,Emerson College,10/30/2024,11/2/2024,790,LV,49%,45%
+Senate,Michigan,State,Michigan,Mitchell Research,10/29/2024,11/2/2024,585,LV,50%,48%
+Senate,Michigan,State,Michigan,New York Times/Siena College,10/29/2024,11/2/2024,998,LV,48%,46%
+Senate,Michigan,State,Michigan,Mainstreet Research/FAU,10/25/2024,11/2/2024,713,LV,47%,43%
+Senate,Michigan,State,Michigan,Morning Consult,10/23/2024,11/1/2024,1112,LV,49%,41%
+Senate,Michigan,State,Michigan,OnMessage Inc. (R),10/29/2024,10/31/2024,800,LV,47%,46%
+Senate,Michigan,State,Michigan,YouGov,10/25/2024,10/31/2024,940,LV,51%,42%
+Senate,Michigan,State,Michigan,ActiVote,10/12/2024,10/31/2024,400,LV,51%,49%
+Senate,Michigan,State,Michigan,Marist College,10/27/2024,10/30/2024,1214,LV,52%,46%
+Senate,Michigan,State,Michigan,AtlasIntel,10/27/2024,10/30/2024,1136,LV,50%,46%
+Senate,Michigan,State,Michigan,Echelon Insights,10/27/2024,10/30/2024,600,LV,48%,46%
+Senate,Michigan,State,Michigan,Mitchell Research,10/28/2024,10/29/2024,800,LV,47%,49%
+Senate,Michigan,State,Michigan,Tarrance Group (R),10/26/2024,10/29/2024,620,LV,48%,50%
+Senate,Michigan,State,Michigan,AtlasIntel,10/25/2024,10/29/2024,983,LV,49%,47%
+Senate,Michigan,State,Michigan,EPIC-MRA,10/24/2024,10/28/2024,600,LV,47%,42%
+Senate,Michigan,State,Michigan,The Washington Post,10/24/2024,10/28/2024,1003,LV,48%,45%
+Senate,Michigan,State,Michigan,Fox News,10/24/2024,10/28/2024,988,LV,51%,47%
+Senate,Michigan,State,Michigan,CNN/SSRS,10/23/2024,10/28/2024,726,LV,48%,42%
+Senate,Michigan,State,Michigan,InsiderAdvantage (R),10/26/2024,10/27/2024,800,LV,48%,48%
+Senate,Michigan,State,Michigan,Emerson College,10/25/2024,10/27/2024,1000,LV,48%,46%
+Senate,Michigan,State,Michigan,Suffolk University,10/24/2024,10/27/2024,500,LV,47%,45%
+Senate,Michigan,State,Michigan,Susquehanna Polling and Research (R),10/23/2024,10/27/2024,400,LV,48%,47%
+Senate,Michigan,State,Michigan,Patriot Polling (R),10/24/2024,10/26/2024,796,RV,51%,48%
+Senate,Michigan,State,Michigan,Glengariff Group,10/22/2024,10/24/2024,600,LV,46%,42%
+Senate,Michigan,State,Michigan,UMass Lowell/YouGov,10/16/2024,10/24/2024,600,LV,48%,39%
+Senate,Michigan,State,Michigan,Quinnipiac University,10/17/2024,10/21/2024,1136,LV,52%,44%
+Senate,Michigan,State,Michigan,The Trafalgar Group (R),10/18/2024,10/20/2024,1090,LV,46%,45%
+Senate,Michigan,State,Michigan,Redfield & Wilton Strategies,10/16/2024,10/18/2024,1008,LV,45%,38%
+Senate,Michigan,State,Michigan,AtlasIntel,10/12/2024,10/17/2024,1529,LV,48%,48%
+Senate,Michigan,State,Michigan,The Bullfinch Group,10/11/2024,10/17/2024,600,LV,51%,42%
+Senate,Michigan,State,Michigan,RMG Research,10/10/2024,10/16/2024,789,LV,48%,43%
+Senate,Michigan,State,Michigan,Morning Consult,10/6/2024,10/15/2024,496,LV,48%,41%
+Senate,Michigan,State,Michigan,Mitchell Research,10/14/2024,10/14/2024,589,LV,47%,43%
+Senate,Michigan,State,Michigan,Redfield & Wilton Strategies,10/12/2024,10/14/2024,682,LV,44%,40%
+Senate,Michigan,State,Michigan,SoCal Strategies (R),10/11/2024,10/13/2024,692,LV,48%,45%
+Senate,Michigan,State,Michigan,Marketing Resource Group (R),10/7/2024,10/11/2024,600,LV,46%,41%
+Senate,Michigan,State,Michigan,InsiderAdvantage (R),10/8/2024,10/9/2024,800,LV,46%,45%
+Senate,Michigan,State,Michigan,Emerson College,10/5/2024,10/8/2024,950,LV,49%,44%
+Senate,Michigan,State,Michigan,Fabrizio Ward (R)/Impact Research (D),10/2/2024,10/8/2024,600,LV,49%,46%
+Senate,Michigan,State,Michigan,Research Co.,10/5/2024,10/7/2024,450,LV,46%,41%
+Senate,Michigan,State,Michigan,Quinnipiac University,10/3/2024,10/7/2024,1007,LV,48%,48%
+Senate,Michigan,State,Michigan,Glengariff Group,10/1/2024,10/4/2024,600,LV,47%,43%
+Senate,Michigan,State,Michigan,Redfield & Wilton Strategies,9/27/2024,10/2/2024,839,LV,45%,39%
+Senate,Michigan,State,Michigan,Mitchell Research,9/30/2024,9/30/2024,709,LV,49%,44%
+Senate,Michigan,State,Michigan,The Trafalgar Group (R),9/28/2024,9/30/2024,1086,LV,47%,47%
+Senate,Michigan,State,Michigan,RMG Research,9/24/2024,9/27/2024,789,LV,49%,43%
+Senate,Michigan,State,Michigan,New York Times/Siena College,9/21/2024,9/26/2024,688,LV,47%,42%
+Senate,Michigan,State,Michigan,AtlasIntel,9/20/2024,9/25/2024,918,LV,44%,49%
+Senate,Michigan,State,Michigan,BSG (R)/GS Strategy Group (D),9/19/2024,9/25/2024,416,LV,50%,46%
+Senate,Michigan,State,Michigan,Remington Research Group (R),9/16/2024,9/20/2024,800,LV,50%,43%
+Senate,Michigan,State,Michigan,Redfield & Wilton Strategies,9/16/2024,9/19/2024,993,LV,46%,37%
+Senate,Michigan,State,Michigan,Suffolk University,9/16/2024,9/19/2024,500,LV,45%,43%
+Senate,Michigan,State,Michigan,UMass/YouGov,9/11/2024,9/19/2024,650,LV,47%,34%
+Senate,Michigan,State,Michigan,Emerson College,9/15/2024,9/18/2024,875,LV,47%,42%
+Senate,Michigan,State,Michigan,Tarrance Group (R),9/14/2024,9/18/2024,607,LV,49%,47%
+Senate,Michigan,State,Michigan,Morning Consult,9/9/2024,9/18/2024,1297,LV,51%,37%
+Senate,Michigan,State,Michigan,Marist College,9/12/2024,9/17/2024,1138,LV,52%,45%
+Senate,Michigan,State,Michigan,Quinnipiac University,9/12/2024,9/16/2024,905,LV,51%,46%
+Senate,Michigan,State,Michigan,Redfield & Wilton Strategies,9/6/2024,9/9/2024,556,LV,44%,39%
+Senate,Michigan,State,Michigan,Morning Consult,8/30/2024,9/8/2024,1368,LV,49%,40%
+Senate,Michigan,State,Michigan,co/efficient (R),9/4/2024,9/6/2024,931,LV,39%,38%
+Senate,Michigan,State,Michigan,CBS News/YouGov,9/3/2024,9/6/2024,1073,LV,48%,41%
+Senate,Michigan,State,Michigan,ActiVote,8/6/2024,9/5/2024,400,LV,53%,47%
+Senate,Michigan,State,Michigan,YouGov,8/23/2024,9/3/2024,1000,RV,50%,39%
+Senate,Michigan,State,Michigan,Cygnal (R),8/28/2024,9/1/2024,600,LV,44%,43%
+Senate,Michigan,State,Michigan,The Trafalgar Group (R),8/28/2024,8/30/2024,1089,LV,49%,45%
+Senate,Michigan,State,Michigan,Glengariff Group,8/26/2024,8/29/2024,1089,LV,49%,45%
+Senate,Michigan,State,Michigan,CNN/SSRS,8/23/2024,8/29/2024,708,LV,47%,41%
+Senate,Michigan,State,Michigan,Emerson College,8/25/2024,8/28/2024,800,LV,47%,41%
+Senate,Michigan,State,Michigan,EPIC-MRA,8/23/2024,8/26/2024,600,RV,46%,42%
+Senate,Michigan,State,Michigan,TIPP Insights (R),8/20/2024,8/22/2024,741,LV,49%,39%
+Senate,Michigan,State,Michigan,Fabrizio Ward (R),8/19/2024,8/21/2024,400,LV,43%,43%
+Senate,Michigan,State,Michigan,The Bullfinch Group,8/8/2024,8/11/2024,500,RV,48%,38%
+Senate,Michigan,State,Michigan,Fabrizio Ward (R)/Impact Research (D),8/7/2024,8/11/2024,600,RV,47%,44%
+Senate,Michigan,State,Michigan,New York Times/Siena College,8/5/2024,8/8/2024,619,LV,46%,43%
+Senate,Michigan,State,Michigan,BSG (R)/GS Strategy Group (D),7/26/2024,8/2/2024,406,LV,50%,42%
+Senate,Michigan,State,Michigan,Glengariff Group,7/22/2024,7/24/2024,600,LV,46%,41%
+Senate,Michigan,State,Michigan,Fox News,7/22/2024,7/24/2024,1012,RV,51%,46%
+Senate,Michigan,State,Michigan,Emerson College,7/22/2024,7/23/2024,800,RV,45%,41%
+Senate,Michigan,State,Michigan,Public Policy Polling (D),7/17/2024,7/18/2024,650,RV,46%,38%
+Senate,Michigan,State,Michigan,EPIC-MRA,7/13/2024,7/17/2024,600,RV,43%,40%
+Senate,Michigan,State,Michigan,Public Policy Polling (D),7/11/2024,7/12/2024,568,RV,45%,35%
+Senate,Michigan,State,Michigan,YouGov,7/4/2024,7/12/2024,852,LV,49%,40%
+Senate,Michigan,State,Michigan,Expedition Strategies,6/24/2024,7/8/2024,275,LV,46%,40%
+Senate,Michigan,State,Michigan,Remington Research Group (R),6/29/2024,7/1/2024,584,LV,47%,43%
+Senate,Michigan,State,Michigan,EPIC-MRA,6/21/2024,6/26/2024,600,LV,44%,42%
+Senate,Michigan,State,Michigan,Emerson College,6/13/2024,6/18/2024,1000,RV,43%,39%
+Senate,Michigan,State,Michigan,Mitchell Research,6/3/2024,6/3/2024,697,LV,36%,33%
+Senate,Michigan,State,Michigan,Mainstreet Research/FAU,5/30/2024,5/31/2024,636,LV,43%,42%
+Senate,Michigan,State,Michigan,Mitchell Research,5/20/2024,5/21/2024,697,LV,40%,36%
+Senate,Michigan,State,Michigan,KAConsulting (R),5/15/2024,5/19/2024,600,RV,43%,37%
+Senate,Michigan,State,Michigan,Glengariff Group,4/24/2024,4/25/2024,600,RV,40%,37%
+Senate,Michigan,State,Michigan,Emerson College,4/25/2024,4/29/2024,1000,RV,42%,40%
+Senate,Michigan,State,Michigan,Emerson College,3/14/2024,3/18/2024,1000,RV,41%,39%
+Senate,Michigan,State,Michigan,Mitchell Research,3/15/2024,3/16/2024,627,LV,37%,37%
+Senate,Michigan,State,Michigan,EPIC-MRA,2/13/2024,2/18/2024,600,LV,39%,38%
+Senate,Michigan,State,Michigan,Glengariff Group,1/2/2024,1/6/2024,600,LV,38%,37%
+Senate,Michigan,State,Michigan,EPIC-MRA,11/10/2023,11/16/2023,600,LV,39%,37%
+Senate,Minnesota,State,Minnesota,AtlasIntel,11/1/2024,11/4/2024,2065,LV,53%,41%
+Senate,Minnesota,State,Minnesota,Research Co.,11/2/2024,11/3/2024,450,LV,55%,38%
+Senate,Minnesota,State,Minnesota,ActiVote,10/8/2024,10/31/2024,400,LV,56%,44%
+Senate,Minnesota,State,Minnesota,Chism Strategies,10/28/2024,10/30/2024,534,LV,52%,35%
+Senate,Minnesota,State,Minnesota,SurveyUSA,10/24/2024,10/28/2024,728,LV,52%,35%
+Senate,Minnesota,State,Minnesota,Embold Research,10/16/2024,10/22/2024,1734,LV,52%,40%
+Senate,Minnesota,State,Minnesota,Redfield & Wilton Strategies,10/12/2024,10/14/2024,544,LV,42%,35%
+Senate,Minnesota,State,Minnesota,Redfield & Wilton Strategies,9/27/2024,10/2/2024,551,LV,46%,38%
+Senate,Minnesota,State,Minnesota,SurveyUSA,9/23/2024,9/26/2024,646,LV,53%,35%
+Senate,Minnesota,State,Minnesota,Redfield & Wilton Strategies,9/16/2024,9/19/2024,703,LV,42%,34%
+Senate,Minnesota,State,Minnesota,Mason-Dixon Polling & Strategy,9/16/2024,9/18/2024,800,LV,51%,40%
+Senate,Minnesota,State,Minnesota,Redfield & Wilton Strategies,9/6/2024,9/9/2024,617,LV,42%,36%
+Senate,Minnesota,State,Minnesota,Embold Research,9/4/2024,9/8/2024,1616,LV,52%,41%
+Senate,Minnesota,State,Minnesota,SurveyUSA,8/27/2024,8/29/2024,635,LV,50%,36%
+Senate,Minnesota,State,Minnesota,Redfield & Wilton Strategies,8/25/2024,8/28/2024,426,LV,41%,34%
+Senate,Minnesota,State,Minnesota,SurveyUSA,7/23/2024,7/25/2024,656,LV,55%,33%
+Senate,Minnesota,State,Minnesota,Fox News,7/22/2024,7/24/2024,1071,RV,57%,40%
+Senate,Minnesota,State,Minnesota,Emerson College,6/13/2024,6/18/2024,1000,RV,48%,37%
+Senate,Minnesota,State,Minnesota,SurveyUSA,6/12/2024,6/16/2024,626,LV,49%,35%
+Senate,Mississippi,State,Mississippi,Change Research (D),9/29/2024,10/3/2024,565,LV,35%,48%
+Senate,Missouri,State,Missouri,Research Co.,11/2/2024,11/3/2024,450,LV,41%,52%
+Senate,Missouri,State,Missouri,ActiVote,10/6/2024,10/27/2024,400,LV,44%,56%
+Senate,Missouri,State,Missouri,GQR (D),10/23/2024,10/26/2024,600,LV,46%,49%
+Senate,Missouri,State,Missouri,Emerson College,10/22/2024,10/23/2024,620,LV,41%,51%
+Senate,Missouri,State,Missouri,ActiVote,9/1/2024,10/1/2024,400,LV,46%,54%
+Senate,Missouri,State,Missouri,Emerson College,9/12/2024,9/13/2024,850,LV,40%,51%
+Senate,Missouri,State,Missouri,Change Research (D),9/11/2024,9/13/2024,1237,RV,41%,46%
+Senate,Missouri,State,Missouri,GQR (D),9/6/2024,9/12/2024,645,LV,48%,52%
+Senate,Missouri,State,Missouri,YouGov/Saint Louis University,8/8/2024,8/16/2024,900,LV,42%,53%
+Senate,Missouri,State,Missouri,Emerson College,6/17/2024,6/19/2024,1000,RV,38%,47%
+Senate,Missouri,State,Missouri,Remington Research Group (R),3/6/2024,3/8/2024,713,LV,39%,53%
+Senate,Missouri,State,Missouri,Emerson College,1/23/2024,1/28/2024,1830,RV,30%,43%
+Senate,Montana,State,Montana,AtlasIntel,11/3/2024,11/4/2024,752,LV,39%,50%
+Senate,Montana,State,Montana,Emerson College,10/23/2024,10/25/2024,1000,LV,48%,51%
+Senate,Montana,State,Montana,MSU Billings,9/30/2024,10/16/2024,760,LV,43%,43%
+Senate,Montana,State,Montana,New York Times/Siena College,10/5/2024,10/8/2024,656,LV,44%,52%
+Senate,Montana,State,Montana,Public Opinion Strategies (R),9/29/2024,10/1/2024,500,LV,45%,51%
+Senate,Montana,State,Montana,Remington Research Group (R),9/16/2024,9/20/2024,800,LV,44%,52%
+Senate,Montana,State,Montana,RMG Research,9/12/2024,9/19/2024,491,LV,43%,50%
+Senate,Montana,State,Montana,Fabrizio Ward (R)/David Binder Research (D),8/25/2024,8/29/2024,600,LV,45%,51%
+Senate,Montana,State,Montana,Public Opinion Strategies (R),8/18/2024,8/20/2024,500,LV,44%,51%
+Senate,Montana,State,Montana,Rasmussen Reports (R),8/13/2024,8/20/2024,835,LV,43%,50%
+Senate,Montana,State,Montana,RMG Research,8/6/2024,8/14/2024,540,RV,49%,44%
+Senate,Montana,State,Montana,American Pulse Research & Polling,8/10/2024,8/12/2024,538,RV,45%,51%
+Senate,Montana,State,Montana,Emerson College,8/5/2024,8/6/2024,1000,LV,46%,48%
+Senate,Montana,State,Montana,Expedition Strategies,6/24/2024,7/8/2024,251,LV,47%,48%
+Senate,Montana,State,Montana,Remington Research Group (R),6/29/2024,7/1/2024,570,LV,45%,50%
+Senate,Montana,State,Montana,Torchlight Strategies (R),6/22/2024,6/26/2024,649,RV,41%,47%
+Senate,Montana,State,Montana,Public Opinion Strategies (R),6/11/2024,6/13/2024,500,LV,46%,46%
+Senate,Montana,State,Montana,"Fabrizio, Lee & Associates (R)",6/3/2024,6/5/2024,500,LV,48%,48%
+Senate,Montana,State,Montana,J.L. Partners,3/26/2024,3/29/2024,503,LV,45%,48%
+Senate,Montana,State,Montana,Emerson College,2/26/2024,3/2/2024,1000,RV,44%,42%
+Senate,Montana,State,Montana,SurveyUSA,2/12/2024,2/15/2024,549,LV,49%,40%
+Senate,Nebraska,State,Nebraska,Change Research (D),10/30/2024,10/31/2024,600,LV,47%,47%
+Senate,Nebraska,State,Nebraska,Torchlight Strategies (R),10/25/2024,10/28/2024,605,LV,44%,51%
+Senate,Nebraska,State,Nebraska,Economist/YouGov,10/21/2024,10/28/2024,1202,LV,43%,50%
+Senate,Nebraska,State,Nebraska,NYT/Siena College,10/23/2024,10/26/2024,1194,LV,46%,48%
+Senate,Nebraska,State,Nebraska,Change Research (D),10/18/2024,10/21/2024,815,LV,48%,46%
+Senate,Nebraska,State,Nebraska,Torchlight Strategies (R),10/12/2024,10/15/2024,625,LV,45%,51%
+Senate,Nebraska,State,Nebraska,SurveyUSA,10/9/2024,10/12/2024,563,LV,50%,44%
+Senate,Nebraska,State,Nebraska,Torchlight Strategies (R),10/5/2024,10/8/2024,800,LV,42%,48%
+Senate,Nebraska,State,Nebraska,Change Research (D),10/3/2024,10/8/2024,895,LV,46%,43%
+Senate,Nebraska,State,Nebraska,Impact Research (D),10/1/2024,10/3/2024,600,LV,48%,46%
+Senate,Nebraska,State,Nebraska,The Bullfinch Group,9/27/2024,10/1/2024,400,LV,47%,42%
+Senate,Nebraska,State,Nebraska,SurveyUSA,9/20/2024,9/23/2024,558,LV,45%,44%
+Senate,Nebraska,State,Nebraska,Global Strategy Group (D),8/26/2024,8/29/2024,600,LV,42%,43%
+Senate,Nebraska,State,Nebraska,SurveyUSA,8/23/2024,8/27/2024,1293,RV,38%,39%
+Senate,Nebraska,State,Nebraska,YouGov,7/31/2024,8/12/2024,500,RV,41%,43%
+Senate,Nebraska,State,Nebraska,Red Wave Strategy Group/Impact Research,7/8/2024,7/11/2024,500,RV,42%,42%
+Senate,Nebraska,State,Nebraska,Global Strategy Group (D),6/3/2024,6/5/2024,600,LV,36%,49%
+Senate,Nebraska,State,Nebraska,Public Policy Polling (D),4/24/2024,4/25/2024,737,RV,33%,37%
+Senate,Nebraska,State,Nebraska,Change Research (D),11/13/2023,11/16/2023,1048,LV,40%,38%
+Senate,Nebraska Special,State,Nebraska,Economist/YouGov,10/21/2024,10/28/2024,1202,LV,36%,54%
+Senate,Nebraska Special,State,Nebraska,NYT/Siena College,10/23/2024,10/26/2024,1194,LV,38%,56%
+Senate,Nebraska Special,State,Nebraska,SurveyUSA,10/9/2024,10/12/2024,563,LV,37%,53%
+Senate,Nebraska Special,State,Nebraska,SurveyUSA,9/20/2024,9/23/2024,558,LV,35%,53%
+Senate,Nevada,State,Nevada,AtlasIntel,11/3/2024,11/4/2024,707,LV,48%,43%
+Senate,Nevada,State,Nevada,Patriot Polling (R),11/1/2024,11/3/2024,792,RV,51%,48%
+Senate,Nevada,State,Nevada,AtlasIntel,11/1/2024,11/2/2024,782,LV,46%,46%
+Senate,Nevada,State,Nevada,Emerson College,10/30/2024,11/2/2024,840,LV,50%,44%
+Senate,Nevada,State,Nevada,New York Times/Siena College,10/24/2024,11/2/2024,1010,LV,52%,43%
+Senate,Nevada,State,Nevada,AtlasIntel,10/30/2024,10/31/2024,845,LV,47%,45%
+Senate,Nevada,State,Nevada,Emerson College,10/29/2024,10/31/2024,700,LV,49%,45%
+Senate,Nevada,State,Nevada,Noble Predictive Insights,10/28/2024,10/31/2024,593,LV,48%,46%
+Senate,Nevada,State,Nevada,Susquehanna Polling & Research (R),10/28/2024,10/31/2024,400,LV,46%,47%
+Senate,Nevada,State,Nevada,YouGov,10/25/2024,10/31/2024,753,LV,51%,44%
+Senate,Nevada,State,Nevada,Rasmussen Reports (R),10/25/2024,10/30/2024,767,LV,50%,41%
+Senate,Nevada,State,Nevada,Data for Progress (D),10/25/2024,10/30/2024,721,LV,49%,42%
+Senate,Nevada,State,Nevada,AtlasIntel,10/25/2024,10/29/2024,1083,LV,49%,44%
+Senate,Nevada,State,Nevada,The Trafalgar Group (R),10/25/2024,10/28/2024,1082,LV,47%,45%
+Senate,Nevada,State,Nevada,CNN/SRSS,10/21/2024,10/26/2024,683,LV,50%,41%
+Senate,Nevada,State,Nevada,OnMessage Inc. (R),10/19/2024,10/22/2024,600,LV,48%,48%
+Senate,Nevada,State,Nevada,InsiderAdvantage (R),10/19/2024,10/20/2024,800,LV,48%,44%
+Senate,Nevada,State,Nevada,Redfield & Wilton Strategies,10/16/2024,10/18/2024,529,LV,48%,41%
+Senate,Nevada,State,Nevada,AtlasIntel,10/12/2024,10/17/2024,1171,LV,47%,43%
+Senate,Nevada,State,Nevada,Fabrizio Ward (R)/Impact Research (D),10/8/2024,10/15/2024,600,LV,49%,44%
+Senate,Nevada,State,Nevada,Morning Consult,10/6/2024,10/15/2024,496,LV,52%,37%
+Senate,Nevada,State,Nevada,Redfield & Wilton Strategies,10/12/2024,10/14/2024,838,LV,46%,41%
+Senate,Nevada,State,Nevada,Rasmussen Reports (R),10/9/2024,10/14/2024,748,LV,47%,44%
+Senate,Nevada,State,Nevada,The Trafalgar Group (R),10/10/2024,10/13/2024,1088,LV,48%,43%
+Senate,Nevada,State,Nevada,Emerson College,10/5/2024,10/8/2024,900,LV,50%,42%
+Senate,Nevada,State,Nevada,RMG Research,9/30/2024,10/3/2024,782,LV,53%,37%
+Senate,Nevada,State,Nevada,Redfield & Wilton Strategies,9/27/2024,10/2/2024,514,LV,48%,41%
+Senate,Nevada,State,Nevada,InsiderAdvantage (R),9/29/2024,9/30/2024,800,LV,49%,42%
+Senate,Nevada,State,Nevada,AtlasIntel,9/20/2024,9/25/2024,858,LV,48%,46%
+Senate,Nevada,State,Nevada,BSG (R)/GS Strategy Group (D),9/19/2024,9/25/2024,409,LV,52%,38%
+Senate,Nevada,State,Nevada,Rasmussen Reports (R),9/19/2024,9/22/2024,738,LV,50%,40%
+Senate,Nevada,State,Nevada,Remington Research Group (R),9/16/2024,9/20/2024,800,LV,47%,41%
+Senate,Nevada,State,Nevada,Redfield & Wilton Strategies,9/16/2024,9/19/2024,652,LV,47%,38%
+Senate,Nevada,State,Nevada,The Tarrance Group (R),9/16/2024,9/19/2024,600,LV,48%,41%
+Senate,Nevada,State,Nevada,Emerson College,9/15/2024,9/18/2024,895,LV,48%,41%
+Senate,Nevada,State,Nevada,Morning Consult,9/9/2024,9/18/2024,474,LV,52%,39%
+Senate,Nevada,State,Nevada,Noble Predictive Insights,9/9/2024,9/16/2024,692,LV,53%,38%
+Senate,Nevada,State,Nevada,The Trafalgar Group (R),9/11/2024,9/13/2024,1079,LV,48%,40%
+Senate,Nevada,State,Nevada,Redfield & Wilton Strategies,9/6/2024,9/9/2024,698,LV,47%,39%
+Senate,Nevada,State,Nevada,Morning Consult,8/30/2024,9/8/2024,516,LV,50%,40%
+Senate,Nevada,State,Nevada,InsiderAdvantage (R),8/29/2024,8/31/2024,800,LV,49%,39%
+Senate,Nevada,State,Nevada,CNN/SRSS,8/23/2024,8/29/2024,626,LV,50%,40%
+Senate,Nevada,State,Nevada,Redfield & Wilton Strategies,8/25/2024,8/28/2024,490,LV,43%,39%
+Senate,Nevada,State,Nevada,Emerson College,8/25/2024,8/28/2024,1168,LV,50%,40%
+Senate,Nevada,State,Nevada,Redfield & Wilton Strategies,8/12/2024,8/15/2024,536,LV,41%,37%
+Senate,Nevada,State,Nevada,Rasmussen Reports (R),8/13/2024,8/18/2024,980,LV,50%,39%
+Senate,Nevada,State,Nevada,New York Times/Siena College,8/12/2024,8/15/2024,677,LV,49%,40%
+Senate,Nevada,State,Nevada,Providence Polling,8/3/2024,8/5/2024,991,LV,52%,40%
+Senate,Nevada,State,Nevada,Redfield & Wilton Strategies,7/31/2024,8/3/2024,470,LV,41%,38%
+Senate,Nevada,State,Nevada,BSG (R)/GS Strategy Group (D),7/26/2024,8/2/2024,403,LV,54%,36%
+Senate,Nevada,State,Nevada,Redfield & Wilton Strategies,7/22/2024,7/24/2024,435,LV,45%,40%
+Senate,Nevada,State,Nevada,Redfield & Wilton Strategies,7/16/2024,7/18/2024,412,LV,41%,37%
+Senate,Nevada,State,Nevada,Rasmussen Reports (R),7/5/2024,7/12/2024,761,LV,45%,42%
+Senate,Nevada,State,Nevada,YouGov,7/4/2024,7/12/2024,731,LV,47%,41%
+Senate,Nevada,State,Nevada,Remington Research Group (R),6/29/2024,7/1/2024,601,LV,48%,46%
+Senate,Nevada,State,Nevada,National Public Affairs,6/28/2024,7/1/2024,817,LV,41%,33%
+Senate,Nevada,State,Nevada,Fabrizio Ward (R)/Impact Research (D),6/12/2024,6/18/2024,600,LV,47%,42%
+Senate,Nevada,State,Nevada,The Tyson Group (R),5/22/2024,5/25/2024,601,LV,47%,33%
+Senate,Nevada,State,Nevada,Mainstreet Research/FAU,5/19/2024,5/21/2024,494,LV,48%,37%
+Senate,Nevada,State,Nevada,New York Times/Siena College,4/28/2024,5/9/2024,614,LV,41%,41%
+Senate,Nevada,State,Nevada,Change Research (D),12/3/2023,12/7/2023,2532,V,39%,38%
+Senate,New Jersey,State,New Jersey,Research Co.,11/2/2024,11/3/2024,450,LV,56%,38%
+Senate,New Jersey,State,New Jersey,Fairleigh Dickinson University,10/20/2024,10/27/2024,806,RV,57%,39%
+Senate,New Jersey,State,New Jersey,Cygnal (R),10/23/2024,10/24/2024,600,LV,55%,38%
+Senate,New Jersey,State,New Jersey,Rutgers University,10/15/2024,10/22/2024,929,RV,49%,26%
+Senate,New Jersey,State,New Jersey,National Research Inc. (R),8/13/2024,8/15/2024,600,LV,38%,33%
+Senate,New Jersey,State,New Jersey,Expedition Strategies,6/24/2024,7/8/2024,272,LV,50%,35%
+Senate,New Jersey,State,New Jersey,United 2024 (R),7/1/2024,7/2/2024,477,RV,41%,39%
+Senate,New Jersey,State,New Jersey,co/efficient (R),6/26/2024,6/27/2024,810,LV,41%,34%
+Senate,New Jersey,State,New Jersey,Fairleigh Dickinson University,4/1/2024,4/8/2024,809,RV,47%,38%
+Senate,New Mexico,State,New Mexico,Victory Insights (R),11/1/2024,11/3/2024,600,LV,50%,48%
+Senate,New Mexico,State,New Mexico,Research & Polling Inc.,10/10/2024,10/18/2024,1024,LV,51%,40%
+Senate,New Mexico,State,New Mexico,SurveyUSA,9/12/2024,9/18/2024,619,LV,47%,34%
+Senate,New Mexico,State,New Mexico,Research & Polling Inc.,9/6/2024,9/13/2024,532,LV,50%,38%
+Senate,New Mexico,State,New Mexico,Redfield & Wilton Strategies,9/6/2024,9/9/2024,521,LV,47%,37%
+Senate,New Mexico,State,New Mexico,Redfield & Wilton Strategies,8/25/2024,8/28/2024,488,LV,43%,33%
+Senate,New Mexico,State,New Mexico,Emerson College,8/20/2024,8/22/2024,965,RV,49%,37%
+Senate,New Mexico,State,New Mexico,Redfield & Wilton Strategies,8/12/2024,8/15/2024,453,LV,42%,36%
+Senate,New Mexico,State,New Mexico,Redfield & Wilton Strategies,7/31/2024,8/3/2024,493,LV,40%,34%
+Senate,New Mexico,State,New Mexico,1892 Polling (R),6/19/2024,6/24/2024,600,LV,46%,42%
+Senate,New Mexico,State,New Mexico,Public Policy Polling (D),6/13/2024,6/14/2024,555,V,47%,40%
+Senate,New Mexico,State,New Mexico,Red Oak Strategies (R),5/7/2024,5/19/2024,1800,LV,41%,38%
+Senate,New Mexico,State,New Mexico,1892 Polling (R),3/1/2024,3/31/2024,600,LV,48%,36%
+Senate,New York,State,New York,Research Co.,11/2/2024,11/3/2024,450,LV,61%,33%
+Senate,New York,State,New York,ActiVote,10/4/2024,10/28/2024,400,LV,60%,40%
+Senate,New York,State,New York,Cygnal (R),10/26/2024,10/27/2024,600,LV,58%,39%
+Senate,New York,State,New York,Siena College,10/13/2024,10/17/2024,872,LV,57%,31%
+Senate,New York,State,New York,YouGov,10/7/2024,10/17/2024,1089,RV,57%,32%
+Senate,New York,State,New York,Emerson College,9/23/2024,9/25/2024,1000,LV,50%,33%
+Senate,New York,State,New York,ActiVote,8/24/2024,9/25/2024,400,LV,60%,40%
+Senate,New York,State,New York,Siena College,9/11/2024,9/16/2024,1003,LV,54%,31%
+Senate,New York,State,New York,ActiVote,7/8/2024,8/5/2024,400,LV,63%,37%
+Senate,New York,State,New York,Siena College,7/28/2024,8/1/2024,1199,LV,56%,33%
+Senate,North Dakota,State,North Dakota,WPA Intelligence,9/28/2024,9/30/2024,500,LV,29%,51%
+Senate,North Dakota,State,North Dakota,Lake Research Partners (D),9/23/2024,9/26/2024,500,LV,40%,49%
+Senate,North Dakota,State,North Dakota,WPA Intelligence (R),9/22/2024,9/24/2024,521,LV,31%,60%
+Senate,North Dakota,State,North Dakota,Lake Research Partners (D),6/28/2024,8/2/2024,500,LV,38%,51%
+Senate,North Dakota,State,North Dakota,Public Opinion Strategies,6/15/2024,6/19/2024,500,LV,28%,65%
+Senate,Ohio,State,Ohio,AtlasIntel,11/3/2024,11/4/2024,1022,LV,46%,49%
+Senate,Ohio,State,Ohio,The Trafalgar Group (R),11/2/2024,11/4/2024,1095,LV,48%,48%
+Senate,Ohio,State,Ohio,Emerson College,10/30/2024,11/2/2024,900,LV,45%,48%
+Senate,Ohio,State,Ohio,Morning Consult,10/23/2024,11/1/2024,1254,LV,46%,47%
+Senate,Ohio,State,Ohio,Miami University,10/28/2024,10/30/2024,857,RV,48%,46%
+Senate,Ohio,State,Ohio,The Trafalgar Group (R),10/25/2024,10/28/2024,1127,LV,48%,47%
+Senate,Ohio,State,Ohio,ActiVote,10/14/2024,10/28/2024,400,LV,49%,51%
+Senate,Ohio,State,Ohio,J.L. Partners (R),10/22/2024,10/24/2024,997,LV,46%,52%
+Senate,Ohio,State,Ohio,University of Akron,9/12/2024,10/24/2024,1241,RV,46%,44%
+Senate,Ohio,State,Ohio,OnMessage Inc. (R),10/19/2024,10/22/2024,600,LV,47%,49%
+Senate,Ohio,State,Ohio,Bowling Green State University/YouGov,10/10/2024,10/21/2024,1000,LV,47%,45%
+Senate,Ohio,State,Ohio,ActiVote,9/23/2024,10/20/2024,400,LV,48%,52%
+Senate,Ohio,State,Ohio,Morning Consult,10/6/2024,10/15/2024,490,LV,46%,47%
+Senate,Ohio,State,Ohio,The Washington Post,10/3/2024,10/7/2024,1002,LV,48%,47%
+Senate,Ohio,State,Ohio,Marist College,10/3/2024,10/7/2024,1327,LV,50%,48%
+Senate,Ohio,State,Ohio,Bowling Green State University/YouGov,9/18/2024,9/27/2024,1000,LV,49%,45%
+Senate,Ohio,State,Ohio,New York Times/Siena College,9/21/2024,9/26/2024,687,LV,47%,43%
+Senate,Ohio,State,Ohio,ActiVote,8/16/2024,9/22/2024,400,LV,49%,51%
+Senate,Ohio,State,Ohio,RMG Research,9/18/2024,9/20/2024,781,LV,46%,48%
+Senate,Ohio,State,Ohio,Morning Consult,9/9/2024,9/18/2024,1488,LV,46%,44%
+Senate,Ohio,State,Ohio,Morning Consult,8/30/2024,9/8/2024,1558,LV,46%,43%
+Senate,Ohio,State,Ohio,SoCal Strategies (R),8/31/2024,9/1/2024,600,LV,50%,45%
+Senate,Ohio,State,Ohio,Rasmussen Reports (R),8/13/2024,8/17/2024,1267,LV,47%,42%
+Senate,Ohio,State,Ohio,ActiVote,7/20/2024,8/12/2024,400,LV,52.50%,47.50%
+Senate,Ohio,State,Ohio,Fabrizio Ward (R)/Impact Research (D),7/23/2024,7/28/2024,600,LV,46%,42%
+Senate,Ohio,State,Ohio,Remington Research Group (R),6/29/2024,7/1/2024,611,LV,50%,44%
+Senate,Ohio,State,Ohio,Marist College,6/3/2024,6/6/2024,1137,RV,50%,45%
+Senate,Ohio,State,Ohio,National Public Affairs,5/28/2024,5/29/2024,801,LV,54%,46%
+Senate,Ohio,State,Ohio,Mainstreet Research/FAU,3/13/2024,3/15/2024,818,RV,47%,36%
+Senate,Ohio,State,Ohio,East Carolina University,3/8/2024,3/11/2024,1298,LV,45%,41%
+Senate,Ohio,State,Ohio,SurveyUSA,3/6/2024,3/11/2024,533,LV,43%,37%
+Senate,Ohio,State,Ohio,Emerson College,3/7/2024,3/10/2024,1300,RV,39%,34%
+Senate,Ohio,State,Ohio,Emerson College,1/23/2024,1/25/2024,1844,RV,39%,37%
+Senate,Ohio,State,Ohio,Emerson College,11/10/2023,11/13/2023,1000,RV,42%,32%
+Senate,Pennsylvania,State,Pennsylvania,AtlasIntel,11/3/2024,11/4/2024,1840,LV,49%,47%
+Senate,Pennsylvania,State,Pennsylvania,Survation,11/1/2024,11/4/2024,929,LV,49%,42%
+Senate,Pennsylvania,State,Pennsylvania,Research Co.,11/2/2024,11/3/2024,450,LV,48%,46%
+Senate,Pennsylvania,State,Pennsylvania,Patriot Polling (R),11/1/2024,11/3/2024,903,RV,50%,49%
+Senate,Pennsylvania,State,Pennsylvania,The Trafalgar Group (R),11/1/2024,11/3/2024,1089,LV,46%,47%
+Senate,Pennsylvania,State,Pennsylvania,InsiderAdvantage (R),11/1/2024,11/2/2024,800,LV,48%,47%
+Senate,Pennsylvania,State,Pennsylvania,AtlasIntel,11/1/2024,11/2/2024,2049,LV,49%,47%
+Senate,Pennsylvania,State,Pennsylvania,Emerson College,10/30/2024,11/2/2024,1000,LV,47%,47%
+Senate,Pennsylvania,State,Pennsylvania,New York Times/Siena College,10/29/2024,11/2/2024,1527,LV,50%,45%
+Senate,Pennsylvania,State,Pennsylvania,Mainstreet Research/FAU,10/25/2024,11/2/2024,699,LV,49%,44%
+Senate,Pennsylvania,State,Pennsylvania,Morning Consult,10/23/2024,11/1/2024,1538,LV,46%,43%
+Senate,Pennsylvania,State,Pennsylvania,AtlasIntel,10/30/2024,10/31/2024,1738,LV,49%,46%
+Senate,Pennsylvania,State,Pennsylvania,OnMessage (R),10/29/2024,10/31/2024,800,LV,46%,46%
+Senate,Pennsylvania,State,Pennsylvania,Data for Progress (D),10/25/2024,10/31/2024,908,LV,49%,45%
+Senate,Pennsylvania,State,Pennsylvania,YouGov,10/25/2024,10/31/2024,947,LV,50%,44%
+Senate,Pennsylvania,State,Pennsylvania,ActiVote,10/14/2024,10/31/2024,400,LV,50.50%,49.50%
+Senate,Pennsylvania,State,Pennsylvania,Muhlenberg College,10/27/2024,10/30/2024,460,LV,49%,46%
+Senate,Pennsylvania,State,Pennsylvania,Suffolk University,10/27/2024,10/30/2024,500,LV,49%,46%
+Senate,Pennsylvania,State,Pennsylvania,Marist College,10/27/2024,10/30/2024,1400,LV,50%,48%
+Senate,Pennsylvania,State,Pennsylvania,Echelon Insights,10/27/2024,10/30/2024,600,LV,44%,47%
+Senate,Pennsylvania,State,Pennsylvania,The Washington Post,10/26/2024,10/30/2024,1204,LV,49%,46%
+Senate,Pennsylvania,State,Pennsylvania,AtlasIntel,10/25/2024,10/29/2024,1229,LV,49%,47%
+Senate,Pennsylvania,State,Pennsylvania,Fox News,10/24/2024,10/28/2024,1057,LV,50%,48%
+Senate,Pennsylvania,State,Pennsylvania,Quinnipiac University,10/24/2024,10/28/2024,2186,LV,50%,47%
+Senate,Pennsylvania,State,Pennsylvania,Monmouth University,10/24/2024,10/28/2024,824,RV,45%,44%
+Senate,Pennsylvania,State,Pennsylvania,CNN/SSRS,10/23/2024,10/28/2024,819,LV,48%,45%
+Senate,Pennsylvania,State,Pennsylvania,CBS News/YouGov,10/22/2024,10/28/2024,1249,LV,48%,42%
+Senate,Pennsylvania,State,Pennsylvania,InsiderAdvantage (R),10/26/2024,10/27/2024,800,LV,47%,47%
+Senate,Pennsylvania,State,Pennsylvania,North Star Opinion Research (R),10/22/2024,10/26/2024,600,LV,45%,42%
+Senate,Pennsylvania,State,Pennsylvania,UMass Lowell/YouGov,10/16/2024,10/23/2024,800,LV,48%,42%
+Senate,Pennsylvania,State,Pennsylvania,Emerson College,10/21/2024,10/22/2024,860,LV,47%,46%
+Senate,Pennsylvania,State,Pennsylvania,Susquehanna Polling & Research (R),10/18/2024,10/22/2024,500,LV,49%,46%
+Senate,Pennsylvania,State,Pennsylvania,Franklin & Marshall College,10/9/2024,10/20/2024,583,LV,49%,48%
+Senate,Pennsylvania,State,Pennsylvania,The Trafalgar Group (R),10/17/2024,10/19/2024,1084,LV,47%,47%
+Senate,Pennsylvania,State,Pennsylvania,AtlasIntel,10/12/2024,10/17/2024,2048,LV,47%,48%
+Senate,Pennsylvania,State,Pennsylvania,The Bullfinch Group,10/11/2024,10/17/2024,600,LV,50%,43%
+Senate,Pennsylvania,State,Pennsylvania,YouGov,10/7/2024,10/17/2024,1043,LV,50%,42%
+Senate,Pennsylvania,State,Pennsylvania,Morning Consult,10/6/2024,10/15/2024,1395,LV,49%,41%
+Senate,Pennsylvania,State,Pennsylvania,New York Times/Siena College,10/7/2024,10/10/2024,857,LV,48%,44%
+Senate,Pennsylvania,State,Pennsylvania,American Pulse Research & Polling,10/2/2024,10/10/2024,1193,LV,48%,45%
+Senate,Pennsylvania,State,Pennsylvania,TIPP Insights (R),10/7/2024,10/9/2024,803,LV,47%,43%
+Senate,Pennsylvania,State,Pennsylvania,UMass Lowell/YouGov,10/2/2024,10/9/2024,800,LV,48%,39%
+Senate,Pennsylvania,State,Pennsylvania,InsiderAdvantage (R),10/7/2024,10/8/2024,800,LV,47%,45%
+Senate,Pennsylvania,State,Pennsylvania,Emerson College,10/5/2024,10/8/2024,1000,LV,48%,46%
+Senate,Pennsylvania,State,Pennsylvania,Research Co.,10/5/2024,10/7/2024,450,LV,47%,44%
+Senate,Pennsylvania,State,Pennsylvania,Quinnipiac University,10/3/2024,10/7/2024,1412,LV,51%,43%
+Senate,Pennsylvania,State,Pennsylvania,ActiVote,9/6/2024,10/7/2024,400,LV,53%,47%
+Senate,Pennsylvania,State,Pennsylvania,OnMessage (R),9/28/2024,9/29/2024,800,LV,45%,44%
+Senate,Pennsylvania,State,Pennsylvania,Patriot Polling (R),9/27/2024,9/29/2024,816,RV,51%,48%
+Senate,Pennsylvania,State,Pennsylvania,The Bullfinch Group,9/26/2024,9/29/2024,800,LV,48%,39%
+Senate,Pennsylvania,State,Pennsylvania,The Trafalgar Group (R),9/26/2024,9/29/2024,1090,LV,47%,46%
+Senate,Pennsylvania,State,Pennsylvania,Emerson College,9/27/2024,9/28/2024,1000,LV,47%,45%
+Senate,Pennsylvania,State,Pennsylvania,AtlasIntel,9/20/2024,9/25/2024,1775,LV,47%,45%
+Senate,Pennsylvania,State,Pennsylvania,BSG (R)/GS Strategy Group (D),9/19/2024,9/25/2024,474,LV,48%,42%
+Senate,Pennsylvania,State,Pennsylvania,Fox News,9/20/2024,9/24/2024,775,LV,53%,44%
+Senate,Pennsylvania,State,Pennsylvania,Susquehanna Polling & Research (R),9/16/2024,9/22/2024,700,LV,48%,40%
+Senate,Pennsylvania,State,Pennsylvania,RMG Research,9/18/2024,9/20/2024,783,LV,50%,44%
+Senate,Pennsylvania,State,Pennsylvania,Remington Research Group (R),9/16/2024,9/20/2024,800,LV,49%,45%
+Senate,Pennsylvania,State,Pennsylvania,Muhlenberg College,9/16/2024,9/19/2024,450,LV,48%,43%
+Senate,Pennsylvania,State,Pennsylvania,Redfield & Wilton Strategies,9/16/2024,9/19/2024,1086,LV,47%,41%
+Senate,Pennsylvania,State,Pennsylvania,UMass Lowell/YouGov,9/11/2024,9/19/2024,800,LV,47%,38%
+Senate,Pennsylvania,State,Pennsylvania,Emerson College,9/15/2024,9/18/2024,880,LV,47%,42%
+Senate,Pennsylvania,State,Pennsylvania,MassINC Polling Group,9/12/2024,9/18/2024,800,LV,49%,42%
+Senate,Pennsylvania,State,Pennsylvania,Morning Consult,9/9/2024,9/18/2024,1756,LV,49%,40%
+Senate,Pennsylvania,State,Pennsylvania,Marist College,9/12/2024,9/17/2024,1476,LV,52%,47%
+Senate,Pennsylvania,State,Pennsylvania,Quinnipiac University,9/12/2024,9/16/2024,1331,LV,52%,43%
+Senate,Pennsylvania,State,Pennsylvania,The Washington Post,9/12/2024,9/16/2024,1003,LV,47%,46%
+Senate,Pennsylvania,State,Pennsylvania,New York Times/Siena College,9/11/2024,9/16/2024,1082,LV,49%,40%
+Senate,Pennsylvania,State,Pennsylvania,InsiderAdvantage (R),9/14/2024,9/15/2024,800,LV,49%,44%
+Senate,Pennsylvania,State,Pennsylvania,Suffolk University,9/11/2024,9/14/2024,500,LV,47%,43%
+Senate,Pennsylvania,State,Pennsylvania,Redfield & Wilton Strategies,9/6/2024,9/9/2024,801,LV,44%,36%
+Senate,Pennsylvania,State,Pennsylvania,Morning Consult,8/30/2024,9/8/2024,1910,LV,49%,40%
+Senate,Pennsylvania,State,Pennsylvania,co/efficient (R),9/4/2024,9/6/2024,889,LV,45%,36%
+Senate,Pennsylvania,State,Pennsylvania,CBS News/YouGov,9/3/2024,9/6/2024,1076,LV,48%,41%
+Senate,Pennsylvania,State,Pennsylvania,The Trafalgar Group (R),8/28/2024,8/30/2024,1082,LV,46%,45%
+Senate,Pennsylvania,State,Pennsylvania,CNN/SRSS,8/23/2024,8/29/2024,789,LV,46%,46%
+Senate,Pennsylvania,State,Pennsylvania,Redfield & Wilton Strategies,8/25/2024,8/28/2024,1071,LV,44%,38%
+Senate,Pennsylvania,State,Pennsylvania,Emerson College,8/25/2024,8/28/2024,950,LV,48%,44%
+Senate,Pennsylvania,State,Pennsylvania,SoCal Strategies (R),8/23/2024,8/23/2024,713,LV,47%,41%
+Senate,Pennsylvania,State,Pennsylvania,ActiVote,8/3/2024,8/23/2024,400,LV,55%,45%
+Senate,Pennsylvania,State,Pennsylvania,Fabrizio Ward (R),8/19/2024,8/21/2024,400,LV,46%,43%
+Senate,Pennsylvania,State,Pennsylvania,Cygnal (R),8/14/2024,8/15/2024,800,LV,46%,42%
+Senate,Pennsylvania,State,Pennsylvania,Redfield & Wilton Strategies,8/12/2024,8/15/2024,825,LV,44%,36%
+Senate,Pennsylvania,State,Pennsylvania,Emerson College,8/13/2024,8/14/2024,1000,LV,48%,44%
+Senate,Pennsylvania,State,Pennsylvania,Quinnipiac University,8/8/2024,8/12/2024,1738,LV,52%,44%
+Senate,Pennsylvania,State,Pennsylvania,New York Times/Siena College,8/6/2024,8/9/2024,693,LV,51%,37%
+Senate,Pennsylvania,State,Pennsylvania,Redfield & Wilton Strategies,7/31/2024,8/3/2024,743,LV,45%,40%
+Senate,Pennsylvania,State,Pennsylvania,BSG (R)/GS Strategy Group (D),7/26/2024,8/2/2024,411,LV,53%,40%
+Senate,Pennsylvania,State,Pennsylvania,Susquehanna Polling & Research (R),7/22/2024,7/28/2024,600,LV,47%,42%
+Senate,Pennsylvania,State,Pennsylvania,Redfield & Wilton Strategies,7/22/2024,7/24/2024,851,LV,46%,39%
+Senate,Pennsylvania,State,Pennsylvania,SoCal Strategies (R),7/20/2024,7/21/2024,500,LV,50%,40%
+Senate,Pennsylvania,State,Pennsylvania,YouGov,7/4/2024,7/12/2024,889,LV,51%,39%
+Senate,Pennsylvania,State,Pennsylvania,New York Times/Siena College,7/9/2024,7/11/2024,872,LV,50%,42%
+Senate,Pennsylvania,State,Pennsylvania,Expedition Strategies,6/24/2024,7/8/2024,284,LV,48%,45%
+Senate,Pennsylvania,State,Pennsylvania,Remington Research Group (R),6/29/2024,7/1/2024,673,LV,49%,48%
+Senate,Pennsylvania,State,Pennsylvania,Cygnal (R),6/27/2024,6/28/2024,800,LV,46%,42%
+Senate,Pennsylvania,State,Pennsylvania,Mainstreet Research/FAU,5/30/2024,5/31/2024,923,LV,49%,42%
+Senate,Pennsylvania,State,Pennsylvania,BSG (R)/GS Strategy Group (D),5/6/2024,5/13/2024,730,LV,49%,41%
+Senate,Pennsylvania,State,Pennsylvania,New York Times/Siena College,4/28/2024,5/9/2024,1023,LV,46%,44%
+Senate,Pennsylvania,State,Pennsylvania,Fabrizio Ward (R)/Impact Research (D),4/24/2024,4/30/2024,1398,LV,48%,44%
+Senate,Pennsylvania,State,Pennsylvania,CBS News/YouGov,4/19/2024,4/25/2024,1306,LV,46%,39%
+Senate,Pennsylvania,State,Pennsylvania,National Public Affairs,3/1/2024,3/31/2024,759,LV,32%,28%
+Senate,Pennsylvania,State,Pennsylvania,Susquehanna Polling & Research (R),2/27/2024,3/7/2024,450,LV,48%,42%
+Senate,Pennsylvania,State,Pennsylvania,Public Opinion Strategies (R),1/22/2024,1/25/2024,800,LV,47%,40%
+Senate,Pennsylvania,State,Pennsylvania,Susquehanna Polling & Research (R),1/15/2024,1/21/2024,745,LV,46%,42%
+Senate,Pennsylvania,State,Pennsylvania,Quinnipiac University,1/4/2024,1/8/2024,1680,RV,53%,43%
+Senate,Pennsylvania,State,Pennsylvania,The Bullfinch Group,12/8/2023,12/12/2023,800,RV,42%,27%
+Senate,Pennsylvania,State,Pennsylvania,Change Research (D),12/3/2023,12/7/2023,2532,RV,44%,41%
+Senate,Rhode Island,State,Rhode Island,University of New Hampshire,10/29/2024,11/2/2024,708,LV,54%,40%
+Senate,Rhode Island,State,Rhode Island,Embold Research,9/16/2024,9/20/2024,876,LV,52%,36%
+Senate,Rhode Island,State,Rhode Island,MassINC Polling Group,9/12/2024,9/18/2024,800,LV,52%,37%
+Senate,Rhode Island,State,Rhode Island,University of New Hampshire,9/12/2024,9/16/2024,683,LV,51%,33%
+Senate,Rhode Island,State,Rhode Island,University of Rhode Island,8/15/2024,9/8/2024,500,A,52%,24%
+Senate,Tennessee,State,Tennessee,ActiVote,10/7/2024,10/28/2024,400,LV,39%,61%
+Senate,Tennessee,State,Tennessee,ActiVote,9/14/2024,10/18/2024,400,LV,39%,61%
+Senate,Tennessee,State,Tennessee,Targoz Market Research,9/27/2024,10/8/2024,971,LV,31%,54%
+Senate,Tennessee,State,Tennessee,ActiVote,7/25/2024,9/2/2024,400,LV,40%,60%
+Senate,Tennessee,State,Tennessee,Targoz Market Research,6/20/2024,7/1/2024,944,LV,32%,52%
+Senate,Tennessee,State,Tennessee,SSRS/Vanderbilt University,4/26/2024,5/9/2024,1003,RV,40%,51%
+Senate,Tennessee,State,Tennessee,Targoz Market Research,3/15/2024,4/2/2024,955,LV,29%,45%
+Senate,Texas,State,Texas,AtlasIntel,11/1/2024,11/4/2024,2434,LV,46%,53%
+Senate,Texas,State,Texas,Morning Consult,10/22/2024,10/31/2024,2120,LV,44%,47%
+Senate,Texas,State,Texas,Cygnal (R),10/26/2024,10/28/2024,600,LV,45%,49%
+Senate,Texas,State,Texas,ActiVote,10/21/2024,10/27/2024,400,LV,48%,52%
+Senate,Texas,State,Texas,New York Times/Siena College,10/23/2024,10/26/2024,1180,LV,46%,50%
+Senate,Texas,State,Texas,Rasmussen Reports (R),10/24/2024,10/25/2024,1002,LV,43%,47%
+Senate,Texas,State,Texas,GBAO (D),10/18/2024,10/23/2024,800,LV,46%,46%
+Senate,Texas,State,Texas,Emerson College,10/18/2024,10/21/2024,815,LV,47%,48%
+Senate,Texas,State,Texas,UT Tyler,10/14/2024,10/21/2024,956,LV,45%,47%
+Senate,Texas,State,Texas,YouGov,10/7/2024,10/17/2024,1108,RV,45%,49%
+Senate,Texas,State,Texas,ActiVote,10/1/2024,10/16/2024,400,LV,47%,53%
+Senate,Texas,State,Texas,Morning Consult,10/6/2024,10/15/2024,2048,LV,45%,46%
+Senate,Texas,State,Texas,YouGov,10/2/2024,10/10/2024,1091,LV,44%,51%
+Senate,Texas,State,Texas,University of Houston,9/26/2024,10/10/2024,1329,LV,46%,50%
+Senate,Texas,State,Texas,Marist College,10/3/2024,10/7/2024,1186,LV,46%,51%
+Senate,Texas,State,Texas,Mainstreet Research/FAU,10/2/2024,10/6/2024,775,LV,44%,47%
+Senate,Texas,State,Texas,New York Times/Siena College,9/29/2024,10/4/2024,617,LV,44%,48%
+Senate,Texas,State,Texas,GBAO (D),10/1/2024,10/10/2024,800,LV,44%,46%
+Senate,Texas,State,Texas,ActiVote,9/5/2024,9/30/2024,400,LV,48%,52%
+Senate,Texas,State,Texas,RMG Research,9/25/2024,9/27/2024,779,LV,45%,48%
+Senate,Texas,State,Texas,Public Policy Polling,9/25/2024,9/26/2024,759,LV,43%,45%
+Senate,Texas,State,Texas,Emerson College,9/22/2024,9/24/2024,950,LV,45%,49%
+Senate,Texas,State,Texas,Texas Hispanic Policy Foundation,9/13/2024,9/18/2024,1200,LV,45%,48%
+Senate,Texas,State,Texas,Morning Consult,9/9/2024,9/18/2024,2716,LV,45%,44%
+Senate,Texas,State,Texas,CWS Research (R),9/4/2024,9/9/2024,504,LV,40%,46%
+Senate,Texas,State,Texas,Morning Consult,8/30/2024,9/8/2024,2940,LV,42%,47%
+Senate,Texas,State,Texas,Emerson College,9/3/2024,9/5/2024,845,LV,44%,48%
+Senate,Texas,State,Texas,GBAO (D),9/1/2024,9/30/2024,800,LV,43%,48%
+Senate,Texas,State,Texas,YouGov,8/23/2024,8/31/2024,1200,RV,36%,44%
+Senate,Texas,State,Texas,Quantus Insights (R),8/29/2024,8/30/2024,1000,RV,43%,50%
+Senate,Texas,State,Texas,Texas Public Opinion Research/Lake Research Partners (D),8/24/2024,8/29/2024,800,RV,43%,47%
+Senate,Texas,State,Texas,ActiVote,8/13/2024,8/29/2024,400,LV,45%,55%
+Senate,Texas,State,Texas,Public Policy Polling (D),8/21/2024,8/22/2024,725,RV,45%,47%
+Senate,Texas,State,Texas,YouGov,8/5/2024,8/16/2024,1365,LV,45%,47%
+Senate,Texas,State,Texas,ActiVote,6/25/2024,7/18/2024,400,LV,46%,54%
+Senate,Texas,State,Texas,Remington Research Group (R),6/29/2024,7/1/2024,589,LV,43%,53%
+Senate,Texas,State,Texas,YouGov,6/20/2024,7/1/2024,1484,LV,44%,47%
+Senate,Texas,State,Texas,Manhattan Institute,6/25/2024,6/27/2024,600,LV,43%,46%
+Senate,Texas,State,Texas,UT Tyler,6/11/2024,6/20/2024,931,LV,42%,45%
+Senate,Texas,State,Texas,YouGov,5/31/2024,6/9/2024,1200,RV,34%,45%
+Senate,Texas,State,Texas,GBAO (D),5/1/2024,5/31/2024,800,LV,40%,47%
+Senate,Texas,State,Texas,YouGov,4/12/2024,4/22/2024,1200,RV,33%,46%
+Senate,Texas,State,Texas,Texas Lyceum,4/12/2024,4/21/2024,926,RV,31%,41%
+Senate,Texas,State,Texas,Texas Hispanic Policy Foundation,4/5/2024,4/10/2024,1600,LV,41%,46%
+Senate,Texas,State,Texas,Cygnal (R),4/4/2024,4/6/2024,1000,RV,36%,45%
+Senate,Texas,State,Texas,Marist College,3/18/2024,3/21/2024,1117,RV,45%,51%
+Senate,Texas,State,Texas,UT Tyler,2/18/2024,2/26/2024,1167,RV,41%,41%
+Senate,Texas,State,Texas,YouGov,2/2/2024,2/12/2024,1200,RV,32%,46%
+Senate,Texas,State,Texas,National Public Affairs,2/6/2024,2/8/2024,807,LV,44%,44%
+Senate,Texas,State,Texas,YouGov,1/11/2024,1/24/2024,1145,RV,39%,48%
+Senate,Texas,State,Texas,Emerson College,1/13/2024,1/15/2024,1315,RV,40%,42%
+Senate,Texas,State,Texas,YouGov,12/1/2023,12/10/2023,1200,RV,27%,43%
+Senate,Utah,State,Utah,Noble Predictive Insights,10/25/2024,10/28/2024,695,LV,26%,54%
+Senate,Utah,State,Utah,HarrisX,10/15/2024,10/19/2024,813,RV,20%,55%
+Senate,Utah,State,Utah,Noble Predictive Insights,10/2/2024,10/7/2024,539,LV,24%,53%
+Senate,Utah,State,Utah,Lighthouse Research,8/29/2024,9/19/2024,526,RV,34%,53%
+Senate,Utah,State,Utah,HarrisX,8/2/2024,8/9/2024,800,RV,22%,56%
+Senate,Vermont,State,Vermont,University of New Hampshire,10/29/2024,11/2/2024,1167,LV,64%,27%
+Senate,Vermont,State,Vermont,University of New Hampshire,8/15/2024,8/19/2024,924,LV,66%,25%
+Senate,Virginia,State,Virginia,AtlasIntel,11/1/2024,11/4/2024,2202,LV,53%,44%
+Senate,Virginia,State,Virginia,Research Co.,11/2/2024,11/3/2024,450,LV,53%,41%
+Senate,Virginia,State,Virginia,Chism Strategies,10/28/2024,10/30/2024,520,LV,46%,45%
+Senate,Virginia,State,Virginia,Cygnal (R),10/27/2024,10/29/2024,600,LV,52%,42%
+Senate,Virginia,State,Virginia,Roanoke College,10/25/2024,10/29/2024,851,LV,51%,40%
+Senate,Virginia,State,Virginia,ActiVote,10/2/2024,10/28/2024,400,LV,55%,45%
+Senate,Virginia,State,Virginia,The Washington Post/George Mason University,10/19/2024,10/23/2024,1004,LV,54%,41%
+Senate,Virginia,State,Virginia,ActiVote,9/9/2024,10/14/2024,400,LV,56%,44%
+Senate,Virginia,State,Virginia,Christopher Newport University,9/28/2024,10/4/2024,800,LV,55%,35%
+Senate,Virginia,State,Virginia,Emerson College,9/22/2024,9/24/2024,860,LV,51%,41%
+Senate,Virginia,State,Virginia,Research America,9/3/2024,9/9/2024,756,LV,49%,43%
+Senate,Virginia,State,Virginia,The Washington Post/George Mason University,9/4/2024,9/8/2024,1005,LV,53%,41%
+Senate,Virginia,State,Virginia,ActiVote,7/24/2024,9/1/2024,400,LV,55%,45%
+Senate,Virginia,State,Virginia,Roanoke College,8/12/2024,8/16/2024,691,LV,49%,38%
+Senate,Virginia,State,Virginia,Emerson College,7/14/2024,7/15/2024,1000,RV,49%,39%
+Senate,Virginia,State,Virginia,Mainstreet Research/FAU,7/14/2024,7/15/2024,265,LV,44%,34%
+Senate,Virginia,State,Virginia,Mainstreet Research/FAU,7/12/2024,7/13/2024,544,LV,47%,34%
+Senate,Virginia,State,Virginia,NYT/Siena College,7/9/2024,7/12/2024,661,LV,52%,36%
+Senate,Virginia,State,Virginia,Virginia Commonwealth University,6/24/2024,7/3/2024,809,A,49%,38%
+Senate,Virginia,State,Virginia,Fabrizio Ward (R)/Impact Research (D),4/26/2024,4/28/2024,500,RV,48%,36%
+Senate,Washington,State,Washington,Research Co.,11/2/2024,11/3/2024,450,LV,58%,38%
+Senate,Washington,State,Washington,Public Policy Polling (D),10/16/2024,10/17/2024,571,LV,53%,38%
+Senate,Washington,State,Washington,SurveyUSA,10/9/2024,10/14/2024,703,LV,55%,32%
+Senate,Washington,State,Washington,Cascade PBS/Elway Research,9/3/2024,9/6/2024,403,RV,55%,33%
+Senate,Washington,State,Washington,Public Policy Polling (D),7/24/2024,7/25/2024,581,LV,55%,32%
+Senate,Washington,State,Washington,SurveyUSA,7/10/2024,7/13/2024,564,LV,58%,37%
+Senate,Washington,State,Washington,Public Policy Polling (D),5/15/2024,5/16/2024,615,LV,53%,38%
+Senate,Washington,State,Washington,Cascade PBS/Elway Research,5/13/2024,5/16/2024,403,RV,39%,30%
+Senate,Washington,State,Washington,Echelon Insights (R),3/18/2024,3/21/2024,600,RV,44%,36%
+Senate,Washington,State,Washington,Public Policy Polling (D),2/13/2024,2/14/2024,789,LV,53%,37%
+Senate,Washington,State,Washington,Public Policy Polling (D),11/14/2023,11/15/2023,700,LV,51%,38%
+Senate,West Virginia,State,West Virginia,Research America,8/21/2024,8/27/2024,400,RV,28%,62%
+Senate,West Virginia,State,West Virginia,Kaplan Strategies,6/4/2024,6/4/2024,464,RV,27%,60%
+Senate,Wisconsin,State,Wisconsin,AtlasIntel,11/3/2024,11/4/2024,869,LV,49%,48%
+Senate,Wisconsin,State,Wisconsin,Research Co.,11/2/2024,11/3/2024,450,LV,48%,47%
+Senate,Wisconsin,State,Wisconsin,Patriot Polling (R),11/1/2024,11/3/2024,835,RV,51%,49%
+Senate,Wisconsin,State,Wisconsin,The Trafalgar Group (R),11/1/2024,11/3/2024,1086,LV,48%,48%
+Senate,Wisconsin,State,Wisconsin,InsiderAdvantage (R),11/1/2024,11/2/2024,800,LV,47%,48%
+Senate,Wisconsin,State,Wisconsin,AtlasIntel,11/1/2024,11/2/2024,728,LV,49%,48%
+Senate,Wisconsin,State,Wisconsin,Emerson College,10/30/2024,11/2/2024,800,LV,51%,45%
+Senate,Wisconsin,State,Wisconsin,New York Times/Siena College,10/25/2024,11/2/2024,1001,LV,50%,46%
+Senate,Wisconsin,State,Wisconsin,Mainstreet Research/FAU,10/25/2024,11/2/2024,786,LV,47%,45%
+Senate,Wisconsin,State,Wisconsin,Morning Consult,10/23/2024,11/1/2024,541,LV,49%,47%
+Senate,Wisconsin,State,Wisconsin,AtlasIntel,10/30/2024,10/31/2024,673,LV,49%,49%
+Senate,Wisconsin,State,Wisconsin,YouGov,10/25/2024,10/31/2024,863,LV,50%,45%
+Senate,Wisconsin,State,Wisconsin,OnMessage Inc. (R),10/29/2024,10/31/2024,800,LV,48%,47%
+Senate,Wisconsin,State,Wisconsin,ActiVote,10/6/2024,10/31/2024,400,LV,54%,46%
+Senate,Wisconsin,State,Wisconsin,TIPP Insights (R),10/28/2024,10/30/2024,831,LV,48%,46%
+Senate,Wisconsin,State,Wisconsin,Marist College,10/27/2024,10/30/2024,1330,LV,51%,48%
+Senate,Wisconsin,State,Wisconsin,Echelon Insights,10/27/2024,10/30/2024,600,LV,49%,48%
+Senate,Wisconsin,State,Wisconsin,SoCal Strategies (R),10/28/2024,10/29/2024,600,LV,49%,48%
+Senate,Wisconsin,State,Wisconsin,AtlasIntel,10/25/2024,10/29/2024,1470,LV,49%,48%
+Senate,Wisconsin,State,Wisconsin,CNN/SSRS,10/23/2024,10/28/2024,736,LV,49%,47%
+Senate,Wisconsin,State,Wisconsin,InsiderAdvantage (R),10/26/2024,10/27/2024,800,LV,48%,49%
+Senate,Wisconsin,State,Wisconsin,Marquette University,10/16/2024,10/24/2024,753,LV,49%,47%
+Senate,Wisconsin,State,Wisconsin,Suffolk University,10/20/2024,10/23/2024,500,LV,46%,44%
+Senate,Wisconsin,State,Wisconsin,Emerson College,10/21/2024,10/22/2024,800,LV,48%,48%
+Senate,Wisconsin,State,Wisconsin,OnMessage Inc. (R),10/19/2024,10/22/2024,600,LV,48%,49%
+Senate,Wisconsin,State,Wisconsin,Quinnipiac University,10/17/2024,10/21/2024,1108,LV,49%,48%
+Senate,Wisconsin,State,Wisconsin,The Trafalgar Group (R),10/18/2024,10/20/2024,1083,LV,48%,49%
+Senate,Wisconsin,State,Wisconsin,Redfield & Wilton Strategies,10/16/2024,10/18/2024,622,LV,45%,44%
+Senate,Wisconsin,State,Wisconsin,The Bullfinch Group,10/11/2024,10/18/2024,600,LV,49%,45%
+Senate,Wisconsin,State,Wisconsin,AtlasIntel,10/12/2024,10/17/2024,932,LV,49%,46%
+Senate,Wisconsin,State,Wisconsin,RMG Research,10/10/2024,10/16/2024,787,LV,49%,46%
+Senate,Wisconsin,State,Wisconsin,Morning Consult,10/6/2024,10/15/2024,527,LV,49%,44%
+Senate,Wisconsin,State,Wisconsin,Patriot Polling (R),10/12/2024,10/14/2024,803,RV,50%,49%
+Senate,Wisconsin,State,Wisconsin,InsiderAdvantage (R),10/8/2024,10/9/2024,800,LV,48%,47%
+Senate,Wisconsin,State,Wisconsin,Emerson College,10/5/2024,10/8/2024,1000,LV,50%,46%
+Senate,Wisconsin,State,Wisconsin,Research Co.,10/5/2024,10/7/2024,450,LV,47%,43%
+Senate,Wisconsin,State,Wisconsin,Quinnipiac University,10/3/2024,10/7/2024,1073,LV,50%,46%
+Senate,Wisconsin,State,Wisconsin,Redfield & Wilton Strategies,9/27/2024,10/2/2024,533,LV,47%,42%
+Senate,Wisconsin,State,Wisconsin,The Trafalgar Group (R),9/28/2024,9/30/2024,1083,LV,48%,46%
+Senate,Wisconsin,State,Wisconsin,ActiVote,8/29/2024,9/29/2024,400,LV,54%,46%
+Senate,Wisconsin,State,Wisconsin,New York Times/Siena College,9/21/2024,9/26/2024,680,LV,50%,43%
+Senate,Wisconsin,State,Wisconsin,Marquette University,9/18/2024,9/26/2024,798,LV,51%,45%
+Senate,Wisconsin,State,Wisconsin,AtlasIntel,9/20/2024,9/25/2024,1077,LV,48%,47%
+Senate,Wisconsin,State,Wisconsin,BSG (R)/GS Strategy Group (D),9/19/2024,9/25/2024,411,LV,47%,44%
+Senate,Wisconsin,State,Wisconsin,RMG Research,9/17/2024,9/23/2024,788,LV,50%,44%
+Senate,Wisconsin,State,Wisconsin,Remington Research Group (R),9/16/2024,9/20/2024,800,LV,49%,47%
+Senate,Wisconsin,State,Wisconsin,Redfield & Wilton Strategies,9/16/2024,9/19/2024,600,LV,46%,41%
+Senate,Wisconsin,State,Wisconsin,Emerson College,9/15/2024,9/18/2024,1000,LV,49%,46%
+Senate,Wisconsin,State,Wisconsin,MassINC Polling Group,9/12/2024,9/18/2024,800,LV,52%,44%
+Senate,Wisconsin,State,Wisconsin,Morning Consult,9/9/2024,9/18/2024,600,LV,50%,43%
+Senate,Wisconsin,State,Wisconsin,Marist College,9/12/2024,9/17/2024,1194,LV,51%,48%
+Senate,Wisconsin,State,Wisconsin,Quinnipiac University,9/12/2024,9/16/2024,1075,LV,51%,47%
+Senate,Wisconsin,State,Wisconsin,Fabrizio Ward (R)/Impact Research (D),9/11/2024,9/14/2024,600,LV,50%,47%
+Senate,Wisconsin,State,Wisconsin,Redfield & Wilton Strategies,9/6/2024,9/9/2024,626,LV,46%,39%
+Senate,Wisconsin,State,Wisconsin,Morning Consult,8/30/2024,9/8/2024,638,LV,49%,42%
+Senate,Wisconsin,State,Wisconsin,co/efficient (R),9/4/2024,9/6/2024,917,LV,49%,43%
+Senate,Wisconsin,State,Wisconsin,CBS News/YouGov,9/3/2024,9/6/2024,944,LV,51%,43%
+Senate,Wisconsin,State,Wisconsin,Marquette University,8/28/2024,9/5/2024,738,LV,51%,45%
+Senate,Wisconsin,State,Wisconsin,YouGov,8/23/2024,9/3/2024,900,RV,49%,41%
+Senate,Wisconsin,State,Wisconsin,The Trafalgar Group (R),8/28/2024,8/30/2024,1083,LV,50%,44%
+Senate,Wisconsin,State,Wisconsin,CNN/SRSS,8/23/2024,8/29/2024,976,LV,51%,45%
+Senate,Wisconsin,State,Wisconsin,Redfield & Wilton Strategies,8/25/2024,8/28/2024,672,LV,46%,41%
+Senate,Wisconsin,State,Wisconsin,Emerson College,8/25/2024,8/28/2024,850,LV,49%,48%
+Senate,Wisconsin,State,Wisconsin,BK Strategies,8/19/2024,8/21/2024,600,LV,49%,44%
+Senate,Wisconsin,State,Wisconsin,Fabrizio Ward,8/19/2024,8/21/2024,400,LV,48%,43%
+Senate,Wisconsin,State,Wisconsin,TIPP Insights (R),8/12/2024,8/14/2024,976,LV,50%,43%
+Senate,Wisconsin,State,Wisconsin,The Bullfinch Group,8/8/2024,8/11/2024,500,RV,50%,41%
+Senate,Wisconsin,State,Wisconsin,New York Times/Siena College,8/5/2024,8/8/2024,661,LV,51%,44%
+Senate,Wisconsin,State,Wisconsin,BSG (R)/GS Strategy Group (D),7/26/2024,8/2/2024,404,LV,50%,43%
+Senate,Wisconsin,State,Wisconsin,Marquette University,7/24/2024,8/1/2024,801,LV,48%,41%
+Senate,Wisconsin,State,Wisconsin,Fox News,7/22/2024,7/24/2024,1046,RV,54%,43%
+Senate,Wisconsin,State,Wisconsin,Emerson College,7/22/2024,7/23/2024,845,RV,49%,43%
+Senate,Wisconsin,State,Wisconsin,YouGov,7/4/2024,7/12/2024,831,LV,50%,44%
+Senate,Wisconsin,State,Wisconsin,Public Policy Polling (D),7/10/2024,7/11/2024,548,RV,51%,43%
+Senate,Wisconsin,State,Wisconsin,North Star Opinion Research,7/6/2024,7/10/2024,600,LV,49%,41%
+Senate,Wisconsin,State,Wisconsin,SoCal Strategies (R),6/30/2024,7/2/2024,490,RV,50%,38%
+Senate,Wisconsin,State,Wisconsin,Fabrizio Ward (R)/Impact Research (D),6/28/2024,7/2/2024,600,LV,50%,45%
+Senate,Wisconsin,State,Wisconsin,Remington Research Group (R),6/29/2024,7/1/2024,593,LV,48%,48%
+Senate,Wisconsin,State,Wisconsin,Marquette University,6/12/2024,6/20/2024,784,LV,49%,40%
+Senate,Wisconsin,State,Wisconsin,Emerson College,6/13/2024,6/18/2024,1000,RV,46%,44%
+Senate,Wisconsin,State,Wisconsin,Mainstreet Research/FAU,5/30/2024,5/31/2024,290,LV,47%,39%
+Senate,Wisconsin,State,Wisconsin,KAConsulting (R),5/15/2024,5/19/2024,600,RV,46%,42%
+Senate,Wisconsin,State,Wisconsin,BSG (R)/GS Strategy Group (D),5/6/2024,5/13/2024,503,LV,49%,37%
+Senate,Wisconsin,State,Wisconsin,New York Times/Siena College,4/28/2024,5/9/2024,614,LV,49%,42%
+Senate,Wisconsin,State,Wisconsin,Quinnipiac University,5/2/2024,5/6/2024,1457,RV,54%,42%
+Senate,Wisconsin,State,Wisconsin,Emerson College,4/25/2024,4/29/2024,1000,RV,46%,43%
+Senate,Wisconsin,State,Wisconsin,CBS News/YouGov,4/19/2024,4/25/2024,1245,LV,48%,41%
+Senate,Wisconsin,State,Wisconsin,Marquette University,4/3/2024,4/10/2024,736,LV,50%,50%
+Senate,Wisconsin,State,Wisconsin,Emerson College,3/14/2024,3/18/2024,1000,RV,45%,42%
+Senate,Wisconsin,State,Wisconsin,Emerson College,2/20/2024,2/24/2024,1000,RV,46%,39%
+Senate,Wyoming,State,Wyoming,Cygnal (R),10/26/2024,10/28/2024,600,LV,26%,73%
+Gubernatorial,Delaware,State,Delaware,Slingshot Strategies,9/19/2024,9/21/2024,500,RV,52%,25%
+Gubernatorial,Delaware,State,Delaware,University of Delaware,9/11/2024,9/19/2024,400,RV,51%,32%
+Gubernatorial,Indiana,State,Indiana,ActiVote,10/5/2024,10/28/2024,400,LV,44%,56%
+Gubernatorial,Indiana,State,Indiana,ActiVote,9/3/2024,10/5/2024,400,LV,46%,54%
+Gubernatorial,Indiana,State,Indiana,ARW Strategies,9/23/2024,9/25/2024,600,LV,37%,44%
+Gubernatorial,Indiana,State,Indiana,GBAO (D),9/19/2024,9/22/2024,600,LV,41%,44%
+Gubernatorial,Indiana,State,Indiana,Emerson College,9/12/2024,9/13/2024,1000,LV,34%,45%
+Gubernatorial,Indiana,State,Indiana,Lake Research Partners (D),8/26/2024,9/2/2024,600,LV,39%,41%
+Gubernatorial,Missouri,State,Missouri,Research Co.,11/2/2024,11/3/2024,450,LV,38%,52%
+Gubernatorial,Missouri,State,Missouri,Remington Research Group (R),10/28/2024,10/29/2024,721,LV,40%,51%
+Gubernatorial,Missouri,State,Missouri,ActiVote,10/11/2024,10/27/2024,400,LV,42%,58%
+Gubernatorial,Missouri,State,Missouri,Remington Research Group (R),10/2/2024,10/3/2024,753,LV,41%,51%
+Gubernatorial,Missouri,State,Missouri,ActiVote,9/3/2024,10/1/2024,400,LV,40%,60%
+Gubernatorial,Missouri,State,Missouri,Emerson College,9/12/2024,9/13/2024,850,LV,36%,52%
+Gubernatorial,Missouri,State,Missouri,Remington Research Group (R),9/4/2024,9/5/2024,940,LV,34%,52%
+Gubernatorial,Missouri,State,Missouri,YouGov/Saint Louis University,8/8/2024,8/16/2024,900,LV,41%,51%
+Gubernatorial,Montana,State,Montana,Montana State University,9/30/2024,10/16/2024,760,A,31%,50%
+Gubernatorial,Montana,State,Montana,The New York Times/Siena College,10/5/2024,10/8/2024,656,LV,35%,57%
+Gubernatorial,Montana,State,Montana,Public Opinion Strategies (R),9/29/2024,10/1/2024,500,LV,36%,55%
+Gubernatorial,Montana,State,Montana,Fabrizio Ward (R)/David Binder Research,8/25/2024,8/29/2024,600,LV,38%,54%
+Gubernatorial,Montana,State,Montana,Public Opinion Strategies (R),8/18/2024,8/20/2024,500,LV,34%,53%
+Gubernatorial,Montana,State,Montana,Public Opinion Strategies (R),6/11/2024,6/13/2024,500,LV,33%,54%
+Gubernatorial,Montana,State,Montana,SurveyUSA,2/12/2024,2/15/2024,549,LV,30%,52%
+Gubernatorial,New Hampshire,State,New Hampshire,Dartmouth College,11/1/2024,11/3/2024,587,LV,58%,40%
+Gubernatorial,New Hampshire,State,New Hampshire,University of New Hampshire,10/29/2024,11/2/2024,2814,LV,44%,48%
+Gubernatorial,New Hampshire,State,New Hampshire,Saint Anselm College,10/28/2024,10/29/2024,2791,LV,46%,49%
+Gubernatorial,New Hampshire,State,New Hampshire,Praecones Analytica,10/24/2024,10/26/2024,622,RV,48%,52%
+Gubernatorial,New Hampshire,State,New Hampshire,Emerson College,10/21/2024,10/23/2024,915,LV,46%,50%
+Gubernatorial,New Hampshire,State,New Hampshire,UMass Lowell/YouGov,10/10/2024,10/23/2024,600,LV,43%,45%
+Gubernatorial,New Hampshire,State,New Hampshire,Dartmouth College,10/5/2024,10/18/2024,2196,RV,51%,46%
+Gubernatorial,New Hampshire,State,New Hampshire,UMass Lowell/YouGov,10/2/2024,10/10/2024,600,LV,41%,42%
+Gubernatorial,New Hampshire,State,New Hampshire,Saint Anselm College,10/1/2024,10/2/2024,2104,LV,44%,47%
+Gubernatorial,New Hampshire,State,New Hampshire,University of New Hampshire,9/12/2024,9/16/2024,1695,LV,47%,46%
+Gubernatorial,New Hampshire,State,New Hampshire,Saint Anselm College,9/11/2024,9/12/2024,2241,LV,43%,46%
+Gubernatorial,New Hampshire,State,New Hampshire,Emerson College,9/10/2023,9/13/2023,917,RV,40%,43%
+Gubernatorial,North Carolina,State,North Carolina,AtlasIntel,11/3/2024,11/4/2024,1219,LV,54%,38%
+Gubernatorial,North Carolina,State,North Carolina,AtlasIntel,11/1/2024,11/2/2024,1310,LV,52%,41%
+Gubernatorial,North Carolina,State,North Carolina,Emerson College,10/30/2024,11/2/2024,860,LV,52%,40%
+Gubernatorial,North Carolina,State,North Carolina,New York Times/Siena College,10/28/2024,11/2/2024,1010,LV,56%,38%
+Gubernatorial,North Carolina,State,North Carolina,Morning Consult,10/23/2024,11/1/2024,1056,LV,52%,36%
+Gubernatorial,North Carolina,State,North Carolina,ActiVote,10/17/2024,10/31/2024,400,LV,58%,42%
+Gubernatorial,North Carolina,State,North Carolina,AtlasIntel,10/27/2024,10/30/2024,1373,LV,52%,42%
+Gubernatorial,North Carolina,State,North Carolina,AtlasIntel,10/25/2024,10/29/2024,1665,LV,54%,39%
+Gubernatorial,North Carolina,State,North Carolina,East Carolina University,10/24/2024,10/29/2024,1250,LV,55%,40%
+Gubernatorial,North Carolina,State,North Carolina,Fox News,10/24/2024,10/28/2024,872,LV,57%,41%
+Gubernatorial,North Carolina,State,North Carolina,CNN/SSRS,10/23/2024,10/28/2024,750,LV,53%,37%
+Gubernatorial,North Carolina,State,North Carolina,SurveyUSA,10/23/2024,10/26/2024,853,LV,52%,37%
+Gubernatorial,North Carolina,State,North Carolina,UMass Lowell/YouGov,10/16/2024,10/23/2024,650,LV,48%,36%
+Gubernatorial,North Carolina,State,North Carolina,Emerson College,10/21/2024,10/22/2024,950,LV,51%,39%
+Gubernatorial,North Carolina,State,North Carolina,Marist College,10/17/2024,10/22/2024,1226,LV,55%,41%
+Gubernatorial,North Carolina,State,North Carolina,SoCal Strategies (R),10/20/2024,10/21/2024,702,LV,55%,40%
+Gubernatorial,North Carolina,State,North Carolina,SurveyUSA,10/17/2024,10/20/2024,1164,RV,50%,34%
+Gubernatorial,North Carolina,State,North Carolina,Redfield & Wilton Strategies,10/16/2024,10/18/2024,843,LV,45%,37%
+Gubernatorial,North Carolina,State,North Carolina,AtlasIntel,10/12/2024,10/17/2024,1674,LV,54%,39%
+Gubernatorial,North Carolina,State,North Carolina,Elon University/YouGov,10/10/2024,10/17/2024,800,RV,52%,31%
+Gubernatorial,North Carolina,State,North Carolina,Morning Consult,10/6/2024,10/15/2024,1072,LV,54%,32%
+Gubernatorial,North Carolina,State,North Carolina,Cygnal (R),10/12/2024,10/14/2024,600,LV,49%,36%
+Gubernatorial,North Carolina,State,North Carolina,Redfield & Wilton Strategies,10/12/2024,10/14/2024,620,LV,45%,38%
+Gubernatorial,North Carolina,State,North Carolina,Quinnipiac University,10/10/2024,10/14/2024,1031,LV,54%,42%
+Gubernatorial,North Carolina,State,North Carolina,Emerson College,10/5/2024,10/8/2024,1000,LV,50%,34%
+Gubernatorial,North Carolina,State,North Carolina,ActiVote,9/5/2024,10/5/2024,400,LV,56.50%,43.50%
+Gubernatorial,North Carolina,State,North Carolina,Redfield & Wilton Strategies,9/27/2024,10/2/2024,753,LV,46%,36%
+Gubernatorial,North Carolina,State,North Carolina,Quinnipiac University,9/25/2024,9/29/2024,953,LV,53%,41%
+Gubernatorial,North Carolina,State,North Carolina,The Washington Post,9/25/2024,9/29/2024,1001,LV,54%,38%
+Gubernatorial,North Carolina,State,North Carolina,High Point University,9/20/2024,9/29/2024,589,LV,51%,34%
+Gubernatorial,North Carolina,State,North Carolina,Emerson College,9/27/2024,9/28/2024,850,LV,52%,33%
+Gubernatorial,North Carolina,State,North Carolina,RMG Research,9/25/2024,9/27/2024,780,LV,53%,38%
+Gubernatorial,North Carolina,State,North Carolina,East Carolina University,9/23/2024,9/26/2024,1005,LV,50%,33%
+Gubernatorial,North Carolina,State,North Carolina,AtlasIntel,9/20/2024,9/25/2024,1173,LV,54%,38%
+Gubernatorial,North Carolina,State,North Carolina,CNN/SSRS,9/20/2024,9/25/2024,931,LV,53%,36%
+Gubernatorial,North Carolina,State,North Carolina,BSG (R)/Global Strategy Group (D),9/19/2024,9/25/2024,411,LV,53%,33%
+Gubernatorial,North Carolina,State,North Carolina,Fox News,9/20/2024,9/24/2024,787,LV,56%,41%
+Gubernatorial,North Carolina,State,North Carolina,Marist College,9/19/2024,9/24/2024,1348,LV,54%,43%
+Gubernatorial,North Carolina,State,North Carolina,New York Times/Siena College,9/17/2024,9/21/2024,682,LV,47%,37%
+Gubernatorial,North Carolina,State,North Carolina,Meredith College,9/18/2024,9/20/2024,802,LV,50%,40%
+Gubernatorial,North Carolina,State,North Carolina,Victory Insights (R),9/16/2024,9/18/2024,600,LV,47%,42%
+Gubernatorial,North Carolina,State,North Carolina,Emerson College,9/15/2024,9/18/2024,1000,RV,48%,40%
+Gubernatorial,North Carolina,State,North Carolina,Morning Consult,9/11/2024,9/18/2024,1314,LV,50%,37%
+Gubernatorial,North Carolina,State,North Carolina,Fabrizio Ward (R)/Impact Research (D),9/11/2024,9/17/2024,600,LV,52%,42%
+Gubernatorial,North Carolina,State,North Carolina,Cygnal (R),9/15/2024,9/16/2024,600,LV,46%,39%
+Gubernatorial,North Carolina,State,North Carolina,Elon University/YouGov,9/4/2024,9/13/2024,800,RV,49%,35%
+Gubernatorial,North Carolina,State,North Carolina,Redfield & Wilton Strategies,9/6/2024,9/9/2024,495,LV,42%,33%
+Gubernatorial,North Carolina,State,North Carolina,Quinnipiac University,9/4/2024,9/8/2024,940,LV,51%,41%
+Gubernatorial,North Carolina,State,North Carolina,Morning Consult,8/30/2024,9/8/2024,1369,LV,50%,37%
+Gubernatorial,North Carolina,State,North Carolina,SurveyUSA,9/4/2024,9/7/2024,676,LV,51%,37%
+Gubernatorial,North Carolina,State,North Carolina,Florida Atlantic University/Mainstreet Research,9/5/2024,9/6/2024,619,LV,50%,39%
+Gubernatorial,North Carolina,State,North Carolina,East Carolina University,8/26/2024,8/28/2024,920,LV,47%,41%
+Gubernatorial,North Carolina,State,North Carolina,Emerson College,8/25/2024,8/28/2024,775,LV,47%,41%
+Gubernatorial,North Carolina,State,North Carolina,Redfield & Wilton Strategies,8/25/2024,8/28/2024,812,LV,44%,40%
+Gubernatorial,North Carolina,State,North Carolina,SoCal Strategies (R),8/26/2024,8/27/2024,612,LV,47%,37%
+Gubernatorial,North Carolina,State,North Carolina,Fox News,8/23/2024,8/26/2024,1026,RV,54%,43%
+Gubernatorial,North Carolina,State,North Carolina,ActiVote,7/26/2024,8/26/2024,400,LV,54%,46%
+Gubernatorial,North Carolina,State,North Carolina,SurveyUSA,8/19/2024,8/21/2024,941,LV,50%,36%
+Gubernatorial,North Carolina,State,North Carolina,Redfield & Wilton Strategies,8/12/2024,8/15/2024,601,LV,45%,39%
+Gubernatorial,North Carolina,State,North Carolina,The New York Times/Siena College,8/9/2024,8/14/2024,655,LV,49%,39%
+Gubernatorial,North Carolina,State,North Carolina,YouGov Blue (D),8/5/2024,8/9/2024,802,RV,46%,36%
+Gubernatorial,North Carolina,State,North Carolina,Cygnal (R),8/4/2024,8/5/2024,600,LV,43%,38%
+Gubernatorial,North Carolina,State,North Carolina,Redfield & Wilton Strategies,7/31/2024,8/3/2024,714,LV,43%,38%
+Gubernatorial,North Carolina,State,North Carolina,Redfield & Wilton Strategies,7/22/2024,7/24/2024,586,LV,38%,34%
+Gubernatorial,North Carolina,State,North Carolina,Public Policy Polling (D),7/19/2024,7/20/2024,573,RV,48%,42%
+Gubernatorial,North Carolina,State,North Carolina,Redfield & Wilton Strategies,7/16/2024,7/18/2024,461,LV,37%,36%
+Gubernatorial,North Carolina,State,North Carolina,Expedition Strategies,6/24/2024,7/8/2024,284,LV,48%,41%
+Gubernatorial,North Carolina,State,North Carolina,Spry Strategies (R),6/7/2024,6/11/2024,600,LV,39%,43%
+Gubernatorial,North Carolina,State,North Carolina,East Carolina University,5/31/2024,6/3/2024,1332,LV,44%,43%
+Gubernatorial,North Carolina,State,North Carolina,North Star Opinion Research (R),5/29/2024,6/2/2024,600,LV,42%,44%
+Gubernatorial,North Carolina,State,North Carolina,Change Research (D),5/13/2024,5/18/2024,835,LV,44%,43%
+Gubernatorial,North Carolina,State,North Carolina,High Point University,5/2/2024,5/9/2024,804,RV,34%,39%
+Gubernatorial,North Carolina,State,North Carolina,Cygnal (R),5/4/2024,5/5/2024,600,LV,39%,39%
+Gubernatorial,North Carolina,State,North Carolina,Emerson College,4/25/2024,4/29/2024,1000,RV,41%,42%
+Gubernatorial,North Carolina,State,North Carolina,Meeting Street Insights (R),4/25/2024,4/28/2024,500,RV,44%,37%
+Gubernatorial,North Carolina,State,North Carolina,Meredith College,4/11/2024,4/17/2024,711,LV,45%,36%
+Gubernatorial,North Carolina,State,North Carolina,Cygnal (R),4/7/2024,4/8/2024,600,LV,38%,40%
+Gubernatorial,North Carolina,State,North Carolina,Quinnipiac University,4/4/2024,4/8/2024,1401,RV,52%,44%
+Gubernatorial,North Carolina,State,North Carolina,High Point University,3/22/2024,3/30/2024,829,RV,37%,34%
+Gubernatorial,North Carolina,State,North Carolina,Marist College,3/11/2024,3/14/2024,1197,RV,49%,47%
+Gubernatorial,North Carolina,State,North Carolina,SurveyUSA,3/3/2024,3/9/2024,598,LV,44%,42%
+Gubernatorial,North Carolina,State,North Carolina,Cygnal (R),3/6/2024,3/7/2024,600,LV,39%,44%
+Gubernatorial,North Carolina,State,North Carolina,Change Research (D),2/15/2024,2/19/2024,1622,LV,42%,43%
+Gubernatorial,North Carolina,State,North Carolina,East Carolina University,2/9/2024,2/12/2024,1207,RV,41%,41%
+Gubernatorial,North Carolina,State,North Carolina,Meredith College,1/26/2024,1/31/2024,760,RV,39%,35%
+Gubernatorial,North Carolina,State,North Carolina,East Carolina University,11/29/2023,12/1/2023,915,RV,40%,44%
+Gubernatorial,North Dakota,State,North Dakota,WPA Intelligence,9/28/2024,9/30/2024,500,LV,24%,54%
+Gubernatorial,North Dakota,State,North Dakota,Public Opinion Strategies,6/15/2024,6/19/2024,500,LV,22%,61%
+Gubernatorial,Utah,State,Utah,Noble Predictive Insights,10/25/2024,10/28/2024,695,LV,26%,43%
+Gubernatorial,Utah,State,Utah,HarrisX,10/15/2024,10/19/2024,813,RV,21%,61%
+Gubernatorial,Utah,State,Utah,Noble Predictive Insights,10/2/2024,10/7/2024,539,LV,23%,49%
+Gubernatorial,Utah,State,Utah,Public Policy Polling (D),9/27/2024,9/28/2024,612,LV,24%,35%
+Gubernatorial,Utah,State,Utah,Lighthouse Research,8/29/2024,9/4/2024,518,RV,27%,48%
+Gubernatorial,Utah,State,Utah,HarrisX,8/2/2024,8/9/2024,800,RV,17%,56%
+Gubernatorial,Vermont,State,Vermont,University of New Hampshire,10/29/2024,11/2/2024,1167,LV,26%,65%
+Gubernatorial,Vermont,State,Vermont,University of New Hampshire,8/15/2024,8/19/2024,924,LV,28%,56%
+Gubernatorial,Washington,State,Washington,Research Co.,11/2/2024,11/3/2024,450,LV,54%,40%
+Gubernatorial,Washington,State,Washington,ActiVote,10/3/2024,10/29/2024,400,LV,59%,41%
+Gubernatorial,Washington,State,Washington,ActiVote,9/14/2024,10/20/2024,400,LV,58%,42%
+Gubernatorial,Washington,State,Washington,Public Policy Polling (D),10/16/2024,10/17/2024,571,LV,48%,41%
+Gubernatorial,Washington,State,Washington,Strategies 360,10/11/2024,10/16/2024,600,RV,51%,41%
+Gubernatorial,Washington,State,Washington,SurveyUSA,10/9/2024,10/14/2024,703,LV,50%,34%
+Gubernatorial,Washington,State,Washington,Cascade PBS/Elway Research,10/8/2024,10/12/2024,401,LV,51%,37%
+Gubernatorial,Washington,State,Washington,RMG Research (R),9/18/2024,9/20/2024,800,RV,48%,40%
+Gubernatorial,Washington,State,Washington,Cascade PBS/Elway Research,9/3/2024,9/6/2024,403,RV,50%,39%
+Gubernatorial,Washington,State,Washington,Cygnal (R),8/28/2024,8/30/2024,500,LV,48%,45%
+Gubernatorial,Washington,State,Washington,Public Policy Polling (D),7/24/2024,7/25/2024,581,LV,49%,43%
+Gubernatorial,Washington,State,Washington,DHM Research,7/12/2024,7/17/2024,500,RV,45%,32%
+Gubernatorial,Washington,State,Washington,Public Policy Polling (D),5/15/2024,5/16/2024,615,LV,48%,42%
+Gubernatorial,Washington,State,Washington,Echelon Insights (R),3/18/2024,3/21/2024,600,RV,30%,39%
+Gubernatorial,Washington,State,Washington,Public Policy Polling (D),2/13/2024,2/14/2024,789,LV,46%,42%
+Gubernatorial,Washington,State,Washington,Echelon Insights (R),12/9/2023,12/13/2023,500,LV,35%,39%
+Gubernatorial,Washington,State,Washington,Public Policy Polling (D),11/14/2023,11/15/2023,700,LV,44%,46%
+Gubernatorial,West Virginia,State,West Virginia,Research America,8/21/2024,8/27/2024,400,RV,35%,49%
