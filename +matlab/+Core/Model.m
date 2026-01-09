@@ -208,10 +208,6 @@ classdef Model < handle
                     idxPresBias = electionInfoRedux.ElectionName == "Presidential" & electionInfoRedux.GeographyName == "National";
                     H(idxPres, idxPresBias) = 1;
 
-                    idxHouse = electionType == "House";
-                    idxGB = electionInfoRedux.ElectionName == "Generic Ballot";
-                    H(idxHouse, idxGB) = 1;
-
                     availFlagRedux(:,i) = any(H > 0, 1)';
 
                     % Update
@@ -270,6 +266,33 @@ classdef Model < handle
             end
 
             obj.covEst = obj.covEst/2 + obj.covEst'/2;
+        end
+
+        function H = createMapping(obj, geographyTypes, geographyNames)
+            arguments
+                obj matlab.Core.Model
+                geographyTypes (:,1) string
+                geographyNames (:,1) string
+            end
+
+            m = length(geographyTypes);
+            N = length(obj.districtData.districtInfo.District);
+            districtNames = obj.districtData.districtInfo.District;
+            stateNames = extractBefore(districtNames, "-");
+            totalVote = obj.districtData.districtInfo.TotalVote;
+
+            H = zeros(m,N);
+
+            for i = 1:m
+                if geographyTypes(i) == "Congressional District"
+                    idx = districtNames == geographyNames(i);
+                    H(i, idx) = 1;
+                elseif geographyTypes(i) == "State"
+                    idx = strcmp(stateNames, geographyNames(i));
+                    prop = totalVote(idx)/sum(totalVote(idx));
+                    H(i, idx) = prop';
+                end
+            end
         end
     end
 
@@ -342,6 +365,12 @@ classdef Model < handle
             arguments
                 obj matlab.Core.Model
             end
+
+            % Load Generic Ballot Fundamentals
+            idxGB = obj.electionInfo.ElectionType == "Generic Ballot";
+            inc = obj.electionInfo.IncumbencyFlag(idxGB);
+
+            xHouseBiasEst = obj.config.house.nationalBiasMean + obj.config.house.nationalBiasIncumbency * inc;
             
             % Load House Fundamentals
             idxHouse = obj.electionInfo.ElectionType == "House";
@@ -358,7 +387,7 @@ classdef Model < handle
             H = obj.createMapping(electionInfoHouse.GeographyType, electionInfoHouse.GeographyName);
             presDistrict = H * obj.districtData.districtInfo.PresResult;
             totPresDistrict = H * obj.districtData.districtInfo.TotalVote;
-            presHouseAdj = presDistrict - dot(presDistrict, totPresDistrict) / sum(totPresDistrict);
+            presHouseAdj = presDistrict - dot(presDistrict, totPresDistrict) / sum(totPresDistrict) + xHouseBiasEst + 0.5;
             xHouse(idxFlag) = presHouseAdj(idxFlag);
 
             houseVar = obj.config.house.presModelSigma^2;
@@ -376,6 +405,51 @@ classdef Model < handle
             % Polling
             obj.QBiasPoll(idxHouse, idxHouse) = eye(sum(idxHouse)) * obj.config.house.districtSigmaPoll^2;
             obj.QPoll(idxHouse, idxHouse) = eye(sum(idxHouse)) * obj.config.house.districtQPoll;
+
+            % Add Previous House Election Data
+            z = zeros(sum(idxHouse),1);
+            measAvailFlag = true(sum(idxHouse),1);
+
+            idxHousePrevBias = obj.preElectionData.ElectionType == "House" & obj.preElectionData.ElectionName == "Bias";
+            idxHousePrevInc = obj.preElectionData.ElectionType == "House" & obj.preElectionData.ElectionName == "Incumbency";
+            houseBias = obj.preElectionData.PreviousResult(idxHousePrevBias);
+            houseInc = obj.preElectionData.PreviousResult(idxHousePrevInc);
+
+            for i = 1:numel(z)
+                incCur = electionInfoHouse.IncumbencyFlag(i);
+                prevGeoName = obj.districtData.redistrictingData.OldDistrict(i);
+                if incCur == 0 || idxFlag(i) == 0 || prevGeoName == "NaN"
+                    measAvailFlag(i) = 0;
+                else
+                    idxPrev = obj.preElectionData.ElectionType == "House" & obj.preElectionData.GeographyName == prevGeoName;
+                    zPrev = obj.preElectionData.PreviousResult(idxPrev);
+                    if zPrev == 1 || zPrev == 0
+                        measAvailFlag(i) = 0;
+                    else
+                        incPrev = obj.preElectionData.IncumbencyFlag(idxPrev);
+                        adj = obj.districtData.redistrictingData.DistrictAdj(i);
+                        z(i) = zPrev + (incCur * obj.config.house.incumbency - incPrev * houseInc) / 2 + adj + (xHouseBiasEst - houseBias) * 0.75;
+                    end
+                    
+                end
+            end
+
+            z = z(measAvailFlag);
+
+            % Create measurement noise matrix
+            R = eye(numel(z)) * obj.config.house.prevModelSigma^2;
+
+            % Do Measurment Update
+            H = zeros(numel(z), numel(obj.xFund));
+            idxMeas = idxHouse;
+            idxMeas(idxHouse) = measAvailFlag;
+            H(:, idxMeas) = eye(sum(idxMeas));
+
+            y = z - H * obj.xFund;
+            S = H * obj.covFund * H' + R;
+            K = obj.covFund * H'/S;
+            obj.xFund = obj.xFund + K * y;
+            obj.covFund = (eye(numel(obj.xFund)) - K * H) * obj.covFund * (eye(numel(obj.xFund)) - K * H)' + K * R * K';
 
         end
 
@@ -424,6 +498,51 @@ classdef Model < handle
             obj.QBiasPoll(idxSenate, idxSenate) = eye(sum(idxSenate)) * obj.config.senate.stateSigmaPoll^2;
             obj.QPoll(idxSenate, idxSenate) = eye(sum(idxSenate)) * obj.config.senate.stateQPoll;
 
+            % Add Previous Senate Election Data
+            z = zeros(sum(idxSenate),1);
+            measAvailFlag = true(sum(idxSenate),1);
+
+            idxSenatePrevBias = obj.preElectionData.ElectionType == "Senate" & obj.preElectionData.ElectionName == "Bias";
+            idxSenatePrevInc = obj.preElectionData.ElectionType == "Senate" & obj.preElectionData.ElectionName == "Incumbency";
+            senateBias = obj.preElectionData.PreviousResult(idxSenatePrevBias);
+            senateInc = obj.preElectionData.PreviousResult(idxSenatePrevInc);
+            idxSenatePrev = obj.preElectionData.ElectionType == "Senate" & obj.preElectionData.GeographyType == "State";
+            preElectionDateSenate = obj.preElectionData(idxSenatePrev, :);
+
+            for i = 1:numel(z)
+                incCur = electionInfoSenate.IncumbencyFlag(i);
+                if incCur == 0 || idxFlag(i) == 0
+                    measAvailFlag(i) = 0;
+                else
+                    zPrev = preElectionDateSenate.PreviousResult(i);
+                    if zPrev == 1 || zPrev == 0
+                        measAvailFlag(i) = 0;
+                    else
+                        incPrev = preElectionDateSenate.IncumbencyFlag(i);
+                        z(i) = zPrev + (incCur * obj.config.senate.incumbency - incPrev * senateInc) / 2 + (xSenateBiasEst - senateBias) * 0.75;
+                    end
+                    
+                end
+            end
+
+            z = z(measAvailFlag);
+
+            % Create measurement noise matrix
+            R = eye(numel(z)) * obj.config.senate.prevModelSigma^2;
+
+            % Do Measurment Update
+            H = zeros(numel(z), numel(obj.xFund));
+            idxMeas = idxSenate;
+            idxMeas(idxSenate) = measAvailFlag;
+            H(:, idxMeas) = eye(sum(idxMeas));
+
+            y = z - H * obj.xFund;
+            S = H * obj.covFund * H' + R;
+            K = obj.covFund * H'/S;
+            obj.xFund = obj.xFund + K * y;
+            obj.covFund = (eye(numel(obj.xFund)) - K * H) * obj.covFund * (eye(numel(obj.xFund)) - K * H)' + K * R * K';
+
+            obj.covFund(idxSenate, idxSenate) = obj.covFund(idxSenate, idxSenate) + eye(sum(idxSenate)) * obj.config.senate.presPrevSigma^2;
         end
 
         function obj = loadGubernatorialPrior(obj)
@@ -471,6 +590,62 @@ classdef Model < handle
             obj.QBiasPoll(idxGov, idxGov) = eye(sum(idxGov)) * obj.config.gubernatorial.stateSigmaPoll^2;
             obj.QPoll(idxGov, idxGov) = eye(sum(idxGov)) * obj.config.gubernatorial.stateQPoll;
 
+            % Add Previous Gubernatorial Election Data
+            z = zeros(sum(idxGov),1);
+            measAvailFlag = true(sum(idxGov),1);
+
+            idxGovPrevBias = obj.preElectionData.ElectionType == "Gubernatorial" & obj.preElectionData.ElectionName == "Bias";
+            idxGovPrevInc = obj.preElectionData.ElectionType == "Gubernatorial" & obj.preElectionData.ElectionName == "Incumbency";
+            
+            
+            idxGovPrev = obj.preElectionData.ElectionType == "Gubernatorial" & obj.preElectionData.GeographyType == "State";
+            preElectionDateGov = obj.preElectionData(idxGovPrev, :);
+
+            prevPresYear = obj.preElectionData.ElectionYear(idxPrevPres);
+            prevPresYear = prevPresYear(1);
+            for i = 1:numel(z)
+                incCur = electionInfoGov.IncumbencyFlag(i);
+                if incCur == 0 || idxFlag(i) == 0
+                    measAvailFlag(i) = 0;
+                else
+                    zPrev = preElectionDateGov.PreviousResult(i);
+                    if zPrev == 1 || zPrev == 0
+                        measAvailFlag(i) = 0;
+                    else
+                        prevYear = preElectionDateGov.ElectionYear(i);
+                        incPrev = preElectionDateGov.IncumbencyFlag(i);
+                        if prevYear > prevPresYear
+                            govInc = obj.config.gubernatorial.incumbency;
+                            govBias = xGovBiasEst;
+                        else
+                            govBias = obj.preElectionData.PreviousResult(idxGovPrevBias);
+                            govInc = obj.preElectionData.PreviousResult(idxGovPrevInc);
+                        end
+                        
+                        z(i) = zPrev + (incCur * obj.config.gubernatorial.incumbency - incPrev * govInc) / 2 + (xGovBiasEst - govBias);
+                    end
+                    
+                end
+            end
+
+            z = z(measAvailFlag);
+
+            % Create measurement noise matrix
+            R = eye(numel(z)) * obj.config.gubernatorial.prevModelSigma^2;
+
+            % Do Measurment Update
+            H = zeros(numel(z), numel(obj.xFund));
+            idxMeas = idxGov;
+            idxMeas(idxGov) = measAvailFlag;
+            H(:, idxMeas) = eye(sum(idxMeas));
+
+            y = z - H * obj.xFund;
+            S = H * obj.covFund * H' + R;
+            K = obj.covFund * H'/S;
+            obj.xFund = obj.xFund + K * y;
+            obj.covFund = (eye(numel(obj.xFund)) - K * H) * obj.covFund * (eye(numel(obj.xFund)) - K * H)' + K * R * K';
+
+            obj.covFund(idxGov, idxGov) = obj.covFund(idxGov, idxGov) + eye(sum(idxGov)) * obj.config.gubernatorial.presPrevSigma^2;
         end
 
         function obj = loadSharedNationalCovariances(obj)
@@ -481,22 +656,23 @@ classdef Model < handle
             % National Correlations
             idxPres = obj.electionInfo.ElectionType == "Presidential" & obj.electionInfo.GeographyType == "National";
             idxGB = obj.electionInfo.ElectionType == "Generic Ballot";
+            idxHouse = obj.electionInfo.ElectionType == "House";
             idxSenate = obj.electionInfo.ElectionType == "Senate";
             idxGov = obj.electionInfo.ElectionType == "Gubernatorial";
 
-            HBias = [idxPres, idxGB, idxSenate, idxGov];
+            HBias = [idxPres, idxGB, idxHouse, idxSenate, idxGov];
 
-            sigmaNatFund = [obj.config.presidential.nationalSigma; obj.config.genericBallot.nationalSigma; obj.config.senate.nationalBiasSigma; obj.config.gubernatorial.nationalBiasSigma];
+            sigmaNatFund = [obj.config.presidential.nationalSigma; obj.config.genericBallot.nationalSigma; obj.config.house.nationalBiasSigma; obj.config.senate.nationalBiasSigma; obj.config.gubernatorial.nationalBiasSigma];
             rhoNationalFund = obj.config.shared.nationalFund;
             natBiasCov = sigmaNatFund * sigmaNatFund' .* rhoNationalFund;
             obj.covFund = obj.covFund + HBias * natBiasCov * HBias';
 
-            sigmaNatPoll = [obj.config.presidential.nationalSigmaPoll; obj.config.genericBallot.nationalSigmaPoll; obj.config.senate.nationalSigmaPoll; obj.config.gubernatorial.nationalSigmaPoll];
+            sigmaNatPoll = [obj.config.presidential.nationalSigmaPoll; obj.config.genericBallot.nationalSigmaPoll; obj.config.house.nationalSigmaPoll; obj.config.senate.nationalSigmaPoll; obj.config.gubernatorial.nationalSigmaPoll];
             rhoNationalPoll = obj.config.shared.nationalPoll;
             natBiasPollCov = sigmaNatPoll * sigmaNatPoll' .* rhoNationalPoll;
             obj.QBiasPoll = obj.QBiasPoll + HBias * natBiasPollCov * HBias';
 
-            sigmaNatQ = [obj.config.presidential.nationalQPoll; obj.config.genericBallot.nationalQPoll; obj.config.senate.nationalQPoll; obj.config.gubernatorial.nationalQPoll].^0.5;
+            sigmaNatQ = [obj.config.presidential.nationalQPoll; obj.config.genericBallot.nationalQPoll; obj.config.house.nationalQPoll; obj.config.senate.nationalQPoll; obj.config.gubernatorial.nationalQPoll].^0.5;
             natQPoll = sigmaNatQ * sigmaNatQ' .* rhoNationalFund;
             obj.QPoll = obj.QPoll + HBias * natQPoll * HBias';
         end
@@ -532,73 +708,32 @@ classdef Model < handle
 
             % Combined shared covariances due to incumbency effects
             idxHouseInc = obj.electionInfo.ElectionType == "House" & obj.filterFlag;
-            houseInc = obj.electionInfo.IncumbencyFlag(idxHouseInc);
+            houseInc = 0 * obj.xFund;
+            houseInc(idxHouseInc) = obj.electionInfo.IncumbencyFlag(idxHouseInc);
             houseIncSigma = obj.config.house.incumbencySigma;
-            houseIncSigmaVec = houseIncSigma * houseInc;
-            houseIncSigmaVecQ = obj.config.house.districtIncQPoll^0.5 * houseInc;
+            houseIncQ = obj.config.house.districtIncQPoll^0.5;
 
             idxSenateInc = obj.electionInfo.ElectionType == "Senate" & obj.filterFlag & obj.electionInfo.GeographyName ~= "National";
-            senateInc = obj.electionInfo.IncumbencyFlag(idxSenateInc);
+            senateInc = 0 * obj.xFund;
+            senateInc(idxSenateInc) = obj.electionInfo.IncumbencyFlag(idxSenateInc);
             senateIncSigma = obj.config.senate.incumbencySigma;
-            senateIncSigmaVec = senateIncSigma * senateInc;
-            senateIncSigmaVecQ = obj.config.senate.stateIncQPoll^0.5 * senateInc;
+            senateIncQ = obj.config.senate.stateIncQPoll^0.5;
 
             idxGovInc = obj.electionInfo.ElectionType == "Gubernatorial" & obj.filterFlag & obj.electionInfo.GeographyName ~= "National";
-            govInc = obj.electionInfo.IncumbencyFlag(idxGovInc);
+            govInc = 0 * obj.xFund;
+            govInc(idxGovInc) = obj.electionInfo.IncumbencyFlag(idxGovInc);
             govIncSigma = obj.config.gubernatorial.incumbencySigma;
-            govIncSigmaVec = govIncSigma * govInc;
-            govIncSigmaVecQ = obj.config.gubernatorial.stateIncQPoll^0.5 * govInc;
+            govIncQ = obj.config.gubernatorial.stateIncQPoll^0.5;
 
             incRho = obj.config.shared.incCorr;
+            HInc = [houseInc, senateInc, govInc];
 
-            idx  = {idxHouseInc, idxSenateInc, idxGovInc};
-            sig  = {houseIncSigmaVec(:), senateIncSigmaVec(:), govIncSigmaVec};
+            incSigma = [houseIncSigma; senateIncSigma; govIncSigma];
+            incQ = [houseIncQ; senateIncQ; govIncQ];
             
-            for i = 1:numel(idx)
-                for j = i:numel(idx)
-                    blk = (sig{i} * sig{j}.') * incRho(i,j);
-                    obj.covFund(idx{i}, idx{j}) = obj.covFund(idx{i}, idx{j}) + blk;
-                    if j>i, obj.covFund(idx{j}, idx{i}) = obj.covFund(idx{j}, idx{i}) + blk.'; end
-                end
-            end
-
-            sig  = {houseIncSigmaVecQ(:), senateIncSigmaVecQ(:), govIncSigmaVecQ};
+            obj.covFund = obj.covFund + HInc * (incSigma * incSigma' .* incRho) * HInc';
+            obj.QPoll = obj.QPoll + HInc * (incQ * incQ' .* incRho) * HInc';
             
-            for i = 1:numel(idx)
-                for j = i:numel(idx)
-                    blk = (sig{i} * sig{j}.') * incRho(i,j);
-                    obj.QPoll(idx{i}, idx{j}) = obj.QPoll(idx{i}, idx{j}) + blk;
-                    if j>i, obj.QPoll(idx{j}, idx{i}) = obj.QPoll(idx{j}, idx{i}) + blk.'; end
-                end
-            end
-            
-        end
-
-        function H = createMapping(obj, geographyTypes, geographyNames)
-            arguments
-                obj matlab.Core.Model
-                geographyTypes (:,1) string
-                geographyNames (:,1) string
-            end
-
-            m = length(geographyTypes);
-            N = length(obj.districtData.districtInfo.District);
-            districtNames = obj.districtData.districtInfo.District;
-            stateNames = extractBefore(districtNames, "-");
-            totalVote = obj.districtData.districtInfo.TotalVote;
-
-            H = zeros(m,N);
-
-            for i = 1:m
-                if geographyTypes(i) == "Congressional District"
-                    idx = districtNames == geographyNames(i);
-                    H(i, idx) = 1;
-                elseif geographyTypes(i) == "State"
-                    idx = strcmp(stateNames, geographyNames(i));
-                    prop = totalVote(idx)/sum(totalVote(idx));
-                    H(i, idx) = prop';
-                end
-            end
         end
     end
 end

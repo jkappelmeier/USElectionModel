@@ -113,32 +113,22 @@ classdef VisualizeResults
             end
 
             % Model House Results
-            houseIdx = model.electionInfo.ElectionType == "House" |  model.electionInfo.ElectionType == "Generic Ballot";
+            houseIdx = model.electionInfo.ElectionType == "House";
             electionInfo = model.electionInfo(houseIdx,:);
             xEstHouse = model.xEst(houseIdx,:);
             covEstHouse = model.covEst(houseIdx,houseIdx);
-            houseElectionDataPres = model.preElectionData(houseIdx,:);
             xSimsHouse = xSims(houseIdx,:);
 
-
-            % Get transformation from x to y
-            idxNat = electionInfo.ElectionType == "Generic Ballot";
             N = numel(xEstHouse);
-            hX2Y = zeros(N, N - 1);
-            hX2Y(~idxNat, :) = eye(N-1);
-            hX2Y(idxNat, :) = ones(1, N-1);
 
-            xEst = hX2Y' * xEstHouse;
-            xSimsHouse = hX2Y' * xSimsHouse;
-            covEst = hX2Y' * covEstHouse * hX2Y;
-            score = electionInfo.Score(~idxNat);
-            geographyType = electionInfo.GeographyType(~idxNat);
+            score = electionInfo.Score;
+            geographyType = electionInfo.GeographyType;
 
             % Deal with uncontested races
-            noDemFlag = electionInfo(~idxNat, :).CandidateD == "NaN";
-            noRepFlag = electionInfo(~idxNat, :).CandidateR == "NaN";
-            xEst(noDemFlag) = 0;
-            xEst(noRepFlag) = 1;
+            noDemFlag = electionInfo.CandidateD == "NaN";
+            noRepFlag = electionInfo.CandidateR == "NaN";
+            xEstHouse(noDemFlag) = 0;
+            xEstHouse(noRepFlag) = 1;
             xSimsHouse(noDemFlag, :) = 0;
             xSimsHouse(noRepFlag, :) = 1;
 
@@ -150,14 +140,15 @@ classdef VisualizeResults
             houseLose = sum(houseSeats < 218) / nSims;
 
             % Get popular vote
-            hDistrict2Popular = 0 * xEst;
+            hDistrict2Popular = 0 * xEstHouse;
             idxDistrict = geographyType == "Congressional District";
-            prevVoteTot = houseElectionDataPres.PreviousVote(~idxNat);
-            hDistrict2Popular(idxDistrict) = prevVoteTot(idxDistrict);
+            prevVoteTot = model.districtData.districtInfo.TotalVote;
+            H = model.createMapping(geographyType, electionInfo.GeographyName);
+            hDistrict2Popular(idxDistrict) = H * prevVoteTot;
             hDistrict2Popular = hDistrict2Popular / sum(hDistrict2Popular);
-            meanPopVote = xEst' * hDistrict2Popular;
+            meanPopVote = xEstHouse' * hDistrict2Popular;
             
-            sigmaPopVote = sqrt(hDistrict2Popular' * covEst * ...
+            sigmaPopVote = sqrt(hDistrict2Popular' * covEstHouse * ...
                 hDistrict2Popular);
 
             % Display the results
@@ -174,16 +165,15 @@ classdef VisualizeResults
             disp("  Republicans: " + num2str(100-meanPopVote*100,"%.2f") + "% | Chance of Winning: " + num2str(100-popVoteChance * 100,"%.2f") + "%");
             disp("--------------------------------------------------------")
 
-            electionNames = electionInfo.ElectionName(~idxNat);
+            electionNames = electionInfo.ElectionName;
             filterFlag = model.filterFlag(houseIdx);
-            filterFlag = filterFlag(~idxNat);
             for i = 1:N-1
-                xEstCur = xEst(i);
-                dCand = electionInfo(~idxNat, :).CandidateD(i);
-                rCand = electionInfo(~idxNat, :).CandidateR(i);
+                xEstCur = xEstHouse(i);
+                dCand = electionInfo.CandidateD(i);
+                rCand = electionInfo.CandidateR(i);
                 electionName = electionNames(i);
                 if filterFlag(i)
-                    sigmaEst = sqrt(covEst(i,i));
+                    sigmaEst = sqrt(covEstHouse(i,i));
                     chance = normcdf(xEstCur, 0.5, sigmaEst);
                     disp(electionName + ":")
                     disp("  " + dCand + ": " + num2str(xEstCur*100,"%.2f") + "% | Chance of Winning: " + num2str(chance*100,"%.2f") + "%")

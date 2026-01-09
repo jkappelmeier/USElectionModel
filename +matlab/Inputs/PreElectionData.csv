@@ -56,7 +56,8 @@ Presidential,Presidential,State,Washington,2020,-1,3954374,0.5992
 Presidential,Presidential,State,West Virginia,2020,-1,781300,0.302
 Presidential,Presidential,State,Wisconsin,2020,-1,3240985,0.5032
 Presidential,Presidential,State,Wyoming,2020,-1,267051,0.2752
-Generic Ballot,Generic Ballot,National,National,2022,1,105508455,0.486
+House,Bias,National,National,2022,1,0,-0.0039
+House,Incumbency,Incumbency,Incumbency,2022,0,0,0.012
 House,Alabama-01,Congressional District,Alabama-01,2022,-1,140592,0
 House,Alabama-02,Congressional District,Alabama-02,2022,-1,195474,0.2968
 House,Alabama-03,Congressional District,Alabama-03,2022,-1,183461,0.2609
@@ -492,17 +493,26 @@ House,Wisconsin-06,Congressional District,Wisconsin-06,2022,-1,239231,0
 House,Wisconsin-07,Congressional District,Wisconsin-07,2022,-1,338101,0.3812
 House,Wisconsin-08,Congressional District,Wisconsin-08,2022,-1,223981,0
 House,Wyoming-00,Congressional District,Wyoming-00,2022,0,179456,0.2633
+Senate,Bias,National,National,2018,-1,0,0.0534
+Senate,Incumbency,Incumbency,Incumbency,2018,0,0,0.0208
+Senate,Arizona,State,Arizona,2018,0,2326300,0.512
+Senate,California,State,California,2018,1,11113364,1
 Senate,Connecticut,State,Connecticut,2018,1,1371296,0.602
+Senate,Delaware,State,Delaware,2018,1,354512,0.6132
 Senate,Florida,State,Florida,2018,1,8188977,0.4994
 Senate,Hawaii,State,Hawaii,2018,1,388351,0.7115
+Senate,Indiana,State,Indiana,2018,1,2181553,0.4692
 Senate,Maine,State,Maine,2018,1,634345,0.6477
+Senate,Maryland,State,Maryland,2018,1,2188631,0.6815
 Senate,Massachusetts,State,Massachusetts,2018,1,2612581,0.6252
+Senate,Michigan,State,Michigan,2018,1,4153296,0.5332
 Senate,Minnesota,State,Minnesota,2018,1,2506611,0.6248
 Senate,Mississippi,State,Mississippi,2018,-1,917186,0.4029
 Senate,Missouri,State,Missouri,2018,1,2367862,0.47
 Senate,Montana,State,Montana,2018,1,489839,0.5183
 Senate,Nebraska,State,Nebraska,2018,-1,673068,0.401
 Senate,Nevada,State,Nevada,2018,-1,931273,0.5262
+Senate,New Jersey,State,New Jersey,2018,1,3069009,0.5577
 Senate,New Mexico,State,New Mexico,2018,1,589811,0.6392
 Senate,New York,State,New York,2018,1,6055151,0.67
 Senate,North Dakota,State,North Dakota,2018,1,324096,0.4455
@@ -511,11 +521,24 @@ Senate,Pennsylvania,State,Pennsylvania,2018,1,4927285,0.5667
 Senate,Rhode Island,State,Rhode Island,2018,1,375898,0.6158
 Senate,Tennessee,State,Tennessee,2018,0,2212933,0.4453
 Senate,Texas,State,Texas,2018,-1,8306185,0.4871
+Senate,Utah,State,Utah,2018,0,993756,0.3306
 Senate,Vermont,State,Vermont,2018,1,258464,0.7105
 Senate,Virginia,State,Virginia,2018,1,3284683,0.5816
 Senate,Washington,State,Washington,2018,1,3086168,0.5843
+Senate,West Virginia,State,West Virginia,2018,1,561623,0.5173
 Senate,Wisconsin,State,Wisconsin,2018,1,2657799,0.5542
 Senate,Wyoming,State,Wyoming,2018,-1,197437,0.3101
-Gubernatorial,Montana,State,Montana,2020,0,250860,328548
-Gubernatorial,Utah,State,Utah,2020,0,442754,918754
-Gubernatorial,Vermont,State,Vermont,2022,-1,68248,202147
+Senate,Nebraska Special,State,Nebraska,2020,-1,869109,0.3286
+Gubernatorial,Bias,National,National,2020,-1,0,0.0175
+Gubernatorial,Incumbency,Incumbency,Incumbency,2020,0,0,0.0585
+Gubernatorial,Delaware,State,Delaware,2020,1,483215,0.6062
+Gubernatorial,Indiana,State,Indiana,2020,-1,2674821,0.3619
+Gubernatorial,Missouri,State,Missouri,2020,0,2945973,0.4161
+Gubernatorial,Montana,State,Montana,2020,0,579408,0.4330
+Gubernatorial,New Hampshire,State,New Hampshire,2022,-1,609756,0.4211
+Gubernatorial,North Carolina,State,North Carolina,2020,1,5421395,0.5229
+Gubernatorial,North Dakota,State,North Dakota,2020,-1,326268,0.2783
+Gubernatorial,Utah,State,Utah,2020,0,1361508,0.3252
+Gubernatorial,Vermont,State,Vermont,2022,-1,270395,0.2524
+Gubernatorial,Washington,State,Washington,2020,1,4043309,0.5674
+Gubernatorial,West Virginia,State,West Virginia,2020,-1,634968,0.3225
